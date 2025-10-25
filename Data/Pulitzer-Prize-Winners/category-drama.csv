@@ -1,110 +1,200 @@
-year,winner_name,work_title,data_source
-2023,Sanaz Toossi,English,Wikidata
-2022,James Ijames,Fat Ham,Wikidata
-2021,Katori Hall,The Hot Wing King,Wikidata
-2020,Michael R. Jackson,A Strange Loop,Wikidata
-2019,Jackie Sibblies Drury,,Wikidata
-2018,Martyna Majok,Cost of Living,Wikidata
-2017,Lynn Nottage,Sweat,Wikidata
-2016,Lin-Manuel Miranda,Hamilton,Wikidata
-2015,Stephen Adly Guirgis,Between Riverside and Crazy,Wikidata
-2014,Annie Baker,The Flick,Wikidata
-2013,Ayad Akhtar,Disgraced,Wikidata
-2012,Quiara Alegría Hudes,Water by the Spoonful,Wikidata
-2011,Bruce Norris,Clybourne Park,Wikidata
-2010,Tom Kitt,Next to Normal,Wikidata
-2010,Brian Yorkey,Next to Normal,Wikidata
-2009,Lynn Nottage,Ruined,Wikidata
-2008,Tracy Letts,August: Osage County,Wikidata
-2007,David Lindsay-Abaire,Rabbit Hole,Wikidata
-2005,John Patrick Shanley,Doubt: A Parable,Wikidata
-2004,Doug Wright,I Am My Own Wife,Wikidata
-2003,Nilo Cruz,Anna in the Tropics,Wikidata
-2002,Suzan-Lori Parks,Topdog/Underdog,Wikidata
-2001,David Auburn,Proof,Wikidata
-2000,Donald Margulies,Dinner with Friends,Wikidata
-1999,Margaret Edson,Wit,Wikidata
-1998,Paula Vogel,,Wikidata
-1996,Jonathan Larson,Rent,Wikidata
-1995,Horton Foote,The Young Man from Atlanta,Wikidata
-1994,Edward Albee,Three Tall Women,Wikidata
-1993,Tony Kushner,Angels in America,Wikidata
-1992,Robert Schenkkan,The Kentucky Cycle,Wikidata
-1991,Neil Simon,Lost in Yonkers,Wikidata
-1990,August Wilson,The Piano Lesson,Wikidata
-1989,Wendy Wasserstein,The Heidi Chronicles,Wikidata
-1988,Alfred Uhry,Driving Miss Daisy,Wikidata
-1987,August Wilson,Fences,Wikidata
-1985,Stephen Sondheim,Sunday in the Park with George,Wikidata
-1985,James Lapine,Sunday in the Park with George,Wikidata
-1984,David Mamet,Glengarry Glen Ross,Wikidata
-1983,Marsha Norman,"'night, Mother",Wikidata
-1982,Charles Fuller,A Soldier's Play,Wikidata
-1981,Beth Henley,Crimes of the Heart,Wikidata
-1980,Lanford Wilson,Talley's Folly,Wikidata
-1979,Sam Shepard,,Wikidata
-1978,Donald L. Coburn,The Gin Game,Wikidata
-1977,Michael Cristofer,The Shadow Box,Wikidata
-1976,Michael Bennett,A Chorus Line,Wikidata
-1976,"James Kirkwood, Jr.",A Chorus Line,Wikidata
-1976,Marvin Hamlisch,A Chorus Line,Wikidata
-1976,Edward Kleban,A Chorus Line,Wikidata
-1976,Nicholas Dante,A Chorus Line,Wikidata
-1975,Edward Albee,Seascape,Wikidata
-1973,Jason Miller,That Championship Season,Wikidata
-1971,Paul Zindel,The Effect of Gamma Rays on Man-in-the-Moon Marigolds,Wikidata
-1970,Charles Gordone,No Place to be Somebody,Wikidata
-1969,Howard Sackler,The Great White Hope,Wikidata
-1967,Edward Albee,A Delicate Balance,Wikidata
-1965,Frank D. Gilroy,The Subject Was Roses,Wikidata
-1962,Abe Burrows,How to Succeed in Business Without Really Trying,Wikidata
-1962,Frank Loesser,How to Succeed in Business Without Really Trying,Wikidata
-1961,Tad Mosel,All the Way Home,Wikidata
-1960,George Abbott,Fiorello!,Wikidata
-1960,Jerome Weidman,Fiorello!,Wikidata
-1960,Sheldon Harnick,Fiorello!,Wikidata
-1960,Jerry Bock,Fiorello!,Wikidata
-1959,Archibald MacLeish,J.B.,Wikidata
-1958,Ketti Frings,,Wikidata
-1957,Eugene O'Neill,Long Day's Journey into Night,Wikidata
-1956,Albert Hackett,The Diary of Anne Frank,Wikidata
-1956,Frances Goodrich,The Diary of Anne Frank,Wikidata
-1955,Tennessee Williams,Cat on a Hot Tin Roof,Wikidata
-1954,John Patrick,The Teahouse of the August Moon,Wikidata
-1953,William Inge,Picnic,Wikidata
-1952,Joseph Kramm,The Shrike,Wikidata
-1950,Richard Rodgers,South Pacific,Wikidata
-1950,Oscar Hammerstein II,South Pacific,Wikidata
-1950,Joshua Logan,South Pacific,Wikidata
-1949,Arthur Miller,Death of a Salesman,Wikidata
-1948,Tennessee Williams,A Streetcar Named Desire,Wikidata
-1946,Howard Lindsay,State of the Union,Wikidata
-1946,Russel Crouse,State of the Union,Wikidata
-1945,Mary Chase,Harvey,Wikidata
-1943,Thornton Wilder,The Skin of Our Teeth,Wikidata
-1941,Robert E. Sherwood,There Shall Be No Night,Wikidata
-1940,William Saroyan,The Time of Your Life,Wikidata
-1939,Robert E. Sherwood,Abe Lincoln in Illinois,Wikidata
-1938,Thornton Wilder,Our Town,Wikidata
-1937,George S. Kaufman,You Can't Take It with You,Wikidata
-1937,Moss Hart,You Can't Take It with You,Wikidata
-1936,Robert E. Sherwood,Idiot's Delight,Wikidata
-1935,Zoë Akins,The Old Maid,Wikidata
-1934,Sidney Kingsley,Men in White,Wikidata
-1933,Maxwell Anderson,Both Your Houses,Wikidata
-1932,George S. Kaufman,Of Thee I Sing,Wikidata
-1932,Morrie Ryskind,Of Thee I Sing,Wikidata
-1932,Ira Gershwin,Of Thee I Sing,Wikidata
-1931,Susan Glaspell,Alison's House,Wikidata
-1930,Marc Connelly,The Green Pastures,Wikidata
-1929,Elmer Rice,Street Scene,Wikidata
-1928,Eugene O'Neill,Strange Interlude,Wikidata
-1927,Paul Green,In Abraham's Bosom,Wikidata
-1926,George Kelly,Craig's Wife,Wikidata
-1925,Sidney Howard,They Knew What They Wanted,Wikidata
-1924,Hatcher Hughes,,Wikidata
-1923,Owen Davis,Icebound,Wikidata
-1922,Eugene O'Neill,Anna Christie,Wikidata
-1921,Zona Gale,Miss Lulu Bett,Wikidata
-1920,Eugene O'Neill,Beyond the Horizon,Wikidata
-1918,Jesse Lynch Williams,Why Marry?,Wikidata
+year,winner_name,category,work_title,data_source
+2023,"Sanaz Toossi","Drama","English","Wikidata"
+2023,"English","Drama","","Wikidata"
+2022,"Fat Ham","Drama","","Wikidata"
+2022,"James Ijames","Drama","Fat Ham","Wikidata"
+2021,"The Hot Wing King","Drama","","Wikidata"
+2021,"Katori Hall","Drama","The Hot Wing King","Wikidata"
+2020,"Michael R. Jackson","Drama","A Strange Loop","Wikidata"
+2020,"A Strange Loop","Drama","","Wikidata"
+2019,"Jackie Sibblies Drury","Drama","","Wikidata"
+2018,"Cost of Living","Drama","","Wikidata"
+2018,"Martyna Majok","Drama","Cost of Living","Wikidata"
+2017,"Sweat","Drama","","Wikidata"
+2017,"Lynn Nottage","Drama","Sweat","Wikidata"
+2016,"Lin-Manuel Miranda","Drama","Hamilton","Wikidata"
+2016,"Hamilton","Drama","","Wikidata"
+2015,"Between Riverside and Crazy","Drama","","Wikidata"
+2015,"Stephen Adly Guirgis","Drama","Between Riverside and Crazy","Wikidata"
+2014,"The Flick","Drama","","Wikidata"
+2014,"Annie Baker","Drama","The Flick","Wikidata"
+2013,"Disgraced","Drama","","Wikidata"
+2013,"Ayad Akhtar","Drama","Disgraced","Wikidata"
+2012,"Quiara Alegría Hudes","Drama","Water by the Spoonful","Wikidata"
+2012,"Water by the Spoonful","Drama","","Wikidata"
+2011,"Clybourne Park","Drama","","Wikidata"
+2011,"Bruce Norris","Drama","Clybourne Park","Wikidata"
+2010,"Next to Normal","Drama","","Wikidata"
+2010,"Tom Kitt","Drama","Next to Normal","Wikidata"
+2010,"Brian Yorkey","Drama","Next to Normal","Wikidata"
+2009,"Lynn Nottage","Drama","Ruined","Wikidata"
+2009,"Ruined","Drama","","Wikidata"
+2008,"August: Osage County","Drama","","Wikidata"
+2008,"Tracy Letts","Drama","August: Osage County","Wikidata"
+2007,"Rabbit Hole","Drama","","Wikidata"
+2007,"David Lindsay-Abaire","Drama","Rabbit Hole","Wikidata"
+2005,"John Patrick Shanley","Drama","Doubt: A Parable","Wikidata"
+2005,"Doubt: A Parable","Drama","","Wikidata"
+2004,"I Am My Own Wife","Drama","","Wikidata"
+2004,"Doug Wright","Drama","I Am My Own Wife","Wikidata"
+2003,"Anna in the Tropics","Drama","","Wikidata"
+2003,"Nilo Cruz","Drama","Anna in the Tropics","Wikidata"
+2002,"Suzan-Lori Parks","Drama","Topdog/Underdog","Wikidata"
+2002,"Topdog/Underdog","Drama","","Wikidata"
+2001,"Proof","Drama","","Wikidata"
+2001,"David Auburn","Drama","Proof","Wikidata"
+2000,"Dinner with Friends","Drama","","Wikidata"
+2000,"Donald Margulies","Drama","Dinner with Friends","Wikidata"
+1999,"Margaret Edson","Drama","Wit","Wikidata"
+1999,"Wit","Drama","","Wikidata"
+1998,"How I Learned to Drive","Drama","","Wikidata"
+1998,"Paula Vogel","Drama","","Wikidata"
+1996,"Jonathan Larson","Drama","Rent","Wikidata"
+1996,"Rent","Drama","","Wikidata"
+1995,"The Young Man from Atlanta","Drama","","Wikidata"
+1995,"Horton Foote","Drama","The Young Man from Atlanta","Wikidata"
+1994,"Edward Albee","Drama","Three Tall Women","Wikidata"
+1994,"Three Tall Women","Drama","","Wikidata"
+1993,"Angels in America","Drama","","Wikidata"
+1993,"Tony Kushner","Drama","Angels in America","Wikidata"
+1992,"The Kentucky Cycle","Drama","","Wikidata"
+1992,"Robert Schenkkan","Drama","The Kentucky Cycle","Wikidata"
+1991,"Neil Simon","Drama","Lost in Yonkers","Wikidata"
+1991,"Lost in Yonkers","Drama","","Wikidata"
+1990,"August Wilson","Drama","The Piano Lesson","Wikidata"
+1990,"The Piano Lesson","Drama","","Wikidata"
+1989,"Wendy Wasserstein","Drama","The Heidi Chronicles","Wikidata"
+1989,"The Heidi Chronicles","Drama","","Wikidata"
+1988,"Driving Miss Daisy","Drama","","Wikidata"
+1988,"Alfred Uhry","Drama","Driving Miss Daisy","Wikidata"
+1987,"Fences","Drama","","Wikidata"
+1987,"August Wilson","Drama","Fences","Wikidata"
+1985,"Stephen Sondheim","Drama","Sunday in the Park with George","Wikidata"
+1985,"Sunday in the Park with George","Drama","","Wikidata"
+1985,"James Lapine","Drama","Sunday in the Park with George","Wikidata"
+1984,"David Mamet","Drama","Glengarry Glen Ross","Wikidata"
+1984,"Glengarry Glen Ross","Drama","","Wikidata"
+1983,"Marsha Norman","Drama","'night, Mother","Wikidata"
+1983,"'night, Mother","Drama","","Wikidata"
+1982,"Charles Fuller","Drama","A Soldier's Play","Wikidata"
+1982,"A Soldier's Play","Drama","","Wikidata"
+1981,"Crimes of the Heart","Drama","","Wikidata"
+1981,"Beth Henley","Drama","Crimes of the Heart","Wikidata"
+1980,"Lanford Wilson","Drama","Talley's Folly","Wikidata"
+1980,"Talley's Folly","Drama","","Wikidata"
+1979,"Buried Child","Drama","","Wikidata"
+1979,"Sam Shepard","Drama","","Wikidata"
+1978,"Donald L. Coburn","Drama","The Gin Game","Wikidata"
+1978,"The Gin Game","Drama","","Wikidata"
+1977,"The Shadow Box","Drama","","Wikidata"
+1977,"Michael Cristofer","Drama","The Shadow Box","Wikidata"
+1976,"Michael Bennett","Drama","A Chorus Line","Wikidata"
+1976,"A Chorus Line","Drama","","Wikidata"
+1976,"James Kirkwood, Jr.","Drama","A Chorus Line","Wikidata"
+1976,"Marvin Hamlisch","Drama","A Chorus Line","Wikidata"
+1976,"Edward Kleban","Drama","A Chorus Line","Wikidata"
+1976,"Nicholas Dante","Drama","A Chorus Line","Wikidata"
+1975,"Edward Albee","Drama","Seascape","Wikidata"
+1975,"Seascape","Drama","","Wikidata"
+1973,"Jason Miller","Drama","That Championship Season","Wikidata"
+1973,"That Championship Season","Drama","","Wikidata"
+1971,"Paul Zindel","Drama","The Effect of Gamma Rays on Man-in-the-Moon Marigolds","Wikidata"
+1971,"The Effect of Gamma Rays on Man-in-the-Moon Marigolds","Drama","","Wikidata"
+1970,"Charles Gordone","Drama","No Place to be Somebody","Wikidata"
+1970,"No Place to be Somebody","Drama","","Wikidata"
+1969,"Howard Sackler","Drama","The Great White Hope","Wikidata"
+1969,"The Great White Hope","Drama","","Wikidata"
+1967,"Edward Albee","Drama","A Delicate Balance","Wikidata"
+1967,"A Delicate Balance","Drama","","Wikidata"
+1965,"Frank D. Gilroy","Drama","The Subject Was Roses","Wikidata"
+1965,"The Subject Was Roses","Drama","","Wikidata"
+1962,"Abe Burrows","Drama","How to Succeed in Business Without Really Trying","Wikidata"
+1962,"Frank Loesser","Drama","How to Succeed in Business Without Really Trying","Wikidata"
+1961,"Tad Mosel","Drama","All the Way Home","Wikidata"
+1961,"All the Way Home","Drama","","Wikidata"
+1960,"George Abbott","Drama","Fiorello!","Wikidata"
+1960,"Jerome Weidman","Drama","Fiorello!","Wikidata"
+1960,"Fiorello!","Drama","","Wikidata"
+1960,"Sheldon Harnick","Drama","Fiorello!","Wikidata"
+1960,"Jerry Bock","Drama","Fiorello!","Wikidata"
+1959,"J.B.","Drama","","Wikidata"
+1959,"Archibald MacLeish","Drama","J.B.","Wikidata"
+1958,"Ketti Frings","Drama","","Wikidata"
+1958,"Look Homeward, Angel","Drama","","Wikidata"
+1957,"Long Day's Journey into Night","Drama","","Wikidata"
+1957,"Eugene O'Neill","Drama","Long Day's Journey into Night","Wikidata"
+1956,"Albert Hackett","Drama","The Diary of Anne Frank","Wikidata"
+1956,"The Diary of Anne Frank","Drama","","Wikidata"
+1956,"Frances Goodrich","Drama","The Diary of Anne Frank","Wikidata"
+1955,"Tennessee Williams","Drama","Cat on a Hot Tin Roof","Wikidata"
+1955,"Cat on a Hot Tin Roof","Drama","","Wikidata"
+1954,"John Patrick","Drama","The Teahouse of the August Moon","Wikidata"
+1954,"The Teahouse of the August Moon","Drama","","Wikidata"
+1953,"Picnic","Drama","","Wikidata"
+1953,"William Inge","Drama","Picnic","Wikidata"
+1952,"Joseph Kramm","Drama","The Shrike","Wikidata"
+1952,"The Shrike","Drama","","Wikidata"
+1950,"South Pacific","Drama","","Wikidata"
+1950,"Richard Rodgers","Drama","South Pacific","Wikidata"
+1950,"Oscar Hammerstein II","Drama","South Pacific","Wikidata"
+1950,"Joshua Logan","Drama","South Pacific","Wikidata"
+1949,"Arthur Miller","Drama","Death of a Salesman","Wikidata"
+1949,"Death of a Salesman","Drama","","Wikidata"
+1948,"Tennessee Williams","Drama","A Streetcar Named Desire","Wikidata"
+1948,"A Streetcar Named Desire","Drama","","Wikidata"
+1946,"Howard Lindsay","Drama","State of the Union","Wikidata"
+1946,"Russel Crouse","Drama","State of the Union","Wikidata"
+1946,"State of the Union","Drama","","Wikidata"
+1945,"Harvey","Drama","","Wikidata"
+1945,"Mary Chase","Drama","Harvey","Wikidata"
+1943,"Thornton Wilder","Drama","The Skin of Our Teeth","Wikidata"
+1943,"The Skin of Our Teeth","Drama","","Wikidata"
+1941,"Robert E. Sherwood","Drama","There Shall Be No Night","Wikidata"
+1941,"There Shall Be No Night","Drama","","Wikidata"
+1940,"William Saroyan","Drama","The Time of Your Life","Wikidata"
+1940,"The Time of Your Life","Drama","","Wikidata"
+1939,"Robert E. Sherwood","Drama","Abe Lincoln in Illinois","Wikidata"
+1939,"Abe Lincoln in Illinois","Drama","","Wikidata"
+1938,"Thornton Wilder","Drama","Our Town","Wikidata"
+1938,"Our Town","Drama","","Wikidata"
+1937,"You Can't Take It with You","Drama","","Wikidata"
+1937,"George S. Kaufman","Drama","You Can't Take It with You","Wikidata"
+1937,"Moss Hart","Drama","You Can't Take It with You","Wikidata"
+1936,"Robert E. Sherwood","Drama","Idiot's Delight","Wikidata"
+1936,"Idiot's Delight","Drama","","Wikidata"
+1935,"Zoë Akins","Drama","The Old Maid","Wikidata"
+1935,"The Old Maid","Drama","","Wikidata"
+1934,"Men in White","Drama","","Wikidata"
+1934,"Sidney Kingsley","Drama","Men in White","Wikidata"
+1933,"Maxwell Anderson","Drama","Both Your Houses","Wikidata"
+1933,"Both Your Houses","Drama","","Wikidata"
+1932,"George S. Kaufman","Drama","Of Thee I Sing","Wikidata"
+1932,"Morrie Ryskind","Drama","Of Thee I Sing","Wikidata"
+1932,"Of Thee I Sing","Drama","","Wikidata"
+1932,"Ira Gershwin","Drama","Of Thee I Sing","Wikidata"
+1931,"Susan Glaspell","Drama","Alison's House","Wikidata"
+1931,"Alison's House","Drama","","Wikidata"
+1930,"Marc Connelly","Drama","The Green Pastures","Wikidata"
+1930,"The Green Pastures","Drama","","Wikidata"
+1929,"Elmer Rice","Drama","Street Scene","Wikidata"
+1929,"Street Scene","Drama","","Wikidata"
+1928,"Strange Interlude","Drama","","Wikidata"
+1928,"Eugene O'Neill","Drama","Strange Interlude","Wikidata"
+1927,"In Abraham's Bosom","Drama","","Wikidata"
+1927,"Paul Green","Drama","In Abraham's Bosom","Wikidata"
+1926,"Craig's Wife","Drama","","Wikidata"
+1926,"George Kelly","Drama","Craig's Wife","Wikidata"
+1925,"Sidney Howard","Drama","They Knew What They Wanted","Wikidata"
+1925,"They Knew What They Wanted","Drama","","Wikidata"
+1924,"Hatcher Hughes","Drama","","Wikidata"
+1924,"Hell-Bent fer Heaven","Drama","","Wikidata"
+1923,"Owen Davis","Drama","Icebound","Wikidata"
+1923,"Icebound","Drama","","Wikidata"
+1922,"Anna Christie","Drama","","Wikidata"
+1922,"Eugene O'Neill","Drama","Anna Christie","Wikidata"
+1921,"Zona Gale","Drama","Miss Lulu Bett","Wikidata"
+1921,"Miss Lulu Bett","Drama","","Wikidata"
+1920,"Beyond the Horizon","Drama","","Wikidata"
+1920,"Eugene O'Neill","Drama","Beyond the Horizon","Wikidata"
+1918,"Jesse Lynch Williams","Drama","Why Marry?","Wikidata"
+1918,"Why Marry?","Drama","","Wikidata"

@@ -1,36 +1,70 @@
-year,winner_name,work_title,data_source
-2024,Ronen Bergman,,Wikidata
-2024,Ronen Zvulun,,Wikidata
-2022,Walter Hickey,How I escaped a Chinese internment camp,Wikidata
-2022,Josh Adams,How I escaped a Chinese internment camp,Wikidata
-2018,Laurie Skrivan,,Wikidata
-2018,Hannah McKay,,Wikidata
-2016,Jessica Rinaldi,,Wikidata
-2011,Barbara Davidson,,Wikidata
-2009,Carlotta Gall,,Wikidata
-2009,Dexter Filkins,,Wikidata
-2009,Pir Zubair Shah,,Wikidata
-2007,Jane Spencer,,Wikidata
-2007,Mei Fong,,Wikidata
-2003,Mary Jordan,,Wikidata
-2002,Ruth Fremson,,Wikidata
-2000,Janet Reeves,,Wikidata
-1999,Dave Caulkin,,Wikidata
-1996,Melanie Jayne Burford,,Wikidata
-1995,Jacqueline Larma,,Wikidata
-1991,David Shaw,,Wikidata
-1990,The Mercury News,,Wikidata
-1987,Andrés Oppenheimer,,Wikidata
-1986,The Mercury News,,Wikidata
-1980,William Ecenbarger,,Wikidata
-1978,Gaylord Shaw,,Wikidata
-1977,Raymond Depardon,,Wikidata
-1975,Jack Maurice,,Wikidata
-1975,Roger Ebert,,Wikidata
-1973,François Missen,,Wikidata
-1955,James H. McCartney,,Wikidata
-1949,Malcolm Johnson,,Wikidata
-1924,Frank W. Buxton,,Wikidata
-1923,James Silas Pooler Jr.,,Wikidata
-1918,Henry Beetle Hough,,Wikidata
-1918,Minna Lewinson,,Wikidata
+year,winner_name,category,work_title,data_source
+2024,"Ronen Bergman","General","","Wikidata"
+2024,"Ronen Zvulun","General","","Wikidata"
+2022,"How I escaped a Chinese internment camp","General","","Wikidata"
+2022,"Walter Hickey","General","How I escaped a Chinese internment camp","Wikidata"
+2022,"Josh Adams","General","How I escaped a Chinese internment camp","Wikidata"
+2018,"Laurie Skrivan","General","","Wikidata"
+2018,"Hannah McKay","General","","Wikidata"
+2016,"Jessica Rinaldi","General","","Wikidata"
+2011,"Barbara Davidson","General","","Wikidata"
+2009,"Carlotta Gall","General","","Wikidata"
+2009,"Dexter Filkins","General","","Wikidata"
+2009,"Pir Zubair Shah","General","","Wikidata"
+2007,"Jane Spencer","General","","Wikidata"
+2007,"Mei Fong","General","","Wikidata"
+2003,"Mary Jordan","General","","Wikidata"
+2002,"Ruth Fremson","General","","Wikidata"
+2000,"Janet Reeves","General","","Wikidata"
+1999,"Dave Caulkin","General","","Wikidata"
+1996,"Melanie Jayne Burford","General","","Wikidata"
+1995,"Jacqueline Larma","General","","Wikidata"
+1992,"Selected Poems","General","","Wikidata"
+1991,"David Shaw","General","","Wikidata"
+1990,"The Mercury News","General","","Wikidata"
+1987,"Andrés Oppenheimer","General","","Wikidata"
+1986,"The Mercury News","General","","Wikidata"
+1980,"William Ecenbarger","General","","Wikidata"
+1978,"Gaylord Shaw","General","","Wikidata"
+1977,"Raymond Depardon","General","","Wikidata"
+1975,"Jack Maurice","General","","Wikidata"
+1975,"Roger Ebert","General","","Wikidata"
+1973,"François Missen","General","","Wikidata"
+1964,"The Feminine Mystique","General","","Wikidata"
+1955,"James H. McCartney","General","","Wikidata"
+1949,"Malcolm Johnson","General","","Wikidata"
+1924,"Frank W. Buxton","General","","Wikidata"
+1923,"James Silas Pooler Jr.","General","","Wikidata"
+1918,"Henry Beetle Hough","General","","Wikidata"
+1918,"Minna Lewinson","General","","Wikidata"
+Unknown,"Lois Lane","General","","Wikidata"
+Unknown,"Kathy Chen","General","","Wikidata"
+Unknown,"Fahmida Azim","General","How I escaped a Chinese internment camp","Wikidata"
+Unknown,"Sandhya Kambhampati","General","","Wikidata"
+Unknown,"The Complete Maus","General","","Wikidata"
+Unknown,"Maus: A Survivor's Tale II: And Here My Troubles Began","General","","Wikidata"
+Unknown,"Javier Bauluz","General","","Wikidata"
+Unknown,"Amir Cohen","General","","Wikidata"
+Unknown,"Tessa Hulls","General","","Wikidata"
+Unknown,"John Edward Mack","General","","Wikidata"
+Unknown,"Stephanie Sinclair","General","","Wikidata"
+Unknown,"Ira Glass","General","","Wikidata"
+Unknown,"John Moore","General","","Wikidata"
+Unknown,"Anthony Del Col","General","How I escaped a Chinese internment camp","Wikidata"
+Unknown,"The Sacramento Bee","General","","Wikidata"
+Unknown,"The Press Democrat","General","","Wikidata"
+Unknown,"Alex S. Jones","General","","Wikidata"
+Unknown,"The Baltimore Sun","General","","Wikidata"
+Unknown,"Stephanie McCrummen","General","","Wikidata"
+Unknown,"Maus","General","","Wikidata"
+Unknown,"Lindsay and Crouse","General","","Wikidata"
+Unknown,"Stephen Schiff","General","","Wikidata"
+Unknown,"An Unbelievable Story of Rape","General","","Wikidata"
+Unknown,"James Scott","General","","Wikidata"
+Unknown,"Ron Tarver","General","","Wikidata"
+Unknown,"Dar Yasin","General","","Wikidata"
+Unknown,"Channi Anand","General","","Wikidata"
+Unknown,"Mukhtar Khan","General","","Wikidata"
+Unknown,"The New York Times","General","","Wikidata"
+Unknown,"Ronald Glenn Callvert","General","","Wikidata"
+Unknown,"Rudolph F. Zallinger","General","","Wikidata"

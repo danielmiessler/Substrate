@@ -1,0 +1,34 @@
+[2025-10-25T00:47:08.678Z] === Update Started ===
+[2025-10-25T00:47:08.678Z] Source: Pulitzer Prize Winners - Arts & Letters
+[2025-10-25T00:47:08.678Z] Source ID: DS-00004
+[2025-10-25T00:47:08.678Z] Checking Wikidata availability...
+[2025-10-25T00:47:08.678Z] Wikidata is available
+[2025-10-25T00:47:08.678Z] Querying Wikidata SPARQL endpoint...
+[2025-10-25T00:47:08.678Z] Retrieved 390 results from Wikidata
+[2025-10-25T00:47:08.678Z] Parsing and categorizing results...
+[2025-10-25T00:47:08.678Z] Parsed 390 unique winners
+[2025-10-25T00:47:08.678Z] Poetry: 122 winners
+[2025-10-25T00:47:08.678Z] Drama: 199 winners
+[2025-10-25T00:47:08.678Z] General/Special: 69 winners
+[2025-10-25T00:47:08.678Z] Performing data quality checks...
+[2025-10-25T00:47:08.678Z] Quality checks passed
+[2025-10-25T00:47:08.678Z] Saving data files...
+[2025-10-25T00:47:08.678Z] Combined data saved to: /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data/Pulitzer-Prize-Winners/Pulitzer-Prize-Winners-Arts-Letters-1918-2024.csv
+[2025-10-25T00:47:08.678Z] Poetry data saved to: /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data/Pulitzer-Prize-Winners/category-poetry.csv
+[2025-10-25T00:47:08.678Z] Drama data saved to: /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data/Pulitzer-Prize-Winners/category-drama.csv
+[2025-10-25T00:47:08.678Z] General awards saved to: /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data/Pulitzer-Prize-Winners/category-general.csv
+[2025-10-25T00:47:08.678Z] Updating source record...
+[2025-10-25T00:47:08.678Z] Source record updated
+[2025-10-25T00:47:08.678Z] 
+Update Summary:
+- Timestamp: 2025-10-25T00:47:08.678Z
+- Availability: OK
+- Data Quality: PASSED
+- Total Winners: 390
+- Poetry Winners: 122
+- Drama Winners: 199
+- General/Special Awards: 69
+- Year Range: 1918-2024
+
+[2025-10-25T00:47:08.678Z] Checking for git repository...
+[2025-10-25T00:47:08.678Z] Git repository detected - committing changes...

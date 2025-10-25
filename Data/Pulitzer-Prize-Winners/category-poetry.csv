@@ -1,106 +1,123 @@
-year,winner_name,work_title,data_source
-2024,Brandon Som,,Wikidata
-2023,Carl Phillips,,Wikidata
-2022,Diane Seuss,frank: sonnets,Wikidata
-2021,Natalie Diaz,Postcolonial Love Poem,Wikidata
-2020,Jericho Brown,,Wikidata
-2019,Forrest Gander,,Wikidata
-2018,Frank Bidart,Half-light,Wikidata
-2016,Peter Balakian,,Wikidata
-2015,Gregory Pardlo,,Wikidata
-2014,Vijay Seshadri,,Wikidata
-2013,Sharon Olds,,Wikidata
-2012,Tracy K. Smith,Life on Mars,Wikidata
-2011,Kay Ryan,,Wikidata
-2010,Rae Armantrout,,Wikidata
-2009,W. S. Merwin,The Shadow of Sirius,Wikidata
-2008,Robert Hass,"Time and Materials: Poems, 1997-2005",Wikidata
-2008,Philip Schultz,,Wikidata
-2007,Natasha Trethewey,Native Guard,Wikidata
-2006,Claudia Emerson,,Wikidata
-2005,Ted Kooser,,Wikidata
-2004,Franz Wright,,Wikidata
-2003,Paul Muldoon,,Wikidata
-2002,Carl Dennis,,Wikidata
-2001,Stephen Dunn,Different Hours,Wikidata
-2000,C. K. Williams,,Wikidata
-1999,Mark Strand,,Wikidata
-1998,Charles Wright,,Wikidata
-1997,Lisel Mueller,,Wikidata
-1996,Jorie Graham,,Wikidata
-1995,Philip Levine,,Wikidata
-1994,Yusef Komunyakaa,,Wikidata
-1993,Louise Glück,The Wild Iris,Wikidata
-1992,James Tate,,Wikidata
-1991,Mona Van Duyn,,Wikidata
-1990,Charles Simic,The World Doesn't End,Wikidata
-1989,Richard Wilbur,,Wikidata
-1988,William Morris Meredith,,Wikidata
-1987,Rita Dove,,Wikidata
-1986,Henry S. Taylor,,Wikidata
-1985,Carolyn Kizer,,Wikidata
-1984,Mary Oliver,American primitive,Wikidata
-1983,Galway Kinnell,,Wikidata
-1982,Sylvia Plath,,Wikidata
-1981,James Schuyler,,Wikidata
-1980,Donald Justice,,Wikidata
-1979,Robert Penn Warren,,Wikidata
-1978,Howard Nemerov,,Wikidata
-1977,James Merrill,Divine Comedies,Wikidata
-1976,John Ashbery,Self-portrait in a Convex Mirror,Wikidata
-1975,Gary Snyder,,Wikidata
-1974,Robert Lowell,,Wikidata
-1973,Maxine Kumin,,Wikidata
-1972,James Wright,,Wikidata
-1971,W. S. Merwin,,Wikidata
-1970,Richard Howard,,Wikidata
-1969,George Oppen,,Wikidata
-1968,Anthony Hecht,,Wikidata
-1967,Anne Sexton,,Wikidata
-1966,Richard Eberhart,,Wikidata
-1965,John Berryman,,Wikidata
-1964,Louis Simpson,At the End of the Open Road,Wikidata
-1963,William Carlos Williams,,Wikidata
-1962,Alan Dugan,,Wikidata
-1961,Phyllis McGinley,Times Three: Selected Verse from Three Decades,Wikidata
-1960,W. D. Snodgrass,,Wikidata
-1959,Stanley Kunitz,,Wikidata
-1958,Robert Penn Warren,,Wikidata
-1957,Richard Wilbur,,Wikidata
-1956,Elizabeth Bishop,,Wikidata
-1955,Wallace Stevens,,Wikidata
-1954,Theodore Roethke,The Waking,Wikidata
-1953,Archibald MacLeish,,Wikidata
-1952,Marianne Moore,,Wikidata
-1951,Carl Sandburg,,Wikidata
-1950,Gwendolyn Brooks,Annie Allen,Wikidata
-1949,Peter Viereck,,Wikidata
-1948,W. H. Auden,The Age of Anxiety,Wikidata
-1947,Robert Lowell,Lord Weary's Castle,Wikidata
-1945,Karl Shapiro,,Wikidata
-1944,Stephen Vincent Benét,,Wikidata
-1943,Robert Frost,A Witness Tree,Wikidata
-1942,William Rose Benét,Q30916169,Wikidata
-1941,Leonard Bacon,Sunderland Capture,Wikidata
-1940,Mark Van Doren,,Wikidata
-1939,John Gould Fletcher,,Wikidata
-1938,Marya Zaturenska,,Wikidata
-1937,Robert Frost,A Further Range,Wikidata
-1936,Robert P. T. Coffin,,Wikidata
-1935,Audrey Wurdemann,Bright Ambush,Wikidata
-1934,Robert Hillyer,,Wikidata
-1933,Archibald MacLeish,,Wikidata
-1932,George Dillon,,Wikidata
-1931,Robert Frost,Collected Poems of Robert Frost,Wikidata
-1930,Conrad Aiken,,Wikidata
-1929,Stephen Vincent Benét,,Wikidata
-1928,Edwin Arlington Robinson,,Wikidata
-1927,Leonora Speyer,Fiddler's Farewell,Wikidata
-1926,Amy Lowell,,Wikidata
-1925,Edwin Arlington Robinson,The Man Who Died Twice,Wikidata
-1924,Robert Frost,New Hampshire,Wikidata
-1923,Edna St. Vincent Millay,,Wikidata
-1922,Edwin Arlington Robinson,Collected Poems,Wikidata
-1919,Carl Sandburg,Cornhuskers,Wikidata
-1919,Margaret Widdemer,The Old Road to Paradise,Wikidata
-1918,Sara Teasdale,Love Songs,Wikidata
+year,winner_name,category,work_title,data_source
+2024,"Brandon Som","Poetry","","Wikidata"
+2023,"Carl Phillips","Poetry","","Wikidata"
+2022,"Diane Seuss","Poetry","frank: sonnets","Wikidata"
+2022,"frank: sonnets","Poetry","","Wikidata"
+2021,"Natalie Diaz","Poetry","Postcolonial Love Poem","Wikidata"
+2020,"The Tradition","Poetry","","Wikidata"
+2020,"Jericho Brown","Poetry","","Wikidata"
+2019,"Forrest Gander","Poetry","","Wikidata"
+2018,"Frank Bidart","Poetry","Half-light","Wikidata"
+2018,"Half-light","Poetry","","Wikidata"
+2017,"Olio","Poetry","","Wikidata"
+2016,"Ozone Journal","Poetry","","Wikidata"
+2016,"Peter Balakian","Poetry","","Wikidata"
+2015,"Gregory Pardlo","Poetry","","Wikidata"
+2014,"Vijay Seshadri","Poetry","","Wikidata"
+2013,"Sharon Olds","Poetry","","Wikidata"
+2012,"Tracy K. Smith","Poetry","Life on Mars","Wikidata"
+2011,"Kay Ryan","Poetry","","Wikidata"
+2010,"Rae Armantrout","Poetry","","Wikidata"
+2010,"Versed","Poetry","","Wikidata"
+2009,"W. S. Merwin","Poetry","The Shadow of Sirius","Wikidata"
+2008,"Robert Hass","Poetry","Time and Materials: Poems, 1997-2005","Wikidata"
+2008,"Philip Schultz","Poetry","","Wikidata"
+2007,"Natasha Trethewey","Poetry","Native Guard","Wikidata"
+2006,"Claudia Emerson","Poetry","","Wikidata"
+2005,"Ted Kooser","Poetry","","Wikidata"
+2004,"Franz Wright","Poetry","","Wikidata"
+2003,"Paul Muldoon","Poetry","","Wikidata"
+2002,"Carl Dennis","Poetry","","Wikidata"
+2001,"Stephen Dunn","Poetry","Different Hours","Wikidata"
+2000,"C. K. Williams","Poetry","","Wikidata"
+1999,"Mark Strand","Poetry","","Wikidata"
+1998,"Charles Wright","Poetry","","Wikidata"
+1997,"Lisel Mueller","Poetry","","Wikidata"
+1996,"Jorie Graham","Poetry","","Wikidata"
+1995,"Philip Levine","Poetry","","Wikidata"
+1994,"Yusef Komunyakaa","Poetry","","Wikidata"
+1993,"Louise Glück","Poetry","The Wild Iris","Wikidata"
+1993,"The Wild Iris","Poetry","","Wikidata"
+1992,"James Tate","Poetry","","Wikidata"
+1991,"Mona Van Duyn","Poetry","","Wikidata"
+1991,"Near Changes","Poetry","","Wikidata"
+1990,"Charles Simic","Poetry","The World Doesn't End","Wikidata"
+1989,"Richard Wilbur","Poetry","","Wikidata"
+1988,"William Morris Meredith","Poetry","","Wikidata"
+1987,"Rita Dove","Poetry","","Wikidata"
+1986,"Henry S. Taylor","Poetry","","Wikidata"
+1985,"Carolyn Kizer","Poetry","","Wikidata"
+1984,"Mary Oliver","Poetry","American primitive","Wikidata"
+1983,"Galway Kinnell","Poetry","","Wikidata"
+1982,"Sylvia Plath","Poetry","","Wikidata"
+1981,"James Schuyler","Poetry","","Wikidata"
+1980,"Donald Justice","Poetry","","Wikidata"
+1979,"Robert Penn Warren","Poetry","","Wikidata"
+1978,"Howard Nemerov","Poetry","","Wikidata"
+1977,"James Merrill","Poetry","Divine Comedies","Wikidata"
+1976,"John Ashbery","Poetry","Self-portrait in a Convex Mirror","Wikidata"
+1976,"Self-portrait in a Convex Mirror","Poetry","","Wikidata"
+1975,"Gary Snyder","Poetry","","Wikidata"
+1974,"Robert Lowell","Poetry","","Wikidata"
+1973,"Maxine Kumin","Poetry","","Wikidata"
+1972,"James Wright","Poetry","","Wikidata"
+1971,"W. S. Merwin","Poetry","","Wikidata"
+1970,"Richard Howard","Poetry","","Wikidata"
+1969,"George Oppen","Poetry","","Wikidata"
+1968,"Anthony Hecht","Poetry","","Wikidata"
+1967,"Anne Sexton","Poetry","","Wikidata"
+1966,"Richard Eberhart","Poetry","","Wikidata"
+1965,"John Berryman","Poetry","","Wikidata"
+1964,"Louis Simpson","Poetry","At the End of the Open Road","Wikidata"
+1963,"William Carlos Williams","Poetry","","Wikidata"
+1962,"Alan Dugan","Poetry","","Wikidata"
+1961,"Phyllis McGinley","Poetry","Times Three: Selected Verse from Three Decades","Wikidata"
+1960,"W. D. Snodgrass","Poetry","","Wikidata"
+1959,"Stanley Kunitz","Poetry","","Wikidata"
+1958,"Robert Penn Warren","Poetry","","Wikidata"
+1957,"Richard Wilbur","Poetry","","Wikidata"
+1956,"Elizabeth Bishop","Poetry","","Wikidata"
+1955,"Wallace Stevens","Poetry","","Wikidata"
+1954,"Theodore Roethke","Poetry","The Waking","Wikidata"
+1953,"Archibald MacLeish","Poetry","","Wikidata"
+1952,"Marianne Moore","Poetry","","Wikidata"
+1951,"Carl Sandburg","Poetry","","Wikidata"
+1950,"Gwendolyn Brooks","Poetry","Annie Allen","Wikidata"
+1949,"Peter Viereck","Poetry","","Wikidata"
+1948,"W. H. Auden","Poetry","The Age of Anxiety","Wikidata"
+1947,"Robert Lowell","Poetry","Lord Weary's Castle","Wikidata"
+1945,"Karl Shapiro","Poetry","","Wikidata"
+1944,"Stephen Vincent Benét","Poetry","","Wikidata"
+1943,"Robert Frost","Poetry","A Witness Tree","Wikidata"
+1942,"William Rose Benét","Poetry","Q30916169","Wikidata"
+1941,"Leonard Bacon","Poetry","Sunderland Capture","Wikidata"
+1940,"Mark Van Doren","Poetry","","Wikidata"
+1939,"John Gould Fletcher","Poetry","","Wikidata"
+1938,"Marya Zaturenska","Poetry","","Wikidata"
+1937,"Robert Frost","Poetry","A Further Range","Wikidata"
+1936,"Robert P. T. Coffin","Poetry","","Wikidata"
+1935,"Audrey Wurdemann","Poetry","Bright Ambush","Wikidata"
+1934,"Robert Hillyer","Poetry","","Wikidata"
+1933,"Archibald MacLeish","Poetry","","Wikidata"
+1932,"George Dillon","Poetry","","Wikidata"
+1931,"Robert Frost","Poetry","Collected Poems of Robert Frost","Wikidata"
+1930,"Conrad Aiken","Poetry","","Wikidata"
+1929,"John Brown's Body","Poetry","","Wikidata"
+1929,"Stephen Vincent Benét","Poetry","","Wikidata"
+1928,"Tristram","Poetry","","Wikidata"
+1928,"Edwin Arlington Robinson","Poetry","","Wikidata"
+1927,"Fiddler's Farewell","Poetry","","Wikidata"
+1927,"Leonora Speyer","Poetry","Fiddler's Farewell","Wikidata"
+1926,"Amy Lowell","Poetry","","Wikidata"
+1925,"The Man Who Died Twice","Poetry","","Wikidata"
+1925,"Edwin Arlington Robinson","Poetry","The Man Who Died Twice","Wikidata"
+1924,"Robert Frost","Poetry","New Hampshire","Wikidata"
+1923,"Edna St. Vincent Millay","Poetry","","Wikidata"
+1923,"New Hampshire","Poetry","","Wikidata"
+1923,"A Few Figs from Thistles","Poetry","","Wikidata"
+1922,"Edwin Arlington Robinson","Poetry","Collected Poems","Wikidata"
+1919,"Carl Sandburg","Poetry","Cornhuskers","Wikidata"
+1919,"Cornhuskers","Poetry","","Wikidata"
+1919,"Margaret Widdemer","Poetry","The Old Road to Paradise","Wikidata"
+1918,"Sara Teasdale","Poetry","Love Songs","Wikidata"
+1918,"Love Songs","Poetry","","Wikidata"
