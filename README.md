@@ -10,7 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![GitHub Repo stars](https://img.shields.io/github/stars/danielmiessler/Substrate)
 
-[About](#about) • [Data](#-data-directory) • [Updates](#-recent-updates) • [Docs](#-documentation) • [Contributing](#how-to-contribute)
+[About](#about) • [Updates](#-recent-updates) • [Data](#-data-directory) • [Docs](#-documentation) • [Contributing](#how-to-contribute)
 
 </div>
 
@@ -38,29 +38,6 @@ The project combines conceptual frameworks (Problems, Solutions, Ideas, Plans, V
 </details>
 
 **Blog Post:** [Introducing Substrate](https://danielmiessler.com/p/introducing-substrate)
-
----
-
-## 📊 Data Directory
-
-Substrate includes **5 authoritative datasets** with 1,700+ data points spanning 107 years (1918-2025):
-
-| Dataset | Coverage | Data Points | Source |
-|---------|----------|-------------|--------|
-| **US-GDP** | 1929-2025 | 96 years annual<br>314 quarters | FRED/BEA |
-| **US-Inflation** | 1947-2025 | 945 months | FRED/BLS |
-| **Bay Area COVID Wastewater** | 2022-2025 | 161 weeks | CDPH |
-| **Pulitzer Prize Winners** | 1918-2024 | 249 winners | Wikidata |
-| **Knowledge Worker Salaries** | Global | Multi-region | Research |
-
-**Data Quality:**
-- ✅ Library science methodology with 8-dimension source evaluation
-- ✅ Authoritative sources only (government agencies, verified databases)
-- ✅ Complete documentation and methodology for each dataset
-- ✅ TypeScript automation with quality assurance
-- ✅ CSV, JSON, and Markdown formats
-
-**[→ Explore Data Directory](./Data/README.md)**
 
 ---
 
@@ -121,6 +98,29 @@ Substrate includes **5 authoritative datasets** with 1,700+ data points spanning
 **[→ Full update history](./UPDATES.md)**
 
 </details>
+
+---
+
+## 📊 Data Directory
+
+Substrate includes **5 authoritative datasets** with 1,700+ data points spanning 107 years (1918-2025):
+
+| Dataset | Coverage | Data Points | Source |
+|---------|----------|-------------|--------|
+| **US-GDP** | 1929-2025 | 96 years annual<br>314 quarters | FRED/BEA |
+| **US-Inflation** | 1947-2025 | 945 months | FRED/BLS |
+| **Bay Area COVID Wastewater** | 2022-2025 | 161 weeks | CDPH |
+| **Pulitzer Prize Winners** | 1918-2024 | 249 winners | Wikidata |
+| **Knowledge Worker Salaries** | Global | Multi-region | Research |
+
+**Data Quality:**
+- ✅ Library science methodology with 8-dimension source evaluation
+- ✅ Authoritative sources only (government agencies, verified databases)
+- ✅ Complete documentation and methodology for each dataset
+- ✅ TypeScript automation with quality assurance
+- ✅ CSV, JSON, and Markdown formats
+
+**[→ Explore Data Directory](./Data/README.md)**
 
 ---
 
