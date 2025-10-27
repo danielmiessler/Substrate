@@ -18,9 +18,40 @@
 
 ## About
 
-Substrate provides a structured knowledge system covering **problems**, **solutions**, **plans**, **experiments**, and **empirical data**—all interconnected and designed to be analyzed by both humans and AI systems.
+### The Philosophy
 
-The project combines conceptual frameworks (Problems, Solutions, Ideas, Plans, Values, Models, Arguments, Claims) with authoritative ground-truth datasets from verified sources. All data is provided in human-readable CSV and Markdown formats with complete methodology documentation.
+Substrate is built on a simple but powerful idea: **meaningful progress requires connecting ideas to evidence, and claims to data**.
+
+We face an information crisis—not from lack of data, but from fragmented knowledge. Claims float without evidence. Arguments lack supporting data. Problems are discussed without reference to proven solutions. Data exists in silos, disconnected from the debates it could inform.
+
+Substrate addresses this by creating an **interconnected knowledge system** where every component links to related components:
+
+- **Claims** ↔ **Arguments** ↔ **Data** → Build evidence-based positions
+- **Problems** ↔ **Solutions** ↔ **Experiments** → Test what actually works
+- **Organizations** ↔ **People** ↔ **Projects** → Track who's doing what
+- **Values** ↔ **Models** ↔ **Ideas** → Connect worldviews to frameworks
+- **Authoritative Datasets** → Ground everything in verified facts
+
+### Human & AI Collaboration
+
+Everything in Substrate is designed to be parsed and analyzed by **both humans and AI systems**:
+
+- **Human-readable formats** - CSV and Markdown files anyone can open and understand
+- **Machine-parseable structures** - Consistent formats AI can query and analyze
+- **Complete documentation** - Full methodology and source evaluation for every dataset
+- **Cross-referenced entities** - Deep links between related concepts across the system
+
+This dual accessibility enables a new kind of collaboration: humans contribute knowledge and judgment, AI systems help find patterns and connections across thousands of data points that would be impossible to process manually.
+
+### The Vision
+
+By connecting claims to arguments, arguments to data, and data to authoritative sources, Substrate creates a **foundation for mutual understanding**. When we disagree, we can trace our reasoning back through evidence to see exactly where our perspectives diverge. When we agree, we can build on verified knowledge rather than assumptions.
+
+This isn't just an academic exercise—it's infrastructure for human progress. Whether you're a researcher seeking ground-truth data, a policymaker evaluating solutions, or a citizen trying to understand complex issues, Substrate provides a trusted foundation built on transparency and evidence.
+
+### History
+
+Substrate was launched in **July 2024** with a vision to create shared infrastructure for human knowledge. The project began with 17 core object types (Problems, Solutions, Ideas, Plans, Values, Models, Arguments, Claims, etc.) and has grown through community contributions and a major data infrastructure initiative in October 2025.
 
 **Mission:** Build a trusted foundation of ground-truth data and structured knowledge to support human understanding and progress.
 
