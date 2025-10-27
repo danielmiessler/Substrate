@@ -173,6 +173,32 @@ These sources capture:
 - 📊 Central logging and health monitoring
 - 📚 Complete documentation suite
 
+---
+
+<details>
+<summary><strong>📜 Previous Updates (Click to expand)</strong></summary>
+
+### September 2024 - Community Growth
+- ✅ Claims, Arguments, and Values frameworks
+- ✅ 6+ community contributors
+- ✅ 10+ merged pull requests
+- ✅ TELOS integration
+
+### August 2024 - Framework Expansion
+- ✅ Extended component types (Plans, Ideas, Models)
+- ✅ Improved documentation structure
+- ✅ Enhanced contribution guidelines
+
+### July 2024 - Foundation
+- ✅ Single-repo structure with 17+ object types
+- ✅ Core framework and documentation
+- ✅ Public launch with initial datasets
+- ✅ Community contribution framework
+
+</details>
+
+---
+
 **[→ View Full Changelog](./UPDATES.md)**
 
 </details>
