@@ -31,9 +31,6 @@
 
 ## 🎯 What Is Substrate?
 
-> [!IMPORTANT]
-> **Substrate provides components, not conclusions.** You decide what they mean and how they connect.
-
 ### **A Shared Foundation for Human Knowledge**
 
 Think of **substrate** as the base layer—the common ground where we can all explore problems, solutions, and evidence together. Instead of fragmented discussions happening in isolation, Substrate gives us **one place** to:
