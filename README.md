@@ -22,7 +22,7 @@
 
 Substrate is built on a simple but powerful idea: **meaningful progress requires connecting ideas to evidence, and claims to data**.
 
-We face an information crisis—not from lack of data, but from fragmented knowledge. Claims float without evidence. Arguments lack supporting data. Problems are discussed without reference to proven solutions. Data exists in silos, disconnected from the debates it could inform.
+Knowledge exists everywhere, but it's often disconnected. Claims are made without clear evidence. Arguments reference data that's hard to verify. Solutions are proposed without examining what's worked before. Public records sit in separate databases, difficult to cross-reference.
 
 Substrate addresses this by creating an **interconnected knowledge system** where every component links to related components:
 
@@ -47,7 +47,29 @@ This dual accessibility enables a new kind of collaboration: humans contribute k
 
 By connecting claims to arguments, arguments to data, and data to authoritative sources, Substrate creates a **foundation for mutual understanding**. When we disagree, we can trace our reasoning back through evidence to see exactly where our perspectives diverge. When we agree, we can build on verified knowledge rather than assumptions.
 
-This isn't just an academic exercise—it's infrastructure for human progress. Whether you're a researcher seeking ground-truth data, a policymaker evaluating solutions, or a citizen trying to understand complex issues, Substrate provides a trusted foundation built on transparency and evidence.
+### Transparency & Accountability
+
+Substrate's interconnected structure enables powerful transparency use cases:
+
+**🔍 OSINT & Investigation**
+- Cross-reference public records, corporate filings, and government data
+- Link people, organizations, and financial flows across datasets
+- Surface connections that would be invisible in isolated databases
+- Track influence networks and funding relationships
+
+**📊 Criminal Investigation Support**
+- Connect individuals to organizations, transactions, and locations using public data
+- Build evidence chains linking claims to verifiable records
+- Correlate timeline data across multiple authoritative sources
+- Enable pattern detection across datasets (fraud, corruption, illicit networks)
+
+**🌐 Public Accountability**
+- Verify claims made by public figures against documented evidence
+- Track campaign promises against actual policy outcomes and metrics
+- Link political donations to voting records and policy positions
+- Monitor government spending against stated goals and results
+
+This isn't just an academic exercise—it's infrastructure for transparency and progress. Whether you're a researcher seeking ground-truth data, an investigator cross-referencing public records, a journalist fact-checking claims, or a citizen trying to understand complex issues, Substrate provides a trusted foundation built on verifiable evidence and open data.
 
 ### How It Works: Community Contributions
 
@@ -96,6 +118,211 @@ Substrate integrates with the **[TELOS framework](https://github.com/danielmiess
 - **TELOS Metrics** ↔ **Substrate Plans** - How you track progress vs. implementation roadmaps
 
 Together, they create a complete system: TELOS provides the *intention* (goals, strategies), Substrate provides the *evidence* (data, arguments, proven solutions).
+
+### System Diagrams: Potential Linkages
+
+<details>
+<summary><strong>📊 Entity Relationship Diagram</strong></summary>
+
+```mermaid
+graph TD
+    P[Problem: Toxic Water] --> S1[Solution: Filtration System]
+    P --> S2[Solution: Infrastructure Replacement]
+    P --> D1[Data: WHO Water Quality]
+    P --> D2[Data: CDC Health Records]
+
+    S1 --> E1[Experiment: Flint MI Pilot]
+    S1 --> M1[Metrics: PPM Lead Reduction]
+
+    C[Claim: Filtration Effective] --> A1[Argument: Cost-Effective]
+    C --> A2[Argument: Fast Deployment]
+
+    A1 --> D3[Data: Implementation Costs]
+    A1 --> D1
+    A2 --> E1
+
+    O1[Org: EPA] --> D1
+    O2[Org: Local Water Authority] --> E1
+
+    PE1[Person: City Manager] --> O2
+    PE1 --> PL1[Plan: 5-Year Remediation]
+
+    PL1 --> S1
+    PL1 --> M1
+
+    style P fill:#ff6b6b
+    style S1 fill:#4ecdc4
+    style C fill:#ffe66d
+    style D1 fill:#95e1d3
+    style A1 fill:#f38181
+```
+
+</details>
+
+<details>
+<summary><strong>🔍 OSINT Investigation Flow</strong></summary>
+
+```mermaid
+graph LR
+    START[Public Tip: Suspicious Activity] --> P1[Person of Interest]
+
+    P1 --> O1[Organization A]
+    P1 --> O2[Organization B]
+    P1 --> T1[Transaction Records]
+
+    O1 --> D1[Corporate Filings]
+    O1 --> F1[Funding Source: PAC]
+    O2 --> D2[Tax Records]
+
+    T1 --> D3[Bank Records Public]
+    T1 --> D4[Property Transfers]
+
+    F1 --> P2[Person B: Politician]
+    D4 --> P3[Person C: Associate]
+
+    P2 --> V1[Voting Record]
+    P2 --> C1[Campaign Promises]
+
+    V1 --> POL[Policy Outcome]
+    C1 --> POL
+    F1 --> POL
+
+    D1 --> E1[Evidence Chain]
+    D2 --> E1
+    D3 --> E1
+    D4 --> E1
+    V1 --> E1
+
+    E1 --> R[Report: Pattern Detected]
+
+    style START fill:#ff6b6b
+    style E1 fill:#4ecdc4
+    style R fill:#95e1d3
+```
+
+</details>
+
+<details>
+<summary><strong>⚖️ Argument Quality Chain</strong></summary>
+
+```mermaid
+graph TD
+    A[Argument: Policy X Reduces Crime] --> Q{Quality Check}
+
+    Q --> D1[Data Source 1: FBI UCR]
+    Q --> D2[Data Source 2: DOJ Stats]
+    Q --> D3[Data Source 3: Peer Review]
+
+    D1 --> V1{Verification}
+    D2 --> V1
+    D3 --> V1
+
+    V1 -->|Authoritative| SCORE1[Score: +3]
+    V1 -->|Peer Reviewed| SCORE2[Score: +2]
+    V1 -->|Multi-Source| SCORE3[Score: +2]
+
+    SCORE1 --> FINAL[Final Rating: 7/10 - Highly Credible]
+    SCORE2 --> FINAL
+    SCORE3 --> FINAL
+
+    A2[Argument: Policy Y Ineffective] --> Q2{Quality Check}
+    Q2 --> D4[Data: Blog Post]
+    Q2 --> D5[Data: Opinion Article]
+
+    D4 --> V2{Verification}
+    D5 --> V2
+
+    V2 -->|Anecdotal| SCORE4[Score: -2]
+    V2 -->|No Peer Review| SCORE5[Score: -1]
+
+    SCORE4 --> FINAL2[Final Rating: 2/10 - Weak]
+    SCORE5 --> FINAL2
+
+    style FINAL fill:#4ecdc4
+    style FINAL2 fill:#ff6b6b
+```
+
+</details>
+
+<details>
+<summary><strong>🌐 Full System Integration</strong></summary>
+
+```mermaid
+graph TB
+    subgraph "TELOS Framework"
+        TG[Goals]
+        TS[Strategies]
+        TC[Challenges]
+        TM[Metrics]
+    end
+
+    subgraph "Substrate Core"
+        P[Problems]
+        SO[Solutions]
+        AR[Arguments]
+        CL[Claims]
+        PL[Plans]
+    end
+
+    subgraph "Data Layer"
+        D1[US GDP Data]
+        D2[Inflation Data]
+        D3[Health Data]
+        D4[Public Records]
+        D5[Corporate Data]
+    end
+
+    subgraph "Entities"
+        OR[Organizations]
+        PE[People]
+        PR[Projects]
+        FU[Funding]
+    end
+
+    TG -.-> P
+    TS -.-> SO
+    TC -.-> D3
+    TM -.-> PL
+
+    P --> SO
+    P --> D3
+    SO --> AR
+    AR --> CL
+    CL --> D1
+    CL --> D2
+
+    SO --> PL
+    PL --> TM
+
+    OR --> PR
+    OR --> FU
+    PE --> OR
+    PE --> PL
+
+    D4 --> PE
+    D4 --> OR
+    D5 --> OR
+    D5 --> FU
+
+    AR --> D1
+    AR --> D2
+    AR --> D3
+    AR --> D4
+
+    style TG fill:#ffe66d
+    style P fill:#ff6b6b
+    style D1 fill:#95e1d3
+    style OR fill:#f38181
+```
+
+</details>
+
+**Future Capabilities:**
+- Real-time link discovery across new data sources
+- Automated pattern detection for investigative workflows
+- Interactive graph visualization for exploring connections
+- API access for programmatic queries across linked entities
+- Machine learning to suggest relevant connections based on context
 
 ### History
 
