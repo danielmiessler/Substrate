@@ -32,7 +32,7 @@
   <img src="https://img.youtube.com/vi/ky7ejowc_qY/0.jpg" alt="Substrate Introduction" width="600">
 </a>
 
-**[→ Watch Introduction Video](https://www.youtube.com/watch?v=ky7ejowc_qY)** • **[→ Read Blog Post](https://danielmiessler.com/p/introducing-substrate)**
+**[→ Watch Introduction Video](https://www.youtube.com/watch?v=ky7ejowc_qY)** • **[→ Read Blog Post](https://danielmiessler.com/blog/how-my-projects-fit-together)**
 </div>
 
 ---
