@@ -31,22 +31,25 @@
 
 ## 🎯 What Is Substrate?
 
-### **A Shared Foundation for Human Knowledge**
+### **A Shared Foundation for Human Progress**
 
-Think of **substrate** as the base layer—the common ground where we can all explore problems, solutions, and evidence together. Instead of fragmented discussions happening in isolation, Substrate gives us **one place** to:
+Think of **substrate** as the base layer—the common ground where we can all work together to understand problems and drive solutions forward. Instead of fragmented discussions and reinventing the wheel, Substrate gives us **one place** to:
 
-- **Document what's wrong** → Problems with evidence
-- **Propose what works** → Solutions with results
-- **Connect the dots** → Link people, organizations, projects, data
-- **Build arguments** → Reasoning chains anyone can evaluate
-- **Track outcomes** → What actually happened vs. what was promised
+- **Document problems** → What's actually broken, with evidence
+- **Track solutions** → What works, what doesn't, with results
+- **Connect progress** → Link people, organizations, and projects actually moving things forward
+- **Build on each other** → Arguments and ideas that build on shared evidence
+- **Measure outcomes** → Did it work? What actually changed?
 
-**The Vision:** A collaborative knowledge substrate where:
-- 🧩 **Anyone can contribute** components (problems, solutions, data, arguments)
-- 🔗 **Everything connects** through explicit IDs and relationships
-- 📊 **Evidence grounds claims** with authoritative data sources
-- 🤖 **AI assists exploration** while humans decide what matters
-- 🌍 **We all share** a common foundation for understanding reality
+**The Purpose: Accelerate Human Progress**
+
+We can't solve problems we don't understand. We can't build on solutions we can't find. Substrate provides:
+
+- 🎯 **Shared understanding** → One place to understand what's wrong and what works
+- 🚀 **Faster progress** → Build on existing knowledge instead of starting over
+- 📊 **Evidence-based action** → Ground decisions in authoritative data, not opinions
+- 🔗 **Connected knowledge** → See how problems, solutions, people, and data interconnect
+- 🌍 **Collective intelligence** → Human insight + AI analysis working together toward progress
 
 **An open-source framework connecting 17+ knowledge components:**
 
