@@ -20,17 +20,25 @@
 
 ### The Philosophy
 
-Substrate is built on a simple but powerful idea: **meaningful progress requires connecting ideas to evidence, and claims to data**.
+**Substrate doesn't provide conclusions. It provides components.**
 
-Knowledge exists everywhere, but it's often disconnected. Claims are made without clear evidence. Arguments reference data that's hard to verify. Solutions are proposed without examining what's worked before. Public records sit in separate databases, difficult to cross-reference.
+We're building a repository of structured, machine-readable components that anyone can use to support their own analysis, research, or decision-making:
 
-Substrate addresses this by creating an **interconnected knowledge system** where every component links to related components:
+- **Data** - Authoritative datasets with full source documentation
+- **Problems** - Documented challenges with scope and evidence
+- **Solutions** - Proposed approaches with implementation details
+- **Arguments** - Reasoning chains with quality indicators
+- **Claims** - Assertions that can be linked to supporting evidence
+- **Plans** - Political platforms, policy proposals, action roadmaps
+- **Metrics** - Success criteria and measurement frameworks
+- **Ideas** - Concepts and frameworks for consideration
+- **People** - Individuals involved in initiatives and organizations
+- **Organizations** - Entities working on problems and solutions
+- **Projects** - Active initiatives with goals and outcomes
 
-- **Claims** ↔ **Arguments** ↔ **Data** → Build evidence-based positions
-- **Problems** ↔ **Solutions** ↔ **Experiments** → Test what actually works
-- **Organizations** ↔ **People** ↔ **Projects** → Track who's doing what
-- **Values** ↔ **Models** ↔ **Ideas** → Connect worldviews to frameworks
-- **Authoritative Datasets** → Ground everything in verified facts
+**You decide what to do with them.** Connect them. Analyze them. Build arguments. Test hypotheses. Create visualizations. Make your own conclusions.
+
+Substrate is infrastructure, not analysis. We provide the pieces in standardized formats. You (and your AI) determine what they mean and how they connect.
 
 ### Human & AI Collaboration
 
@@ -80,39 +88,54 @@ Substrate's interconnected structure enables powerful transparency use cases:
 
 This isn't just an academic exercise—it's infrastructure for transparency and progress. Whether you're a researcher seeking ground-truth data, an investigator cross-referencing public records, a journalist fact-checking claims, or a citizen trying to understand complex issues, Substrate provides a trusted foundation built on verifiable evidence and open data.
 
-### How It Works: Community Contributions
+### How to Contribute
 
-Substrate is a **collaborative platform** where anyone can contribute:
+**Anyone can submit components to Substrate.** No gatekeeping on ideas—just structured formats.
 
-**📋 Problems** - Identify challenges facing communities, nations, or humanity
-- Submit new problems with context and supporting evidence
-- Link to relevant data showing scope and impact
-- Example: "Toxic water in poor US cities" → linked to WHO water quality data
+**What You Can Submit:**
 
-**💡 Solutions** - Propose evidence-based approaches
-- Suggest solutions to documented problems
-- Reference similar implementations and their outcomes
-- Connect to experimental results and real-world case studies
+**📋 Problems** - Document challenges at any scale
+- "Declining water quality in Flint, Michigan"
+- "Rising healthcare costs in rural communities"
+- "Climate change impact on coastal cities"
 
-**🗣️ Arguments** - Build reasoning with quality ratings
-- Construct logical arguments supporting or opposing positions
-- **Quality spectrum:** Arguments rated from shoddy to highly credible based on:
-  - Data backing (authoritative sources vs. anecdotes)
-  - Logical coherence (sound reasoning vs. fallacies)
-  - Evidence strength (peer-reviewed studies vs. opinions)
-- AI and community review help surface well-supported arguments
+**💡 Solutions** - Propose approaches (tested or theoretical)
+- "Implement filtration systems at municipal level"
+- "Establish rural telemedicine networks"
+- "Relocate infrastructure inland over 20-year period"
 
-**📊 Plans** - Actionable strategies for real change
-- **Political platforms** for candidates running for office
-- **Action plans** for fixing cities, states, or countries
-- **Policy proposals** with implementation roadmaps and metrics
-- Each plan linked to problems it addresses and solutions it employs
+**📊 Plans** - Submit actionable strategies
+- Political platforms for running for office
+- Policy proposals for city/state/national government
+- Corporate action plans for organizational change
+- Community initiatives with implementation timelines
 
-**📈 Metrics** - Measure what matters
-- Define success criteria for solutions and plans
-- Track implementation progress against goals
-- Link outcomes to authoritative datasets for verification
-- Enable evidence-based iteration and improvement
+**📈 Metrics** - Define how success should be measured
+- "Reduce lead PPM to <5 within 18 months"
+- "Achieve 90% telemedicine adoption in 3 years"
+- "Zero infrastructure loss from flooding by 2030"
+
+**🗣️ Arguments** - Present reasoning (we don't judge validity)
+- "This policy works because X, Y, Z"
+- "This approach failed in 3 trials due to A, B"
+- Community and AI can rate quality based on data backing
+
+**💭 Ideas & Concepts** - Share frameworks and models
+- Theoretical approaches to existing problems
+- Novel ways to measure or evaluate outcomes
+- Conceptual frameworks for understanding issues
+
+**📊 Data** - Contribute datasets (with source documentation)
+- Public records you've compiled
+- Research data you're willing to share
+- Aggregated statistics with methodology
+
+**👤 People & Organizations** - Document who's working on what
+- Researchers working on specific problems
+- Organizations implementing solutions
+- Projects with measurable outcomes
+
+**How to Submit:** Create a PR with your component in the appropriate directory (`Problems/`, `Solutions/`, `Plans/`, etc.) following the format in that directory's README. We're building a web interface to make this easier for non-technical contributors.
 
 ### Integration with TELOS
 
