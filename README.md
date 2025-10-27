@@ -34,14 +34,23 @@ Substrate addresses this by creating an **interconnected knowledge system** wher
 
 ### Human & AI Collaboration
 
+**Substrate provides the pieces. You and your AI create the connections.**
+
+We don't prescribe how everything links together—we provide the **raw components** (problems, solutions, data, claims, arguments, people, organizations) in structured, machine-readable formats. The mappings happen organically:
+
+- **Humans discover connections** - "This solution worked for that problem in 3 cities"
+- **AI systems suggest links** - "These 5 arguments all reference the same dataset"
+- **Patterns emerge automatically** - "Every organization in this funding network connects to these 3 politicians"
+- **Connections grow over time** - As more data and entities are added, new relationships surface
+
 Everything in Substrate is designed to be parsed and analyzed by **both humans and AI systems**:
 
 - **Human-readable formats** - CSV and Markdown files anyone can open and understand
 - **Machine-parseable structures** - Consistent formats AI can query and analyze
 - **Complete documentation** - Full methodology and source evaluation for every dataset
-- **Cross-referenced entities** - Deep links between related concepts across the system
+- **Standardized identifiers** - Link entities across datasets without ambiguity
 
-This dual accessibility enables a new kind of collaboration: humans contribute knowledge and judgment, AI systems help find patterns and connections across thousands of data points that would be impossible to process manually.
+This dual accessibility enables a new kind of collaboration: humans contribute the pieces and initial insights, AI systems analyze thousands of components simultaneously to find patterns and suggest connections that would be impossible to spot manually. The system becomes more valuable as more people and AIs explore it, each discovering and documenting new linkages.
 
 ### The Vision
 
@@ -317,12 +326,25 @@ graph TB
 
 </details>
 
+**How Mappings Happen:**
+
+Substrate provides structured components—the rest happens automatically through:
+
+1. **Human Curation** - Users explicitly link problems to solutions, claims to data
+2. **AI Analysis** - Language models scan components and suggest relationships
+3. **Pattern Recognition** - Algorithms detect recurring connections across entities
+4. **Collaborative Discovery** - Multiple users find and validate the same linkages
+5. **Automated Inference** - Systems propose connections based on shared attributes
+
+You contribute the pieces. Your AI helps map them. The knowledge graph grows organically.
+
 **Future Capabilities:**
 - Real-time link discovery across new data sources
 - Automated pattern detection for investigative workflows
 - Interactive graph visualization for exploring connections
 - API access for programmatic queries across linked entities
 - Machine learning to suggest relevant connections based on context
+- Confidence scoring for AI-suggested mappings
 
 ### History
 
