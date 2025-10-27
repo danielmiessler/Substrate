@@ -210,6 +210,15 @@ These sources capture:
 > [!NOTE]
 > All data sources include **complete library science cataloging** with 8-dimension evaluation: Authority, Currency, Objectivity, Accuracy, Methodology, Coverage, Reliability, and Provenance.
 
+> [!IMPORTANT]
+> **We know data can be controversial.** That's exactly why we:
+> - 📊 **Collect from multiple sources** - Cross-reference data from different authoritative providers
+> - 🔍 **Provide complete transparency** - Every source fully documented with provenance, methodology, and limitations
+> - 📝 **Full logging** - All data pulls logged with timestamps, source versions, and processing steps
+> - 🔓 **Open source everything** - TypeScript update scripts show exactly how data is fetched and transformed
+>
+> You can verify, audit, and challenge our data. That's the point.
+
 ### **Core Datasets** (`Data/`)
 
 | Dataset | Time Span | Data Points | Source | Status |
