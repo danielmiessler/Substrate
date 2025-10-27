@@ -32,9 +32,23 @@
 ## 🎯 What Is Substrate?
 
 > [!IMPORTANT]
-> **Substrate provides components, not conclusions.** You decide what they mean and how they connect.
+> **The Problem:** We measure GDP growth while missing the slow-motion collapse of human thriving happening in plain sight. Traditional metrics (economic output, unemployment rates, stock prices) tell us how the economy is doing—not how *people* are doing.
 
-**An open-source framework for capturing and analyzing the building blocks of human civilization:**
+### **Our Philosophy: Know the Actual State of People**
+
+When we theorize about solutions or propose policies, we should be informed by **the actual state of people**—not abstractions, not averages, not GDP.
+
+**Substrate captures what traditional metrics miss:**
+
+- 🚨 **Crisis indicators** → Overdoses and suicides reveal community breakdown before economic metrics decline
+- 🎭 **Behavioral truth** → Credit card delinquency and quit rates show what surveys miss (actions > stated preferences)
+- 🏗️ **Structural determinants** → Air quality, commute times, internet access—constraints people can't "self-care" out of
+- ⚡ **Leading indicators** → Financial stress predicts recessions; worker quit rates signal economic health
+- 🎯 **Geographic granularity** → County-level data ensures no community suffers invisibly
+
+> **Substrate provides components, not conclusions.** We give you authoritative evidence about human wellbeing. You decide what it means and how to act on it.
+
+**An open-source framework for capturing reality:**
 
 ```mermaid
 graph LR
