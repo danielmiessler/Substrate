@@ -6,10 +6,6 @@
 
 ### **Infrastructure for Human Knowledge & Progress**
 
-<p align="center">
-  <strong>Structured components + Authoritative data = Foundation for understanding</strong>
-</p>
-
 [![GitHub last commit](https://img.shields.io/github/last-commit/danielmiessler/Substrate?style=for-the-badge&logo=github)](https://github.com/danielmiessler/Substrate/commits/main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00ADD8.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Stars](https://img.shields.io/github/stars/danielmiessler/Substrate?style=for-the-badge&logo=github)](https://github.com/danielmiessler/Substrate/stargazers)
