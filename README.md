@@ -32,36 +32,62 @@
 ## 🎯 What Is Substrate?
 
 > [!IMPORTANT]
-> **The Problem:** We measure GDP growth while missing the slow-motion collapse of human thriving happening in plain sight. Traditional metrics (economic output, unemployment rates, stock prices) tell us how the economy is doing—not how *people* are doing.
+> **Substrate provides components, not conclusions.** You decide what they mean and how they connect.
 
-### **Our Philosophy: Know the Actual State of People**
+### **A Shared Foundation for Human Knowledge**
 
-When we theorize about solutions or propose policies, we should be informed by **the actual state of people**—not abstractions, not averages, not GDP.
+Think of **substrate** as the base layer—the common ground where we can all explore problems, solutions, and evidence together. Instead of fragmented discussions happening in isolation, Substrate gives us **one place** to:
 
-**Substrate captures what traditional metrics miss:**
+- **Document what's wrong** → Problems with evidence
+- **Propose what works** → Solutions with results
+- **Connect the dots** → Link people, organizations, projects, data
+- **Build arguments** → Reasoning chains anyone can evaluate
+- **Track outcomes** → What actually happened vs. what was promised
 
-- 🚨 **Crisis indicators** → Overdoses and suicides reveal community breakdown before economic metrics decline
-- 🎭 **Behavioral truth** → Credit card delinquency and quit rates show what surveys miss (actions > stated preferences)
-- 🏗️ **Structural determinants** → Air quality, commute times, internet access—constraints people can't "self-care" out of
-- ⚡ **Leading indicators** → Financial stress predicts recessions; worker quit rates signal economic health
-- 🎯 **Geographic granularity** → County-level data ensures no community suffers invisibly
+**The Vision:** A collaborative knowledge substrate where:
+- 🧩 **Anyone can contribute** components (problems, solutions, data, arguments)
+- 🔗 **Everything connects** through explicit IDs and relationships
+- 📊 **Evidence grounds claims** with authoritative data sources
+- 🤖 **AI assists exploration** while humans decide what matters
+- 🌍 **We all share** a common foundation for understanding reality
 
-> **Substrate provides components, not conclusions.** We give you authoritative evidence about human wellbeing. You decide what it means and how to act on it.
-
-**An open-source framework for capturing reality:**
+**An open-source framework connecting 17+ knowledge components:**
 
 ```mermaid
-graph LR
-    A[📊 Data Sources] --> B[🔗 Substrate Core]
-    C[🧩 Problems] --> B
-    D[💡 Solutions] --> B
-    E[📈 Arguments] --> B
-    F[👥 People & Orgs] --> B
-    B --> G[🤖 AI Analysis]
-    B --> H[🧠 Human Insight]
-    G --> I[💎 Knowledge Graph]
-    H --> I
-    I --> J[🌍 Understanding]
+graph TB
+    subgraph "🌍 The Substrate"
+        A[🧩 Problems]
+        B[💡 Solutions]
+        C[📊 Data Sources]
+        D[🗣️ Arguments]
+        E[📋 Claims]
+        F[👥 People]
+        G[🏢 Organizations]
+        H[🚀 Projects]
+        I[📈 Plans]
+        J[🎯 Values]
+        K[💭 Ideas]
+    end
+
+    L[👤 Human Contributors] --> A
+    L --> B
+    L --> D
+    M[🤖 AI Analysis] --> A
+    M --> B
+    M --> D
+
+    A -.connects to.-> B
+    B -.connects to.-> C
+    D -.connects to.-> C
+    E -.connects to.-> C
+    F -.connects to.-> G
+    G -.connects to.-> H
+    H -.connects to.-> B
+
+    A --> N[🔍 Shared Understanding]
+    B --> N
+    C --> N
+    D --> N
 ```
 
 <table>
