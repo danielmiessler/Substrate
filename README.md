@@ -27,6 +27,16 @@
 
 ## 🎯 What Is Substrate?
 
+<div align="center">
+<a href="https://www.youtube.com/watch?v=ky7ejowc_qY">
+  <img src="https://img.youtube.com/vi/ky7ejowc_qY/0.jpg" alt="Substrate Introduction" width="600">
+</a>
+
+**[→ Watch Introduction Video](https://www.youtube.com/watch?v=ky7ejowc_qY)** • **[→ Read Blog Post](https://danielmiessler.com/p/introducing-substrate)**
+</div>
+
+---
+
 ### **A Shared Foundation for Human Progress**
 
 Think of **substrate** as the base layer—the common ground where we can all work together to understand problems and drive solutions forward. Instead of fragmented discussions and reinventing the wheel, Substrate gives us **one place** to:
@@ -616,25 +626,6 @@ bun run scripts/update-all.ts
 </table>
 
 **Together:** Complete system for intention + evidence-based action.
-
----
-
-## 🎬 Media
-
-<details>
-<summary><strong>📺 Watch Introduction Video</strong></summary>
-
-<br/>
-
-<div align="center">
-<a href="https://www.youtube.com/watch?v=ky7ejowc_qY">
-  <img src="https://img.youtube.com/vi/ky7ejowc_qY/0.jpg" alt="Substrate Introduction" width="600">
-</a>
-</div>
-
-**[→ Read Blog Post: Introducing Substrate](https://danielmiessler.com/p/introducing-substrate)**
-
-</details>
 
 ---
 
