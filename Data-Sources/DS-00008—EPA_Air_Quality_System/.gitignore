@@ -1,0 +1,39 @@
+# Environment variables (contains API keys)
+.env
+
+# Data files (large JSON files)
+data/*.json
+data/*.csv
+
+# Keep README in data directory
+!data/README.md
+
+# Node modules (if any)
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.js.map
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp

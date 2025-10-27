@@ -1,0 +1,25 @@
+[2025-10-27T09:32:54.816Z] INFO: === Update Started ===
+[2025-10-27T09:32:54.817Z] INFO: Source: BLS Job Openings and Labor Turnover Survey - Labor Market Health & Purpose Indicators
+[2025-10-27T09:32:54.817Z] INFO: Source ID: DS-00007
+[2025-10-27T09:32:54.817Z] INFO: Checking BLS API availability...
+[2025-10-27T09:32:55.889Z] INFO: BLS API is available and responding
+[2025-10-27T09:32:55.893Z] INFO: Fetching 5 series from BLS API v2
+[2025-10-27T09:32:55.895Z] WARNING: BLS_API_KEY not set. Using unregistered limits (25 requests/day, 10 years). Register free API key at: https://data.bls.gov/registrationEngine/
+[2025-10-27T09:32:55.895Z] INFO: Requesting data for years 2016-2025 (10 years)
+[2025-10-27T09:32:56.594Z] INFO: BLS API request succeeded. Response time: 167ms
+[2025-10-27T09:32:56.596Z] WARNING: No data returned for JTS00000000QUR
+[2025-10-27T09:32:56.597Z] WARNING: No data returned for JTS00000000JOR
+[2025-10-27T09:32:56.597Z] WARNING: No data returned for JTS00000000HIR
+[2025-10-27T09:32:56.597Z] WARNING: No data returned for JTS00000000LDR
+[2025-10-27T09:32:56.597Z] WARNING: No data returned for JTS00000000TSR
+[2025-10-27T09:32:56.598Z] INFO: Fetched 0 indicators with 0 total observations
+[2025-10-27T09:32:56.599Z] INFO: Saved raw data to data/latest.json
+[2025-10-27T09:32:56.618Z] INFO: Saved transformed data to data/latest.txt
+[2025-10-27T09:32:56.619Z] INFO: Saved Permission to Quit Index summary to data/permission-to-quit-index.txt
+[2025-10-27T09:32:56.621Z] INFO: Updated source.md metadata
+[2025-10-27T09:32:56.621Z] INFO: === Update Summary ===
+[2025-10-27T09:32:56.622Z] INFO: Timestamp: 2025-10-27T09:32:54.816Z
+[2025-10-27T09:32:56.622Z] INFO: Indicators Fetched: 0/5
+[2025-10-27T09:32:56.622Z] INFO: Records Processed: 0
+[2025-10-27T09:32:56.622Z] INFO: Errors: 0
+[2025-10-27T09:32:56.622Z] INFO: === Update Completed Successfully ===

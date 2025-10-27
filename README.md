@@ -454,8 +454,9 @@ Substrate was launched in **July 2024** with a vision to create shared infrastru
 
 ## 📊 Data Directory
 
-Substrate includes **5 authoritative datasets** with 1,700+ data points spanning 107 years (1918-2025):
+Substrate includes **13 authoritative data sources** with comprehensive coverage of human wellbeing and progress:
 
+### Core Datasets (Data/)
 | Dataset | Coverage | Data Points | Source |
 |---------|----------|-------------|--------|
 | **US-GDP** | 1929-2025 | 96 years annual<br>314 quarters | FRED/BEA |
@@ -464,14 +465,44 @@ Substrate includes **5 authoritative datasets** with 1,700+ data points spanning
 | **Pulitzer Prize Winners** | 1918-2024 | 249 winners | Wikidata |
 | **Knowledge Worker Salaries** | Global | Multi-region | Research |
 
+### Wellbeing Data Sources (Data-Sources/) 🆕
+
+**Global Health & Development:**
+| Source ID | Name | Coverage | Update Frequency |
+|-----------|------|----------|------------------|
+| **DS-00001** | WHO Global Health Observatory | 194 countries, 2000+ indicators | Quarterly |
+| **DS-00002** | UN SDG Indicators | 193 countries, 231 indicators | Biannual |
+| **DS-00003** | World Bank Open Data | Global development | Varies |
+
+**US Human Wellbeing Indicators (October 2025):**
+| Source ID | Name | Key Indicators | Update Frequency |
+|-----------|------|----------------|------------------|
+| **DS-00004** | FRED Economic Wellbeing | Debt, unemployment, consumer sentiment, inequality | Weekly-Annual |
+| **DS-00005** | CDC WONDER Mortality | Drug overdoses, suicides, deaths of despair | Annual |
+| **DS-00006** | Census ACS Social Wellbeing | Living alone, commute times, digital divide | Annual |
+| **DS-00007** | BLS JOLTS Labor Market | Quit rate (worker agency), job openings | Monthly |
+| **DS-00008** | EPA Air Quality System | PM2.5, ozone, environmental health | Real-time |
+
+**Why Wellbeing Data Matters:**
+
+These sources measure **the actual state of people** beyond GDP and traditional economic metrics:
+
+- **Leading Indicators** - Overdoses and financial stress precede economic decline
+- **Behavioral Truth** - Actions (quit rates, debt delinquency) reveal reality surveys miss
+- **Structural Determinants** - Air quality and commute times constrain flourishing
+- **Crisis Detection** - County-level data shows which communities are suffering
+- **Worker Agency** - "Permission to quit" measures economic freedom and dignity
+
+> "If we measure only GDP and unemployment, we will miss the slow-motion collapse of human thriving happening in plain sight."
+
+**[→ Wellbeing Data Guide](./Data-Sources/WELLBEING_DATA_SOURCES.md)** | **[→ Explore Data Directory](./Data/README.md)**
+
 **Data Quality:**
 - ✅ Library science methodology with 8-dimension source evaluation
 - ✅ Authoritative sources only (government agencies, verified databases)
 - ✅ Complete documentation and methodology for each dataset
 - ✅ TypeScript automation with quality assurance
-- ✅ CSV, JSON, and Markdown formats
-
-**[→ Explore Data Directory](./Data/README.md)**
+- ✅ Free access with excellent APIs
 
 ---
 
@@ -523,10 +554,11 @@ Contribute by submitting PRs to modify Substrate object files in directories lik
 - Claims, Arguments, and Values established
 
 **Phase 3: Data Infrastructure (Oct 2025)**
-- 5 authoritative datasets added
-- Library science methodology
+- 13 authoritative data sources (5 core datasets + 8 wellbeing sources)
+- Library science methodology with 8-dimension evaluation
 - TypeScript automation system
 - Comprehensive documentation
+- **NEW:** Human wellbeing indicators (economic, health, social, labor, environmental)
 
 ### 🚧 Planned
 

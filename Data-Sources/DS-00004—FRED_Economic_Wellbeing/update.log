@@ -1,0 +1,4 @@
+[2025-10-27T09:23:41.685Z] INFO: === Update Started ===
+[2025-10-27T09:23:41.685Z] INFO: Source: Federal Reserve Economic Data - Economic Wellbeing Indicators
+[2025-10-27T09:23:41.685Z] INFO: Source ID: DS-00004
+[2025-10-27T09:23:41.686Z] ERROR: Fatal error during update: FRED_API_KEY environment variable not set. Get your free API key at: https://fred.stlouisfed.org/docs/api/api_key.html
