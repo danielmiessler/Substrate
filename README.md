@@ -49,6 +49,54 @@ By connecting claims to arguments, arguments to data, and data to authoritative 
 
 This isn't just an academic exercise—it's infrastructure for human progress. Whether you're a researcher seeking ground-truth data, a policymaker evaluating solutions, or a citizen trying to understand complex issues, Substrate provides a trusted foundation built on transparency and evidence.
 
+### How It Works: Community Contributions
+
+Substrate is a **collaborative platform** where anyone can contribute:
+
+**📋 Problems** - Identify challenges facing communities, nations, or humanity
+- Submit new problems with context and supporting evidence
+- Link to relevant data showing scope and impact
+- Example: "Toxic water in poor US cities" → linked to WHO water quality data
+
+**💡 Solutions** - Propose evidence-based approaches
+- Suggest solutions to documented problems
+- Reference similar implementations and their outcomes
+- Connect to experimental results and real-world case studies
+
+**🗣️ Arguments** - Build reasoning with quality ratings
+- Construct logical arguments supporting or opposing positions
+- **Quality spectrum:** Arguments rated from shoddy to highly credible based on:
+  - Data backing (authoritative sources vs. anecdotes)
+  - Logical coherence (sound reasoning vs. fallacies)
+  - Evidence strength (peer-reviewed studies vs. opinions)
+- AI and community review help surface well-supported arguments
+
+**📊 Plans** - Actionable strategies for real change
+- **Political platforms** for candidates running for office
+- **Action plans** for fixing cities, states, or countries
+- **Policy proposals** with implementation roadmaps and metrics
+- Each plan linked to problems it addresses and solutions it employs
+
+**📈 Metrics** - Measure what matters
+- Define success criteria for solutions and plans
+- Track implementation progress against goals
+- Link outcomes to authoritative datasets for verification
+- Enable evidence-based iteration and improvement
+
+### Integration with TELOS
+
+Substrate integrates with the **[TELOS framework](https://github.com/danielmiessler/Telos)** for structured goal management:
+
+**What is TELOS?** An open-source framework for capturing Deep Context about entities—from individuals to organizations to nations—defining their purpose, goals, strategies, and challenges.
+
+**How they connect:**
+- **TELOS Goals** ↔ **Substrate Problems** - What you want to achieve vs. what stands in the way
+- **TELOS Strategies** ↔ **Substrate Solutions** - How you'll pursue goals vs. proven approaches
+- **TELOS Challenges** ↔ **Substrate Data** - Obstacles you face vs. measured evidence
+- **TELOS Metrics** ↔ **Substrate Plans** - How you track progress vs. implementation roadmaps
+
+Together, they create a complete system: TELOS provides the *intention* (goals, strategies), Substrate provides the *evidence* (data, arguments, proven solutions).
+
 ### History
 
 Substrate was launched in **July 2024** with a vision to create shared infrastructure for human knowledge. The project began with 17 core object types (Problems, Solutions, Ideas, Plans, Values, Models, Arguments, Claims, etc.) and has grown through community contributions and a major data infrastructure initiative in October 2025.
