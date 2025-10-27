@@ -1,611 +1,645 @@
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/2137f529-e5de-4d8e-9ae2-3d67a797d0c9" width="250"/>
+<img src="https://github.com/user-attachments/assets/2137f529-e5de-4d8e-9ae2-3d67a797d0c9" width="300"/>
 
-# Substrate
+# **Substrate**
 
-**An open-source framework for capturing, organizing, and analyzing different aspects of human civilization**
+### **Infrastructure for Human Knowledge & Progress**
 
-![GitHub last commit](https://img.shields.io/github/last-commit/danielmiessler/Substrate)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![GitHub Repo stars](https://img.shields.io/github/stars/danielmiessler/Substrate)
+<p align="center">
+  <strong>Structured components + Authoritative data = Foundation for understanding</strong>
+</p>
 
-[About](#about) • [Updates](#-recent-updates) • [Data](#-data-directory) • [Docs](#-documentation) • [Contributing](#how-to-contribute)
+[![GitHub last commit](https://img.shields.io/github/last-commit/danielmiessler/Substrate?style=for-the-badge&logo=github)](https://github.com/danielmiessler/Substrate/commits/main)
+[![License: MIT](https://img.shields.io/badge/License-MIT-00ADD8.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/danielmiessler/Substrate?style=for-the-badge&logo=github)](https://github.com/danielmiessler/Substrate/stargazers)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)](https://bun.sh)
+
+<p align="center">
+  <a href="#-what-is-substrate">What Is It</a> •
+  <a href="#-data--evidence">Data</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-documentation">Docs</a> •
+  <a href="#-contribute">Contribute</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
 
 </div>
 
 ---
 
-## About
+## 🎯 What Is Substrate?
 
-### The Philosophy
+> [!IMPORTANT]
+> **Substrate provides components, not conclusions.** You decide what they mean and how they connect.
 
-**Substrate doesn't provide conclusions. It provides components.**
-
-We're building a repository of structured, machine-readable components that anyone can use to support their own analysis, research, or decision-making:
-
-- **Data** - Authoritative datasets with full source documentation
-- **Problems** - Documented challenges with scope and evidence
-- **Solutions** - Proposed approaches with implementation details
-- **Arguments** - Reasoning chains with quality indicators
-- **Claims** - Assertions that can be linked to supporting evidence
-- **Plans** - Political platforms, policy proposals, action roadmaps
-- **Metrics** - Success criteria and measurement frameworks
-- **Ideas** - Concepts and frameworks for consideration
-- **People** - Individuals involved in initiatives and organizations
-- **Organizations** - Entities working on problems and solutions
-- **Projects** - Active initiatives with goals and outcomes
-
-**You decide what to do with them.** Connect them. Analyze them. Build arguments. Test hypotheses. Create visualizations. Make your own conclusions.
-
-Substrate is infrastructure, not analysis. We provide the pieces in standardized formats. You (and your AI) determine what they mean and how they connect.
-
-### Human & AI Collaboration
-
-**Substrate provides the pieces. You and your AI create the connections.**
-
-We don't prescribe how everything links together—we provide the **raw components** (problems, solutions, data, claims, arguments, people, organizations) in structured, machine-readable formats. The mappings happen organically:
-
-- **Humans discover connections** - "This solution worked for that problem in 3 cities"
-- **AI systems suggest links** - "These 5 arguments all reference the same dataset"
-- **Patterns emerge automatically** - "Every organization in this funding network connects to these 3 politicians"
-- **Connections grow over time** - As more data and entities are added, new relationships surface
-
-Everything in Substrate is designed to be parsed and analyzed by **both humans and AI systems**:
-
-- **Human-readable formats** - CSV and Markdown files anyone can open and understand
-- **Machine-parseable structures** - Consistent formats AI can query and analyze
-- **Complete documentation** - Full methodology and source evaluation for every dataset
-- **Standardized identifiers** - Link entities across datasets without ambiguity
-
-This dual accessibility enables a new kind of collaboration: humans contribute the pieces and initial insights, AI systems analyze thousands of components simultaneously to find patterns and suggest connections that would be impossible to spot manually. The system becomes more valuable as more people and AIs explore it, each discovering and documenting new linkages.
-
-### The Vision
-
-By connecting claims to arguments, arguments to data, and data to authoritative sources, Substrate creates a **foundation for mutual understanding**. When we disagree, we can trace our reasoning back through evidence to see exactly where our perspectives diverge. When we agree, we can build on verified knowledge rather than assumptions.
-
-### Transparency & Accountability
-
-Substrate's interconnected structure enables powerful transparency use cases:
-
-**🔍 OSINT & Investigation**
-- Cross-reference public records, corporate filings, and government data
-- Link people, organizations, and financial flows across datasets
-- Surface connections that would be invisible in isolated databases
-- Track influence networks and funding relationships
-
-**📊 Criminal Investigation Support**
-- Connect individuals to organizations, transactions, and locations using public data
-- Build evidence chains linking claims to verifiable records
-- Correlate timeline data across multiple authoritative sources
-- Enable pattern detection across datasets (fraud, corruption, illicit networks)
-
-**🌐 Public Accountability**
-- Verify claims made by public figures against documented evidence
-- Track campaign promises against actual policy outcomes and metrics
-- Link political donations to voting records and policy positions
-- Monitor government spending against stated goals and results
-
-This isn't just an academic exercise—it's infrastructure for transparency and progress. Whether you're a researcher seeking ground-truth data, an investigator cross-referencing public records, a journalist fact-checking claims, or a citizen trying to understand complex issues, Substrate provides a trusted foundation built on verifiable evidence and open data.
-
-### How to Contribute
-
-**Anyone can submit components to Substrate.** No gatekeeping on ideas—just structured formats.
-
-**What You Can Submit:**
-
-**📋 Problems** - Document challenges at any scale
-- "Declining water quality in Flint, Michigan"
-- "Rising healthcare costs in rural communities"
-- "Climate change impact on coastal cities"
-
-**💡 Solutions** - Propose approaches (tested or theoretical)
-- "Implement filtration systems at municipal level"
-- "Establish rural telemedicine networks"
-- "Relocate infrastructure inland over 20-year period"
-
-**📊 Plans** - Submit actionable strategies
-- Political platforms for running for office
-- Policy proposals for city/state/national government
-- Corporate action plans for organizational change
-- Community initiatives with implementation timelines
-
-**📈 Metrics** - Define how success should be measured
-- "Reduce lead PPM to <5 within 18 months"
-- "Achieve 90% telemedicine adoption in 3 years"
-- "Zero infrastructure loss from flooding by 2030"
-
-**🗣️ Arguments** - Present reasoning (we don't judge validity)
-- "This policy works because X, Y, Z"
-- "This approach failed in 3 trials due to A, B"
-- Community and AI can rate quality based on data backing
-
-**💭 Ideas & Concepts** - Share frameworks and models
-- Theoretical approaches to existing problems
-- Novel ways to measure or evaluate outcomes
-- Conceptual frameworks for understanding issues
-
-**📊 Data** - Contribute datasets (with source documentation)
-- Public records you've compiled
-- Research data you're willing to share
-- Aggregated statistics with methodology
-
-**👤 People & Organizations** - Document who's working on what
-- Researchers working on specific problems
-- Organizations implementing solutions
-- Projects with measurable outcomes
-
-**How to Submit:** Create a PR with your component in the appropriate directory (`Problems/`, `Solutions/`, `Plans/`, etc.) following the format in that directory's README. We're building a web interface to make this easier for non-technical contributors.
-
-### Integration with TELOS
-
-Substrate integrates with the **[TELOS framework](https://github.com/danielmiessler/Telos)** for structured goal management:
-
-**What is TELOS?** An open-source framework for capturing Deep Context about entities—from individuals to organizations to nations—defining their purpose, goals, strategies, and challenges.
-
-**How they connect:**
-- **TELOS Goals** ↔ **Substrate Problems** - What you want to achieve vs. what stands in the way
-- **TELOS Strategies** ↔ **Substrate Solutions** - How you'll pursue goals vs. proven approaches
-- **TELOS Challenges** ↔ **Substrate Data** - Obstacles you face vs. measured evidence
-- **TELOS Metrics** ↔ **Substrate Plans** - How you track progress vs. implementation roadmaps
-
-Together, they create a complete system: TELOS provides the *intention* (goals, strategies), Substrate provides the *evidence* (data, arguments, proven solutions).
-
-### System Diagrams: Potential Linkages
-
-<details>
-<summary><strong>📊 Entity Relationship Diagram</strong></summary>
-
-```mermaid
-graph TD
-    P[Problem: Toxic Water] --> S1[Solution: Filtration System]
-    P --> S2[Solution: Infrastructure Replacement]
-    P --> D1[Data: WHO Water Quality]
-    P --> D2[Data: CDC Health Records]
-
-    S1 --> E1[Experiment: Flint MI Pilot]
-    S1 --> M1[Metrics: PPM Lead Reduction]
-
-    C[Claim: Filtration Effective] --> A1[Argument: Cost-Effective]
-    C --> A2[Argument: Fast Deployment]
-
-    A1 --> D3[Data: Implementation Costs]
-    A1 --> D1
-    A2 --> E1
-
-    O1[Org: EPA] --> D1
-    O2[Org: Local Water Authority] --> E1
-
-    PE1[Person: City Manager] --> O2
-    PE1 --> PL1[Plan: 5-Year Remediation]
-
-    PL1 --> S1
-    PL1 --> M1
-
-    style P fill:#ff6b6b
-    style S1 fill:#4ecdc4
-    style C fill:#ffe66d
-    style D1 fill:#95e1d3
-    style A1 fill:#f38181
-```
-
-</details>
-
-<details>
-<summary><strong>🔍 OSINT Investigation Flow</strong></summary>
+**An open-source framework for capturing and analyzing the building blocks of human civilization:**
 
 ```mermaid
 graph LR
-    START[Public Tip: Suspicious Activity] --> P1[Person of Interest]
-
-    P1 --> O1[Organization A]
-    P1 --> O2[Organization B]
-    P1 --> T1[Transaction Records]
-
-    O1 --> D1[Corporate Filings]
-    O1 --> F1[Funding Source: PAC]
-    O2 --> D2[Tax Records]
-
-    T1 --> D3[Bank Records Public]
-    T1 --> D4[Property Transfers]
-
-    F1 --> P2[Person B: Politician]
-    D4 --> P3[Person C: Associate]
-
-    P2 --> V1[Voting Record]
-    P2 --> C1[Campaign Promises]
-
-    V1 --> POL[Policy Outcome]
-    C1 --> POL
-    F1 --> POL
-
-    D1 --> E1[Evidence Chain]
-    D2 --> E1
-    D3 --> E1
-    D4 --> E1
-    V1 --> E1
-
-    E1 --> R[Report: Pattern Detected]
-
-    style START fill:#ff6b6b
-    style E1 fill:#4ecdc4
-    style R fill:#95e1d3
+    A[📊 Data Sources] --> B[🔗 Substrate Core]
+    C[🧩 Problems] --> B
+    D[💡 Solutions] --> B
+    E[📈 Arguments] --> B
+    F[👥 People & Orgs] --> B
+    B --> G[🤖 AI Analysis]
+    B --> H[🧠 Human Insight]
+    G --> I[💎 Knowledge Graph]
+    H --> I
+    I --> J[🌍 Understanding]
 ```
 
-</details>
+<table>
+<tr>
+<td width="50%">
 
-<details>
-<summary><strong>⚖️ Argument Quality Chain</strong></summary>
+### 🏗️ **Structured Components**
 
-```mermaid
-graph TD
-    A[Argument: Policy X Reduces Crime] --> Q{Quality Check}
+- **Problems** - Documented challenges with evidence
+- **Solutions** - Proven approaches with results
+- **Arguments** - Reasoning chains with quality scores
+- **Claims** - Assertions linked to evidence
+- **Plans** - Actionable strategies with metrics
+- **Ideas** - Frameworks and concepts
+- **People & Organizations** - Who's working on what
+- **Projects** - Active initiatives with outcomes
 
-    Q --> D1[Data Source 1: FBI UCR]
-    Q --> D2[Data Source 2: DOJ Stats]
-    Q --> D3[Data Source 3: Peer Review]
+</td>
+<td width="50%">
 
-    D1 --> V1{Verification}
-    D2 --> V1
-    D3 --> V1
+### 📊 **Authoritative Data**
 
-    V1 -->|Authoritative| SCORE1[Score: +3]
-    V1 -->|Peer Reviewed| SCORE2[Score: +2]
-    V1 -->|Multi-Source| SCORE3[Score: +2]
+- **13 Data Sources** across 100+ years
+- **Library science methodology** (8 dimensions)
+- **Government agencies** + verified databases
+- **TypeScript automation** with Bun runtime
+- **Full documentation** for every dataset
+- **Free APIs** with excellent access
+- **Human wellbeing indicators** beyond GDP
+- **Real-time** to annual update frequencies
 
-    SCORE1 --> FINAL[Final Rating: 7/10 - Highly Credible]
-    SCORE2 --> FINAL
-    SCORE3 --> FINAL
-
-    A2[Argument: Policy Y Ineffective] --> Q2{Quality Check}
-    Q2 --> D4[Data: Blog Post]
-    Q2 --> D5[Data: Opinion Article]
-
-    D4 --> V2{Verification}
-    D5 --> V2
-
-    V2 -->|Anecdotal| SCORE4[Score: -2]
-    V2 -->|No Peer Review| SCORE5[Score: -1]
-
-    SCORE4 --> FINAL2[Final Rating: 2/10 - Weak]
-    SCORE5 --> FINAL2
-
-    style FINAL fill:#4ecdc4
-    style FINAL2 fill:#ff6b6b
-```
-
-</details>
-
-<details>
-<summary><strong>🌐 Full System Integration</strong></summary>
-
-```mermaid
-graph TB
-    subgraph "TELOS Framework"
-        TG[Goals]
-        TS[Strategies]
-        TC[Challenges]
-        TM[Metrics]
-    end
-
-    subgraph "Substrate Core"
-        P[Problems]
-        SO[Solutions]
-        AR[Arguments]
-        CL[Claims]
-        PL[Plans]
-    end
-
-    subgraph "Data Layer"
-        D1[US GDP Data]
-        D2[Inflation Data]
-        D3[Health Data]
-        D4[Public Records]
-        D5[Corporate Data]
-    end
-
-    subgraph "Entities"
-        OR[Organizations]
-        PE[People]
-        PR[Projects]
-        FU[Funding]
-    end
-
-    TG -.-> P
-    TS -.-> SO
-    TC -.-> D3
-    TM -.-> PL
-
-    P --> SO
-    P --> D3
-    SO --> AR
-    AR --> CL
-    CL --> D1
-    CL --> D2
-
-    SO --> PL
-    PL --> TM
-
-    OR --> PR
-    OR --> FU
-    PE --> OR
-    PE --> PL
-
-    D4 --> PE
-    D4 --> OR
-    D5 --> OR
-    D5 --> FU
-
-    AR --> D1
-    AR --> D2
-    AR --> D3
-    AR --> D4
-
-    style TG fill:#ffe66d
-    style P fill:#ff6b6b
-    style D1 fill:#95e1d3
-    style OR fill:#f38181
-```
-
-</details>
-
-**How Mappings Happen:**
-
-Substrate provides structured components—the rest happens automatically through:
-
-1. **Human Curation** - Users explicitly link problems to solutions, claims to data
-2. **AI Analysis** - Language models scan components and suggest relationships
-3. **Pattern Recognition** - Algorithms detect recurring connections across entities
-4. **Collaborative Discovery** - Multiple users find and validate the same linkages
-5. **Automated Inference** - Systems propose connections based on shared attributes
-
-You contribute the pieces. Your AI helps map them. The knowledge graph grows organically.
-
-**Future Capabilities:**
-- Real-time link discovery across new data sources
-- Automated pattern detection for investigative workflows
-- Interactive graph visualization for exploring connections
-- API access for programmatic queries across linked entities
-- Machine learning to suggest relevant connections based on context
-- Confidence scoring for AI-suggested mappings
-
-### History
-
-Substrate was launched in **July 2024** with a vision to create shared infrastructure for human knowledge. The project began with 17 core object types (Problems, Solutions, Ideas, Plans, Values, Models, Arguments, Claims, etc.) and has grown through community contributions and a major data infrastructure initiative in October 2025.
-
-**Mission:** Build a trusted foundation of ground-truth data and structured knowledge to support human understanding and progress.
-
-<details>
-<summary><strong>🎬 Watch Introduction Video</strong></summary>
-
-<br/>
-
-<div align="center">
-<a href="https://www.youtube.com/watch?v=ky7ejowc_qY">
-  <img src="https://img.youtube.com/vi/ky7ejowc_qY/0.jpg" alt="Watch the Substrate Intro Video" width="500">
-</a>
-</div>
-
-</details>
-
-**Blog Post:** [Introducing Substrate](https://danielmiessler.com/p/introducing-substrate)
+</td>
+</tr>
+</table>
 
 ---
 
-## 🚀 Recent Updates
+## 🚀 What's New
 
-> [!IMPORTANT]
-> **🔥 October 2025:** Major data infrastructure upgrade complete!
+> [!TIP]
+> **October 2025 - Massive Data Expansion!**
 >
-> - 5 authoritative datasets added (1,700+ data points)
-> - Library science methodology implementation
-> - TypeScript automation with Bun runtime
-> - Comprehensive documentation suite
+> We just added **8 authoritative data sources** measuring human wellbeing beyond traditional economic metrics. Now track financial stress, health crises, social connection, worker agency, and environmental health.
 
 <details>
-<summary><strong>📅 View detailed changelog</strong></summary>
+<summary><strong>📅 Latest Updates (Click to expand)</strong></summary>
 
-### Recent Changes
+### 🔥 October 27, 2025 - Human Wellbeing Infrastructure
 
-**2025-10-25 - Dataset Updates**
-- ✅ Pulitzer Prize, GDP, and inflation data refreshed
+**5 NEW US Wellbeing Data Sources:**
+
+| Added | Source | What It Measures |
+|-------|--------|------------------|
+| 🆕 | **DS-00004** FRED Economic Wellbeing | Debt stress, unemployment, inequality |
+| 🆕 | **DS-00005** CDC WONDER Mortality | Overdoses, suicides, deaths of despair |
+| 🆕 | **DS-00006** Census ACS Social | Living alone, commute times, isolation |
+| 🆕 | **DS-00007** BLS JOLTS Labor | Worker "permission to quit" index |
+| 🆕 | **DS-00008** EPA Air Quality | PM2.5, ozone, environmental health |
+
+**Why This Matters:**
+> "If we measure only GDP and unemployment, we will miss the slow-motion collapse of human thriving happening in plain sight."
+
+These sources capture:
+- 💰 **Leading indicators** - Financial stress predicts recessions
+- 🎭 **Behavioral truth** - Actions reveal what surveys miss
+- 🏗️ **Structural determinants** - Air quality you can't "self-care" out of
+- 🚨 **Crisis detection** - County-level suffering visibility
+- 🆓 **Worker agency** - Quit rate = economic freedom measure
+
+### October 25, 2025 - Core Data Updates
+- ✅ Pulitzer Prize, GDP, inflation data refreshed
 - ✅ Knowledge Worker Salaries validation completed
 
-**2025-10-18 - New Dataset**
-- 🆕 Knowledge Worker Global Compensation added
-
-**2025-10-16 - Infrastructure**
+### October 16-18, 2025 - Infrastructure
 - 🏗️ Library science methodology (8-dimension evaluation)
 - ⚡ TypeScript automation with auto-discovery
 - 📊 Central logging and health monitoring
-- 📚 Documentation suite (Getting Started, Technical Summary, Quick Reference)
+- 📚 Complete documentation suite
 
-**2025-10-07 - Major Datasets**
-- 🆕 Pulitzer Prize Winners (1918-2024, 249 winners)
-- 🆕 Bay Area COVID Wastewater (161 weeks, 2022-2025)
-
-**2025-10-06 - Automation & Data**
-- 🤖 GitHub Actions workflows (Code Review, PR Assistant)
-- 🆕 U.S. Inflation dataset (945 months, 1947-2025)
-
-**2024-09 - Community**
-- 📝 Claims, Arguments, and Values frameworks established
-- 🌍 Multiple community contributions
-
-**2024-07 - Foundation**
-- 🏗️ Single-repo structure
-- 🚀 Public launch
-
-### Project Stats (2025-10-27)
-
-**Data:** 5 datasets • 1,700+ points • 107-year span (1918-2025)
-
-**Infrastructure:** TypeScript automation • Library science framework • GitHub Actions
-
-**Community:** 6+ contributors • 10+ merged PRs • 17 object types
-
-**Docs:** 8,000+ lines markdown • 25+ documentation files
-
-**[→ Full update history](./UPDATES.md)**
+**[→ View Full Changelog](./UPDATES.md)**
 
 </details>
 
 ---
 
-## 📊 Data Directory
+## 📊 Data & Evidence
 
-Substrate includes **13 authoritative data sources** with comprehensive coverage of human wellbeing and progress:
+> [!NOTE]
+> All data sources include **complete library science cataloging** with 8-dimension evaluation: Authority, Currency, Objectivity, Accuracy, Methodology, Coverage, Reliability, and Provenance.
 
-### Core Datasets (Data/)
-| Dataset | Coverage | Data Points | Source |
-|---------|----------|-------------|--------|
-| **US-GDP** | 1929-2025 | 96 years annual<br>314 quarters | FRED/BEA |
-| **US-Inflation** | 1947-2025 | 945 months | FRED/BLS |
-| **Bay Area COVID Wastewater** | 2022-2025 | 161 weeks | CDPH |
-| **Pulitzer Prize Winners** | 1918-2024 | 249 winners | Wikidata |
-| **Knowledge Worker Salaries** | Global | Multi-region | Research |
+### **Core Datasets** (`Data/`)
 
-### Wellbeing Data Sources (Data-Sources/) 🆕
+| Dataset | Time Span | Data Points | Source | Status |
+|---------|-----------|-------------|--------|--------|
+| 🇺🇸 **US GDP** | 1929-2025 | 96 years + 314 quarters | FRED/BEA | ✅ Active |
+| 💵 **US Inflation** | 1947-2025 | 945 months | FRED/BLS | ✅ Active |
+| 🦠 **Bay Area COVID Wastewater** | 2022-2025 | 161 weeks | CDPH | ✅ Active |
+| 🏆 **Pulitzer Prize Winners** | 1918-2024 | 249 winners | Wikidata | ✅ Active |
+| 💼 **Knowledge Worker Salaries** | Global | Multi-region | Research | ✅ Active |
 
-**Global Health & Development:**
-| Source ID | Name | Coverage | Update Frequency |
-|-----------|------|----------|------------------|
-| **DS-00001** | WHO Global Health Observatory | 194 countries, 2000+ indicators | Quarterly |
-| **DS-00002** | UN SDG Indicators | 193 countries, 231 indicators | Biannual |
-| **DS-00003** | World Bank Open Data | Global development | Varies |
+### **Wellbeing Data Sources** (`Data-Sources/`) 🆕
 
-**US Human Wellbeing Indicators (October 2025):**
-| Source ID | Name | Key Indicators | Update Frequency |
-|-----------|------|----------------|------------------|
-| **DS-00004** | FRED Economic Wellbeing | Debt, unemployment, consumer sentiment, inequality | Weekly-Annual |
-| **DS-00005** | CDC WONDER Mortality | Drug overdoses, suicides, deaths of despair | Annual |
-| **DS-00006** | Census ACS Social Wellbeing | Living alone, commute times, digital divide | Annual |
-| **DS-00007** | BLS JOLTS Labor Market | Quit rate (worker agency), job openings | Monthly |
-| **DS-00008** | EPA Air Quality System | PM2.5, ozone, environmental health | Real-time |
+<details>
+<summary><strong>🌍 Global Health & Development (Click to expand)</strong></summary>
 
-**Why Wellbeing Data Matters:**
+| ID | Name | Coverage | Indicators | Update |
+|----|------|----------|------------|--------|
+| **DS-00001** | [WHO Global Health Observatory](./Data-Sources/DS-00001—WHO_Global_Health_Observatory/) | 194 countries | 2,000+ health indicators | Quarterly |
+| **DS-00002** | [UN SDG Indicators](./Data-Sources/DS-00002—UN_SDG_Indicators/) | 193 countries | 231 SDG targets | Biannual |
+| **DS-00003** | [World Bank Open Data](./Data-Sources/DS-00003—World_Bank_Open_Data/) | Global | Development metrics | Varies |
 
-These sources measure **the actual state of people** beyond GDP and traditional economic metrics:
+</details>
 
-- **Leading Indicators** - Overdoses and financial stress precede economic decline
-- **Behavioral Truth** - Actions (quit rates, debt delinquency) reveal reality surveys miss
-- **Structural Determinants** - Air quality and commute times constrain flourishing
-- **Crisis Detection** - County-level data shows which communities are suffering
-- **Worker Agency** - "Permission to quit" measures economic freedom and dignity
+<details open>
+<summary><strong>🇺🇸 US Human Wellbeing (October 2025)</strong></summary>
 
-> "If we measure only GDP and unemployment, we will miss the slow-motion collapse of human thriving happening in plain sight."
+<table>
+<tr>
+<th width="15%">Source</th>
+<th width="35%">Key Indicators</th>
+<th width="30%">Why It Matters</th>
+<th width="20%">Update Freq</th>
+</tr>
 
-**[→ Wellbeing Data Guide](./Data-Sources/WELLBEING_DATA_SOURCES.md)** | **[→ Explore Data Directory](./Data/README.md)**
+<tr>
+<td><strong>DS-00004</strong><br/><a href="./Data-Sources/DS-00004—FRED_Economic_Wellbeing/">FRED Economic</a></td>
+<td>
+• Debt service ratio<br/>
+• Credit card delinquency<br/>
+• Financial stress index<br/>
+• Underemployment (U-6)<br/>
+• Consumer sentiment<br/>
+• GINI inequality
+</td>
+<td>💰 <strong>Economic Security Foundation</strong><br/>Debt >12% = stress, >14% = crisis. Leading indicator of recession.</td>
+<td>Weekly to Annual</td>
+</tr>
 
-**Data Quality:**
-- ✅ Library science methodology with 8-dimension source evaluation
-- ✅ Authoritative sources only (government agencies, verified databases)
-- ✅ Complete documentation and methodology for each dataset
-- ✅ TypeScript automation with quality assurance
-- ✅ Free access with excellent APIs
+<tr>
+<td><strong>DS-00005</strong><br/><a href="./Data-Sources/DS-00005—CDC_WONDER_Mortality/">CDC WONDER</a></td>
+<td>
+• Drug overdose deaths<br/>
+• Opioid-specific deaths<br/>
+• Suicide rates<br/>
+• All-cause mortality
+</td>
+<td>🚨 <strong>Crisis Detection</strong><br/>Deaths of despair reveal community breakdown surveys miss. County-level visibility.</td>
+<td>Annual (1-2yr lag)</td>
+</tr>
+
+<tr>
+<td><strong>DS-00006</strong><br/><a href="./Data-Sources/DS-00006—Census_ACS_Social_Wellbeing/">Census ACS</a></td>
+<td>
+• Living alone (isolation)<br/>
+• Commute times (time poverty)<br/>
+• No internet (digital divide)<br/>
+• Household demographics
+</td>
+<td>🤝 <strong>Social Connection</strong><br/>Structural isolation and time poverty constrain flourishing. Census tract granularity.</td>
+<td>Annual</td>
+</tr>
+
+<tr>
+<td><strong>DS-00007</strong><br/><a href="./Data-Sources/DS-00007—BLS_JOLTS_Labor_Market/">BLS JOLTS</a></td>
+<td>
+• <strong>Quit rate</strong> (worker agency)<br/>
+• Job openings<br/>
+• Hire rate<br/>
+• Layoff/discharge rate
+</td>
+<td>🆓 <strong>"Permission to Quit"</strong><br/>People only quit when they have options. Measures economic freedom and dignity.</td>
+<td>Monthly</td>
+</tr>
+
+<tr>
+<td><strong>DS-00008</strong><br/><a href="./Data-Sources/DS-00008—EPA_Air_Quality_System/">EPA Air Quality</a></td>
+<td>
+• PM2.5 (particulate matter)<br/>
+• Ozone (O3)<br/>
+• SO2, CO, NO2<br/>
+• AQI exceedances
+</td>
+<td>🌫️ <strong>Environmental Health</strong><br/>You can't "self-care" out of breathing toxic air. Structural wellbeing constraint.</td>
+<td>Real-time</td>
+</tr>
+
+</table>
+
+</details>
+
+### **Composite Wellbeing Indices**
+
+> [!TIP]
+> Combine multiple data sources to create powerful wellbeing metrics:
+
+- 💸 **Financial Stress Composite** - Debt + delinquency + evictions + stress index
+- 🚨 **Crisis Alert Composite** - Overdoses + suicides + long-term unemployment
+- 🤝 **Community Health Composite** - Living alone + commute + digital divide (inverted)
+- 🆓 **Worker Agency Index** - Quit rate + job openings / unemployment
+- 🌫️ **Environmental Health Index** - PM2.5 + ozone (inverted)
+
+**[→ Wellbeing Implementation Guide](./Data-Sources/WELLBEING_DATA_SOURCES.md)** | **[→ Data Directory](./Data/README.md)**
+
+---
+
+## 🤖 Human & AI Collaboration
+
+> **Substrate provides the pieces. You and your AI create the connections.**
+
+<table>
+<tr>
+<td width="50%">
+
+### 👤 **Humans Contribute**
+
+- Document problems and solutions
+- Add authoritative data sources
+- Create arguments and claims
+- Link entities explicitly
+- Validate AI suggestions
+- Rate quality of evidence
+
+</td>
+<td width="50%">
+
+### 🤖 **AI Analyzes**
+
+- Scan thousands of components
+- Suggest relationships automatically
+- Detect patterns across datasets
+- Score argument quality
+- Find contradictions
+- Generate knowledge graphs
+
+</td>
+</tr>
+</table>
+
+**Everything is designed for dual consumption:**
+- ✅ **Human-readable** - Markdown and CSV anyone can open
+- ✅ **Machine-parseable** - Consistent formats AI can query
+- ✅ **Fully documented** - Complete methodology for every dataset
+- ✅ **Linked with IDs** - Unambiguous entity references
+
+### Use Cases
+
+<details>
+<summary><strong>🔍 OSINT & Investigation</strong></summary>
+
+- Cross-reference public records, corporate filings, government data
+- Link people → organizations → transactions → policies
+- Surface connections invisible in isolated databases
+- Build evidence chains from claims to verifiable records
+- Pattern detection for fraud, corruption, illicit networks
+
+</details>
+
+<details>
+<summary><strong>📊 Research & Analysis</strong></summary>
+
+- Track claims against authoritative data sources
+- Evaluate argument quality based on evidence backing
+- Compare solutions across different implementations
+- Measure progress toward stated goals with real metrics
+- Cross-correlate economic, health, social, environmental data
+
+</details>
+
+<details>
+<summary><strong>🌐 Public Accountability</strong></summary>
+
+- Verify political claims against documented evidence
+- Track campaign promises → policy outcomes → measured results
+- Link donations → voting records → policy positions
+- Monitor government spending against stated objectives
+- Environmental justice analysis (who breathes toxic air?)
+
+</details>
+
+---
+
+## 🚀 Quick Start
+
+### **View the Data** (No Installation Required)
+
+All datasets are available as **CSV and Markdown files** you can browse directly:
+
+```bash
+# Clone the repository
+git clone https://github.com/danielmiessler/Substrate.git
+cd Substrate
+
+# Explore core datasets
+ls Data/*/
+
+# Explore wellbeing data sources
+ls Data-Sources/*/
+```
+
+### **Run the Automation** (Optional)
+
+> [!WARNING]
+> Requires [Bun](https://bun.sh) runtime. Install: `curl -fsSL https://bun.sh/install | bash`
+
+```bash
+# Install dependencies
+bun install
+
+# Update a specific dataset
+cd Data/US-GDP
+bun run update.ts
+
+# Update a wellbeing source (requires API key)
+export FRED_API_KEY="your_key_here"
+cd Data-Sources/DS-00004—FRED_Economic_Wellbeing
+bun run update.ts
+
+# Update all datasets
+bun run scripts/update-all.ts
+```
+
+### **Get API Keys** (Free)
+
+| Data Source | Get Key | Rate Limit |
+|-------------|---------|------------|
+| FRED Economic | [fred.stlouisfed.org/docs/api](https://fred.stlouisfed.org/docs/api/api_key.html) | 120 req/min |
+| Census ACS | [api.census.gov/data/key_signup](https://api.census.gov/data/key_signup.html) | 500 req/day |
+| EPA Air Quality | Email: aqs.support@epa.gov | 10 req/min |
+| BLS JOLTS | [bls.gov/developers/home](https://www.bls.gov/developers/home.htm) | 500 req/day |
+| CDC WONDER | No key required | Fair use |
+
+**[→ Complete Getting Started Guide](./GETTING_STARTED.md)** | **[→ Quick Reference](./QUICK_REFERENCE.md)**
+
+---
+
+## 💡 Contribute
+
+> [!IMPORTANT]
+> **Anyone can submit components.** No gatekeeping on ideas—just structured formats.
+
+### **What You Can Add**
+
+<table>
+<tr>
+<td width="33%">
+
+**📋 Problems**
+- Water quality issues
+- Healthcare access gaps
+- Climate change impacts
+
+**💡 Solutions**
+- Filtration systems
+- Telemedicine networks
+- Infrastructure adaptation
+
+**📈 Plans**
+- Political platforms
+- Policy proposals
+- Action roadmaps
+
+</td>
+<td width="33%">
+
+**🗣️ Arguments**
+- "This works because X, Y, Z"
+- "This failed due to A, B"
+- (We don't judge—community rates)
+
+**📊 Data**
+- Public records
+- Research datasets
+- Compiled statistics
+
+**💭 Ideas**
+- Theoretical frameworks
+- Novel measurement approaches
+- Conceptual models
+
+</td>
+<td width="33%">
+
+**👥 People & Orgs**
+- Researchers on problems
+- Organizations implementing
+- Projects with outcomes
+
+**📏 Metrics**
+- Success criteria
+- Measurement frameworks
+- Progress indicators
+
+**🎯 Values**
+- Guiding principles
+- Evaluation criteria
+
+</td>
+</tr>
+</table>
+
+### **How to Submit**
+
+1. **Fork the repository** on GitHub
+2. **Add your component** in the appropriate directory (`Problems/`, `Solutions/`, etc.)
+3. **Follow the format** in that directory's README
+4. **Submit a Pull Request**
+
+> [!NOTE]
+> We're building a **web interface** to make this easier for non-technical contributors!
+
+**[→ Contribution Guidelines](./GETTING_STARTED.md#contributing)**
 
 ---
 
 ## 📚 Documentation
 
-### Getting Started
-- **[Getting Started Guide](./GETTING_STARTED.md)** - Complete setup and usage
-- **[Quick Reference](./QUICK_REFERENCE.md)** - Command cheatsheet
-- **[Data Directory Guide](./Data/README.md)** - Data philosophy and standards
+<table>
+<tr>
+<td width="50%">
 
-### Technical
-- **[Project Summary](./PROJECT_SUMMARY.md)** - Architecture overview
-- **[Library Science Framework](./Data/README-LIBRARY-SCIENCE.md)** - Methodology
-- **[Migration Guide](./Data/MIGRATION-GUIDE.md)** - Structure changes
+### **Getting Started**
 
-### Updates & Changes
-- **[UPDATES.md](./UPDATES.md)** - Complete project changelog
-- **[Data Updates](./Data/UPDATES.md)** - Dataset-specific logs
-- Individual dataset update logs in `Data/*/UPDATES.md`
+- 📖 [**Getting Started Guide**](./GETTING_STARTED.md) - Complete setup walkthrough
+- ⚡ [**Quick Reference**](./QUICK_REFERENCE.md) - Command cheatsheet
+- 📊 [**Data Directory**](./Data/README.md) - Data philosophy & standards
+- 🎯 [**Wellbeing Data Guide**](./Data-Sources/WELLBEING_DATA_SOURCES.md) - Implementation details
 
----
+</td>
+<td width="50%">
 
-## How to Contribute
+### **Technical**
 
-Contribute by submitting PRs to modify Substrate object files in directories like `Problems/`, `Solutions/`, `Ideas/`, etc.
+- 🏗️ [**Project Summary**](./PROJECT_SUMMARY.md) - Architecture overview
+- 📚 [**Library Science Framework**](./Data/README-LIBRARY-SCIENCE.md) - 8-dimension methodology
+- 🔄 [**Migration Guide**](./Data/MIGRATION-GUIDE.md) - Structure changes
+- 📝 [**UPDATES.md**](./UPDATES.md) - Complete changelog
 
-**Contributing Datasets:**
-- See **[Data/README.md](./Data/README.md)** for data quality standards
-- Follow **[Getting Started Guide](./GETTING_STARTED.md)** for step-by-step instructions
-
-**Note:** We're developing a web-based contribution interface for non-coders.
-
-> [!NOTE]
-> **July 27, 2024** — We moved to a single-repo structure to make the project easier to manage.
+</td>
+</tr>
+</table>
 
 ---
 
-## Roadmap
+## 🗺️ Roadmap
 
-### ✅ Completed
+### ✅ **Completed**
 
-**Phase 1: Foundation (July 2024)**
-- Single-repo structure with 17+ object types
-- Core framework and documentation
-- Public launch
+<details>
+<summary><strong>Phase 1: Foundation (July 2024)</strong></summary>
 
-**Phase 2: Community (Aug-Sep 2024)**
-- Community contributions and frameworks
-- Claims, Arguments, and Values established
+- ✅ Single-repo structure with 17+ object types
+- ✅ Core framework and documentation
+- ✅ Public launch with initial datasets
+- ✅ Community contribution framework
 
-**Phase 3: Data Infrastructure (Oct 2025)**
-- 13 authoritative data sources (5 core datasets + 8 wellbeing sources)
-- Library science methodology with 8-dimension evaluation
-- TypeScript automation system
-- Comprehensive documentation
-- **NEW:** Human wellbeing indicators (economic, health, social, labor, environmental)
+</details>
 
-### 🚧 Planned
+<details>
+<summary><strong>Phase 2: Community (Aug-Sep 2024)</strong></summary>
 
-**Phase 4: Enhanced Access**
-- Web-based contribution interface
-- Interactive visualizations
-- RESTful API
+- ✅ Claims, Arguments, and Values frameworks
+- ✅ 6+ community contributors
+- ✅ 10+ merged pull requests
+- ✅ TELOS integration
 
-**Phase 5: Dataset Expansion**
-- Additional authoritative datasets (UNICEF, OECD, IHME)
-- Real-time data feeds
-- Community-driven requests
+</details>
 
-**Phase 6: Advanced Features**
-- Machine-readable catalog (DCAT/CKAN)
-- Automated quality scoring
-- Email/Slack notifications
+<details open>
+<summary><strong>Phase 3: Data Infrastructure (Oct 2025) 🔥</strong></summary>
+
+- ✅ **13 authoritative data sources** (5 core + 8 wellbeing)
+- ✅ **Library science methodology** (8-dimension evaluation)
+- ✅ **TypeScript automation system** with Bun runtime
+- ✅ **6,000+ lines of documentation** across all sources
+- ✅ **Comprehensive wellbeing indicators** (economic, health, social, labor, environmental)
+- ✅ **Free API access** with rate limiting and retry logic
+
+</details>
+
+### 🚧 **Planned**
+
+**Phase 4: Enhanced Access** (Q4 2025 - Q1 2026)
+- 🎨 Web-based contribution interface (no coding required)
+- 📊 Interactive data visualizations
+- 🔌 RESTful API for programmatic access
+- 📱 Mobile-friendly exploration
+
+**Phase 5: Dataset Expansion** (2026)
+- 🌍 Additional international sources (UNICEF, OECD, IHME)
+- ⚡ Real-time data feeds integration
+- 🗳️ Community-driven dataset requests
+- 🤝 Partnerships with research institutions
+
+**Phase 6: Intelligence Layer** (2026+)
+- 🤖 Automated relationship discovery
+- 📈 Confidence scoring for AI-suggested links
+- 🎯 Pattern detection algorithms
+- 🔔 Email/Slack notifications for data updates
+- 📚 Machine-readable catalog (DCAT/CKAN compliance)
 
 ---
 
-## Meta
+## 🔗 Integration with TELOS
 
-### Special Thanks
+> **Substrate** provides evidence. **[TELOS](https://github.com/danielmiessler/Telos)** provides intention.
+
+<table>
+<tr>
+<th width="50%">TELOS (Goals & Strategy)</th>
+<th width="50%">Substrate (Evidence & Solutions)</th>
+</tr>
+<tr>
+<td>
+
+- **Goals** - What you want to achieve
+- **Strategies** - How you'll pursue it
+- **Challenges** - Obstacles you face
+- **Metrics** - Progress tracking
+
+</td>
+<td>
+
+- **Problems** - What stands in the way
+- **Solutions** - Proven approaches
+- **Data** - Measured evidence
+- **Plans** - Implementation roadmaps
+
+</td>
+</tr>
+</table>
+
+**Together:** Complete system for intention + evidence-based action.
+
+---
+
+## 🎬 Media
+
+<details>
+<summary><strong>📺 Watch Introduction Video</strong></summary>
+
+<br/>
+
+<div align="center">
+<a href="https://www.youtube.com/watch?v=ky7ejowc_qY">
+  <img src="https://img.youtube.com/vi/ky7ejowc_qY/0.jpg" alt="Substrate Introduction" width="600">
+</a>
+</div>
+
+**[→ Read Blog Post: Introducing Substrate](https://danielmiessler.com/p/introducing-substrate)**
+
+</details>
+
+---
+
+## 🙏 Credits
+
+### **Created By**
+
+**[Daniel Miessler](https://danielmiessler.com)** • July 2024
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/danielmiessler?style=social)](https://twitter.com/danielmiessler)
+[![Newsletter](https://img.shields.io/badge/Newsletter-Subscribe-blue)](https://danielmiessler.com/subscribe)
+
+### **Special Thanks**
 
 **Inspiration & Contributions:**
-- _Jonathan Dunn_ - Similar goals and collaboration
-- _Joel Parish_ - Structure wisdom
-- _Joseph Thacker_ - Continuous flow of ideas
+- **Jonathan Dunn** [@xssdoctor](https://github.com/xssdoctor) - Similar vision and collaboration
+- **Joel Parish** - Structure wisdom and guidance
+- **Joseph Thacker** - Continuous flow of innovative ideas
 
-### Primary Contributors
+**Community Contributors:**
 
-<a href="https://github.com/xssdoctor"><img src="https://avatars.githubusercontent.com/u/9218431?v=4" title="Jonathan Dunn" width="50" height="50"></a>
-
-### Community Contributors
-
-Special thanks to all contributors: @ThatNateGuy, @JaymanW, @karai114, @DesertEaglePWN, @ktfth
-
-### Created By
-
-`Substrate` was created by <a href="https://danielmiessler.com/subscribe" target="_blank">Daniel Miessler</a> in July 2024.
-
-<a href="https://twitter.com/intent/user?screen_name=danielmiessler">![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/danielmiessler)</a>
+[@ThatNateGuy](https://github.com/ThatNateGuy) • [@JaymanW](https://github.com/JaymanW) • [@karai114](https://github.com/karai114) • [@DesertEaglePWN](https://github.com/DesertEaglePWN) • [@ktfth](https://github.com/ktfth)
 
 ---
 
 <div align="center">
 
-**[↑ Back to Top](#substrate)**
+### **📊 Repository Stats**
+
+**Data:** 13 sources • 1,700+ data points • 107-year span (1918-2025)
+
+**Code:** TypeScript automation • 6,000+ lines documentation • GitHub Actions
+
+**Community:** 6+ contributors • 10+ PRs merged • 17 object types
+
+---
+
+**[⬆ Back to Top](#substrate)**
+
+<sub>Built with ❤️ for human understanding and progress</sub>
+
+<sub>Powered by [TypeScript](https://www.typescriptlang.org/) • [Bun](https://bun.sh) • Open Data</sub>
 
 </div>
