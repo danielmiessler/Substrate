@@ -704,4 +704,10 @@ bun run scripts/update-all.ts
 
 <sub>Powered by [TypeScript](https://www.typescriptlang.org/) • [Bun](https://bun.sh) • Open Data</sub>
 
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=danielmiessler/Substrate&type=Date)](https://star-history.com/#danielmiessler/Substrate&Date)
+
 </div>
