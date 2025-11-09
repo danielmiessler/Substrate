@@ -686,6 +686,12 @@ bun run scripts/update-all.ts
 
 ---
 
+## 📄 License
+
+MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
 <div align="center">
 
 ### **📊 Repository Stats**
