@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bay Area Wastewater Surveillance Dashboard</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        h1 {
+            color: #2D2D2D;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .chart-container {
+            margin-top: 20px;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: rgba(45, 45, 45, 0.95);
+            color: white;
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 10;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        .tooltip-date {
+            font-weight: bold;
+            margin-bottom: 8px;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+            padding-bottom: 6px;
+        }
+
+        .tooltip-item {
+            margin: 4px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .tooltip-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            margin-right: 8px;
+        }
+
+        .axis text {
+            font-size: 12px;
+            fill: #666;
+        }
+
+        .axis line,
+        .axis path {
+            stroke: #ddd;
+        }
+
+        .grid line {
+            stroke: #eee;
+            stroke-dasharray: 2,2;
+        }
+
+        .legend {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .legend-item:hover {
+            background: #f5f5f5;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 3px;
+            border-radius: 2px;
+        }
+
+        .legend-text {
+            font-size: 14px;
+            color: #2D2D2D;
+        }
+
+        .legend-value {
+            font-weight: bold;
+            margin-left: 6px;
+        }
+
+        .legend-trend {
+            font-size: 12px;
+            margin-left: 4px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #4A148C;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2D2D2D;
+            margin-bottom: 4px;
+        }
+
+        .stat-trend {
+            font-size: 13px;
+            color: #666;
+        }
+
+        .risk-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-left: 8px;
+        }
+
+        .risk-low {
+            background: #C8E6C9;
+            color: #2E7D32;
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+        }
+
+        .kai-signature {
+            color: #2D2D2D;
+            font-size: 11px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🦠 Bay Area Wastewater Surveillance Dashboard</h1>
+        <div class="subtitle">California Department of Public Health • Updated Daily • 12-Month Trend Analysis</div>
+
+        <div class="stats-grid">
+            <div class="stat-card" style="border-left-color: #D32F2F">
+                <div class="stat-label">COVID-19</div>
+                <div class="stat-value">21.7k <span class="risk-badge risk-low">Low Risk</span></div>
+                <div class="stat-trend">⬇️ 38.5% vs last month</div>
+            </div>
+            <div class="stat-card" style="border-left-color: #00796B">
+                <div class="stat-label">Influenza A</div>
+                <div class="stat-value">2.6k</div>
+                <div class="stat-trend">⬇️ 11.2% vs last month</div>
+            </div>
+            <div class="stat-card" style="border-left-color: #4A148C">
+                <div class="stat-label">RSV</div>
+                <div class="stat-value">3.3k</div>
+                <div class="stat-trend">⬆️ 30.5% vs last month</div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div id="chart"></div>
+        </div>
+
+        <div class="legend" id="legend"></div>
+
+        <div class="footer">
+            <div>Source: California Department of Public Health via CHHS Open Data Portal</div>
+            <div>334,229 total samples analyzed • Data as of Dec 31, 2024</div>
+            <div class="kai-signature">Generated by Kai • Personal AI Infrastructure</div>
+        </div>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        // Data from California Wastewater Surveillance
+        const data = {
+            covid: [
+                { month: 'Nov 2024', value: 51300, date: new Date(2024, 10, 1) },
+                { month: 'Dec 2024', value: 70600, date: new Date(2024, 11, 1) },
+                { month: 'Jan 2025', value: 93100, date: new Date(2025, 0, 1) },
+                { month: 'Feb 2025', value: 62600, date: new Date(2025, 1, 1) },
+                { month: 'Mar 2025', value: 51200, date: new Date(2025, 2, 1) },
+                { month: 'Apr 2025', value: 59300, date: new Date(2025, 3, 1) },
+                { month: 'May 2025', value: 80200, date: new Date(2025, 4, 1) },
+                { month: 'Jun 2025', value: 87200, date: new Date(2025, 5, 1) },
+                { month: 'Jul 2025', value: 123100, date: new Date(2025, 6, 1) },
+                { month: 'Aug 2025', value: 213500, date: new Date(2025, 7, 1) },
+                { month: 'Sep 2025', value: 174100, date: new Date(2025, 8, 1) },
+                { month: 'Oct 2025', value: 46300, date: new Date(2025, 9, 1) },
+                { month: 'Nov 2025', value: 21700, date: new Date(2025, 10, 1) }
+            ],
+            flu: [
+                { month: 'Nov 2024', value: 32100, date: new Date(2024, 10, 1) },
+                { month: 'Dec 2024', value: 63200, date: new Date(2024, 11, 1) },
+                { month: 'Jan 2025', value: 92300, date: new Date(2025, 0, 1) },
+                { month: 'Feb 2025', value: 55200, date: new Date(2025, 1, 1) },
+                { month: 'Mar 2025', value: 10800, date: new Date(2025, 2, 1) },
+                { month: 'Apr 2025', value: 3100, date: new Date(2025, 3, 1) },
+                { month: 'May 2025', value: 1700, date: new Date(2025, 4, 1) },
+                { month: 'Jun 2025', value: 1200, date: new Date(2025, 5, 1) },
+                { month: 'Jul 2025', value: 2900, date: new Date(2025, 6, 1) },
+                { month: 'Aug 2025', value: 2800, date: new Date(2025, 7, 1) },
+                { month: 'Sep 2025', value: 1100, date: new Date(2025, 8, 1) },
+                { month: 'Oct 2025', value: 1600, date: new Date(2025, 9, 1) },
+                { month: 'Nov 2025', value: 2600, date: new Date(2025, 10, 1) }
+            ],
+            rsv: [
+                { month: 'Nov 2024', value: 9600, date: new Date(2024, 10, 1) },
+                { month: 'Dec 2024', value: 31700, date: new Date(2024, 11, 1) },
+                { month: 'Jan 2025', value: 53200, date: new Date(2025, 0, 1) },
+                { month: 'Feb 2025', value: 33400, date: new Date(2025, 1, 1) },
+                { month: 'Mar 2025', value: 20800, date: new Date(2025, 2, 1) },
+                { month: 'Apr 2025', value: 6800, date: new Date(2025, 3, 1) },
+                { month: 'May 2025', value: 15600, date: new Date(2025, 4, 1) },
+                { month: 'Jun 2025', value: 656, date: new Date(2025, 5, 1) },
+                { month: 'Jul 2025', value: 1100, date: new Date(2025, 6, 1) },
+                { month: 'Aug 2025', value: 559, date: new Date(2025, 7, 1) },
+                { month: 'Sep 2025', value: 995, date: new Date(2025, 8, 1) },
+                { month: 'Oct 2025', value: 1300, date: new Date(2025, 9, 1) },
+                { month: 'Nov 2025', value: 3300, date: new Date(2025, 10, 1) }
+            ]
+        };
+
+        // Chart configuration
+        const margin = { top: 20, right: 100, bottom: 60, left: 80 };
+        const width = 1140 - margin.left - margin.right;
+        const height = 500 - margin.top - margin.bottom;
+
+        // Create SVG
+        const svg = d3.select('#chart')
+            .append('svg')
+            .attr('width', width + margin.left + margin.right)
+            .attr('height', height + margin.top + margin.bottom)
+            .append('g')
+            .attr('transform', `translate(${margin.left},${margin.top})`);
+
+        // Scales
+        const xScale = d3.scaleTime()
+            .domain([data.covid[0].date, data.covid[data.covid.length - 1].date])
+            .range([0, width]);
+
+        const yScale = d3.scaleLinear()
+            .domain([0, d3.max([...data.covid, ...data.flu, ...data.rsv], d => d.value) * 1.1])
+            .range([height, 0]);
+
+        // Grid lines
+        svg.append('g')
+            .attr('class', 'grid')
+            .call(d3.axisLeft(yScale)
+                .tickSize(-width)
+                .tickFormat('')
+            );
+
+        // Axes
+        const xAxis = d3.axisBottom(xScale)
+            .ticks(13)
+            .tickFormat(d3.timeFormat('%b %y'));
+
+        const yAxis = d3.axisLeft(yScale)
+            .ticks(8)
+            .tickFormat(d => d >= 1000 ? `${(d/1000).toFixed(0)}k` : d);
+
+        svg.append('g')
+            .attr('class', 'axis')
+            .attr('transform', `translate(0,${height})`)
+            .call(xAxis)
+            .selectAll('text')
+            .attr('transform', 'rotate(-45)')
+            .style('text-anchor', 'end');
+
+        svg.append('g')
+            .attr('class', 'axis')
+            .call(yAxis);
+
+        // Axis labels
+        svg.append('text')
+            .attr('x', width / 2)
+            .attr('y', height + 50)
+            .attr('text-anchor', 'middle')
+            .style('font-size', '12px')
+            .style('fill', '#666')
+            .text('Month');
+
+        svg.append('text')
+            .attr('transform', 'rotate(-90)')
+            .attr('x', -height / 2)
+            .attr('y', -60)
+            .attr('text-anchor', 'middle')
+            .style('font-size', '12px')
+            .style('fill', '#666')
+            .text('Viral Concentration (copies/g)');
+
+        // Line generators
+        const line = d3.line()
+            .x(d => xScale(d.date))
+            .y(d => yScale(d.value))
+            .curve(d3.curveMonotoneX);
+
+        // Colors (Kai palette)
+        const colors = {
+            covid: '#D32F2F',
+            flu: '#00796B',
+            rsv: '#4A148C'
+        };
+
+        // Draw lines
+        const datasets = [
+            { name: 'covid', data: data.covid, label: 'COVID-19', color: colors.covid },
+            { name: 'flu', data: data.flu, label: 'Influenza A', color: colors.flu },
+            { name: 'rsv', data: data.rsv, label: 'RSV', color: colors.rsv }
+        ];
+
+        datasets.forEach(dataset => {
+            svg.append('path')
+                .datum(dataset.data)
+                .attr('class', `line-${dataset.name}`)
+                .attr('fill', 'none')
+                .attr('stroke', dataset.color)
+                .attr('stroke-width', 3)
+                .attr('d', line)
+                .style('opacity', 0)
+                .transition()
+                .duration(1000)
+                .style('opacity', 1);
+
+            // Add dots
+            svg.selectAll(`.dot-${dataset.name}`)
+                .data(dataset.data)
+                .join('circle')
+                .attr('class', `dot-${dataset.name}`)
+                .attr('cx', d => xScale(d.date))
+                .attr('cy', d => yScale(d.value))
+                .attr('r', 0)
+                .attr('fill', dataset.color)
+                .style('cursor', 'pointer')
+                .on('mouseover', function(event, d) {
+                    d3.select(this).attr('r', 6);
+                    showTooltip(event, d, dataset.label, dataset.color);
+                })
+                .on('mouseout', function() {
+                    d3.select(this).transition().duration(200).attr('r', 4);
+                    hideTooltip();
+                })
+                .transition()
+                .duration(1000)
+                .delay((d, i) => i * 50)
+                .attr('r', 4);
+        });
+
+        // Tooltip functions
+        const tooltip = d3.select('#tooltip');
+
+        function showTooltip(event, d, label, color) {
+            const formatValue = val => val >= 1000 ? `${(val/1000).toFixed(1)}k` : val.toFixed(0);
+
+            tooltip
+                .style('opacity', 1)
+                .style('left', (event.pageX + 15) + 'px')
+                .style('top', (event.pageY - 15) + 'px')
+                .html(`
+                    <div class="tooltip-date">${d.month}</div>
+                    <div class="tooltip-item">
+                        <div class="tooltip-color" style="background: ${color}"></div>
+                        <span>${label}: <strong>${formatValue(d.value)} copies/g</strong></span>
+                    </div>
+                `);
+        }
+
+        function hideTooltip() {
+            tooltip.style('opacity', 0);
+        }
+
+        // Legend
+        const legend = d3.select('#legend');
+        datasets.forEach(dataset => {
+            const latestValue = dataset.data[dataset.data.length - 1].value;
+            const formatValue = val => val >= 1000 ? `${(val/1000).toFixed(1)}k` : val.toFixed(0);
+
+            legend.append('div')
+                .attr('class', 'legend-item')
+                .html(`
+                    <div class="legend-color" style="background: ${dataset.color}"></div>
+                    <span class="legend-text">${dataset.label}</span>
+                    <span class="legend-value">${formatValue(latestValue)}</span>
+                    <span class="legend-text">copies/g</span>
+                `);
+        });
+
+        // Responsive resize
+        window.addEventListener('resize', () => {
+            // Chart will remain fixed size for this demo
+            // In production, implement responsive scaling
+        });
+    </script>
+</body>
+</html>

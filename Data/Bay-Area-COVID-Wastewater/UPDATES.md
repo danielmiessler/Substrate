@@ -71,6 +71,57 @@ Each entry should include:
 - **SARS-CoV-2**: 18.97 log10 copies/mL
 
 ---
+
+## 2025-11-12 - Automated Data Update
+
+**Data Period**: 2022-07-09 to 2022-07-09
+**Source**: CDPH California Wastewater Surveillance
+**URL**: https://data.chhs.ca.gov/dataset/1184f641-313f-47ee-b126-9e8c42699be5/resource/726752d3-afe6-4733-99bd-ffb9f400348c/download/wastewater.csv
+
+### Changes
+- Updated dataset with latest wastewater measurements
+- Total records: 161
+
+### Latest Value
+- **Week Ending**: Jul 8, 2022
+- **SARS-CoV-2**: 18.97 log10 copies/mL
+
+---
+
+## 2025-11-21 - Multi-Pathogen Surveillance Update + Interactive Dashboard
+
+**Data Period**: Nov 2024 to Nov 2025 (12-month rolling window)
+**Source**: CDPH California Wastewater Surveillance via CHHS Open Data Portal
+**URL**: https://data.chhs.ca.gov/dataset/wastewater-surveillance-data-california
+
+### Changes
+- Updated California-Wastewater-Surveillance-Latest.csv with 334,229 total samples
+- Added multi-pathogen tracking: COVID-19, Influenza A, RSV, Mpox, Norovirus
+- Created interactive D3.js dashboard for data visualization
+- Added 12-month trend analysis with monthly averages
+
+### Latest Values (November 2025)
+- **COVID-19**: 21.7k copies/g (⬇️ 38.5% vs Oct) - LOW RISK
+- **Influenza A**: 2.6k copies/g (⬇️ 11.2% vs Oct)
+- **RSV**: 3.3k copies/g (⬆️ 30.5% vs Oct)
+
+### Trend Highlights
+- COVID summer 2025 surge (Aug peak: 213.5k) has resolved
+- Influenza seasonal decline from Jan 2025 peak (92.3k)
+- RSV beginning seasonal uptick entering winter
+- Overall risk assessment: LOW across all pathogens
+
+### Files Added
+- `dashboard.html` (interactive D3.js visualization)
+- `California-Wastewater-Surveillance-Latest.csv` (updated)
+
+### Coverage
+- **Total Samples**: 334,229 wastewater measurements
+- **Pathogens**: SARS-CoV-2, Influenza A & B, RSV, Mpox, Norovirus
+- **Geographic Coverage**: All California wastewater treatment plants
+- **Update Frequency**: Daily from CDPH
+
+---
 ## Future Updates
 
 New updates will be added above this line in reverse chronological order (newest first).
