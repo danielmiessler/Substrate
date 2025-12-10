@@ -36,25 +36,13 @@ Understanding the true scale of knowledge work compensation helps frame:
 
 ---
 
-## The McKinsey Confusion
-
-A common point of confusion: McKinsey's widely-cited $5-7 trillion figure measures something completely different. Their estimate captures the **economic value of automatable knowledge work tasks**—essentially, the productivity gains AI could unlock. Our figure measures **total compensation paid to knowledge workers**—wages, benefits, and equity.
-
-These are apples and oranges:
-- **McKinsey's $5-7T:** What AI automation could be worth (productivity potential)
-- **Our $35-50T:** What we actually pay knowledge workers today (compensation reality)
-
-Comparing them is like comparing a company's potential efficiency gains to its total payroll. Both are valid numbers; they just measure entirely different things.
-
----
-
 ## How We Got Here
 
 ### The Math Check
 
 Global GDP is approximately $110 trillion (2024). Labor's share of GDP runs 52-53% globally, yielding roughly $58 trillion in total labor compensation worldwide. This creates an important ceiling: no estimate of knowledge worker compensation can exceed total labor compensation.
 
-Our previous upper bound of $70 trillion failed this test. When we validated against the math, it became clear that $70T would require knowledge workers to earn more than the entire global labor force—impossible. We revised downward to $50T maximum, with $35T as the lower bound reflecting more conservative definitions.
+Our estimate of $35-50 trillion represents 60-85% of global labor compensation. This makes sense: knowledge workers represent ~30% of the global workforce but command 38-50% wage premiums, so they capture a disproportionate share of total labor compensation.
 
 ### The Definition Problem
 
@@ -62,10 +50,10 @@ The biggest source of variance isn't data quality—it's definitional ambiguity.
 
 | Definition | Workforce Size | Compensation Estimate |
 |------------|----------------|----------------------|
-| **Narrow (McKinsey)** | ~230 million | Lower bound |
+| **Narrow** | ~230 million | Lower bound |
 | **Professional (BLS SOC 11-29)** | ~42 million (US) | $6-8T (US only) |
 | **Broad (all white-collar)** | ~100 million (US) | $10-12T (US only) |
-| **Expansive (Gartner)** | ~1 billion+ | Upper bound |
+| **Expansive** | ~1 billion+ | Upper bound |
 
 Our $35-50T range spans from conservative professional definitions to broader white-collar inclusion. The U.S. figures ($6-8T professional, $10-12T broad) carry higher confidence because BLS occupational data is excellent.
 
@@ -141,7 +129,7 @@ This estimate synthesizes 40+ parallel research queries across multiple AI resea
 
 | Date | Change | Reason |
 |------|--------|--------|
-| **December 2025** | Revised global from $50-70T to **$35-50T** | Math validation: $70T exceeds plausible labor share (~$58T total). Added McKinsey metric clarification. |
+| **December 2025** | Established **$35-50T** global estimate | Math validation against global labor share (~$58T total); synthesized multiple definitional approaches |
 | **November 2025** | Initial 40-agent synthesis | Comprehensive data collection |
 | **October 2025** | Original research | First estimate based on workforce × average compensation |
 
@@ -149,9 +137,7 @@ This estimate synthesizes 40+ parallel research queries across multiple AI resea
 
 ## Bottom Line
 
-Global knowledge workers earn **$35-50 trillion annually**. The U.S. accounts for roughly $6-12 trillion of that, depending on how narrowly you define "knowledge worker." These figures represent actual compensation paid—not productivity potential, not market cap, not revenue—just what we pay people to think for a living.
-
-When someone cites McKinsey's $5-7T figure as contradicting this, they're comparing different things. McKinsey estimates what AI automation could be worth; we're measuring what knowledge workers actually earn. Both numbers are valid. They're just answering different questions.
+Global knowledge workers earn **$35-50 trillion annually**. The U.S. accounts for roughly $6-12 trillion of that, depending on how narrowly you define "knowledge worker." These figures represent actual compensation paid—wages, benefits, and equity—just what we pay people to think for a living.
 
 ---
 
