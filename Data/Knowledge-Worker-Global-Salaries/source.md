@@ -2,9 +2,21 @@
 
 **Source ID:** DS-00005
 **Record Created:** 2025-10-25
-**Last Updated:** 2025-10-25
+**Last Updated:** 2025-12-10
 **Cataloger:** Substrate Data Curation
 **Review Status:** Reviewed
+
+---
+
+## 🎯 CURRENT BEST ESTIMATE
+
+| Metric | Value | Confidence |
+|--------|-------|------------|
+| **Global Knowledge Worker Compensation** | **$35-50 trillion/year** | 65% |
+| **U.S. (Professional Definition)** | **$6-8 trillion/year** | 95% |
+| **U.S. (Broad Definition)** | **$10-12 trillion/year** | 85% |
+
+**December 2025 Revision:** Global estimate reduced from $50-70T to $35-50T after mathematical validation against global labor share (~$58T total labor compensation). The $70T upper bound exceeded plausible labor share.
 
 ---
 
@@ -29,8 +41,11 @@
 - **Current Status:** Active
 
 ### Edition/Version Information
-- **Current Version:** 2025-10-19 research snapshot
-- **Version History:** Initial research compilation
+- **Current Version:** 2025-12-10 research snapshot (revised)
+- **Version History:**
+  - 2025-12-10: Revised global estimate from $50-70T to $35-50T based on labor share validation
+  - 2025-11-25: 40-agent comprehensive synthesis with Bayesian reconciliation
+  - 2025-10-19: Initial research compilation
 - **Versioning Scheme:** Date-based research snapshots
 
 ---

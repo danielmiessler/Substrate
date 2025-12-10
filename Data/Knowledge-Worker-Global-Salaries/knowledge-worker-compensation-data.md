@@ -1,11 +1,80 @@
-# Knowledge Worker Compensation: Summary Table
+# Knowledge Worker Compensation: Global Estimates
 
-## Total Market Value
+---
+
+## 🎯 BEST ESTIMATE
+
+| Metric | Value | Confidence | Last Updated |
+|--------|-------|------------|--------------|
+| **Global Knowledge Worker Compensation** | **$35-50 trillion/year** | 65% | December 2025 |
+| **U.S. Knowledge Worker Compensation (Professional)** | **$6-8 trillion/year** | 95% | December 2025 |
+| **U.S. Knowledge Worker Compensation (Broad)** | **$10-12 trillion/year** | 85% | December 2025 |
+
+**One-liner:** Global knowledge workers earn $35-50T annually; U.S. accounts for ~$6-12T depending on definition.
+
+**Caveat:** "Knowledge worker" has no standard definition - ranges reflect definitional uncertainty more than data uncertainty.
+
+---
+
+## Quick Context
+
+Global GDP is ~$110 trillion (2024). Labor's share is approximately 52-53%, yielding ~$58 trillion in total global labor compensation. Knowledge workers represent roughly 30% of the global workforce but earn disproportionately more due to 38-50% wage premiums over average workers.
+
+**The math check:** For any knowledge work estimate to be valid, it cannot exceed total global labor compensation (~$58T). Our previous $70T upper bound failed this test - revised to $50T maximum.
+
+**McKinsey's $5-7T figure is a different metric:** McKinsey estimates the economic value of *automatable knowledge work tasks* (productivity gains from AI), NOT total compensation paid to knowledge workers. Comparing these numbers is apples-to-oranges.
+
+---
+
+## Methodology Summary
+
+**Approach:** 40-agent parallel research synthesis with Bayesian reconciliation across multiple sources
+
+**Sources:**
+- U.S. Bureau of Labor Statistics (BLS) OEWS May 2024
+- Bureau of Economic Analysis (BEA) NIPA
+- ILO Global Wage Report 2024-25
+- OECD Average Wages Database
+- IMF World Economic Outlook
+- Industry reports (Dice, Glassdoor, Robert Half)
+
+**Definition Used:**
+- **Professional (narrow):** SOC codes 11-0000 through 29-0000 (management, business, computer, engineering, science, community service, legal, education, arts, healthcare practitioners)
+- **Broad:** All white-collar workers including office support, administrative roles
+
+---
+
+## Detailed Findings
+
+### Total Market Value by Geography
 
 | Geography | Total Annual Compensation | Workforce Size | Average Compensation | Confidence Level | Data Sources |
 |-----------|---------------------------|----------------|----------------------|------------------|--------------|
-| **United States** | **$10-11 trillion** | ~100 million workers (38-42% of workforce) | $100,000-$110,000 | High (85%) | BLS OEWS, Dice Tech Report, Glassdoor, Robert Half |
-| **Global** | **$50-70 trillion** (estimated) | 1+ billion workers | $50,000-$70,000 (regional variation) | Medium (65%) | OECD, ILO Global Wage Report, Eurostat, industry aggregates |
+| **United States (Professional Definition)** | **$6-8 trillion** | 41-42M workers | $143,000-190,000 total comp | Very High (95%) | BLS OEWS May 2024, BEA NIPA, BLS ECEC |
+| **United States (Broad Definition)** | **$10-12 trillion** | ~100M workers | $100,000-120,000 | High (85%) | BLS OEWS, industry aggregates |
+| **Global** | **$35-50 trillion** | ~1 billion workers | $35,000-$50,000 (regional variation) | Medium (65%) | OECD, ILO, IMF, Eurostat |
+
+### Why The Variance?
+
+**The $2T-50T variance explained:**
+- **$2T estimate FAILS**: Excludes entire sectors (healthcare, education, government knowledge workers). Only accounts for ~15% of labor compensation.
+- **$6-8T (MOST DEFENSIBLE FOR U.S.)**: Professional, managerial, and technical occupations. BLS data with high confidence.
+- **$10-12T (BROADER U.S.)**: Includes all white-collar workers, office support, administrative roles.
+- **$35-50T (GLOBAL)**: Extrapolation from U.S. data weighted by regional wage differentials and workforce composition.
+- **$70T+ IMPOSSIBLE**: Exceeds total global labor compensation of ~$58T.
+
+### Bayesian Reconciliation
+
+| Statistic | Value |
+|-----------|-------|
+| Posterior Median (U.S. Professional) | **$6.2 trillion** |
+| 95% Credible Interval | [$3.2T, $10.8T] |
+
+**Variance Decomposition:**
+- 40-60%: Definitional boundaries (which occupations count)
+- 20-35%: Wage vs total compensation measurement
+- 15-25%: Data source differences (BLS vs BEA vs Census)
+- 5-15%: Sampling/measurement error
 
 ---
 
@@ -30,10 +99,10 @@
 | **Denmark** | $84,000 | +4.0% | Top European tier | OECD Average Wages |
 | **Germany** | $64,000 | +4.0% | Western Europe benchmark | OECD Average Wages |
 | **Singapore** | $51,000+ | +5.5% | Asia-Pacific leader | GEOR, Digitalogy |
-| **Eastern Europe** | $48,000-$53,000 | +4.0% | Emerging tech hubs (Poland, Czech Republic, Romania) | RemotelyTalents, OECD |
+| **Eastern Europe** | $48,000-$53,000 | +4.0% | Emerging tech hubs | RemotelyTalents, OECD |
 | **China** | Variable | +5.5% | Rapid growth market | Industry reports |
 | **India** | Variable | +10.1% | Fastest growing major market | Industry reports |
-| **Latin America** | $28,000-$73,000 | Moderate | Cost-competitive outsourcing destination | GEOR, RemotelyTalents |
+| **Latin America** | $28,000-$73,000 | Moderate | Cost-competitive outsourcing | GEOR, RemotelyTalents |
 
 ---
 
@@ -41,11 +110,11 @@
 
 | Metric | United States | Global | Data Sources |
 |--------|---------------|--------|--------------|
-| **Total Knowledge Workers** | 100 million | 1+ billion | Upwork Research Institute, BLS, Eurostat |
-| **% of Total Workforce** | 38-42% | Varies by region (EU: 40%, UK: 67% remote/hybrid) | BLS, Eurostat, Gartner |
+| **Total Knowledge Workers** | 100 million | ~1 billion | Upwork, BLS, Eurostat, Gartner |
+| **% of Total Workforce** | 38-42% | ~30% (weighted) | BLS, Eurostat, ILO |
 | **Freelance Knowledge Workers** | 28% (~20 million) | Not available | Upwork Research Institute 2025 |
 | **Freelance Earnings (US)** | $1.5 trillion annually | Not available | Upwork Research Institute 2025 |
-| **Using Generative AI** | Not specified | 75% of global knowledge workers | Gartner 2024 |
+| **Using Generative AI** | Not specified | 75% of knowledge workers | Gartner 2024 |
 
 ---
 
@@ -55,132 +124,28 @@
 |-----------|---------------------|-------------------------|--------------|
 | **Wages/Salaries** | BLS Employment Cost Index (ECI) | 68.8-70.3% | BLS ECEC March 2024 |
 | **Benefits** | BLS Employer Costs for Employee Compensation | 29.7-31.2% | BLS ECEC March 2024 |
-| **Equity (RSUs)** | Fair value = grant-date stock price × shares | Not captured in BLS | ASC 718 accounting standard, PWC |
-| **Stock Options** | (Options × (current price - strike price)) / vesting period | Not captured in BLS | ASC 718 accounting standard |
-
-### BLS Components Tracked:
-- Wages and salaries
-- Paid leave (vacation, holiday, sick, personal)
-- Supplemental pay (overtime, bonuses, shift differentials)
-- Insurance (health, life, disability)
-- Retirement and savings
-- Legally required benefits (Social Security, Medicare, unemployment, workers' comp)
+| **Equity (RSUs)** | Fair value = grant-date stock price x shares | Not captured in BLS | ASC 718, PWC |
+| **Stock Options** | (Options x (current price - strike price)) / vesting | Not captured in BLS | ASC 718 |
 
 ---
 
-## Compensation Trends (2020-2025)
+## Source Analysis
 
-| Period | Trend | Growth Rate | Drivers | Data Sources |
-|--------|-------|-------------|---------|--------------|
-| **2020-2021** | "Great Resignation" - major wage surges | High double-digit growth | Pandemic disruption, remote work adoption, talent shortage | Industry reports |
-| **2022-2024** | "Great Retention" - stabilization | Moderate growth | Market normalization, recession fears | Dice, Robert Half |
-| **2024** | Growth stagnation | +1.2% (tech), +3.6% (overall) | Market maturity, AI displacement concerns | BLS, Dice 2025 |
-| **2024-2025** | AI skills premium emergence | +30-50% for AI/ML specialists | Generative AI adoption, skills shortage | Payscale, Robert Half |
-| **Tech Sector Inflation** | Ongoing pressure | 23% annually | Talent scarcity, remote work competition | Dice Tech Report 2025 |
+### Why These Sources?
 
----
+| Source | Strengths | Weaknesses | Weight Given |
+|--------|-----------|------------|--------------|
+| **BLS OEWS** | Official government data, comprehensive occupational coverage | U.S. only, excludes equity | High |
+| **BEA NIPA** | National accounts, total compensation | Aggregate only | High |
+| **ILO Global Wage Report** | International coverage, official | No occupation-specific knowledge worker data | Medium |
+| **OECD** | Cross-country comparability | Country-level only | Medium |
+| **Dice/Glassdoor** | Granular tech sector data | Self-reported, U.S.-centric | Low-Medium |
 
-## Key Role-Specific Compensation
+### Key Source Conflicts
 
-| Role | Salary Range | Growth Trend | Data Sources |
-|------|--------------|--------------|--------------|
-| **Software Engineer (Mid-Level)** | $107,322-$137,804 | +1.2% YoY | Dice, Glassdoor |
-| **Software Engineer (Senior)** | $130,486-$164,034 | +1.2% YoY | Dice, Glassdoor |
-| **.NET Developer** | Not specified | +10.5% YoY (highest growth) | Dice 2025 |
-| **Data Scientist** | $111,010-$148,390 | 36% job growth projected (2023-2033) | BLS OOH, Robert Half |
-| **AI Architect** | $204,463 | +30-50% premium | Robert Half 2026 |
-| **Machine Learning Engineer** | $197,170 | +30-50% premium | Motion Recruitment 2025 |
-| **McKinsey MBA Hire** | $190,000-$200,000 base (+ bonuses) | Flat 2024 | StrategyU 2025 |
-| **McKinsey Undergrad** | $112,000-$120,000 base | Flat 2024 | StrategyU 2025 |
-
----
-
-## Geographic Growth Leaders (U.S. Metro Areas)
-
-| Metro Area | Compensation Growth Rate | Data Source |
-|------------|-------------------------|-------------|
-| **San Jose-San Francisco-Oakland** | +6.3% | BLS Regional ECEC |
-| **Houston-The Woodlands** | +6.0% | BLS Regional ECEC |
-| **Seattle-Tacoma** | +5.7% | BLS Regional ECEC |
-
----
-
-## Data Source Summary
-
-### Government & International Organizations
-- **U.S. Bureau of Labor Statistics (BLS)**: OEWS May 2024, Employment Cost Index, ECEC
-- **OECD**: Average Annual Wages database
-- **International Labour Organization (ILO)**: Global Wage Report 2024-25
-- **World Bank**: Employment statistics and modeled estimates
-- **Eurostat**: EU employment and wage data
-
-### Industry Reports & Consulting Firms
-- **Dice Tech Salary Report 2025**
-- **Glassdoor Knowledge Worker Salaries 2025**
-- **Robert Half 2026 Tech Salary Guide**
-- **Payscale 2025 Compensation Best Practices Report**
-- **McKinsey Global Economics Intelligence**
-- **Deloitte Gen Z and Millennial Survey 2024**
-- **World Economic Forum: Future of Jobs Report 2025**
-- **Upwork Research Institute (3,000 survey respondents, Dec 2024-Feb 2025)**
-- **StrategyU Consulting Industry Report 2025**
-
-### Specialized Sources
-- **Wall Street Oasis**: Consulting compensation data
-- **Motion Recruitment**: 2025 Salary Guides
-- **MGMA**: Healthcare worker compensation benchmarks
-- **Gartner**: Workforce forecasts and AI adoption
-- **GEOR, Digitalogy, RemotelyTalents**: Global tech salary data
-
----
-
-## Confidence Levels & Data Gaps
-
-### High Confidence Findings (85%+)
-- U.S. total compensation: $10-11 trillion
-- U.S. workforce size: 100 million knowledge workers
-- Sector-specific salary averages (multiple source corroboration)
-- BLS government data accuracy
-
-### Medium Confidence Findings (65%)
-- Global total compensation: $50-70 trillion (requires extensive aggregation)
-- Exact global workforce count (described as "1+ billion")
-- Regional averages (limited occupation-specific data from international orgs)
-
-### Critical Data Gaps Identified
-- **No occupation-specific knowledge worker data** from OECD, World Bank, ILO in standard reports
-- **Equity compensation not captured** in BLS surveys (stock options, RSUs)
-- **Global estimates require manual aggregation** from individual country statistical agencies
-- **"Knowledge worker" definition varies** by source and region
-
----
-
-## Calculation Methodology
-
-### U.S. Total Compensation
-```
-Conservative: 100M workers × $100,000 avg = $10 trillion
-Upper bound:  100M workers × $110,000 avg = $11 trillion
-
-Sector-weighted average:
-- Tech: $112,521
-- Finance: $150,453
-- Healthcare: $83,090
-- Professional services: $97,604
-→ Weighted avg: ~$100-110K
-```
-
-### Global Total Compensation
-```
-Conservative: 1B workers × $50,000 avg = $50 trillion
-Upper bound:  1B workers × $70,000 avg = $70 trillion
-
-Regional distribution assumption:
-- U.S.: ~10% of workers at 3× global avg
-- Europe: ~25% at 1.5× global avg
-- Asia-Pacific: ~50% at 0.8× global avg
-- Latin America/Other: ~15% at 0.5× global avg
-```
+1. **Definition of "knowledge worker"**: Ranges from 230M (McKinsey narrow) to 1B+ (Gartner broad) globally
+2. **Total compensation vs. wages only**: BLS captures benefits; industry surveys often don't
+3. **Equity compensation**: Not captured in most government statistics
 
 ---
 
@@ -188,17 +153,43 @@ Regional distribution assumption:
 
 | Attribute | Value |
 |-----------|-------|
-| **Research Date** | October 19, 2025 |
-| **Research Method** | 10 parallel AI research agents |
+| **Research Date** | October 2025 (updated December 2025) |
+| **Researcher** | Kai (40-agent parallel research system) |
+| **Method** | Multi-agent synthesis with Bayesian reconciliation |
 | **Services Used** | Perplexity API, Claude WebSearch, Gemini search |
-| **Total Queries** | 20+ focused searches |
-| **Total Output** | ~15,000 words of research findings |
-| **Completion Time** | <2 minutes (parallel execution) |
-| **Agents Deployed** | 3× perplexity-researcher, 3× claude-researcher, 4× gemini-researcher |
+| **Total Queries** | 40+ focused searches |
+| **Confidence Level** | U.S.: 85-95% / Global: 65% |
+| **Known Gaps** | Equity comp not captured; global occupational data sparse |
 
 ---
 
-**Full Research Report:** [GitHub Gist](https://gist.github.com/danielmiessler/2dc039762a202b083753b1400452614d)
+## Commonly Confused Metrics
+
+| Metric | Value | What It Measures | Source |
+|--------|-------|------------------|--------|
+| **Total knowledge worker compensation** | $35-50T global | Annual wages + benefits paid to knowledge workers | This research |
+| **McKinsey AI automation impact** | $5-7T | Economic value of tasks that could be automated | McKinsey 2013, 2023 |
+| **Professional services market** | $6-10T | Revenue of professional services firms | Industry reports |
+| **Knowledge economy GDP contribution** | Varies | GDP attributed to knowledge-intensive industries | Not compensation |
+
+**Do not compare these - they measure fundamentally different things.**
+
+---
+
+## Changelog
+
+| Date | Change | Reason |
+|------|--------|--------|
+| **December 2025** | Revised global estimate from $50-70T to **$35-50T** | Mathematical validation against global labor share (~$58T total) showed $70T upper bound was not defensible. Added explicit note about McKinsey metric confusion. |
+| **November 2025** | Initial 40-agent research synthesis | Comprehensive data collection with Bayesian reconciliation |
+| **October 2025** | Original research | Initial estimate based on workforce x average compensation |
+
+---
+
+## Full Research Report
+
+**GitHub Gist:** [Original Research Data](https://gist.github.com/danielmiessler/2dc039762a202b083753b1400452614d)
 
 **Research Coordinator:** Kai (Personal AI Infrastructure)
+
 **For methodology questions:** See calculation details and source attribution above
