@@ -17,9 +17,9 @@
 
 ## The Big Picture
 
-The global knowledge economy represents a massive share of human economic output. Roughly one billion workers worldwide—about 30% of the global workforce—earn their living through cognitive rather than physical labor. These workers command significant wage premiums (38-50% above average), making knowledge work one of the largest compensation categories on the planet.
+The global knowledge economy represents a massive share of human economic output. Roughly [one billion workers worldwide](https://www.gartner.com/en/newsroom/press-releases/2023-09-14-gartner-says-75-percent-of-knowledge-workers-will-use-generative-ai-by-2026)—about 30% of the [global workforce](https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_908488/lang--en/index.htm)—earn their living through cognitive rather than physical labor. These workers command significant wage premiums (38-50% above average), making knowledge work one of the largest compensation categories on the planet.
 
-Our research finds that **global knowledge worker compensation totals $35-50 trillion annually**. This represents approximately 60-85% of all global labor compensation (~$58 trillion), which makes sense given that knowledge workers earn disproportionately more than the global average.
+Our research finds that **global knowledge worker compensation totals $35-50 trillion annually**. This represents approximately 60-85% of all global labor compensation (~[$58 trillion](https://www.imf.org/en/Publications/WEO)), which makes sense given that knowledge workers earn disproportionately more than the global average.
 
 ---
 
@@ -39,9 +39,9 @@ Understanding the true scale of knowledge work compensation helps frame:
 
 ### The Math Check
 
-Global GDP is approximately $110 trillion (2024). Labor's share of GDP runs 52-53% globally, yielding roughly $58 trillion in total labor compensation worldwide. This creates an important ceiling: no estimate of knowledge worker compensation can exceed total labor compensation.
+[Global GDP is approximately $110 trillion (2024)](https://www.imf.org/en/Publications/WEO). [Labor's share of GDP runs 52-53% globally](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_762534.pdf), yielding roughly $58 trillion in total labor compensation worldwide. This creates an important ceiling: no estimate of knowledge worker compensation can exceed total labor compensation.
 
-Our estimate of $35-50 trillion represents 60-85% of global labor compensation. This makes sense: knowledge workers represent ~30% of the global workforce but command 38-50% wage premiums, so they capture a disproportionate share of total labor compensation.
+Our estimate of $35-50 trillion represents 60-85% of global labor compensation. This makes sense: knowledge workers represent ~30% of the global workforce but command [38-50% wage premiums](https://www.bls.gov/ooh/), so they capture a disproportionate share of total labor compensation.
 
 ### The Definition Problem
 
@@ -53,7 +53,7 @@ The biggest source of variance isn't data quality—it's definitional ambiguity.
 | **Core** | ~500 million globally | Mid-range |
 | **Expansive** | ~1 billion+ globally | Upper bound |
 
-Our $35-50T range reflects this definitional spectrum. The U.S. figure ($6-12T) carries higher confidence because BLS occupational data is excellent; the range reflects where you draw the line on which roles count.
+Our $35-50T range reflects this definitional spectrum. The U.S. figure ($6-12T) carries higher confidence because [BLS occupational data](https://www.bls.gov/oes/) is excellent; the range reflects where you draw the line on which roles count.
 
 ---
 
@@ -61,14 +61,14 @@ Our $35-50T range reflects this definitional spectrum. The U.S. figure ($6-12T) 
 
 The United States dominates global knowledge worker compensation due to both workforce size and wage premiums:
 
-| Region | Share of Global KW Comp | Average KW Salary |
-|--------|------------------------|-------------------|
-| **United States** | ~25-30% | $120,000-$150,000 |
-| **Western Europe** | ~20-25% | $64,000-$115,000 |
-| **East Asia** | ~15-20% | Varies widely |
-| **Rest of World** | ~25-40% | $28,000-$60,000 |
+| Region | Share of Global KW Comp | Average KW Salary | Source |
+|--------|------------------------|-------------------|--------|
+| **United States** | ~25-30% | $120,000-$150,000 | [BLS OEWS](https://www.bls.gov/oes/) |
+| **Western Europe** | ~20-25% | $64,000-$115,000 | [OECD](https://stats.oecd.org/Index.aspx?DataSetCode=AV_AN_WAGE) |
+| **East Asia** | ~15-20% | Varies widely | [ILO](https://www.ilo.org/global/research/global-reports/global-wage-report/lang--en/index.htm) |
+| **Rest of World** | ~25-40% | $28,000-$60,000 | [ILO](https://www.ilo.org/global/research/global-reports/global-wage-report/lang--en/index.htm) |
 
-U.S. knowledge workers earn 2-4x their global counterparts on average, explaining why America captures a disproportionate share of global knowledge work compensation despite having only ~4% of global population.
+U.S. knowledge workers earn 2-4x their global counterparts on average, explaining why America captures a disproportionate share of global knowledge work compensation despite having only [~4% of global population](https://www.census.gov/popclock/world).
 
 ---
 
@@ -85,8 +85,8 @@ The wide global range reflects genuine uncertainty in international data, not he
 
 ## What We Don't Know
 
-1. **Equity compensation globally:** Stock options and RSUs aren't captured in most statistics, likely understating tech sector compensation by 20-40%
-2. **Gig/freelance knowledge work:** Upwork estimates $1.5T in U.S. freelance knowledge work earnings; global figures are sparse
+1. **Equity compensation globally:** Stock options and RSUs aren't captured in most statistics, likely understating tech sector compensation by [20-40%](https://www.bls.gov/ncs/ebs/benefits/2024/ownership/civilian/table02a.htm)
+2. **Gig/freelance knowledge work:** [Upwork estimates $1.5T](https://www.upwork.com/research/freelance-forward-2024) in U.S. freelance knowledge work earnings; global figures are sparse
 3. **China and India specifics:** Rapid growth markets with limited occupational wage data
 4. **Definition convergence:** No consensus emerging on what "knowledge worker" means
 
@@ -98,7 +98,7 @@ Various estimates for knowledge work value exist in the literature, but they oft
 
 | Estimate | Source | What It Actually Measures | Why It Differs |
 |----------|--------|--------------------------|----------------|
-| **$5-7 trillion** | McKinsey Global Institute | Economic value of *automatable* knowledge tasks | Measures AI productivity potential, not compensation |
+| **$5-7 trillion** | [McKinsey Global Institute](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier) | Economic value of *automatable* knowledge tasks | Measures AI productivity potential, not compensation |
 | **$2-3 trillion** | Various tech industry | Professional services market revenue | Revenue ≠ compensation; excludes in-house knowledge workers |
 | **$70+ trillion** | Some extrapolations | Knowledge worker share of all economic output | Confuses GDP contribution with compensation; exceeds labor share ceiling |
 | **$35-50 trillion** | This research | Actual wages + benefits paid to knowledge workers | Direct compensation measurement |
@@ -119,19 +119,19 @@ The key insight: estimates that seem wildly different often just measure differe
 ## Sources
 
 **Primary (High Weight):**
-- U.S. Bureau of Labor Statistics (BLS) OEWS May 2024
-- Bureau of Economic Analysis (BEA) NIPA
-- ILO Global Wage Report 2024-25
+- [U.S. Bureau of Labor Statistics (BLS) OEWS May 2024](https://www.bls.gov/oes/)
+- [Bureau of Economic Analysis (BEA) NIPA](https://www.bea.gov/data/income-saving/personal-income)
+- [ILO Global Wage Report 2024-25](https://www.ilo.org/global/research/global-reports/global-wage-report/lang--en/index.htm)
 
 **Secondary (Medium Weight):**
-- OECD Average Wages Database
-- IMF World Economic Outlook
-- Eurostat labor statistics
+- [OECD Average Wages Database](https://stats.oecd.org/Index.aspx?DataSetCode=AV_AN_WAGE)
+- [IMF World Economic Outlook](https://www.imf.org/en/Publications/WEO)
+- [Eurostat labor statistics](https://ec.europa.eu/eurostat/web/labour-market/earnings)
 
 **Tertiary (Context):**
-- Industry surveys (Dice, Glassdoor, Robert Half)
-- McKinsey Global Institute reports
-- Gartner workforce research
+- Industry surveys ([Dice](https://www.dice.com/technologist/tech-salary-report/), [Glassdoor](https://www.glassdoor.com/research/), [Robert Half](https://www.roberthalf.com/us/en/salary-guide))
+- [McKinsey Global Institute reports](https://www.mckinsey.com/mgi/overview)
+- [Gartner workforce research](https://www.gartner.com/en/human-resources)
 
 ---
 
