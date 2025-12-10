@@ -1,8 +1,35 @@
-# Data-Sources
+# Data
 
 ## Purpose
 
-The Data-Sources directory contains curated, ground-truth datasets about important aspects of human life, society, and progress. This is a collection of reliable, parseable data that can be used for analysis, research, and informed decision-making.
+The Data directory contains curated, ground-truth datasets about important aspects of human life, society, and progress, along with documentation for external data sources. This is a collection of reliable, parseable data that can be used for analysis, research, and informed decision-making.
+
+## Directory Structure
+
+```
+Data/
+├── sources/                           # External data source catalog (APIs, endpoints, metadata)
+│   ├── DS-00001—WHO_Global_Health_Observatory/
+│   ├── DS-00002—UN_SDG_Indicators/
+│   ├── DS-00003—World_Bank_Open_Data/
+│   ├── DS-00004—FRED_Economic_Wellbeing/
+│   ├── DS-00005—CDC_WONDER_Mortality/
+│   ├── DS-00006—Census_ACS_Social_Wellbeing/
+│   ├── DS-00007—BLS_JOLTS_Labor_Market/
+│   ├── DS-00008—EPA_Air_Quality_System/
+│   └── WELLBEING_DATA_SOURCES.md
+├── Bay-Area-COVID-Wastewater/        # Curated datasets
+├── Knowledge-Worker-Global-Salaries/
+├── Pulitzer-Prize-Winners/
+├── US-GDP/
+├── US-Inflation/
+├── README.md
+└── UPDATES.md
+```
+
+**sources/** - Contains documentation and metadata for external data sources (APIs, endpoints, update frequencies, setup instructions). See `sources/WELLBEING_DATA_SOURCES.md` for details.
+
+**Dataset directories** - Contain curated, processed data collections ready for analysis.
 
 ## Philosophy
 
@@ -127,3 +154,42 @@ Data sources support other Substrate components:
 ---
 
 **Mission**: Build a trusted foundation of ground-truth data to support human understanding and progress.
+
+## Relationship with Research Projects
+
+The Data directory works in conjunction with `research/` directory to maintain clear traceability between research and resulting datasets.
+
+**Research → Data Workflow:**
+
+1. **Input**: Research projects use `Data/sources/` to access external data APIs and endpoints
+2. **Analysis**: Research projects perform analysis, synthesis, and investigation  
+3. **Output**: Research projects produce curated datasets stored in `Data/` top-level
+4. **Documentation**: Research projects document their methodology, sources used, and resulting datasets
+
+**Example Structure:**
+
+```
+research/knowledge-worker-compensation-study/
+├── README.md                    # Research overview and methodology
+├── SOURCES.md                   # Links to Data/sources/ used as inputs
+├── findings/                    # Analysis and insights
+└── [references Data/Knowledge-Worker-Global-Salaries/]
+
+Data/Knowledge-Worker-Global-Salaries/
+├── knowledge-worker-compensation-data.md    # Curated dataset (output)
+└── source.md                               # Metadata linking back to research project
+```
+
+**Key Principles:**
+
+- Each dataset in `Data/` should include `source.md` documenting origin (research project or direct source)
+- Research projects should document which `Data/sources/` they used as inputs in their SOURCES.md
+- Research findings and methodology live in `research/`, curated datasets live in `Data/`
+- Bidirectional links maintain complete traceability from source → research → dataset
+
+**Benefits:**
+
+- Clear provenance: Always know where data came from and how it was produced
+- Reproducibility: Research methodology is documented and linked to outputs  
+- Reusability: Other research can reference existing datasets and their origins
+- Quality: Traceability enables verification and validation of data quality

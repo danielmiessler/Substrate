@@ -7,10 +7,9 @@
 | Metric | Value | Confidence | Last Updated |
 |--------|-------|------------|--------------|
 | **Global Knowledge Worker Compensation** | **$35-50 trillion/year** | 65% | December 2025 |
-| **U.S. Knowledge Worker Compensation (Professional)** | **$6-8 trillion/year** | 95% | December 2025 |
-| **U.S. Knowledge Worker Compensation (Broad)** | **$10-12 trillion/year** | 85% | December 2025 |
+| **U.S. Knowledge Worker Compensation** | **$6-12 trillion/year** | 85% | December 2025 |
 
-**One-liner:** Global knowledge workers earn $35-50T annually; U.S. accounts for ~$6-12T depending on definition.
+**One-liner:** Global knowledge workers earn $35-50T annually; the U.S. accounts for $6-12T.
 
 **Caveat:** "Knowledge worker" has no standard definition - ranges reflect definitional uncertainty more than data uncertainty.
 

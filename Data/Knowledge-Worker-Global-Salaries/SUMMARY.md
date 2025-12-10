@@ -7,10 +7,9 @@
 | Metric | Value | Confidence | Last Updated |
 |--------|-------|------------|--------------|
 | **Global Knowledge Worker Compensation** | **$35-50 trillion/year** | 65% | December 2025 |
-| **U.S. Knowledge Worker Compensation (Professional)** | **$6-8 trillion/year** | 95% | December 2025 |
-| **U.S. Knowledge Worker Compensation (Broad)** | **$10-12 trillion/year** | 85% | December 2025 |
+| **U.S. Knowledge Worker Compensation** | **$6-12 trillion/year** | 85% | December 2025 |
 
-**One-liner:** Global knowledge workers earn $35-50T annually; U.S. accounts for ~$6-12T depending on definition.
+**One-liner:** Global knowledge workers earn $35-50T annually; the U.S. accounts for $6-12T.
 
 **Caveat:** "Knowledge worker" has no standard definition—ranges reflect definitional uncertainty more than data uncertainty.
 
@@ -50,12 +49,11 @@ The biggest source of variance isn't data quality—it's definitional ambiguity.
 
 | Definition | Workforce Size | Compensation Estimate |
 |------------|----------------|----------------------|
-| **Narrow** | ~230 million | Lower bound |
-| **Professional (BLS SOC 11-29)** | ~42 million (US) | $6-8T (US only) |
-| **Broad (all white-collar)** | ~100 million (US) | $10-12T (US only) |
-| **Expansive** | ~1 billion+ | Upper bound |
+| **Narrow** | ~230 million globally | Lower bound |
+| **Core** | ~500 million globally | Mid-range |
+| **Expansive** | ~1 billion+ globally | Upper bound |
 
-Our $35-50T range spans from conservative professional definitions to broader white-collar inclusion. The U.S. figures ($6-8T professional, $10-12T broad) carry higher confidence because BLS occupational data is excellent.
+Our $35-50T range reflects this definitional spectrum. The U.S. figure ($6-12T) carries higher confidence because BLS occupational data is excellent; the range reflects where you draw the line on which roles count.
 
 ---
 
@@ -78,8 +76,7 @@ U.S. knowledge workers earn 2-4x their global counterparts on average, explainin
 
 | Component | Confidence | Explanation |
 |-----------|------------|-------------|
-| **U.S. Professional ($6-8T)** | 95% (Very High) | BLS OEWS data is authoritative; well-defined occupational codes |
-| **U.S. Broad ($10-12T)** | 85% (High) | Good data, some definitional boundary questions |
+| **U.S. ($6-12T)** | 85% (High) | BLS OEWS data is authoritative; range reflects definitional choices |
 | **Global ($35-50T)** | 65% (Medium) | Extrapolation from U.S. weighted by regional wages; limited international occupational data |
 
 The wide global range reflects genuine uncertainty in international data, not hedging. We know U.S. numbers well; global figures require more inference.
@@ -161,7 +158,7 @@ This estimate synthesizes 40+ parallel research queries across multiple AI resea
 
 ## Bottom Line
 
-Global knowledge workers earn **$35-50 trillion annually**. The U.S. accounts for roughly $6-12 trillion of that, depending on how narrowly you define "knowledge worker." These figures represent actual compensation paid—wages, benefits, and equity—just what we pay people to think for a living.
+Global knowledge workers earn **$35-50 trillion annually**. The U.S. accounts for $6-12 trillion of that. These figures represent actual compensation paid—wages, benefits, and equity—what we pay people to think for a living.
 
 ---
 
