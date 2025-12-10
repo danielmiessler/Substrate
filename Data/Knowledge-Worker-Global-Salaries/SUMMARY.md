@@ -95,6 +95,30 @@ The wide global range reflects genuine uncertainty in international data, not he
 
 ---
 
+## Alternative Estimates & Why We Differ
+
+Various estimates for knowledge work value exist in the literature, but they often measure different things:
+
+| Estimate | Source | What It Actually Measures | Why It Differs |
+|----------|--------|--------------------------|----------------|
+| **$5-7 trillion** | McKinsey Global Institute | Economic value of *automatable* knowledge tasks | Measures AI productivity potential, not compensation |
+| **$2-3 trillion** | Various tech industry | Professional services market revenue | Revenue ≠ compensation; excludes in-house knowledge workers |
+| **$70+ trillion** | Some extrapolations | Knowledge worker share of all economic output | Confuses GDP contribution with compensation; exceeds labor share ceiling |
+| **$35-50 trillion** | This research | Actual wages + benefits paid to knowledge workers | Direct compensation measurement |
+
+### Why Our Approach
+
+We chose to measure **actual compensation paid** rather than productivity value or market revenue because:
+
+1. **It's directly measurable** - BLS, ILO, and OECD track wages and benefits; productivity value requires modeling assumptions
+2. **It's the right denominator for AI impact** - If you want to know what's at stake in the AI transition, you need to know what we actually pay people today
+3. **It passes the math check** - Any estimate must fit within total global labor compensation (~$58T); productivity-value estimates often don't face this constraint
+4. **It's definition-transparent** - We show exactly which occupational codes we include at each confidence level
+
+The key insight: estimates that seem wildly different often just measure different things. A $5T automation-value estimate and a $40T compensation estimate can both be correct—they're answering different questions.
+
+---
+
 ## Sources
 
 **Primary (High Weight):**

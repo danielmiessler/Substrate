@@ -78,17 +78,25 @@ Use this template for all new Substrate datasets. The key principle: **put the a
 
 ---
 
-## Commonly Confused Metrics
+## Alternative Estimates & Why We Differ
 
-[Optional section - use when the metric is often confused with similar-sounding metrics]
+[Recommended section - use when other estimates exist that might seem to contradict yours]
 
-| Metric | Value | What It Actually Measures | Source |
-|--------|-------|---------------------------|--------|
-| **This dataset** | [Value] | [Description] | This research |
-| **Similar metric 1** | [Value] | [Description] | [Source] |
-| **Similar metric 2** | [Value] | [Description] | [Source] |
+| Estimate | Source | What It Actually Measures | Why It Differs |
+|----------|--------|--------------------------|----------------|
+| **[Alternative 1]** | [Source] | [What it measures] | [Why different from ours] |
+| **[Alternative 2]** | [Source] | [What it measures] | [Why different from ours] |
+| **[Our estimate]** | This research | [What we measure] | [Our approach] |
 
-**Do not compare these - they measure different things.**
+### Why Our Approach
+
+[2-4 bullet points explaining why you chose this measurement approach over alternatives:
+- What makes it more appropriate for the question being answered
+- Why it's more directly measurable or verifiable
+- What constraints or sanity checks it passes
+- Why apparent contradictions aren't actually contradictions]
+
+**Key insight:** [One sentence explaining that different estimates often measure different things, not that one is "wrong"]
 
 ---
 
@@ -117,7 +125,8 @@ Use this template for all new Substrate datasets. The key principle: **put the a
 4. **Quick Context** - 2-3 sentences max
 5. **Methodology Summary** - How was this derived
 6. **Sources** - Where did data come from
-7. **Changelog** - Track all revisions
+7. **Alternative Estimates & Why We Differ** - Recommended when other estimates exist
+8. **Changelog** - Track all revisions
 
 ### Mandatory Fields in BEST ESTIMATE Table
 
