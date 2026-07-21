@@ -78,3 +78,22 @@ Curated Pulitzer Prize winners dataset focusing on Arts & Letters categories wit
 ## Future Datasets
 
 New datasets will be added above this line in reverse chronological order (newest first).
+
+---
+
+## 2026-07-21 - Vulnerability Disclosure & Data Breach Data
+
+**Dataset**: Vulnerability-And-Breach-Data
+**Status**: Active
+**Coverage**: 2016-2026 (CVE annual; ITRC/DBIR/IBM breach series), Jan 2018 - Jul 2026 (Patch Tuesday monthly)
+**Source**: Composite - CVE.org/NVD, Zero Day Initiative, MITRE CWE, CISA KEV (live feed), Mandiant/GTIG, ITRC, Verizon DBIR, IBM Cost of a Data Breach
+
+### Contents
+- Seven JSON data files with per-figure source URLs inline
+- `SUMMARY.md` / `Vulnerability-And-Breach-Data.md` - answer-first documentation
+- `source.md` - source families, acquisition method, refresh cadences, sync contract
+- `update.ts` - integrity check + live CISA KEV drift probe + release calendar
+- Research project: `research/vulnerability-breach-ai-analysis-2026-07/`
+
+### Key Finding
+Both vulnerabilities and breaches hit records; no dataset attributes either to AI. Vulnerability exploitation became the #1 breach entry vector in DBIR 2026 (~31%) - first time in 19 years.
