@@ -21,6 +21,7 @@ The Data directory contains curated, ground-truth datasets about important aspec
 | [COVID Wastewater](./Bay-Area-COVID-Wastewater/SUMMARY.md) | HIGH (5.6 log10) | California COVID wastewater is HIGH |
 | [US Common Metrics](./US-Common-Metrics/SUMMARY.md) | 60+ indicators | Real-time dashboard of U.S. economic indicators |
 | [Pulitzer Winners](./Pulitzer-Prize-Winners/SUMMARY.md) | 249 winners | Complete Arts & Letters database (1918-2024) |
+| [Vulnerability & Breach Data](./Vulnerability-And-Breach-Data/SUMMARY.md) | 48,185 CVEs · 3,322 breaches (2025) | Vulns and breaches hit records; no dataset attributes either to AI |
 
 ### Schema Structure
 
@@ -121,7 +122,9 @@ Data/
 │   └── SUMMARY.md                         # ← Start here
 ├── US-Inflation/                          # CPI/inflation data
 │   └── SUMMARY.md                         # ← Start here
-└── US-Presidential-Approval/              # Approval ratings 1937-2025
+├── US-Presidential-Approval/              # Approval ratings 1937-2025
+│   └── SUMMARY.md                         # ← Start here
+└── Vulnerability-And-Breach-Data/         # CVE, Patch Tuesday, CWE, AI evidence, breaches
     └── SUMMARY.md                         # ← Start here
 ```
 
@@ -136,6 +139,9 @@ Data/
 - **[US Inflation](./US-Inflation/SUMMARY.md)** - CPI data (1947-2025)
 - **[US Common Metrics](./US-Common-Metrics/SUMMARY.md)** - 60+ economic indicators dashboard
 - **[Knowledge Worker Compensation](./Knowledge-Worker-Global-Salaries/SUMMARY.md)** - Global and US compensation estimates
+
+### Security
+- **[Vulnerability & Breach Data](./Vulnerability-And-Breach-Data/SUMMARY.md)** - CVE disclosure, Patch Tuesday, breaches, and the AI question (2016-2026)
 
 ### Political & Social
 - **[Presidential Approval](./US-Presidential-Approval/SUMMARY.md)** - Approval ratings (1937-2025)
