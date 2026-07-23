@@ -67,7 +67,7 @@ Japan 1,143.1 · UK 948.6 · China 659.3 · Belgium 472.0 · Cayman Is. 471.3 ·
 
 ### Interest
 
-FY2025 gross interest $1.22T (computed from Treasury interest-expense rows at 2025-09-30); FY2025 net interest ~$970B — passed defense (~$917B) for the first time; ~18.5–19% of federal revenue. Average rate on interest-bearing debt 3.35% (2026-06-30) vs 1.6% low in late 2021.
+FY2025 gross interest $1.22T (computed from Treasury interest-expense rows at 2025-09-30); FY2025 net interest ~$970B vs defense ~$917B (net interest first crossed above defense in FY2024, per CRFB); ~18.5–19% of federal revenue. Average rate on interest-bearing debt 3.35% (2026-06-30) vs 1.6% low in late 2021.
 
 ### History & projections
 
@@ -127,6 +127,7 @@ Debt paid to zero once (1835). WWII peak ~119% of GDP gross (1946) → ~23% by 1
 | Date | Change | Reason |
 |------|--------|--------|
 | 2026-07-23 | Dataset created; site usdebt.io launched from it | Initial research build |
+| 2026-07-23 | Interest/defense crossover corrected to FY2024 (was stated as FY2025); China-peak citation upgraded to TIC primary | Cross-vendor adversarial audit (GPT-5.6 Sol): 17 spot-checks, all headline figures exact-matched primaries; 4 narrative/link defects found and fixed |
 
 ---
 

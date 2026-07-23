@@ -38,7 +38,7 @@
   },
   "population": { "count": 342400000, "asof": "2025", "source": "US Census Bureau resident population (~342.4M, 2025); census.gov/popclock" },
   "households": { "count": 134790000, "asof": "2025", "source": "US Census / Statista household count (~134.79M, 2025)" },
-  "chinaPeak": { "amount": 1320000000000, "date": "2013-11", "approx": true, "source": "TIC via SCMP/Global Times — peak ~$1.32T Nov 2013" },
+  "chinaPeak": { "amount": 1320000000000, "date": "2013-11", "approx": true, "source": "Treasury TIC Major Foreign Holders historical series (Nov 2013 ~$1.32T); corroborated by SCMP/Global Times" },
   "milestoneOverrides": {
     "1": { "date": "1981-10-22", "source": "House Budget Committee" },
     "37": { "date": "2025-08-11", "source": "NBC News / CRFB" },

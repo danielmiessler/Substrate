@@ -15,3 +15,4 @@
 
 ## Incident log
 - **2026-07-23 — stale-source catch:** first foreign-holders pull used `Publish/mfh.txt`, which silently serves Jan-2023 data in 2026. Caught by as-of-date review before anything shipped; source switched to SLT Table 5 and a warning encoded in `update.ts` and `source.md`.
+- **2026-07-23 — cross-vendor audit corrections:** an independent GPT-5.6 Sol adversarial audit re-fetched all primaries (exact matches on every headline figure, 13/17 spot-checks passed) and refuted four narrative-layer items, all fixed same day: (1) interest/defense crossover is FY2024, not FY2025 — the cited CRFB piece itself says so (`findings/history-and-outlook.md` §3 recorded the wrong year; retained there as-found); (2) a gift-program comparison ("covers ~20 seconds of borrowing") was off ~37×, corrected to ~12 minutes; (3) 1946→1974 prose conflated gross (→~31%) with publicly-held (→~23%) debt/GDP; (4) one homepage footer link still pointed at the frozen mfh.txt.
