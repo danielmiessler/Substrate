@@ -1,0 +1,2811 @@
+{
+  "_meta": {
+    "source": "US Treasury Fiscal Data — Debt to the Penny",
+    "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny",
+    "fetched": "2026-07-23T17:34:53.508Z",
+    "record_date_range": "2024-12-16 .. 2026-07-21",
+    "count": 400
+  },
+  "data": [
+    {
+      "record_date": "2026-07-21",
+      "tot_pub_debt_out_amt": "39660369665133.47",
+      "debt_held_public_amt": "31874795478548.56",
+      "intragov_hold_amt": "7785574186584.91",
+      "tot_pub_debt_out": 39660369665133.47
+    },
+    {
+      "record_date": "2026-07-20",
+      "tot_pub_debt_out_amt": "39588242618845.71",
+      "debt_held_public_amt": "31817640840048.45",
+      "intragov_hold_amt": "7770601778797.26",
+      "tot_pub_debt_out": 39588242618845.71
+    },
+    {
+      "record_date": "2026-07-17",
+      "tot_pub_debt_out_amt": "39581848442144.38",
+      "debt_held_public_amt": "31816915417245.04",
+      "intragov_hold_amt": "7764933024899.34",
+      "tot_pub_debt_out": 39581848442144.38
+    },
+    {
+      "record_date": "2026-07-16",
+      "tot_pub_debt_out_amt": "39518859758919.12",
+      "debt_held_public_amt": "31818450437358.76",
+      "intragov_hold_amt": "7700409321560.36",
+      "tot_pub_debt_out": 39518859758919.12
+    },
+    {
+      "record_date": "2026-07-15",
+      "tot_pub_debt_out_amt": "39488616467668.43",
+      "debt_held_public_amt": "31793476990367.91",
+      "intragov_hold_amt": "7695139477300.52",
+      "tot_pub_debt_out": 39488616467668.43
+    },
+    {
+      "record_date": "2026-07-14",
+      "tot_pub_debt_out_amt": "39470152218599.01",
+      "debt_held_public_amt": "31751114853068.90",
+      "intragov_hold_amt": "7719037365530.11",
+      "tot_pub_debt_out": 39470152218599.01
+    },
+    {
+      "record_date": "2026-07-13",
+      "tot_pub_debt_out_amt": "39417905469064.21",
+      "debt_held_public_amt": "31707770448042.27",
+      "intragov_hold_amt": "7710135021021.94",
+      "tot_pub_debt_out": 39417905469064.21
+    },
+    {
+      "record_date": "2026-07-10",
+      "tot_pub_debt_out_amt": "39412981341965.62",
+      "debt_held_public_amt": "31707316963764.64",
+      "intragov_hold_amt": "7705664378200.98",
+      "tot_pub_debt_out": 39412981341965.62
+    },
+    {
+      "record_date": "2026-07-09",
+      "tot_pub_debt_out_amt": "39414179016130.09",
+      "debt_held_public_amt": "31709399350223.40",
+      "intragov_hold_amt": "7704779665906.69",
+      "tot_pub_debt_out": 39414179016130.09
+    },
+    {
+      "record_date": "2026-07-08",
+      "tot_pub_debt_out_amt": "39394977645639.05",
+      "debt_held_public_amt": "31695882336712.26",
+      "intragov_hold_amt": "7699095308926.79",
+      "tot_pub_debt_out": 39394977645639.05
+    },
+    {
+      "record_date": "2026-07-07",
+      "tot_pub_debt_out_amt": "39414977491738.78",
+      "debt_held_public_amt": "31696800244689.86",
+      "intragov_hold_amt": "7718177247048.92",
+      "tot_pub_debt_out": 39414977491738.78
+    },
+    {
+      "record_date": "2026-07-06",
+      "tot_pub_debt_out_amt": "39387881222485.61",
+      "debt_held_public_amt": "31680155395885.35",
+      "intragov_hold_amt": "7707725826600.26",
+      "tot_pub_debt_out": 39387881222485.61
+    },
+    {
+      "record_date": "2026-07-03",
+      "tot_pub_debt_out_amt": "39375989952866.26",
+      "debt_held_public_amt": "31676896645959.71",
+      "intragov_hold_amt": "7699093306906.55",
+      "tot_pub_debt_out": 39375989952866.26
+    },
+    {
+      "record_date": "2026-07-02",
+      "tot_pub_debt_out_amt": "39375254020492.22",
+      "debt_held_public_amt": "31678903447798.93",
+      "intragov_hold_amt": "7696350572693.29",
+      "tot_pub_debt_out": 39375254020492.22
+    },
+    {
+      "record_date": "2026-07-01",
+      "tot_pub_debt_out_amt": "39389304788902.60",
+      "debt_held_public_amt": "31677634703147.37",
+      "intragov_hold_amt": "7711670085755.23",
+      "tot_pub_debt_out": 39389304788902.6
+    },
+    {
+      "record_date": "2026-06-30",
+      "tot_pub_debt_out_amt": "39462398380774.37",
+      "debt_held_public_amt": "31681308373695.03",
+      "intragov_hold_amt": "7781090007079.34",
+      "tot_pub_debt_out": 39462398380774.37
+    },
+    {
+      "record_date": "2026-06-29",
+      "tot_pub_debt_out_amt": "39345340787969.72",
+      "debt_held_public_amt": "31621329805348.19",
+      "intragov_hold_amt": "7724010982621.53",
+      "tot_pub_debt_out": 39345340787969.72
+    },
+    {
+      "record_date": "2026-06-26",
+      "tot_pub_debt_out_amt": "39337503706976.53",
+      "debt_held_public_amt": "31620872393262.40",
+      "intragov_hold_amt": "7716631313714.13",
+      "tot_pub_debt_out": 39337503706976.53
+    },
+    {
+      "record_date": "2026-06-25",
+      "tot_pub_debt_out_amt": "39311022730162.44",
+      "debt_held_public_amt": "31594497290975.03",
+      "intragov_hold_amt": "7716525439187.41",
+      "tot_pub_debt_out": 39311022730162.44
+    },
+    {
+      "record_date": "2026-06-24",
+      "tot_pub_debt_out_amt": "39320508743100.40",
+      "debt_held_public_amt": "31606937181849.92",
+      "intragov_hold_amt": "7713571561250.48",
+      "tot_pub_debt_out": 39320508743100.4
+    },
+    {
+      "record_date": "2026-06-23",
+      "tot_pub_debt_out_amt": "39320607875889.32",
+      "debt_held_public_amt": "31606133955273.55",
+      "intragov_hold_amt": "7714473920615.77",
+      "tot_pub_debt_out": 39320607875889.32
+    },
+    {
+      "record_date": "2026-06-22",
+      "tot_pub_debt_out_amt": "39323731819938.67",
+      "debt_held_public_amt": "31625610531064.27",
+      "intragov_hold_amt": "7698121288874.40",
+      "tot_pub_debt_out": 39323731819938.67
+    },
+    {
+      "record_date": "2026-06-18",
+      "tot_pub_debt_out_amt": "39305293944733.24",
+      "debt_held_public_amt": "31613484231007.52",
+      "intragov_hold_amt": "7691809713725.72",
+      "tot_pub_debt_out": 39305293944733.24
+    },
+    {
+      "record_date": "2026-06-17",
+      "tot_pub_debt_out_amt": "39283052266270.91",
+      "debt_held_public_amt": "31643344541986.99",
+      "intragov_hold_amt": "7639707724283.92",
+      "tot_pub_debt_out": 39283052266270.91
+    },
+    {
+      "record_date": "2026-06-16",
+      "tot_pub_debt_out_amt": "39289865167568.98",
+      "debt_held_public_amt": "31642663562697.08",
+      "intragov_hold_amt": "7647201604871.90",
+      "tot_pub_debt_out": 39289865167568.98
+    },
+    {
+      "record_date": "2026-06-15",
+      "tot_pub_debt_out_amt": "39293074039354.64",
+      "debt_held_public_amt": "31662560557978.68",
+      "intragov_hold_amt": "7630513481375.96",
+      "tot_pub_debt_out": 39293074039354.64
+    },
+    {
+      "record_date": "2026-06-12",
+      "tot_pub_debt_out_amt": "39209984063577.76",
+      "debt_held_public_amt": "31582353473994.95",
+      "intragov_hold_amt": "7627630589582.81",
+      "tot_pub_debt_out": 39209984063577.76
+    },
+    {
+      "record_date": "2026-06-11",
+      "tot_pub_debt_out_amt": "39220785117318.68",
+      "debt_held_public_amt": "31594717601039.83",
+      "intragov_hold_amt": "7626067516278.85",
+      "tot_pub_debt_out": 39220785117318.68
+    },
+    {
+      "record_date": "2026-06-10",
+      "tot_pub_debt_out_amt": "39213266279741.16",
+      "debt_held_public_amt": "31592369611735.25",
+      "intragov_hold_amt": "7620896668005.91",
+      "tot_pub_debt_out": 39213266279741.16
+    },
+    {
+      "record_date": "2026-06-09",
+      "tot_pub_debt_out_amt": "39241722848798.66",
+      "debt_held_public_amt": "31595464942057.47",
+      "intragov_hold_amt": "7646257906741.19",
+      "tot_pub_debt_out": 39241722848798.66
+    },
+    {
+      "record_date": "2026-06-08",
+      "tot_pub_debt_out_amt": "39230385715009.09",
+      "debt_held_public_amt": "31600133143674.75",
+      "intragov_hold_amt": "7630252571334.34",
+      "tot_pub_debt_out": 39230385715009.09
+    },
+    {
+      "record_date": "2026-06-05",
+      "tot_pub_debt_out_amt": "39219582387346.71",
+      "debt_held_public_amt": "31597881328951.17",
+      "intragov_hold_amt": "7621701058395.54",
+      "tot_pub_debt_out": 39219582387346.71
+    },
+    {
+      "record_date": "2026-06-04",
+      "tot_pub_debt_out_amt": "39232150577283.87",
+      "debt_held_public_amt": "31610718934247.54",
+      "intragov_hold_amt": "7621431643036.33",
+      "tot_pub_debt_out": 39232150577283.87
+    },
+    {
+      "record_date": "2026-06-03",
+      "tot_pub_debt_out_amt": "39204974715248.65",
+      "debt_held_public_amt": "31599703500408.55",
+      "intragov_hold_amt": "7605271214840.10",
+      "tot_pub_debt_out": 39204974715248.65
+    },
+    {
+      "record_date": "2026-06-02",
+      "tot_pub_debt_out_amt": "39221984586285.30",
+      "debt_held_public_amt": "31597886394124.88",
+      "intragov_hold_amt": "7624098192160.42",
+      "tot_pub_debt_out": 39221984586285.3
+    },
+    {
+      "record_date": "2026-06-01",
+      "tot_pub_debt_out_amt": "39195502287422.08",
+      "debt_held_public_amt": "31581373375160.92",
+      "intragov_hold_amt": "7614128912261.16",
+      "tot_pub_debt_out": 39195502287422.08
+    },
+    {
+      "record_date": "2026-05-29",
+      "tot_pub_debt_out_amt": "39207759598302.62",
+      "debt_held_public_amt": "31515369798622.98",
+      "intragov_hold_amt": "7692389799679.64",
+      "tot_pub_debt_out": 39207759598302.62
+    },
+    {
+      "record_date": "2026-05-28",
+      "tot_pub_debt_out_amt": "39176301795549.40",
+      "debt_held_public_amt": "31466045143781.76",
+      "intragov_hold_amt": "7710256651767.64",
+      "tot_pub_debt_out": 39176301795549.4
+    },
+    {
+      "record_date": "2026-05-27",
+      "tot_pub_debt_out_amt": "39163302863182.10",
+      "debt_held_public_amt": "31450452898651.64",
+      "intragov_hold_amt": "7712849964530.46",
+      "tot_pub_debt_out": 39163302863182.1
+    },
+    {
+      "record_date": "2026-05-26",
+      "tot_pub_debt_out_amt": "39171154946667.59",
+      "debt_held_public_amt": "31447423137771.69",
+      "intragov_hold_amt": "7723731808895.90",
+      "tot_pub_debt_out": 39171154946667.59
+    },
+    {
+      "record_date": "2026-05-22",
+      "tot_pub_debt_out_amt": "39112192265187.75",
+      "debt_held_public_amt": "31400817772622.92",
+      "intragov_hold_amt": "7711374492564.83",
+      "tot_pub_debt_out": 39112192265187.75
+    },
+    {
+      "record_date": "2026-05-21",
+      "tot_pub_debt_out_amt": "39071200457366.45",
+      "debt_held_public_amt": "31374788661132.13",
+      "intragov_hold_amt": "7696411796234.32",
+      "tot_pub_debt_out": 39071200457366.45
+    },
+    {
+      "record_date": "2026-05-20",
+      "tot_pub_debt_out_amt": "39049639932662.87",
+      "debt_held_public_amt": "31358949739922.20",
+      "intragov_hold_amt": "7690690192740.67",
+      "tot_pub_debt_out": 39049639932662.87
+    },
+    {
+      "record_date": "2026-05-19",
+      "tot_pub_debt_out_amt": "39070752626994.13",
+      "debt_held_public_amt": "31359065157830.45",
+      "intragov_hold_amt": "7711687469163.68",
+      "tot_pub_debt_out": 39070752626994.13
+    },
+    {
+      "record_date": "2026-05-18",
+      "tot_pub_debt_out_amt": "39008999901378.68",
+      "debt_held_public_amt": "31317917051386.19",
+      "intragov_hold_amt": "7691082849992.49",
+      "tot_pub_debt_out": 39008999901378.68
+    },
+    {
+      "record_date": "2026-05-15",
+      "tot_pub_debt_out_amt": "38997244508055.09",
+      "debt_held_public_amt": "31315583263208.62",
+      "intragov_hold_amt": "7681661244846.47",
+      "tot_pub_debt_out": 38997244508055.09
+    },
+    {
+      "record_date": "2026-05-14",
+      "tot_pub_debt_out_amt": "38954466670318.20",
+      "debt_held_public_amt": "31277752122232.96",
+      "intragov_hold_amt": "7676714548085.24",
+      "tot_pub_debt_out": 38954466670318.2
+    },
+    {
+      "record_date": "2026-05-13",
+      "tot_pub_debt_out_amt": "38942623681847.68",
+      "debt_held_public_amt": "31269241615132.64",
+      "intragov_hold_amt": "7673382066715.04",
+      "tot_pub_debt_out": 38942623681847.68
+    },
+    {
+      "record_date": "2026-05-12",
+      "tot_pub_debt_out_amt": "38968295059805.35",
+      "debt_held_public_amt": "31268302404373.30",
+      "intragov_hold_amt": "7699992655432.05",
+      "tot_pub_debt_out": 38968295059805.35
+    },
+    {
+      "record_date": "2026-05-11",
+      "tot_pub_debt_out_amt": "38946800561409.14",
+      "debt_held_public_amt": "31262108319021.06",
+      "intragov_hold_amt": "7684692242388.08",
+      "tot_pub_debt_out": 38946800561409.14
+    },
+    {
+      "record_date": "2026-05-08",
+      "tot_pub_debt_out_amt": "38937475342585.80",
+      "debt_held_public_amt": "31260345834577.53",
+      "intragov_hold_amt": "7677129508008.27",
+      "tot_pub_debt_out": 38937475342585.8
+    },
+    {
+      "record_date": "2026-05-07",
+      "tot_pub_debt_out_amt": "38931651718802.09",
+      "debt_held_public_amt": "31262325604447.63",
+      "intragov_hold_amt": "7669326114354.46",
+      "tot_pub_debt_out": 38931651718802.09
+    },
+    {
+      "record_date": "2026-05-06",
+      "tot_pub_debt_out_amt": "38918837926582.90",
+      "debt_held_public_amt": "31263383766000.16",
+      "intragov_hold_amt": "7655454160582.74",
+      "tot_pub_debt_out": 38918837926582.9
+    },
+    {
+      "record_date": "2026-05-05",
+      "tot_pub_debt_out_amt": "38910619550278.10",
+      "debt_held_public_amt": "31261787439569.55",
+      "intragov_hold_amt": "7648832110708.55",
+      "tot_pub_debt_out": 38910619550278.1
+    },
+    {
+      "record_date": "2026-05-04",
+      "tot_pub_debt_out_amt": "38905034125404.78",
+      "debt_held_public_amt": "31274803442683.56",
+      "intragov_hold_amt": "7630230682721.22",
+      "tot_pub_debt_out": 38905034125404.78
+    },
+    {
+      "record_date": "2026-05-01",
+      "tot_pub_debt_out_amt": "38882147615630.53",
+      "debt_held_public_amt": "31271957838023.21",
+      "intragov_hold_amt": "7610189777607.32",
+      "tot_pub_debt_out": 38882147615630.53
+    },
+    {
+      "record_date": "2026-04-30",
+      "tot_pub_debt_out_amt": "38967833861543.11",
+      "debt_held_public_amt": "31272489865435.88",
+      "intragov_hold_amt": "7695343996107.23",
+      "tot_pub_debt_out": 38967833861543.11
+    },
+    {
+      "record_date": "2026-04-29",
+      "tot_pub_debt_out_amt": "38952075248701.65",
+      "debt_held_public_amt": "31264482575337.52",
+      "intragov_hold_amt": "7687592673364.13",
+      "tot_pub_debt_out": 38952075248701.65
+    },
+    {
+      "record_date": "2026-04-28",
+      "tot_pub_debt_out_amt": "38951791901141.80",
+      "debt_held_public_amt": "31266604928934.45",
+      "intragov_hold_amt": "7685186972207.35",
+      "tot_pub_debt_out": 38951791901141.8
+    },
+    {
+      "record_date": "2026-04-27",
+      "tot_pub_debt_out_amt": "38960955558731.97",
+      "debt_held_public_amt": "31289756388875.06",
+      "intragov_hold_amt": "7671199169856.91",
+      "tot_pub_debt_out": 38960955558731.97
+    },
+    {
+      "record_date": "2026-04-24",
+      "tot_pub_debt_out_amt": "38953670272769.58",
+      "debt_held_public_amt": "31289224791422.95",
+      "intragov_hold_amt": "7664445481346.63",
+      "tot_pub_debt_out": 38953670272769.58
+    },
+    {
+      "record_date": "2026-04-23",
+      "tot_pub_debt_out_amt": "38935486920284.75",
+      "debt_held_public_amt": "31289249969317.98",
+      "intragov_hold_amt": "7646236950966.77",
+      "tot_pub_debt_out": 38935486920284.75
+    },
+    {
+      "record_date": "2026-04-22",
+      "tot_pub_debt_out_amt": "38957839768374.44",
+      "debt_held_public_amt": "31318022210274.80",
+      "intragov_hold_amt": "7639817558099.64",
+      "tot_pub_debt_out": 38957839768374.44
+    },
+    {
+      "record_date": "2026-04-21",
+      "tot_pub_debt_out_amt": "38979261041490.82",
+      "debt_held_public_amt": "31317297210883.89",
+      "intragov_hold_amt": "7661963830606.93",
+      "tot_pub_debt_out": 38979261041490.82
+    },
+    {
+      "record_date": "2026-04-20",
+      "tot_pub_debt_out_amt": "38992782604302.01",
+      "debt_held_public_amt": "31343959370344.72",
+      "intragov_hold_amt": "7648823233957.29",
+      "tot_pub_debt_out": 38992782604302.01
+    },
+    {
+      "record_date": "2026-04-17",
+      "tot_pub_debt_out_amt": "38979318629209.68",
+      "debt_held_public_amt": "31344221423413.60",
+      "intragov_hold_amt": "7635097205796.08",
+      "tot_pub_debt_out": 38979318629209.68
+    },
+    {
+      "record_date": "2026-04-16",
+      "tot_pub_debt_out_amt": "38985997093766.37",
+      "debt_held_public_amt": "31359379088304.58",
+      "intragov_hold_amt": "7626618005461.79",
+      "tot_pub_debt_out": 38985997093766.37
+    },
+    {
+      "record_date": "2026-04-15",
+      "tot_pub_debt_out_amt": "38988471242937.32",
+      "debt_held_public_amt": "31374528030445.60",
+      "intragov_hold_amt": "7613943212491.72",
+      "tot_pub_debt_out": 38988471242937.32
+    },
+    {
+      "record_date": "2026-04-14",
+      "tot_pub_debt_out_amt": "38933404100463.29",
+      "debt_held_public_amt": "31327076933755.06",
+      "intragov_hold_amt": "7606327166708.23",
+      "tot_pub_debt_out": 38933404100463.29
+    },
+    {
+      "record_date": "2026-04-13",
+      "tot_pub_debt_out_amt": "38954924765330.86",
+      "debt_held_public_amt": "31364172953118.05",
+      "intragov_hold_amt": "7590751812212.81",
+      "tot_pub_debt_out": 38954924765330.86
+    },
+    {
+      "record_date": "2026-04-10",
+      "tot_pub_debt_out_amt": "38946541987812.28",
+      "debt_held_public_amt": "31363210882603.11",
+      "intragov_hold_amt": "7583331105209.17",
+      "tot_pub_debt_out": 38946541987812.28
+    },
+    {
+      "record_date": "2026-04-09",
+      "tot_pub_debt_out_amt": "38942790613086.55",
+      "debt_held_public_amt": "31364679558344.11",
+      "intragov_hold_amt": "7578111054742.44",
+      "tot_pub_debt_out": 38942790613086.55
+    },
+    {
+      "record_date": "2026-04-08",
+      "tot_pub_debt_out_amt": "38949925615242.17",
+      "debt_held_public_amt": "31373299420088.83",
+      "intragov_hold_amt": "7576626195153.34",
+      "tot_pub_debt_out": 38949925615242.17
+    },
+    {
+      "record_date": "2026-04-07",
+      "tot_pub_debt_out_amt": "38969941867504.03",
+      "debt_held_public_amt": "31371921154820.79",
+      "intragov_hold_amt": "7598020712683.24",
+      "tot_pub_debt_out": 38969941867504.03
+    },
+    {
+      "record_date": "2026-04-06",
+      "tot_pub_debt_out_amt": "38994100716395.00",
+      "debt_held_public_amt": "31413833699845.38",
+      "intragov_hold_amt": "7580267016549.62",
+      "tot_pub_debt_out": 38994100716395
+    },
+    {
+      "record_date": "2026-04-03",
+      "tot_pub_debt_out_amt": "38981755126540.77",
+      "debt_held_public_amt": "31409491869379.24",
+      "intragov_hold_amt": "7572263257161.53",
+      "tot_pub_debt_out": 38981755126540.77
+    },
+    {
+      "record_date": "2026-04-02",
+      "tot_pub_debt_out_amt": "39000264506637.00",
+      "debt_held_public_amt": "31409363156320.44",
+      "intragov_hold_amt": "7590901350316.56",
+      "tot_pub_debt_out": 39000264506637
+    },
+    {
+      "record_date": "2026-04-01",
+      "tot_pub_debt_out_amt": "39016191534959.54",
+      "debt_held_public_amt": "31431328591198.51",
+      "intragov_hold_amt": "7584862943761.03",
+      "tot_pub_debt_out": 39016191534959.54
+    },
+    {
+      "record_date": "2026-03-31",
+      "tot_pub_debt_out_amt": "39065421393640.82",
+      "debt_held_public_amt": "31431182280136.26",
+      "intragov_hold_amt": "7634239113504.56",
+      "tot_pub_debt_out": 39065421393640.82
+    },
+    {
+      "record_date": "2026-03-30",
+      "tot_pub_debt_out_amt": "39023028185485.25",
+      "debt_held_public_amt": "31385929126772.90",
+      "intragov_hold_amt": "7637099058712.35",
+      "tot_pub_debt_out": 39023028185485.25
+    },
+    {
+      "record_date": "2026-03-27",
+      "tot_pub_debt_out_amt": "39015632027421.67",
+      "debt_held_public_amt": "31388492802178.27",
+      "intragov_hold_amt": "7627139225243.40",
+      "tot_pub_debt_out": 39015632027421.67
+    },
+    {
+      "record_date": "2026-03-26",
+      "tot_pub_debt_out_amt": "38990389667489.38",
+      "debt_held_public_amt": "31361115540758.11",
+      "intragov_hold_amt": "7629274126731.27",
+      "tot_pub_debt_out": 38990389667489.38
+    },
+    {
+      "record_date": "2026-03-25",
+      "tot_pub_debt_out_amt": "38990599081861.70",
+      "debt_held_public_amt": "31363230287736.49",
+      "intragov_hold_amt": "7627368794125.21",
+      "tot_pub_debt_out": 38990599081861.7
+    },
+    {
+      "record_date": "2026-03-24",
+      "tot_pub_debt_out_amt": "38999855700424.49",
+      "debt_held_public_amt": "31362014213440.21",
+      "intragov_hold_amt": "7637841486984.28",
+      "tot_pub_debt_out": 38999855700424.49
+    },
+    {
+      "record_date": "2026-03-23",
+      "tot_pub_debt_out_amt": "39006945786204.79",
+      "debt_held_public_amt": "31385566969958.40",
+      "intragov_hold_amt": "7621378816246.39",
+      "tot_pub_debt_out": 39006945786204.79
+    },
+    {
+      "record_date": "2026-03-20",
+      "tot_pub_debt_out_amt": "39002071364584.97",
+      "debt_held_public_amt": "31384605282290.22",
+      "intragov_hold_amt": "7617466082294.75",
+      "tot_pub_debt_out": 39002071364584.97
+    },
+    {
+      "record_date": "2026-03-19",
+      "tot_pub_debt_out_amt": "39002265870014.23",
+      "debt_held_public_amt": "31385414419029.53",
+      "intragov_hold_amt": "7616851450984.70",
+      "tot_pub_debt_out": 39002265870014.23
+    },
+    {
+      "record_date": "2026-03-18",
+      "tot_pub_debt_out_amt": "38976827976841.63",
+      "debt_held_public_amt": "31364647874667.34",
+      "intragov_hold_amt": "7612180102174.29",
+      "tot_pub_debt_out": 38976827976841.63
+    },
+    {
+      "record_date": "2026-03-17",
+      "tot_pub_debt_out_amt": "39016762910245.14",
+      "debt_held_public_amt": "31379706593178.71",
+      "intragov_hold_amt": "7637056317066.43",
+      "tot_pub_debt_out": 39016762910245.14
+    },
+    {
+      "record_date": "2026-03-16",
+      "tot_pub_debt_out_amt": "38992187847500.92",
+      "debt_held_public_amt": "31381345411579.55",
+      "intragov_hold_amt": "7610842435921.37",
+      "tot_pub_debt_out": 38992187847500.92
+    },
+    {
+      "record_date": "2026-03-13",
+      "tot_pub_debt_out_amt": "38902637810572.47",
+      "debt_held_public_amt": "31300165451609.92",
+      "intragov_hold_amt": "7602472358962.55",
+      "tot_pub_debt_out": 38902637810572.47
+    },
+    {
+      "record_date": "2026-03-12",
+      "tot_pub_debt_out_amt": "38900879040970.80",
+      "debt_held_public_amt": "31300175076619.99",
+      "intragov_hold_amt": "7600703964350.81",
+      "tot_pub_debt_out": 38900879040970.8
+    },
+    {
+      "record_date": "2026-03-11",
+      "tot_pub_debt_out_amt": "38882422422396.88",
+      "debt_held_public_amt": "31285946384224.81",
+      "intragov_hold_amt": "7596476038172.07",
+      "tot_pub_debt_out": 38882422422396.88
+    },
+    {
+      "record_date": "2026-03-10",
+      "tot_pub_debt_out_amt": "38918862057676.91",
+      "debt_held_public_amt": "31298790579980.06",
+      "intragov_hold_amt": "7620071477696.85",
+      "tot_pub_debt_out": 38918862057676.91
+    },
+    {
+      "record_date": "2026-03-09",
+      "tot_pub_debt_out_amt": "38882801672400.64",
+      "debt_held_public_amt": "31280623244306.89",
+      "intragov_hold_amt": "7602178428093.75",
+      "tot_pub_debt_out": 38882801672400.64
+    },
+    {
+      "record_date": "2026-03-06",
+      "tot_pub_debt_out_amt": "38869818249468.38",
+      "debt_held_public_amt": "31280012029379.25",
+      "intragov_hold_amt": "7589806220089.13",
+      "tot_pub_debt_out": 38869818249468.38
+    },
+    {
+      "record_date": "2026-03-05",
+      "tot_pub_debt_out_amt": "38873529611754.22",
+      "debt_held_public_amt": "31281694069404.27",
+      "intragov_hold_amt": "7591835542349.95",
+      "tot_pub_debt_out": 38873529611754.22
+    },
+    {
+      "record_date": "2026-03-04",
+      "tot_pub_debt_out_amt": "38857671304563.85",
+      "debt_held_public_amt": "31271271922985.85",
+      "intragov_hold_amt": "7586399381578.00",
+      "tot_pub_debt_out": 38857671304563.85
+    },
+    {
+      "record_date": "2026-03-03",
+      "tot_pub_debt_out_amt": "38853352399880.18",
+      "debt_held_public_amt": "31268820109081.36",
+      "intragov_hold_amt": "7584532290798.82",
+      "tot_pub_debt_out": 38853352399880.18
+    },
+    {
+      "record_date": "2026-03-02",
+      "tot_pub_debt_out_amt": "38824463573452.26",
+      "debt_held_public_amt": "31244382920777.66",
+      "intragov_hold_amt": "7580080652674.60",
+      "tot_pub_debt_out": 38824463573452.26
+    },
+    {
+      "record_date": "2026-02-27",
+      "tot_pub_debt_out_amt": "38769805982273.81",
+      "debt_held_public_amt": "31186965290815.89",
+      "intragov_hold_amt": "7582840691457.92",
+      "tot_pub_debt_out": 38769805982273.81
+    },
+    {
+      "record_date": "2026-02-26",
+      "tot_pub_debt_out_amt": "38789591923403.59",
+      "debt_held_public_amt": "31149029033685.39",
+      "intragov_hold_amt": "7640562889718.20",
+      "tot_pub_debt_out": 38789591923403.59
+    },
+    {
+      "record_date": "2026-02-25",
+      "tot_pub_debt_out_amt": "38764882203837.59",
+      "debt_held_public_amt": "31126463055912.55",
+      "intragov_hold_amt": "7638419147925.04",
+      "tot_pub_debt_out": 38764882203837.59
+    },
+    {
+      "record_date": "2026-02-24",
+      "tot_pub_debt_out_amt": "38787781432126.22",
+      "debt_held_public_amt": "31129399758399.04",
+      "intragov_hold_amt": "7658381673727.18",
+      "tot_pub_debt_out": 38787781432126.22
+    },
+    {
+      "record_date": "2026-02-23",
+      "tot_pub_debt_out_amt": "38758072042435.60",
+      "debt_held_public_amt": "31113461801511.79",
+      "intragov_hold_amt": "7644610240923.81",
+      "tot_pub_debt_out": 38758072042435.6
+    },
+    {
+      "record_date": "2026-02-20",
+      "tot_pub_debt_out_amt": "38749020004219.30",
+      "debt_held_public_amt": "31113584300966.47",
+      "intragov_hold_amt": "7635435703252.83",
+      "tot_pub_debt_out": 38749020004219.3
+    },
+    {
+      "record_date": "2026-02-19",
+      "tot_pub_debt_out_amt": "38743577500254.48",
+      "debt_held_public_amt": "31112549990945.54",
+      "intragov_hold_amt": "7631027509308.94",
+      "tot_pub_debt_out": 38743577500254.48
+    },
+    {
+      "record_date": "2026-02-18",
+      "tot_pub_debt_out_amt": "38717487211821.37",
+      "debt_held_public_amt": "31088483280078.60",
+      "intragov_hold_amt": "7629003931742.77",
+      "tot_pub_debt_out": 38717487211821.37
+    },
+    {
+      "record_date": "2026-02-17",
+      "tot_pub_debt_out_amt": "38720327822350.87",
+      "debt_held_public_amt": "31087884326300.86",
+      "intragov_hold_amt": "7632443496050.01",
+      "tot_pub_debt_out": 38720327822350.87
+    },
+    {
+      "record_date": "2026-02-13",
+      "tot_pub_debt_out_amt": "38647355475525.93",
+      "debt_held_public_amt": "31031921227566.66",
+      "intragov_hold_amt": "7615434247959.27",
+      "tot_pub_debt_out": 38647355475525.93
+    },
+    {
+      "record_date": "2026-02-12",
+      "tot_pub_debt_out_amt": "38647755796057.39",
+      "debt_held_public_amt": "31032365231612.70",
+      "intragov_hold_amt": "7615390564444.69",
+      "tot_pub_debt_out": 38647755796057.39
+    },
+    {
+      "record_date": "2026-02-11",
+      "tot_pub_debt_out_amt": "38620772876638.50",
+      "debt_held_public_amt": "31009198594125.31",
+      "intragov_hold_amt": "7611574282513.19",
+      "tot_pub_debt_out": 38620772876638.5
+    },
+    {
+      "record_date": "2026-02-10",
+      "tot_pub_debt_out_amt": "38645729764967.98",
+      "debt_held_public_amt": "31010830716181.61",
+      "intragov_hold_amt": "7634899048786.37",
+      "tot_pub_debt_out": 38645729764967.98
+    },
+    {
+      "record_date": "2026-02-09",
+      "tot_pub_debt_out_amt": "38593206197018.13",
+      "debt_held_public_amt": "30969105519646.32",
+      "intragov_hold_amt": "7624100677371.81",
+      "tot_pub_debt_out": 38593206197018.13
+    },
+    {
+      "record_date": "2026-02-06",
+      "tot_pub_debt_out_amt": "38588547251497.72",
+      "debt_held_public_amt": "30969650188685.63",
+      "intragov_hold_amt": "7618897062812.09",
+      "tot_pub_debt_out": 38588547251497.72
+    },
+    {
+      "record_date": "2026-02-05",
+      "tot_pub_debt_out_amt": "38587617094083.77",
+      "debt_held_public_amt": "30974189194630.76",
+      "intragov_hold_amt": "7613427899453.01",
+      "tot_pub_debt_out": 38587617094083.77
+    },
+    {
+      "record_date": "2026-02-04",
+      "tot_pub_debt_out_amt": "38564513699490.46",
+      "debt_held_public_amt": "30956315394310.42",
+      "intragov_hold_amt": "7608198305180.04",
+      "tot_pub_debt_out": 38564513699490.46
+    },
+    {
+      "record_date": "2026-02-03",
+      "tot_pub_debt_out_amt": "38564278020214.60",
+      "debt_held_public_amt": "30957184531162.23",
+      "intragov_hold_amt": "7607093489052.37",
+      "tot_pub_debt_out": 38564278020214.6
+    },
+    {
+      "record_date": "2026-02-02",
+      "tot_pub_debt_out_amt": "38515650269880.94",
+      "debt_held_public_amt": "30915426727781.28",
+      "intragov_hold_amt": "7600223542099.66",
+      "tot_pub_debt_out": 38515650269880.94
+    },
+    {
+      "record_date": "2026-01-30",
+      "tot_pub_debt_out_amt": "38521368112341.66",
+      "debt_held_public_amt": "30919122670062.31",
+      "intragov_hold_amt": "7602245442279.35",
+      "tot_pub_debt_out": 38521368112341.66
+    },
+    {
+      "record_date": "2026-01-29",
+      "tot_pub_debt_out_amt": "38568501122811.36",
+      "debt_held_public_amt": "30898303196814.87",
+      "intragov_hold_amt": "7670197925996.49",
+      "tot_pub_debt_out": 38568501122811.36
+    },
+    {
+      "record_date": "2026-01-28",
+      "tot_pub_debt_out_amt": "38542542471886.84",
+      "debt_held_public_amt": "30876617956619.42",
+      "intragov_hold_amt": "7665924515267.42",
+      "tot_pub_debt_out": 38542542471886.84
+    },
+    {
+      "record_date": "2026-01-27",
+      "tot_pub_debt_out_amt": "38567114207655.70",
+      "debt_held_public_amt": "30878428226102.52",
+      "intragov_hold_amt": "7688685981553.18",
+      "tot_pub_debt_out": 38567114207655.7
+    },
+    {
+      "record_date": "2026-01-26",
+      "tot_pub_debt_out_amt": "38513523578580.59",
+      "debt_held_public_amt": "30839469782091.59",
+      "intragov_hold_amt": "7674053796489.00",
+      "tot_pub_debt_out": 38513523578580.59
+    },
+    {
+      "record_date": "2026-01-23",
+      "tot_pub_debt_out_amt": "38491020558407.85",
+      "debt_held_public_amt": "30839033479994.45",
+      "intragov_hold_amt": "7651987078413.40",
+      "tot_pub_debt_out": 38491020558407.85
+    },
+    {
+      "record_date": "2026-01-22",
+      "tot_pub_debt_out_amt": "38490798138585.90",
+      "debt_held_public_amt": "30841780130036.30",
+      "intragov_hold_amt": "7649018008549.60",
+      "tot_pub_debt_out": 38490798138585.9
+    },
+    {
+      "record_date": "2026-01-21",
+      "tot_pub_debt_out_amt": "38473375474319.00",
+      "debt_held_public_amt": "30825455797755.52",
+      "intragov_hold_amt": "7647919676563.48",
+      "tot_pub_debt_out": 38473375474319
+    },
+    {
+      "record_date": "2026-01-20",
+      "tot_pub_debt_out_amt": "38484705102395.33",
+      "debt_held_public_amt": "30824259874597.25",
+      "intragov_hold_amt": "7660445227798.08",
+      "tot_pub_debt_out": 38484705102395.33
+    },
+    {
+      "record_date": "2026-01-16",
+      "tot_pub_debt_out_amt": "38460239071716.76",
+      "debt_held_public_amt": "30811997567291.18",
+      "intragov_hold_amt": "7648241504425.58",
+      "tot_pub_debt_out": 38460239071716.76
+    },
+    {
+      "record_date": "2026-01-15",
+      "tot_pub_debt_out_amt": "38453108492348.67",
+      "debt_held_public_amt": "30811929736380.71",
+      "intragov_hold_amt": "7641178755967.96",
+      "tot_pub_debt_out": 38453108492348.67
+    },
+    {
+      "record_date": "2026-01-14",
+      "tot_pub_debt_out_amt": "38396062667874.39",
+      "debt_held_public_amt": "30787151283904.07",
+      "intragov_hold_amt": "7608911383970.32",
+      "tot_pub_debt_out": 38396062667874.39
+    },
+    {
+      "record_date": "2026-01-13",
+      "tot_pub_debt_out_amt": "38433852753680.03",
+      "debt_held_public_amt": "30786665721842.47",
+      "intragov_hold_amt": "7647187031837.56",
+      "tot_pub_debt_out": 38433852753680.03
+    },
+    {
+      "record_date": "2026-01-12",
+      "tot_pub_debt_out_amt": "38437700892419.68",
+      "debt_held_public_amt": "30802877100962.48",
+      "intragov_hold_amt": "7634823791457.20",
+      "tot_pub_debt_out": 38437700892419.68
+    },
+    {
+      "record_date": "2026-01-09",
+      "tot_pub_debt_out_amt": "38433330126292.37",
+      "debt_held_public_amt": "30803872985803.55",
+      "intragov_hold_amt": "7629457140488.82",
+      "tot_pub_debt_out": 38433330126292.37
+    },
+    {
+      "record_date": "2026-01-08",
+      "tot_pub_debt_out_amt": "38432587259757.29",
+      "debt_held_public_amt": "30806172192100.19",
+      "intragov_hold_amt": "7626415067657.10",
+      "tot_pub_debt_out": 38432587259757.29
+    },
+    {
+      "record_date": "2026-01-07",
+      "tot_pub_debt_out_amt": "38432287507801.52",
+      "debt_held_public_amt": "30810025746721.36",
+      "intragov_hold_amt": "7622261761080.16",
+      "tot_pub_debt_out": 38432287507801.52
+    },
+    {
+      "record_date": "2026-01-06",
+      "tot_pub_debt_out_amt": "38430410089259.84",
+      "debt_held_public_amt": "30809021616341.38",
+      "intragov_hold_amt": "7621388472918.46",
+      "tot_pub_debt_out": 38430410089259.84
+    },
+    {
+      "record_date": "2026-01-05",
+      "tot_pub_debt_out_amt": "38441088237227.94",
+      "debt_held_public_amt": "30829627778734.90",
+      "intragov_hold_amt": "7611460458493.04",
+      "tot_pub_debt_out": 38441088237227.94
+    },
+    {
+      "record_date": "2026-01-02",
+      "tot_pub_debt_out_amt": "38422818570606.72",
+      "debt_held_public_amt": "30830898741274.12",
+      "intragov_hold_amt": "7591919829332.60",
+      "tot_pub_debt_out": 38422818570606.72
+    },
+    {
+      "record_date": "2025-12-31",
+      "tot_pub_debt_out_amt": "38514009184232.72",
+      "debt_held_public_amt": "30846716536213.26",
+      "intragov_hold_amt": "7667292648019.46",
+      "tot_pub_debt_out": 38514009184232.72
+    },
+    {
+      "record_date": "2025-12-30",
+      "tot_pub_debt_out_amt": "38372153717621.09",
+      "debt_held_public_amt": "30758836564019.29",
+      "intragov_hold_amt": "7613317153601.80",
+      "tot_pub_debt_out": 38372153717621.09
+    },
+    {
+      "record_date": "2025-12-29",
+      "tot_pub_debt_out_amt": "38386384190622.68",
+      "debt_held_public_amt": "30788927240091.41",
+      "intragov_hold_amt": "7597456950531.27",
+      "tot_pub_debt_out": 38386384190622.68
+    },
+    {
+      "record_date": "2025-12-26",
+      "tot_pub_debt_out_amt": "38380536147996.03",
+      "debt_held_public_amt": "30789162165471.37",
+      "intragov_hold_amt": "7591373982524.66",
+      "tot_pub_debt_out": 38380536147996.03
+    },
+    {
+      "record_date": "2025-12-24",
+      "tot_pub_debt_out_amt": "38352846701813.17",
+      "debt_held_public_amt": "30767152990652.20",
+      "intragov_hold_amt": "7585693711160.97",
+      "tot_pub_debt_out": 38352846701813.17
+    },
+    {
+      "record_date": "2025-12-23",
+      "tot_pub_debt_out_amt": "38375349596930.58",
+      "debt_held_public_amt": "30765540678107.58",
+      "intragov_hold_amt": "7609808918823.00",
+      "tot_pub_debt_out": 38375349596930.58
+    },
+    {
+      "record_date": "2025-12-22",
+      "tot_pub_debt_out_amt": "38378413234316.13",
+      "debt_held_public_amt": "30804343347355.44",
+      "intragov_hold_amt": "7574069886960.69",
+      "tot_pub_debt_out": 38378413234316.13
+    },
+    {
+      "record_date": "2025-12-19",
+      "tot_pub_debt_out_amt": "38372869364189.14",
+      "debt_held_public_amt": "30804983565149.29",
+      "intragov_hold_amt": "7567885799039.85",
+      "tot_pub_debt_out": 38372869364189.14
+    },
+    {
+      "record_date": "2025-12-18",
+      "tot_pub_debt_out_amt": "38375371484790.79",
+      "debt_held_public_amt": "30807754246644.19",
+      "intragov_hold_amt": "7567617238146.60",
+      "tot_pub_debt_out": 38375371484790.79
+    },
+    {
+      "record_date": "2025-12-17",
+      "tot_pub_debt_out_amt": "38378996619785.02",
+      "debt_held_public_amt": "30816952898858.15",
+      "intragov_hold_amt": "7562043720926.87",
+      "tot_pub_debt_out": 38378996619785.02
+    },
+    {
+      "record_date": "2025-12-16",
+      "tot_pub_debt_out_amt": "38396179577012.10",
+      "debt_held_public_amt": "30816834775843.42",
+      "intragov_hold_amt": "7579344801168.68",
+      "tot_pub_debt_out": 38396179577012.1
+    },
+    {
+      "record_date": "2025-12-15",
+      "tot_pub_debt_out_amt": "38419380255240.59",
+      "debt_held_public_amt": "30852855298143.76",
+      "intragov_hold_amt": "7566524957096.83",
+      "tot_pub_debt_out": 38419380255240.59
+    },
+    {
+      "record_date": "2025-12-12",
+      "tot_pub_debt_out_amt": "38339541810902.33",
+      "debt_held_public_amt": "30774528464721.58",
+      "intragov_hold_amt": "7565013346180.75",
+      "tot_pub_debt_out": 38339541810902.33
+    },
+    {
+      "record_date": "2025-12-11",
+      "tot_pub_debt_out_amt": "38349795034550.24",
+      "debt_held_public_amt": "30787372595984.82",
+      "intragov_hold_amt": "7562422438565.42",
+      "tot_pub_debt_out": 38349795034550.24
+    },
+    {
+      "record_date": "2025-12-10",
+      "tot_pub_debt_out_amt": "38352200418068.14",
+      "debt_held_public_amt": "30793542262019.16",
+      "intragov_hold_amt": "7558658156048.98",
+      "tot_pub_debt_out": 38352200418068.14
+    },
+    {
+      "record_date": "2025-12-09",
+      "tot_pub_debt_out_amt": "38377110471869.66",
+      "debt_held_public_amt": "30793663184220.67",
+      "intragov_hold_amt": "7583447287648.99",
+      "tot_pub_debt_out": 38377110471869.66
+    },
+    {
+      "record_date": "2025-12-08",
+      "tot_pub_debt_out_amt": "38395956139411.28",
+      "debt_held_public_amt": "30822913626328.95",
+      "intragov_hold_amt": "7573042513082.33",
+      "tot_pub_debt_out": 38395956139411.28
+    },
+    {
+      "record_date": "2025-12-05",
+      "tot_pub_debt_out_amt": "38390532833611.70",
+      "debt_held_public_amt": "30822518818972.69",
+      "intragov_hold_amt": "7568014014639.01",
+      "tot_pub_debt_out": 38390532833611.7
+    },
+    {
+      "record_date": "2025-12-04",
+      "tot_pub_debt_out_amt": "38389369875885.10",
+      "debt_held_public_amt": "30824381406045.22",
+      "intragov_hold_amt": "7564988469839.88",
+      "tot_pub_debt_out": 38389369875885.1
+    },
+    {
+      "record_date": "2025-12-03",
+      "tot_pub_debt_out_amt": "38403532042006.28",
+      "debt_held_public_amt": "30843637085897.30",
+      "intragov_hold_amt": "7559894956108.98",
+      "tot_pub_debt_out": 38403532042006.28
+    },
+    {
+      "record_date": "2025-12-02",
+      "tot_pub_debt_out_amt": "38423764679404.02",
+      "debt_held_public_amt": "30843863156002.45",
+      "intragov_hold_amt": "7579901523401.57",
+      "tot_pub_debt_out": 38423764679404.02
+    },
+    {
+      "record_date": "2025-12-01",
+      "tot_pub_debt_out_amt": "38425673178874.63",
+      "debt_held_public_amt": "30853068463300.35",
+      "intragov_hold_amt": "7572604715574.28",
+      "tot_pub_debt_out": 38425673178874.63
+    },
+    {
+      "record_date": "2025-11-28",
+      "tot_pub_debt_out_amt": "38396211497613.65",
+      "debt_held_public_amt": "30774117238206.31",
+      "intragov_hold_amt": "7622094259407.34",
+      "tot_pub_debt_out": 38396211497613.65
+    },
+    {
+      "record_date": "2025-11-26",
+      "tot_pub_debt_out_amt": "38335267983846.11",
+      "debt_held_public_amt": "30720877603388.67",
+      "intragov_hold_amt": "7614390380457.44",
+      "tot_pub_debt_out": 38335267983846.11
+    },
+    {
+      "record_date": "2025-11-25",
+      "tot_pub_debt_out_amt": "38360841844745.79",
+      "debt_held_public_amt": "30722912264691.05",
+      "intragov_hold_amt": "7637929580054.74",
+      "tot_pub_debt_out": 38360841844745.79
+    },
+    {
+      "record_date": "2025-11-24",
+      "tot_pub_debt_out_amt": "38336291718985.39",
+      "debt_held_public_amt": "30706241277353.57",
+      "intragov_hold_amt": "7630050441631.82",
+      "tot_pub_debt_out": 38336291718985.39
+    },
+    {
+      "record_date": "2025-11-21",
+      "tot_pub_debt_out_amt": "38333530047031.29",
+      "debt_held_public_amt": "30706639126551.86",
+      "intragov_hold_amt": "7626890920479.43",
+      "tot_pub_debt_out": 38333530047031.29
+    },
+    {
+      "record_date": "2025-11-20",
+      "tot_pub_debt_out_amt": "38326967559564.53",
+      "debt_held_public_amt": "30707975239396.64",
+      "intragov_hold_amt": "7618992320167.89",
+      "tot_pub_debt_out": 38326967559564.53
+    },
+    {
+      "record_date": "2025-11-19",
+      "tot_pub_debt_out_amt": "38299373085978.18",
+      "debt_held_public_amt": "30687812251917.30",
+      "intragov_hold_amt": "7611560834060.88",
+      "tot_pub_debt_out": 38299373085978.18
+    },
+    {
+      "record_date": "2025-11-18",
+      "tot_pub_debt_out_amt": "38265355580035.02",
+      "debt_held_public_amt": "30690574250262.63",
+      "intragov_hold_amt": "7574781329772.39",
+      "tot_pub_debt_out": 38265355580035.02
+    },
+    {
+      "record_date": "2025-11-17",
+      "tot_pub_debt_out_amt": "38181184806486.51",
+      "debt_held_public_amt": "30675159827981.92",
+      "intragov_hold_amt": "7506024978504.59",
+      "tot_pub_debt_out": 38181184806486.51
+    },
+    {
+      "record_date": "2025-11-14",
+      "tot_pub_debt_out_amt": "38153732193790.00",
+      "debt_held_public_amt": "30654607353084.03",
+      "intragov_hold_amt": "7499124840705.97",
+      "tot_pub_debt_out": 38153732193790
+    },
+    {
+      "record_date": "2025-11-13",
+      "tot_pub_debt_out_amt": "38150716416656.92",
+      "debt_held_public_amt": "30653919436694.72",
+      "intragov_hold_amt": "7496796979962.20",
+      "tot_pub_debt_out": 38150716416656.92
+    },
+    {
+      "record_date": "2025-11-12",
+      "tot_pub_debt_out_amt": "38121217149187.64",
+      "debt_held_public_amt": "30629115020089.01",
+      "intragov_hold_amt": "7492102129098.63",
+      "tot_pub_debt_out": 38121217149187.64
+    },
+    {
+      "record_date": "2025-11-10",
+      "tot_pub_debt_out_amt": "38125731687631.03",
+      "debt_held_public_amt": "30613346931589.27",
+      "intragov_hold_amt": "7512384756041.76",
+      "tot_pub_debt_out": 38125731687631.03
+    },
+    {
+      "record_date": "2025-11-07",
+      "tot_pub_debt_out_amt": "38117224885993.65",
+      "debt_held_public_amt": "30611508844516.16",
+      "intragov_hold_amt": "7505716041477.49",
+      "tot_pub_debt_out": 38117224885993.65
+    },
+    {
+      "record_date": "2025-11-06",
+      "tot_pub_debt_out_amt": "38118268221748.03",
+      "debt_held_public_amt": "30610666797441.52",
+      "intragov_hold_amt": "7507601424306.51",
+      "tot_pub_debt_out": 38118268221748.03
+    },
+    {
+      "record_date": "2025-11-05",
+      "tot_pub_debt_out_amt": "38091526352867.96",
+      "debt_held_public_amt": "30589653976794.86",
+      "intragov_hold_amt": "7501872376073.10",
+      "tot_pub_debt_out": 38091526352867.96
+    },
+    {
+      "record_date": "2025-11-04",
+      "tot_pub_debt_out_amt": "38047239753103.02",
+      "debt_held_public_amt": "30588445700448.40",
+      "intragov_hold_amt": "7458794052654.62",
+      "tot_pub_debt_out": 38047239753103.02
+    },
+    {
+      "record_date": "2025-11-03",
+      "tot_pub_debt_out_amt": "38004366480104.18",
+      "debt_held_public_amt": "30567833810363.02",
+      "intragov_hold_amt": "7436532669741.16",
+      "tot_pub_debt_out": 38004366480104.18
+    },
+    {
+      "record_date": "2025-10-31",
+      "tot_pub_debt_out_amt": "38040093786521.02",
+      "debt_held_public_amt": "30570708483009.12",
+      "intragov_hold_amt": "7469385303511.90",
+      "tot_pub_debt_out": 38040093786521.02
+    },
+    {
+      "record_date": "2025-10-30",
+      "tot_pub_debt_out_amt": "38108930250279.00",
+      "debt_held_public_amt": "30516171709909.29",
+      "intragov_hold_amt": "7592758540369.71",
+      "tot_pub_debt_out": 38108930250279
+    },
+    {
+      "record_date": "2025-10-29",
+      "tot_pub_debt_out_amt": "38078544144158.23",
+      "debt_held_public_amt": "30490067642291.03",
+      "intragov_hold_amt": "7588476501867.20",
+      "tot_pub_debt_out": 38078544144158.23
+    },
+    {
+      "record_date": "2025-10-28",
+      "tot_pub_debt_out_amt": "38076934220531.56",
+      "debt_held_public_amt": "30490669166603.18",
+      "intragov_hold_amt": "7586265053928.38",
+      "tot_pub_debt_out": 38076934220531.56
+    },
+    {
+      "record_date": "2025-10-27",
+      "tot_pub_debt_out_amt": "38042191742752.61",
+      "debt_held_public_amt": "30463894199662.03",
+      "intragov_hold_amt": "7578297543090.58",
+      "tot_pub_debt_out": 38042191742752.61
+    },
+    {
+      "record_date": "2025-10-24",
+      "tot_pub_debt_out_amt": "38009025959457.40",
+      "debt_held_public_amt": "30462318457750.69",
+      "intragov_hold_amt": "7546707501706.71",
+      "tot_pub_debt_out": 38009025959457.4
+    },
+    {
+      "record_date": "2025-10-23",
+      "tot_pub_debt_out_amt": "38008137064951.61",
+      "debt_held_public_amt": "30462505791396.93",
+      "intragov_hold_amt": "7545631273554.68",
+      "tot_pub_debt_out": 38008137064951.61
+    },
+    {
+      "record_date": "2025-10-22",
+      "tot_pub_debt_out_amt": "37990672926605.56",
+      "debt_held_public_amt": "30439169276342.86",
+      "intragov_hold_amt": "7551503650262.70",
+      "tot_pub_debt_out": 37990672926605.56
+    },
+    {
+      "record_date": "2025-10-21",
+      "tot_pub_debt_out_amt": "38019813354700.26",
+      "debt_held_public_amt": "30437767080384.89",
+      "intragov_hold_amt": "7582046274315.37",
+      "tot_pub_debt_out": 38019813354700.26
+    },
+    {
+      "record_date": "2025-10-20",
+      "tot_pub_debt_out_amt": "37980273670431.33",
+      "debt_held_public_amt": "30407775576424.92",
+      "intragov_hold_amt": "7572498094006.41",
+      "tot_pub_debt_out": 37980273670431.33
+    },
+    {
+      "record_date": "2025-10-17",
+      "tot_pub_debt_out_amt": "37977305836407.32",
+      "debt_held_public_amt": "30407496862775.24",
+      "intragov_hold_amt": "7569808973632.08",
+      "tot_pub_debt_out": 37977305836407.32
+    },
+    {
+      "record_date": "2025-10-16",
+      "tot_pub_debt_out_amt": "37966553856331.42",
+      "debt_held_public_amt": "30406659067650.88",
+      "intragov_hold_amt": "7559894788680.54",
+      "tot_pub_debt_out": 37966553856331.42
+    },
+    {
+      "record_date": "2025-10-15",
+      "tot_pub_debt_out_amt": "37942635331189.62",
+      "debt_held_public_amt": "30383102547724.69",
+      "intragov_hold_amt": "7559532783464.93",
+      "tot_pub_debt_out": 37942635331189.62
+    },
+    {
+      "record_date": "2025-10-14",
+      "tot_pub_debt_out_amt": "37918956045703.85",
+      "debt_held_public_amt": "30344240501849.17",
+      "intragov_hold_amt": "7574715543854.68",
+      "tot_pub_debt_out": 37918956045703.85
+    },
+    {
+      "record_date": "2025-10-10",
+      "tot_pub_debt_out_amt": "37885436585424.63",
+      "debt_held_public_amt": "30315775357225.49",
+      "intragov_hold_amt": "7569661228199.14",
+      "tot_pub_debt_out": 37885436585424.63
+    },
+    {
+      "record_date": "2025-10-09",
+      "tot_pub_debt_out_amt": "37883930412462.39",
+      "debt_held_public_amt": "30315050520795.47",
+      "intragov_hold_amt": "7568879891666.92",
+      "tot_pub_debt_out": 37883930412462.39
+    },
+    {
+      "record_date": "2025-10-08",
+      "tot_pub_debt_out_amt": "37863837866592.00",
+      "debt_held_public_amt": "30300449106850.14",
+      "intragov_hold_amt": "7563388759741.86",
+      "tot_pub_debt_out": 37863837866592
+    },
+    {
+      "record_date": "2025-10-07",
+      "tot_pub_debt_out_amt": "37889756572760.44",
+      "debt_held_public_amt": "30302393668027.57",
+      "intragov_hold_amt": "7587362904732.87",
+      "tot_pub_debt_out": 37889756572760.44
+    },
+    {
+      "record_date": "2025-10-06",
+      "tot_pub_debt_out_amt": "37863241283552.57",
+      "debt_held_public_amt": "30284583976614.40",
+      "intragov_hold_amt": "7578657306938.17",
+      "tot_pub_debt_out": 37863241283552.57
+    },
+    {
+      "record_date": "2025-10-03",
+      "tot_pub_debt_out_amt": "37852655815448.95",
+      "debt_held_public_amt": "30283066232826.22",
+      "intragov_hold_amt": "7569589582622.73",
+      "tot_pub_debt_out": 37852655815448.95
+    },
+    {
+      "record_date": "2025-10-02",
+      "tot_pub_debt_out_amt": "37881842797107.39",
+      "debt_held_public_amt": "30285435150302.49",
+      "intragov_hold_amt": "7596407646804.90",
+      "tot_pub_debt_out": 37881842797107.39
+    },
+    {
+      "record_date": "2025-10-01",
+      "tot_pub_debt_out_amt": "37864059502725.70",
+      "debt_held_public_amt": "30275547632000.40",
+      "intragov_hold_amt": "7588511870725.30",
+      "tot_pub_debt_out": 37864059502725.7
+    },
+    {
+      "record_date": "2025-09-30",
+      "tot_pub_debt_out_amt": "37637553494935.61",
+      "debt_held_public_amt": "30277766440770.58",
+      "intragov_hold_amt": "7359787054165.03",
+      "tot_pub_debt_out": 37637553494935.61
+    },
+    {
+      "record_date": "2025-09-29",
+      "tot_pub_debt_out_amt": "37506453566221.20",
+      "debt_held_public_amt": "30183798697434.94",
+      "intragov_hold_amt": "7322654868786.26",
+      "tot_pub_debt_out": 37506453566221.2
+    },
+    {
+      "record_date": "2025-09-26",
+      "tot_pub_debt_out_amt": "37499704495767.33",
+      "debt_held_public_amt": "30184180191221.72",
+      "intragov_hold_amt": "7315524304545.61",
+      "tot_pub_debt_out": 37499704495767.33
+    },
+    {
+      "record_date": "2025-09-25",
+      "tot_pub_debt_out_amt": "37467893078454.54",
+      "debt_held_public_amt": "30155538367056.52",
+      "intragov_hold_amt": "7312354711398.02",
+      "tot_pub_debt_out": 37467893078454.54
+    },
+    {
+      "record_date": "2025-09-24",
+      "tot_pub_debt_out_amt": "37454537246248.71",
+      "debt_held_public_amt": "30144752790618.94",
+      "intragov_hold_amt": "7309784455629.77",
+      "tot_pub_debt_out": 37454537246248.71
+    },
+    {
+      "record_date": "2025-09-23",
+      "tot_pub_debt_out_amt": "37469695592279.39",
+      "debt_held_public_amt": "30143073922487.06",
+      "intragov_hold_amt": "7326621669792.33",
+      "tot_pub_debt_out": 37469695592279.39
+    },
+    {
+      "record_date": "2025-09-22",
+      "tot_pub_debt_out_amt": "37511743906522.52",
+      "debt_held_public_amt": "30198287082014.00",
+      "intragov_hold_amt": "7313456824508.52",
+      "tot_pub_debt_out": 37511743906522.52
+    },
+    {
+      "record_date": "2025-09-19",
+      "tot_pub_debt_out_amt": "37505753023219.84",
+      "debt_held_public_amt": "30197443850677.82",
+      "intragov_hold_amt": "7308309172542.02",
+      "tot_pub_debt_out": 37505753023219.84
+    },
+    {
+      "record_date": "2025-09-18",
+      "tot_pub_debt_out_amt": "37509824280685.29",
+      "debt_held_public_amt": "30200452994946.00",
+      "intragov_hold_amt": "7309371285739.29",
+      "tot_pub_debt_out": 37509824280685.29
+    },
+    {
+      "record_date": "2025-09-17",
+      "tot_pub_debt_out_amt": "37492636705736.22",
+      "debt_held_public_amt": "30185927497582.21",
+      "intragov_hold_amt": "7306709208154.01",
+      "tot_pub_debt_out": 37492636705736.22
+    },
+    {
+      "record_date": "2025-09-16",
+      "tot_pub_debt_out_amt": "37502758153725.95",
+      "debt_held_public_amt": "30185858953772.60",
+      "intragov_hold_amt": "7316899199953.35",
+      "tot_pub_debt_out": 37502758153725.95
+    },
+    {
+      "record_date": "2025-09-15",
+      "tot_pub_debt_out_amt": "37533982585305.57",
+      "debt_held_public_amt": "30235402349560.97",
+      "intragov_hold_amt": "7298580235744.60",
+      "tot_pub_debt_out": 37533982585305.57
+    },
+    {
+      "record_date": "2025-09-12",
+      "tot_pub_debt_out_amt": "37461799057660.24",
+      "debt_held_public_amt": "30156635899566.90",
+      "intragov_hold_amt": "7305163158093.34",
+      "tot_pub_debt_out": 37461799057660.24
+    },
+    {
+      "record_date": "2025-09-11",
+      "tot_pub_debt_out_amt": "37470833295098.68",
+      "debt_held_public_amt": "30156524547639.58",
+      "intragov_hold_amt": "7314308747459.10",
+      "tot_pub_debt_out": 37470833295098.68
+    },
+    {
+      "record_date": "2025-09-10",
+      "tot_pub_debt_out_amt": "37450743855028.23",
+      "debt_held_public_amt": "30141501721759.29",
+      "intragov_hold_amt": "7309242133268.94",
+      "tot_pub_debt_out": 37450743855028.23
+    },
+    {
+      "record_date": "2025-09-09",
+      "tot_pub_debt_out_amt": "37473887187237.77",
+      "debt_held_public_amt": "30141157463769.15",
+      "intragov_hold_amt": "7332729723468.62",
+      "tot_pub_debt_out": 37473887187237.77
+    },
+    {
+      "record_date": "2025-09-08",
+      "tot_pub_debt_out_amt": "37440609216979.63",
+      "debt_held_public_amt": "30121188716571.55",
+      "intragov_hold_amt": "7319420500408.08",
+      "tot_pub_debt_out": 37440609216979.63
+    },
+    {
+      "record_date": "2025-09-05",
+      "tot_pub_debt_out_amt": "37433588261516.55",
+      "debt_held_public_amt": "30121223541151.12",
+      "intragov_hold_amt": "7312364720365.43",
+      "tot_pub_debt_out": 37433588261516.55
+    },
+    {
+      "record_date": "2025-09-04",
+      "tot_pub_debt_out_amt": "37430128115822.76",
+      "debt_held_public_amt": "30121675356508.43",
+      "intragov_hold_amt": "7308452759314.33",
+      "tot_pub_debt_out": 37430128115822.76
+    },
+    {
+      "record_date": "2025-09-03",
+      "tot_pub_debt_out_amt": "37412679963880.17",
+      "debt_held_public_amt": "30106522172043.14",
+      "intragov_hold_amt": "7306157791837.03",
+      "tot_pub_debt_out": 37412679963880.17
+    },
+    {
+      "record_date": "2025-09-02",
+      "tot_pub_debt_out_amt": "37413538427516.19",
+      "debt_held_public_amt": "30105889987086.45",
+      "intragov_hold_amt": "7307648440429.74",
+      "tot_pub_debt_out": 37413538427516.19
+    },
+    {
+      "record_date": "2025-08-29",
+      "tot_pub_debt_out_amt": "37274265917907.03",
+      "debt_held_public_amt": "29968531307467.56",
+      "intragov_hold_amt": "7305734610439.47",
+      "tot_pub_debt_out": 37274265917907.03
+    },
+    {
+      "record_date": "2025-08-28",
+      "tot_pub_debt_out_amt": "37310153970210.76",
+      "debt_held_public_amt": "29931514784077.08",
+      "intragov_hold_amt": "7378639186133.68",
+      "tot_pub_debt_out": 37310153970210.76
+    },
+    {
+      "record_date": "2025-08-27",
+      "tot_pub_debt_out_amt": "37283968901443.54",
+      "debt_held_public_amt": "29904188921878.34",
+      "intragov_hold_amt": "7379779979565.20",
+      "tot_pub_debt_out": 37283968901443.54
+    },
+    {
+      "record_date": "2025-08-26",
+      "tot_pub_debt_out_amt": "37204886498253.39",
+      "debt_held_public_amt": "29905784737041.34",
+      "intragov_hold_amt": "7299101761212.05",
+      "tot_pub_debt_out": 37204886498253.39
+    },
+    {
+      "record_date": "2025-08-25",
+      "tot_pub_debt_out_amt": "37254222904720.97",
+      "debt_held_public_amt": "29858744380962.86",
+      "intragov_hold_amt": "7395478523758.11",
+      "tot_pub_debt_out": 37254222904720.97
+    },
+    {
+      "record_date": "2025-08-22",
+      "tot_pub_debt_out_amt": "37234066149278.96",
+      "debt_held_public_amt": "29858032327748.39",
+      "intragov_hold_amt": "7376033821530.57",
+      "tot_pub_debt_out": 37234066149278.96
+    },
+    {
+      "record_date": "2025-08-21",
+      "tot_pub_debt_out_amt": "37232288662023.91",
+      "debt_held_public_amt": "29860626144050.13",
+      "intragov_hold_amt": "7371662517973.78",
+      "tot_pub_debt_out": 37232288662023.91
+    },
+    {
+      "record_date": "2025-08-20",
+      "tot_pub_debt_out_amt": "37180190981823.32",
+      "debt_held_public_amt": "29814986079837.20",
+      "intragov_hold_amt": "7365204901986.12",
+      "tot_pub_debt_out": 37180190981823.32
+    },
+    {
+      "record_date": "2025-08-19",
+      "tot_pub_debt_out_amt": "37208856314804.55",
+      "debt_held_public_amt": "29818545456535.64",
+      "intragov_hold_amt": "7390310858268.91",
+      "tot_pub_debt_out": 37208856314804.55
+    },
+    {
+      "record_date": "2025-08-18",
+      "tot_pub_debt_out_amt": "37144076750410.16",
+      "debt_held_public_amt": "29771882958785.37",
+      "intragov_hold_amt": "7372193791624.79",
+      "tot_pub_debt_out": 37144076750410.16
+    },
+    {
+      "record_date": "2025-08-15",
+      "tot_pub_debt_out_amt": "37137282641767.74",
+      "debt_held_public_amt": "29771410762345.73",
+      "intragov_hold_amt": "7365871879422.01",
+      "tot_pub_debt_out": 37137282641767.74
+    },
+    {
+      "record_date": "2025-08-14",
+      "tot_pub_debt_out_amt": "37089430594354.58",
+      "debt_held_public_amt": "29741150322937.10",
+      "intragov_hold_amt": "7348280271417.48",
+      "tot_pub_debt_out": 37089430594354.58
+    },
+    {
+      "record_date": "2025-08-13",
+      "tot_pub_debt_out_amt": "37045338077527.04",
+      "debt_held_public_amt": "29698492660209.76",
+      "intragov_hold_amt": "7346845417317.28",
+      "tot_pub_debt_out": 37045338077527.04
+    },
+    {
+      "record_date": "2025-08-12",
+      "tot_pub_debt_out_amt": "37070422809316.32",
+      "debt_held_public_amt": "29698694854602.48",
+      "intragov_hold_amt": "7371727954713.84",
+      "tot_pub_debt_out": 37070422809316.32
+    },
+    {
+      "record_date": "2025-08-11",
+      "tot_pub_debt_out_amt": "37004817625842.56",
+      "debt_held_public_amt": "29643534539743.71",
+      "intragov_hold_amt": "7361283086098.85",
+      "tot_pub_debt_out": 37004817625842.56
+    },
+    {
+      "record_date": "2025-08-08",
+      "tot_pub_debt_out_amt": "36998491853555.08",
+      "debt_held_public_amt": "29642973771492.29",
+      "intragov_hold_amt": "7355518082062.79",
+      "tot_pub_debt_out": 36998491853555.08
+    },
+    {
+      "record_date": "2025-08-07",
+      "tot_pub_debt_out_amt": "36996205967149.22",
+      "debt_held_public_amt": "29642704925910.30",
+      "intragov_hold_amt": "7353501041238.92",
+      "tot_pub_debt_out": 36996205967149.22
+    },
+    {
+      "record_date": "2025-08-06",
+      "tot_pub_debt_out_amt": "36950459859111.56",
+      "debt_held_public_amt": "29601946000343.28",
+      "intragov_hold_amt": "7348513858768.28",
+      "tot_pub_debt_out": 36950459859111.56
+    },
+    {
+      "record_date": "2025-08-05",
+      "tot_pub_debt_out_amt": "36930452345865.16",
+      "debt_held_public_amt": "29601407493123.21",
+      "intragov_hold_amt": "7329044852741.95",
+      "tot_pub_debt_out": 36930452345865.16
+    },
+    {
+      "record_date": "2025-08-04",
+      "tot_pub_debt_out_amt": "36828164797914.31",
+      "debt_held_public_amt": "29523300148538.85",
+      "intragov_hold_amt": "7314864649375.46",
+      "tot_pub_debt_out": 36828164797914.31
+    },
+    {
+      "record_date": "2025-08-01",
+      "tot_pub_debt_out_amt": "36826902934749.25",
+      "debt_held_public_amt": "29522548953929.98",
+      "intragov_hold_amt": "7304353980819.27",
+      "tot_pub_debt_out": 36826902934749.25
+    },
+    {
+      "record_date": "2025-07-31",
+      "tot_pub_debt_out_amt": "36916987311998.03",
+      "debt_held_public_amt": "29531340715980.52",
+      "intragov_hold_amt": "7385646596017.51",
+      "tot_pub_debt_out": 36916987311998.03
+    },
+    {
+      "record_date": "2025-07-30",
+      "tot_pub_debt_out_amt": "36802240561898.39",
+      "debt_held_public_amt": "29422821531852.86",
+      "intragov_hold_amt": "7379419030045.53",
+      "tot_pub_debt_out": 36802240561898.39
+    },
+    {
+      "record_date": "2025-07-29",
+      "tot_pub_debt_out_amt": "36803837518918.21",
+      "debt_held_public_amt": "29423243369055.06",
+      "intragov_hold_amt": "7380594149863.15",
+      "tot_pub_debt_out": 36803837518918.21
+    },
+    {
+      "record_date": "2025-07-28",
+      "tot_pub_debt_out_amt": "36734926076305.30",
+      "debt_held_public_amt": "29361632076260.01",
+      "intragov_hold_amt": "7373294000045.29",
+      "tot_pub_debt_out": 36734926076305.3
+    },
+    {
+      "record_date": "2025-07-25",
+      "tot_pub_debt_out_amt": "36732899946782.52",
+      "debt_held_public_amt": "29361462754830.93",
+      "intragov_hold_amt": "7371437191951.59",
+      "tot_pub_debt_out": 36732899946782.52
+    },
+    {
+      "record_date": "2025-07-24",
+      "tot_pub_debt_out_amt": "36721531033602.97",
+      "debt_held_public_amt": "29361169407599.91",
+      "intragov_hold_amt": "7360361626003.06",
+      "tot_pub_debt_out": 36721531033602.97
+    },
+    {
+      "record_date": "2025-07-23",
+      "tot_pub_debt_out_amt": "36686937742311.50",
+      "debt_held_public_amt": "29332905580399.32",
+      "intragov_hold_amt": "7354032161912.18",
+      "tot_pub_debt_out": 36686937742311.5
+    },
+    {
+      "record_date": "2025-07-22",
+      "tot_pub_debt_out_amt": "36711532407363.75",
+      "debt_held_public_amt": "29332747751071.01",
+      "intragov_hold_amt": "7378784656292.74",
+      "tot_pub_debt_out": 36711532407363.75
+    },
+    {
+      "record_date": "2025-07-21",
+      "tot_pub_debt_out_amt": "36661693720250.59",
+      "debt_held_public_amt": "29297584848407.38",
+      "intragov_hold_amt": "7364108871843.21",
+      "tot_pub_debt_out": 36661693720250.59
+    },
+    {
+      "record_date": "2025-07-18",
+      "tot_pub_debt_out_amt": "36653918652499.85",
+      "debt_held_public_amt": "29296992044459.47",
+      "intragov_hold_amt": "7356926608040.38",
+      "tot_pub_debt_out": 36653918652499.85
+    },
+    {
+      "record_date": "2025-07-17",
+      "tot_pub_debt_out_amt": "36655280579113.61",
+      "debt_held_public_amt": "29296842992143.18",
+      "intragov_hold_amt": "7358437586970.43",
+      "tot_pub_debt_out": 36655280579113.61
+    },
+    {
+      "record_date": "2025-07-16",
+      "tot_pub_debt_out_amt": "36627854976862.70",
+      "debt_held_public_amt": "29279025456139.46",
+      "intragov_hold_amt": "7348829520723.24",
+      "tot_pub_debt_out": 36627854976862.7
+    },
+    {
+      "record_date": "2025-07-15",
+      "tot_pub_debt_out_amt": "36651611116545.83",
+      "debt_held_public_amt": "29278468201107.89",
+      "intragov_hold_amt": "7373142915437.94",
+      "tot_pub_debt_out": 36651611116545.83
+    },
+    {
+      "record_date": "2025-07-14",
+      "tot_pub_debt_out_amt": "36598345542154.94",
+      "debt_held_public_amt": "29235163076403.79",
+      "intragov_hold_amt": "7363182465751.15",
+      "tot_pub_debt_out": 36598345542154.94
+    },
+    {
+      "record_date": "2025-07-11",
+      "tot_pub_debt_out_amt": "36595800737387.36",
+      "debt_held_public_amt": "29236040429582.10",
+      "intragov_hold_amt": "7359760307805.26",
+      "tot_pub_debt_out": 36595800737387.36
+    },
+    {
+      "record_date": "2025-07-10",
+      "tot_pub_debt_out_amt": "36595101611079.13",
+      "debt_held_public_amt": "29237384936665.31",
+      "intragov_hold_amt": "7357716674413.82",
+      "tot_pub_debt_out": 36595101611079.13
+    },
+    {
+      "record_date": "2025-07-09",
+      "tot_pub_debt_out_amt": "36600645372974.92",
+      "debt_held_public_amt": "29245895802163.13",
+      "intragov_hold_amt": "7354749570811.79",
+      "tot_pub_debt_out": 36600645372974.92
+    },
+    {
+      "record_date": "2025-07-08",
+      "tot_pub_debt_out_amt": "36625815401249.79",
+      "debt_held_public_amt": "29246985005461.02",
+      "intragov_hold_amt": "7378830395788.77",
+      "tot_pub_debt_out": 36625815401249.79
+    },
+    {
+      "record_date": "2025-07-07",
+      "tot_pub_debt_out_amt": "36582313190019.76",
+      "debt_held_public_amt": "29217069454544.59",
+      "intragov_hold_amt": "7365243735475.17",
+      "tot_pub_debt_out": 36582313190019.76
+    },
+    {
+      "record_date": "2025-07-03",
+      "tot_pub_debt_out_amt": "36215869297299.75",
+      "debt_held_public_amt": "29030139887675.69",
+      "intragov_hold_amt": "7185729409624.06",
+      "tot_pub_debt_out": 36215869297299.75
+    },
+    {
+      "record_date": "2025-07-02",
+      "tot_pub_debt_out_amt": "36213797741182.40",
+      "debt_held_public_amt": "29010089016490.07",
+      "intragov_hold_amt": "7203708724692.33",
+      "tot_pub_debt_out": 36213797741182.4
+    },
+    {
+      "record_date": "2025-07-01",
+      "tot_pub_debt_out_amt": "36214482241911.14",
+      "debt_held_public_amt": "29015375786023.67",
+      "intragov_hold_amt": "7199106455887.47",
+      "tot_pub_debt_out": 36214482241911.14
+    },
+    {
+      "record_date": "2025-06-30",
+      "tot_pub_debt_out_amt": "36211469351821.31",
+      "debt_held_public_amt": "28953496505343.54",
+      "intragov_hold_amt": "7257972846477.77",
+      "tot_pub_debt_out": 36211469351821.31
+    },
+    {
+      "record_date": "2025-06-27",
+      "tot_pub_debt_out_amt": "36215124313382.16",
+      "debt_held_public_amt": "28886926501740.70",
+      "intragov_hold_amt": "7328197811641.46",
+      "tot_pub_debt_out": 36215124313382.16
+    },
+    {
+      "record_date": "2025-06-26",
+      "tot_pub_debt_out_amt": "36215806064740.36",
+      "debt_held_public_amt": "28887012425608.74",
+      "intragov_hold_amt": "7328793639131.62",
+      "tot_pub_debt_out": 36215806064740.36
+    },
+    {
+      "record_date": "2025-06-25",
+      "tot_pub_debt_out_amt": "36213869568117.00",
+      "debt_held_public_amt": "28888758862953.29",
+      "intragov_hold_amt": "7325110705163.71",
+      "tot_pub_debt_out": 36213869568117
+    },
+    {
+      "record_date": "2025-06-24",
+      "tot_pub_debt_out_amt": "36214553337753.25",
+      "debt_held_public_amt": "28860859190127.59",
+      "intragov_hold_amt": "7353694147625.66",
+      "tot_pub_debt_out": 36214553337753.25
+    },
+    {
+      "record_date": "2025-06-23",
+      "tot_pub_debt_out_amt": "36213808426999.56",
+      "debt_held_public_amt": "28890044591558.48",
+      "intragov_hold_amt": "7323763835441.08",
+      "tot_pub_debt_out": 36213808426999.56
+    },
+    {
+      "record_date": "2025-06-20",
+      "tot_pub_debt_out_amt": "36215873428835.86",
+      "debt_held_public_amt": "28900785723043.42",
+      "intragov_hold_amt": "7315087705792.44",
+      "tot_pub_debt_out": 36215873428835.86
+    },
+    {
+      "record_date": "2025-06-18",
+      "tot_pub_debt_out_amt": "36214707136233.83",
+      "debt_held_public_amt": "28905136181836.44",
+      "intragov_hold_amt": "7309570954397.39",
+      "tot_pub_debt_out": 36214707136233.83
+    },
+    {
+      "record_date": "2025-06-17",
+      "tot_pub_debt_out_amt": "36215397741847.76",
+      "debt_held_public_amt": "28884822109662.55",
+      "intragov_hold_amt": "7330575632185.21",
+      "tot_pub_debt_out": 36215397741847.76
+    },
+    {
+      "record_date": "2025-06-16",
+      "tot_pub_debt_out_amt": "36214669844058.55",
+      "debt_held_public_amt": "28907522231455.10",
+      "intragov_hold_amt": "7307147612603.45",
+      "tot_pub_debt_out": 36214669844058.55
+    },
+    {
+      "record_date": "2025-06-13",
+      "tot_pub_debt_out_amt": "36216756516461.68",
+      "debt_held_public_amt": "28943677590027.96",
+      "intragov_hold_amt": "7273078926433.72",
+      "tot_pub_debt_out": 36216756516461.68
+    },
+    {
+      "record_date": "2025-06-12",
+      "tot_pub_debt_out_amt": "36217452092903.81",
+      "debt_held_public_amt": "28944696357421.28",
+      "intragov_hold_amt": "7272755735482.53",
+      "tot_pub_debt_out": 36217452092903.81
+    },
+    {
+      "record_date": "2025-06-11",
+      "tot_pub_debt_out_amt": "36213581723797.07",
+      "debt_held_public_amt": "28947461766728.03",
+      "intragov_hold_amt": "7266119957069.04",
+      "tot_pub_debt_out": 36213581723797.07
+    },
+    {
+      "record_date": "2025-06-10",
+      "tot_pub_debt_out_amt": "36214280590105.74",
+      "debt_held_public_amt": "28925282868405.29",
+      "intragov_hold_amt": "7288997721700.45",
+      "tot_pub_debt_out": 36214280590105.74
+    },
+    {
+      "record_date": "2025-06-09",
+      "tot_pub_debt_out_amt": "36213572785415.03",
+      "debt_held_public_amt": "28937734806745.08",
+      "intragov_hold_amt": "7275837978669.95",
+      "tot_pub_debt_out": 36213572785415.03
+    },
+    {
+      "record_date": "2025-06-06",
+      "tot_pub_debt_out_amt": "36215685263667.36",
+      "debt_held_public_amt": "28947314928888.42",
+      "intragov_hold_amt": "7268370334778.94",
+      "tot_pub_debt_out": 36215685263667.36
+    },
+    {
+      "record_date": "2025-06-05",
+      "tot_pub_debt_out_amt": "36216389414480.21",
+      "debt_held_public_amt": "28949058827202.60",
+      "intragov_hold_amt": "7267330587277.61",
+      "tot_pub_debt_out": 36216389414480.21
+    },
+    {
+      "record_date": "2025-06-04",
+      "tot_pub_debt_out_amt": "36214501400213.64",
+      "debt_held_public_amt": "28953597578775.68",
+      "intragov_hold_amt": "7260903821437.96",
+      "tot_pub_debt_out": 36214501400213.64
+    },
+    {
+      "record_date": "2025-06-03",
+      "tot_pub_debt_out_amt": "36215207426690.65",
+      "debt_held_public_amt": "28964890579889.10",
+      "intragov_hold_amt": "7250316846801.55",
+      "tot_pub_debt_out": 36215207426690.65
+    },
+    {
+      "record_date": "2025-06-02",
+      "tot_pub_debt_out_amt": "36214400664854.53",
+      "debt_held_public_amt": "28956814642277.72",
+      "intragov_hold_amt": "7257586022576.81",
+      "tot_pub_debt_out": 36214400664854.53
+    },
+    {
+      "record_date": "2025-05-30",
+      "tot_pub_debt_out_amt": "36215818399936.85",
+      "debt_held_public_amt": "28952461153000.13",
+      "intragov_hold_amt": "7263357246936.72",
+      "tot_pub_debt_out": 36215818399936.85
+    },
+    {
+      "record_date": "2025-05-29",
+      "tot_pub_debt_out_amt": "36215176317298.42",
+      "debt_held_public_amt": "28871680706822.26",
+      "intragov_hold_amt": "7343495610476.16",
+      "tot_pub_debt_out": 36215176317298.42
+    },
+    {
+      "record_date": "2025-05-28",
+      "tot_pub_debt_out_amt": "36213141126266.06",
+      "debt_held_public_amt": "28867570378120.42",
+      "intragov_hold_amt": "7345570748145.64",
+      "tot_pub_debt_out": 36213141126266.06
+    },
+    {
+      "record_date": "2025-05-27",
+      "tot_pub_debt_out_amt": "36213853751952.05",
+      "debt_held_public_amt": "28856796025402.94",
+      "intragov_hold_amt": "7357057726549.11",
+      "tot_pub_debt_out": 36213853751952.05
+    },
+    {
+      "record_date": "2025-05-23",
+      "tot_pub_debt_out_amt": "36215088402345.87",
+      "debt_held_public_amt": "28863100025246.62",
+      "intragov_hold_amt": "7351988377099.25",
+      "tot_pub_debt_out": 36215088402345.87
+    },
+    {
+      "record_date": "2025-05-22",
+      "tot_pub_debt_out_amt": "36215801485838.54",
+      "debt_held_public_amt": "28875495146667.02",
+      "intragov_hold_amt": "7340306339171.52",
+      "tot_pub_debt_out": 36215801485838.54
+    },
+    {
+      "record_date": "2025-05-21",
+      "tot_pub_debt_out_amt": "36213761221110.82",
+      "debt_held_public_amt": "28877912012097.42",
+      "intragov_hold_amt": "7335849209013.40",
+      "tot_pub_debt_out": 36213761221110.82
+    },
+    {
+      "record_date": "2025-05-20",
+      "tot_pub_debt_out_amt": "36214475432210.84",
+      "debt_held_public_amt": "28855901031670.00",
+      "intragov_hold_amt": "7358574400540.84",
+      "tot_pub_debt_out": 36214475432210.84
+    },
+    {
+      "record_date": "2025-05-19",
+      "tot_pub_debt_out_amt": "36213570763720.98",
+      "debt_held_public_amt": "28867568836311.34",
+      "intragov_hold_amt": "7346001927409.64",
+      "tot_pub_debt_out": 36213570763720.98
+    },
+    {
+      "record_date": "2025-05-16",
+      "tot_pub_debt_out_amt": "36215714628553.09",
+      "debt_held_public_amt": "28877878941841.26",
+      "intragov_hold_amt": "7337835686711.83",
+      "tot_pub_debt_out": 36215714628553.09
+    },
+    {
+      "record_date": "2025-05-15",
+      "tot_pub_debt_out_amt": "36216429412019.81",
+      "debt_held_public_amt": "28880432375776.61",
+      "intragov_hold_amt": "7335997036243.20",
+      "tot_pub_debt_out": 36216429412019.81
+    },
+    {
+      "record_date": "2025-05-14",
+      "tot_pub_debt_out_amt": "36212261421742.89",
+      "debt_held_public_amt": "28883690101680.60",
+      "intragov_hold_amt": "7328571320062.29",
+      "tot_pub_debt_out": 36212261421742.89
+    },
+    {
+      "record_date": "2025-05-13",
+      "tot_pub_debt_out_amt": "36212978908050.01",
+      "debt_held_public_amt": "28858866133930.92",
+      "intragov_hold_amt": "7354112774119.09",
+      "tot_pub_debt_out": 36212978908050.01
+    },
+    {
+      "record_date": "2025-05-12",
+      "tot_pub_debt_out_amt": "36212036164590.27",
+      "debt_held_public_amt": "28873314691669.41",
+      "intragov_hold_amt": "7338721472920.86",
+      "tot_pub_debt_out": 36212036164590.27
+    },
+    {
+      "record_date": "2025-05-09",
+      "tot_pub_debt_out_amt": "36214181120572.57",
+      "debt_held_public_amt": "28879730647251.10",
+      "intragov_hold_amt": "7334450473321.47",
+      "tot_pub_debt_out": 36214181120572.57
+    },
+    {
+      "record_date": "2025-05-08",
+      "tot_pub_debt_out_amt": "36214896100379.00",
+      "debt_held_public_amt": "28879495109710.33",
+      "intragov_hold_amt": "7335400990668.67",
+      "tot_pub_debt_out": 36214896100379
+    },
+    {
+      "record_date": "2025-05-07",
+      "tot_pub_debt_out_amt": "36212886111158.26",
+      "debt_held_public_amt": "28885833651968.10",
+      "intragov_hold_amt": "7327052459190.16",
+      "tot_pub_debt_out": 36212886111158.26
+    },
+    {
+      "record_date": "2025-05-06",
+      "tot_pub_debt_out_amt": "36213602874250.21",
+      "debt_held_public_amt": "28888855819827.73",
+      "intragov_hold_amt": "7324747054422.48",
+      "tot_pub_debt_out": 36213602874250.21
+    },
+    {
+      "record_date": "2025-05-05",
+      "tot_pub_debt_out_amt": "36212710389147.45",
+      "debt_held_public_amt": "28900702282928.55",
+      "intragov_hold_amt": "7312008106218.90",
+      "tot_pub_debt_out": 36212710389147.45
+    },
+    {
+      "record_date": "2025-05-02",
+      "tot_pub_debt_out_amt": "36214860183509.71",
+      "debt_held_public_amt": "28913077198269.89",
+      "intragov_hold_amt": "7301782985239.82",
+      "tot_pub_debt_out": 36214860183509.71
+    },
+    {
+      "record_date": "2025-05-01",
+      "tot_pub_debt_out_amt": "36215576799286.87",
+      "debt_held_public_amt": "28910031708449.29",
+      "intragov_hold_amt": "7305545090837.58",
+      "tot_pub_debt_out": 36215576799286.87
+    },
+    {
+      "record_date": "2025-04-30",
+      "tot_pub_debt_out_amt": "36213557195810.65",
+      "debt_held_public_amt": "28852660949319.21",
+      "intragov_hold_amt": "7360896246491.44",
+      "tot_pub_debt_out": 36213557195810.65
+    },
+    {
+      "record_date": "2025-04-29",
+      "tot_pub_debt_out_amt": "36214714517960.73",
+      "debt_held_public_amt": "28870044615160.41",
+      "intragov_hold_amt": "7344669902800.32",
+      "tot_pub_debt_out": 36214714517960.73
+    },
+    {
+      "record_date": "2025-04-28",
+      "tot_pub_debt_out_amt": "36213820164200.18",
+      "debt_held_public_amt": "28880205893953.10",
+      "intragov_hold_amt": "7333614270247.08",
+      "tot_pub_debt_out": 36213820164200.18
+    },
+    {
+      "record_date": "2025-04-25",
+      "tot_pub_debt_out_amt": "36215973825751.09",
+      "debt_held_public_amt": "28886705983824.00",
+      "intragov_hold_amt": "7329267841927.09",
+      "tot_pub_debt_out": 36215973825751.09
+    },
+    {
+      "record_date": "2025-04-24",
+      "tot_pub_debt_out_amt": "36216691721516.53",
+      "debt_held_public_amt": "28886899281587.33",
+      "intragov_hold_amt": "7329792439929.20",
+      "tot_pub_debt_out": 36216691721516.53
+    },
+    {
+      "record_date": "2025-04-23",
+      "tot_pub_debt_out_amt": "36214749867321.42",
+      "debt_held_public_amt": "28901934804636.80",
+      "intragov_hold_amt": "7312815062684.62",
+      "tot_pub_debt_out": 36214749867321.42
+    },
+    {
+      "record_date": "2025-04-22",
+      "tot_pub_debt_out_amt": "36215469660763.20",
+      "debt_held_public_amt": "28885292677312.48",
+      "intragov_hold_amt": "7330176983450.72",
+      "tot_pub_debt_out": 36215469660763.2
+    },
+    {
+      "record_date": "2025-04-21",
+      "tot_pub_debt_out_amt": "36214577610342.96",
+      "debt_held_public_amt": "28897595263583.41",
+      "intragov_hold_amt": "7316982346759.55",
+      "tot_pub_debt_out": 36214577610342.96
+    },
+    {
+      "record_date": "2025-04-18",
+      "tot_pub_debt_out_amt": "36216754420662.27",
+      "debt_held_public_amt": "28904329571387.04",
+      "intragov_hold_amt": "7312424849275.23",
+      "tot_pub_debt_out": 36216754420662.27
+    },
+    {
+      "record_date": "2025-04-17",
+      "tot_pub_debt_out_amt": "36217480035223.27",
+      "debt_held_public_amt": "28913508876197.06",
+      "intragov_hold_amt": "7303971159026.21",
+      "tot_pub_debt_out": 36217480035223.27
+    },
+    {
+      "record_date": "2025-04-16",
+      "tot_pub_debt_out_amt": "36213590712228.65",
+      "debt_held_public_amt": "28917184309983.82",
+      "intragov_hold_amt": "7296406402244.83",
+      "tot_pub_debt_out": 36213590712228.65
+    },
+    {
+      "record_date": "2025-04-15",
+      "tot_pub_debt_out_amt": "36214325271235.26",
+      "debt_held_public_amt": "28904113909824.41",
+      "intragov_hold_amt": "7310211361410.85",
+      "tot_pub_debt_out": 36214325271235.26
+    },
+    {
+      "record_date": "2025-04-14",
+      "tot_pub_debt_out_amt": "36212761633585.77",
+      "debt_held_public_amt": "28942462559586.95",
+      "intragov_hold_amt": "7270299073998.82",
+      "tot_pub_debt_out": 36212761633585.77
+    },
+    {
+      "record_date": "2025-04-11",
+      "tot_pub_debt_out_amt": "36214966389282.11",
+      "debt_held_public_amt": "28952083890117.20",
+      "intragov_hold_amt": "7262882499164.91",
+      "tot_pub_debt_out": 36214966389282.11
+    },
+    {
+      "record_date": "2025-04-10",
+      "tot_pub_debt_out_amt": "36215701317831.94",
+      "debt_held_public_amt": "28952824025915.61",
+      "intragov_hold_amt": "7262877291916.33",
+      "tot_pub_debt_out": 36215701317831.94
+    },
+    {
+      "record_date": "2025-04-09",
+      "tot_pub_debt_out_amt": "36213771222289.59",
+      "debt_held_public_amt": "28958991840990.14",
+      "intragov_hold_amt": "7254779381299.45",
+      "tot_pub_debt_out": 36213771222289.59
+    },
+    {
+      "record_date": "2025-04-08",
+      "tot_pub_debt_out_amt": "36214508751190.01",
+      "debt_held_public_amt": "28936031572664.84",
+      "intragov_hold_amt": "7278477178525.17",
+      "tot_pub_debt_out": 36214508751190.01
+    },
+    {
+      "record_date": "2025-04-07",
+      "tot_pub_debt_out_amt": "36213561491981.13",
+      "debt_held_public_amt": "28947771026214.14",
+      "intragov_hold_amt": "7265790465766.99",
+      "tot_pub_debt_out": 36213561491981.13
+    },
+    {
+      "record_date": "2025-04-04",
+      "tot_pub_debt_out_amt": "36215761618891.11",
+      "debt_held_public_amt": "28956155080112.68",
+      "intragov_hold_amt": "7259606538778.43",
+      "tot_pub_debt_out": 36215761618891.11
+    },
+    {
+      "record_date": "2025-04-03",
+      "tot_pub_debt_out_amt": "36216495027787.96",
+      "debt_held_public_amt": "28960433646738.55",
+      "intragov_hold_amt": "7256061381049.41",
+      "tot_pub_debt_out": 36216495027787.96
+    },
+    {
+      "record_date": "2025-04-02",
+      "tot_pub_debt_out_amt": "36214426211363.76",
+      "debt_held_public_amt": "28941616891545.06",
+      "intragov_hold_amt": "7272809319818.70",
+      "tot_pub_debt_out": 36214426211363.76
+    },
+    {
+      "record_date": "2025-04-01",
+      "tot_pub_debt_out_amt": "36215156673113.80",
+      "debt_held_public_amt": "28945058837872.08",
+      "intragov_hold_amt": "7270097835241.72",
+      "tot_pub_debt_out": 36215156673113.8
+    },
+    {
+      "record_date": "2025-03-31",
+      "tot_pub_debt_out_amt": "36214310420174.13",
+      "debt_held_public_amt": "28909508850275.58",
+      "intragov_hold_amt": "7304801569898.55",
+      "tot_pub_debt_out": 36214310420174.13
+    },
+    {
+      "record_date": "2025-03-28",
+      "tot_pub_debt_out_amt": "36216470672037.87",
+      "debt_held_public_amt": "28918637682348.73",
+      "intragov_hold_amt": "7297832989689.14",
+      "tot_pub_debt_out": 36216470672037.87
+    },
+    {
+      "record_date": "2025-03-27",
+      "tot_pub_debt_out_amt": "36217204329840.19",
+      "debt_held_public_amt": "28921459406910.63",
+      "intragov_hold_amt": "7295744922929.56",
+      "tot_pub_debt_out": 36217204329840.19
+    },
+    {
+      "record_date": "2025-03-26",
+      "tot_pub_debt_out_amt": "36215356534171.37",
+      "debt_held_public_amt": "28922608710230.04",
+      "intragov_hold_amt": "7292747823941.33",
+      "tot_pub_debt_out": 36215356534171.37
+    },
+    {
+      "record_date": "2025-03-25",
+      "tot_pub_debt_out_amt": "36216093287593.75",
+      "debt_held_public_amt": "28900194597054.75",
+      "intragov_hold_amt": "7315898690539.00",
+      "tot_pub_debt_out": 36216093287593.75
+    },
+    {
+      "record_date": "2025-03-24",
+      "tot_pub_debt_out_amt": "36215258907037.79",
+      "debt_held_public_amt": "28924757833909.66",
+      "intragov_hold_amt": "7290501073128.13",
+      "tot_pub_debt_out": 36215258907037.79
+    },
+    {
+      "record_date": "2025-03-21",
+      "tot_pub_debt_out_amt": "36217481307084.84",
+      "debt_held_public_amt": "28927403024844.31",
+      "intragov_hold_amt": "7290078282240.53",
+      "tot_pub_debt_out": 36217481307084.84
+    },
+    {
+      "record_date": "2025-03-20",
+      "tot_pub_debt_out_amt": "36218222045186.34",
+      "debt_held_public_amt": "28931004380785.40",
+      "intragov_hold_amt": "7287217664400.94",
+      "tot_pub_debt_out": 36218222045186.34
+    },
+    {
+      "record_date": "2025-03-19",
+      "tot_pub_debt_out_amt": "36214467819348.16",
+      "debt_held_public_amt": "28931615276590.47",
+      "intragov_hold_amt": "7282852542757.69",
+      "tot_pub_debt_out": 36214467819348.16
+    },
+    {
+      "record_date": "2025-03-18",
+      "tot_pub_debt_out_amt": "36215212669334.38",
+      "debt_held_public_amt": "28908695063079.12",
+      "intragov_hold_amt": "7306517606255.26",
+      "tot_pub_debt_out": 36215212669334.38
+    },
+    {
+      "record_date": "2025-03-17",
+      "tot_pub_debt_out_amt": "36214394370510.05",
+      "debt_held_public_amt": "28928035225282.57",
+      "intragov_hold_amt": "7286359145227.48",
+      "tot_pub_debt_out": 36214394370510.05
+    },
+    {
+      "record_date": "2025-03-14",
+      "tot_pub_debt_out_amt": "36216656361372.88",
+      "debt_held_public_amt": "28937109052409.72",
+      "intragov_hold_amt": "7279547308963.16",
+      "tot_pub_debt_out": 36216656361372.88
+    },
+    {
+      "record_date": "2025-03-13",
+      "tot_pub_debt_out_amt": "36217410341236.57",
+      "debt_held_public_amt": "28910212445754.95",
+      "intragov_hold_amt": "7307197895481.62",
+      "tot_pub_debt_out": 36217410341236.57
+    },
+    {
+      "record_date": "2025-03-12",
+      "tot_pub_debt_out_amt": "36215588741627.31",
+      "debt_held_public_amt": "28912908316119.90",
+      "intragov_hold_amt": "7302680425507.41",
+      "tot_pub_debt_out": 36215588741627.31
+    },
+    {
+      "record_date": "2025-03-11",
+      "tot_pub_debt_out_amt": "36216346495438.75",
+      "debt_held_public_amt": "28890925430619.29",
+      "intragov_hold_amt": "7325421064819.46",
+      "tot_pub_debt_out": 36216346495438.75
+    },
+    {
+      "record_date": "2025-03-10",
+      "tot_pub_debt_out_amt": "36215535706949.98",
+      "debt_held_public_amt": "28903192097197.00",
+      "intragov_hold_amt": "7312343609752.98",
+      "tot_pub_debt_out": 36215535706949.98
+    },
+    {
+      "record_date": "2025-03-07",
+      "tot_pub_debt_out_amt": "36217824184013.37",
+      "debt_held_public_amt": "28909913656084.00",
+      "intragov_hold_amt": "7307910527929.37",
+      "tot_pub_debt_out": 36217824184013.37
+    },
+    {
+      "record_date": "2025-03-06",
+      "tot_pub_debt_out_amt": "36218587006168.51",
+      "debt_held_public_amt": "28910964000416.83",
+      "intragov_hold_amt": "7307623005751.68",
+      "tot_pub_debt_out": 36218587006168.51
+    },
+    {
+      "record_date": "2025-03-05",
+      "tot_pub_debt_out_amt": "36216695558849.86",
+      "debt_held_public_amt": "28904524826408.57",
+      "intragov_hold_amt": "7312170732441.29",
+      "tot_pub_debt_out": 36216695558849.86
+    },
+    {
+      "record_date": "2025-03-04",
+      "tot_pub_debt_out_amt": "36217457726432.81",
+      "debt_held_public_amt": "28906019720336.11",
+      "intragov_hold_amt": "7311438006096.70",
+      "tot_pub_debt_out": 36217457726432.81
+    },
+    {
+      "record_date": "2025-03-03",
+      "tot_pub_debt_out_amt": "36216627186278.78",
+      "debt_held_public_amt": "28930823432033.66",
+      "intragov_hold_amt": "7285803754245.12",
+      "tot_pub_debt_out": 36216627186278.78
+    },
+    {
+      "record_date": "2025-02-28",
+      "tot_pub_debt_out_amt": "36218923369370.10",
+      "debt_held_public_amt": "28914410587820.34",
+      "intragov_hold_amt": "7304512781549.76",
+      "tot_pub_debt_out": 36218923369370.1
+    },
+    {
+      "record_date": "2025-02-27",
+      "tot_pub_debt_out_amt": "36221949836006.93",
+      "debt_held_public_amt": "28855106718012.13",
+      "intragov_hold_amt": "7366843117994.80",
+      "tot_pub_debt_out": 36221949836006.93
+    },
+    {
+      "record_date": "2025-02-26",
+      "tot_pub_debt_out_amt": "36219980655775.79",
+      "debt_held_public_amt": "28855309766407.65",
+      "intragov_hold_amt": "7364670889368.14",
+      "tot_pub_debt_out": 36219980655775.79
+    },
+    {
+      "record_date": "2025-02-25",
+      "tot_pub_debt_out_amt": "36220749649855.42",
+      "debt_held_public_amt": "28837112928950.54",
+      "intragov_hold_amt": "7383636720904.88",
+      "tot_pub_debt_out": 36220749649855.42
+    },
+    {
+      "record_date": "2025-02-24",
+      "tot_pub_debt_out_amt": "36219878534361.59",
+      "debt_held_public_amt": "28846869977339.96",
+      "intragov_hold_amt": "7373008557021.63",
+      "tot_pub_debt_out": 36219878534361.59
+    },
+    {
+      "record_date": "2025-02-21",
+      "tot_pub_debt_out_amt": "36222211606919.46",
+      "debt_held_public_amt": "28862508705242.94",
+      "intragov_hold_amt": "7359702901676.52",
+      "tot_pub_debt_out": 36222211606919.46
+    },
+    {
+      "record_date": "2025-02-20",
+      "tot_pub_debt_out_amt": "36222989450273.97",
+      "debt_held_public_amt": "28869749063206.15",
+      "intragov_hold_amt": "7353240387067.82",
+      "tot_pub_debt_out": 36222989450273.97
+    },
+    {
+      "record_date": "2025-02-19",
+      "tot_pub_debt_out_amt": "36218812100137.31",
+      "debt_held_public_amt": "28878510874731.94",
+      "intragov_hold_amt": "7340301225405.37",
+      "tot_pub_debt_out": 36218812100137.31
+    },
+    {
+      "record_date": "2025-02-18",
+      "tot_pub_debt_out_amt": "36219592701106.67",
+      "debt_held_public_amt": "28876078679117.80",
+      "intragov_hold_amt": "7343514021988.87",
+      "tot_pub_debt_out": 36219592701106.67
+    },
+    {
+      "record_date": "2025-02-14",
+      "tot_pub_debt_out_amt": "36218983690427.99",
+      "debt_held_public_amt": "28895337232003.27",
+      "intragov_hold_amt": "7323646458424.72",
+      "tot_pub_debt_out": 36218983690427.99
+    },
+    {
+      "record_date": "2025-02-13",
+      "tot_pub_debt_out_amt": "36219764087577.56",
+      "debt_held_public_amt": "28896004938072.67",
+      "intragov_hold_amt": "7323759149504.89",
+      "tot_pub_debt_out": 36219764087577.56
+    },
+    {
+      "record_date": "2025-02-12",
+      "tot_pub_debt_out_amt": "36217487855772.08",
+      "debt_held_public_amt": "28896394701632.10",
+      "intragov_hold_amt": "7321093154139.98",
+      "tot_pub_debt_out": 36217487855772.08
+    },
+    {
+      "record_date": "2025-02-11",
+      "tot_pub_debt_out_amt": "36218268281356.50",
+      "debt_held_public_amt": "28873690527396.65",
+      "intragov_hold_amt": "7344577753959.85",
+      "tot_pub_debt_out": 36218268281356.5
+    },
+    {
+      "record_date": "2025-02-10",
+      "tot_pub_debt_out_amt": "36217244743854.40",
+      "debt_held_public_amt": "28882844331495.71",
+      "intragov_hold_amt": "7334400412358.69",
+      "tot_pub_debt_out": 36217244743854.4
+    },
+    {
+      "record_date": "2025-02-07",
+      "tot_pub_debt_out_amt": "36219581958530.58",
+      "debt_held_public_amt": "28891246579142.97",
+      "intragov_hold_amt": "7328335379387.61",
+      "tot_pub_debt_out": 36219581958530.58
+    },
+    {
+      "record_date": "2025-02-06",
+      "tot_pub_debt_out_amt": "36220361045794.81",
+      "debt_held_public_amt": "28892938412549.80",
+      "intragov_hold_amt": "7327422633245.01",
+      "tot_pub_debt_out": 36220361045794.81
+    },
+    {
+      "record_date": "2025-02-05",
+      "tot_pub_debt_out_amt": "36218123595894.41",
+      "debt_held_public_amt": "28895705607248.80",
+      "intragov_hold_amt": "7322417988645.61",
+      "tot_pub_debt_out": 36218123595894.41
+    },
+    {
+      "record_date": "2025-02-04",
+      "tot_pub_debt_out_amt": "36218901460828.96",
+      "debt_held_public_amt": "28897398320943.43",
+      "intragov_hold_amt": "7321503139885.53",
+      "tot_pub_debt_out": 36218901460828.96
+    },
+    {
+      "record_date": "2025-02-03",
+      "tot_pub_debt_out_amt": "36217878252518.89",
+      "debt_held_public_amt": "28923985500400.02",
+      "intragov_hold_amt": "7293892752118.87",
+      "tot_pub_debt_out": 36217878252518.89
+    },
+    {
+      "record_date": "2025-01-31",
+      "tot_pub_debt_out_amt": "36220206738047.96",
+      "debt_held_public_amt": "28911508658693.08",
+      "intragov_hold_amt": "7308698079354.88",
+      "tot_pub_debt_out": 36220206738047.96
+    },
+    {
+      "record_date": "2025-01-30",
+      "tot_pub_debt_out_amt": "36221443082611.85",
+      "debt_held_public_amt": "28850151178663.95",
+      "intragov_hold_amt": "7371291903947.90",
+      "tot_pub_debt_out": 36221443082611.85
+    },
+    {
+      "record_date": "2025-01-29",
+      "tot_pub_debt_out_amt": "36219161589293.08",
+      "debt_held_public_amt": "28852559462378.04",
+      "intragov_hold_amt": "7366602126915.04",
+      "tot_pub_debt_out": 36219161589293.08
+    },
+    {
+      "record_date": "2025-01-28",
+      "tot_pub_debt_out_amt": "36219937278825.22",
+      "debt_held_public_amt": "28851969423506.15",
+      "intragov_hold_amt": "7367967855319.07",
+      "tot_pub_debt_out": 36219937278825.22
+    },
+    {
+      "record_date": "2025-01-27",
+      "tot_pub_debt_out_amt": "36218906298311.33",
+      "debt_held_public_amt": "28862375452519.97",
+      "intragov_hold_amt": "7356530845791.36",
+      "tot_pub_debt_out": 36218906298311.33
+    },
+    {
+      "record_date": "2025-01-24",
+      "tot_pub_debt_out_amt": "36221228533802.26",
+      "debt_held_public_amt": "28881218302457.27",
+      "intragov_hold_amt": "7340010231344.99",
+      "tot_pub_debt_out": 36221228533802.26
+    },
+    {
+      "record_date": "2025-01-23",
+      "tot_pub_debt_out_amt": "36222002723844.24",
+      "debt_held_public_amt": "28880821900250.34",
+      "intragov_hold_amt": "7341180823593.90",
+      "tot_pub_debt_out": 36222002723844.24
+    },
+    {
+      "record_date": "2025-01-22",
+      "tot_pub_debt_out_amt": "36217491332226.53",
+      "debt_held_public_amt": "28863025857989.46",
+      "intragov_hold_amt": "7354465474237.07",
+      "tot_pub_debt_out": 36217491332226.53
+    },
+    {
+      "record_date": "2025-01-21",
+      "tot_pub_debt_out_amt": "36218258403326.35",
+      "debt_held_public_amt": "28863463959281.89",
+      "intragov_hold_amt": "7354794444044.46",
+      "tot_pub_debt_out": 36218258403326.35
+    },
+    {
+      "record_date": "2025-01-17",
+      "tot_pub_debt_out_amt": "36206593315575.15",
+      "debt_held_public_amt": "28845583131561.83",
+      "intragov_hold_amt": "7361010184013.32",
+      "tot_pub_debt_out": 36206593315575.15
+    },
+    {
+      "record_date": "2025-01-16",
+      "tot_pub_debt_out_amt": "36197510998407.58",
+      "debt_held_public_amt": "28846012162618.21",
+      "intragov_hold_amt": "7351498835789.37",
+      "tot_pub_debt_out": 36197510998407.58
+    },
+    {
+      "record_date": "2025-01-15",
+      "tot_pub_debt_out_amt": "36174170135464.01",
+      "debt_held_public_amt": "28832351544946.26",
+      "intragov_hold_amt": "7341818590517.75",
+      "tot_pub_debt_out": 36174170135464.01
+    },
+    {
+      "record_date": "2025-01-14",
+      "tot_pub_debt_out_amt": "36200906538154.24",
+      "debt_held_public_amt": "28850228995216.85",
+      "intragov_hold_amt": "7350677542937.39",
+      "tot_pub_debt_out": 36200906538154.24
+    },
+    {
+      "record_date": "2025-01-13",
+      "tot_pub_debt_out_amt": "36173455107711.11",
+      "debt_held_public_amt": "28832556245721.97",
+      "intragov_hold_amt": "7340898861989.14",
+      "tot_pub_debt_out": 36173455107711.11
+    },
+    {
+      "record_date": "2025-01-10",
+      "tot_pub_debt_out_amt": "36169520000045.49",
+      "debt_held_public_amt": "28832716210040.45",
+      "intragov_hold_amt": "7336803790005.04",
+      "tot_pub_debt_out": 36169520000045.49
+    },
+    {
+      "record_date": "2025-01-09",
+      "tot_pub_debt_out_amt": "36166393613679.73",
+      "debt_held_public_amt": "28832160356396.23",
+      "intragov_hold_amt": "7334233257283.50",
+      "tot_pub_debt_out": 36166393613679.73
+    },
+    {
+      "record_date": "2025-01-08",
+      "tot_pub_debt_out_amt": "36153745342266.30",
+      "debt_held_public_amt": "28824060020226.11",
+      "intragov_hold_amt": "7329685322040.19",
+      "tot_pub_debt_out": 36153745342266.3
+    },
+    {
+      "record_date": "2025-01-07",
+      "tot_pub_debt_out_amt": "36178676019215.59",
+      "debt_held_public_amt": "28826479434779.86",
+      "intragov_hold_amt": "7352196584435.73",
+      "tot_pub_debt_out": 36178676019215.59
+    },
+    {
+      "record_date": "2025-01-06",
+      "tot_pub_debt_out_amt": "36171792705159.98",
+      "debt_held_public_amt": "28832259211211.08",
+      "intragov_hold_amt": "7339533493948.90",
+      "tot_pub_debt_out": 36171792705159.98
+    },
+    {
+      "record_date": "2025-01-03",
+      "tot_pub_debt_out_amt": "36164146727045.82",
+      "debt_held_public_amt": "28831651555267.15",
+      "intragov_hold_amt": "7332495171778.67",
+      "tot_pub_debt_out": 36164146727045.82
+    },
+    {
+      "record_date": "2025-01-02",
+      "tot_pub_debt_out_amt": "36169957618760.21",
+      "debt_held_public_amt": "28831964741779.76",
+      "intragov_hold_amt": "7337992876980.45",
+      "tot_pub_debt_out": 36169957618760.21
+    },
+    {
+      "record_date": "2024-12-31",
+      "tot_pub_debt_out_amt": "36218605311689.91",
+      "debt_held_public_amt": "28836996111881.81",
+      "intragov_hold_amt": "7381609199808.10",
+      "tot_pub_debt_out": 36218605311689.91
+    },
+    {
+      "record_date": "2024-12-30",
+      "tot_pub_debt_out_amt": "36150157230460.04",
+      "debt_held_public_amt": "28821350185471.75",
+      "intragov_hold_amt": "7328807044988.29",
+      "tot_pub_debt_out": 36150157230460.04
+    },
+    {
+      "record_date": "2024-12-27",
+      "tot_pub_debt_out_amt": "36144183375647.43",
+      "debt_held_public_amt": "28822584881480.95",
+      "intragov_hold_amt": "7321598494166.48",
+      "tot_pub_debt_out": 36144183375647.43
+    },
+    {
+      "record_date": "2024-12-26",
+      "tot_pub_debt_out_amt": "36112807709307.61",
+      "debt_held_public_amt": "28794989291882.50",
+      "intragov_hold_amt": "7317818417425.11",
+      "tot_pub_debt_out": 36112807709307.61
+    },
+    {
+      "record_date": "2024-12-24",
+      "tot_pub_debt_out_amt": "36146819184367.10",
+      "debt_held_public_amt": "28839543803673.77",
+      "intragov_hold_amt": "7307275380693.33",
+      "tot_pub_debt_out": 36146819184367.1
+    },
+    {
+      "record_date": "2024-12-23",
+      "tot_pub_debt_out_amt": "36190276558466.62",
+      "debt_held_public_amt": "28865105876886.59",
+      "intragov_hold_amt": "7325170681580.03",
+      "tot_pub_debt_out": 36190276558466.62
+    },
+    {
+      "record_date": "2024-12-20",
+      "tot_pub_debt_out_amt": "36161621015445.57",
+      "debt_held_public_amt": "28864783375019.35",
+      "intragov_hold_amt": "7296837640426.22",
+      "tot_pub_debt_out": 36161621015445.57
+    },
+    {
+      "record_date": "2024-12-19",
+      "tot_pub_debt_out_amt": "36167124467492.90",
+      "debt_held_public_amt": "28870054568670.25",
+      "intragov_hold_amt": "7297069898822.65",
+      "tot_pub_debt_out": 36167124467492.9
+    },
+    {
+      "record_date": "2024-12-18",
+      "tot_pub_debt_out_amt": "36167604149955.61",
+      "debt_held_public_amt": "28875451168038.78",
+      "intragov_hold_amt": "7292152981916.83",
+      "tot_pub_debt_out": 36167604149955.61
+    },
+    {
+      "record_date": "2024-12-17",
+      "tot_pub_debt_out_amt": "36189345826140.62",
+      "debt_held_public_amt": "28876690689081.36",
+      "intragov_hold_amt": "7312655137059.26",
+      "tot_pub_debt_out": 36189345826140.62
+    },
+    {
+      "record_date": "2024-12-16",
+      "tot_pub_debt_out_amt": "36192895704983.65",
+      "debt_held_public_amt": "28901403659573.18",
+      "intragov_hold_amt": "7291492045410.47",
+      "tot_pub_debt_out": 36192895704983.65
+    }
+  ]
+}

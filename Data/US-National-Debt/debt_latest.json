@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "source": "US Treasury Fiscal Data — Debt to the Penny",
+    "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny",
+    "fetched": "2026-07-23T17:34:53.075Z",
+    "record_date_range": "2026-07-21"
+  },
+  "record_date": "2026-07-21",
+  "tot_pub_debt_out_amt": "39660369665133.47",
+  "debt_held_public_amt": "31874795478548.56",
+  "intragov_hold_amt": "7785574186584.91",
+  "tot_pub_debt_out": 39660369665133.47,
+  "debt_held_public": 31874795478548.56,
+  "intragov_hold": 7785574186584.91
+}

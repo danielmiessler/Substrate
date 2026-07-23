@@ -1,0 +1,1540 @@
+{
+  "_meta": {
+    "source": "US Treasury Fiscal Data — Average Interest Rates on U.S. Treasury Securities",
+    "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/avg_interest_rates",
+    "fetched": "2026-07-23T17:34:54.443Z",
+    "record_date_range": "2025-07-31 .. 2026-06-30",
+    "count": 200
+  },
+  "latest_date": "2026-06-30",
+  "latest_total_marketable": {
+    "record_date": "2026-06-30",
+    "security_type_desc": "Marketable",
+    "security_desc": "Total Marketable",
+    "avg_interest_rate_amt": "3.411",
+    "avg_interest_rate": 3.411
+  },
+  "latest_total_interest_bearing": {
+    "record_date": "2026-06-30",
+    "security_type_desc": "Interest-bearing Debt",
+    "security_desc": "Total Interest-bearing Debt",
+    "avg_interest_rate_amt": "3.409",
+    "avg_interest_rate": 3.409
+  },
+  "latest_all": [
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "3.706",
+      "avg_interest_rate": 3.706
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.283",
+      "avg_interest_rate": 3.283
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.430",
+      "avg_interest_rate": 3.43
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "1.090",
+      "avg_interest_rate": 1.09
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "3.512",
+      "avg_interest_rate": 3.512
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.383",
+      "avg_interest_rate": 2.383
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.411",
+      "avg_interest_rate": 3.411
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.898",
+      "avg_interest_rate": 2.898
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.336",
+      "avg_interest_rate": 3.336
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.160",
+      "avg_interest_rate": 3.16
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "4.418",
+      "avg_interest_rate": 4.418
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.395",
+      "avg_interest_rate": 3.395
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.391",
+      "avg_interest_rate": 1.391
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.399",
+      "avg_interest_rate": 3.399
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.409",
+      "avg_interest_rate": 3.409
+    }
+  ],
+  "data": [
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "3.706",
+      "avg_interest_rate": 3.706
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.283",
+      "avg_interest_rate": 3.283
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.430",
+      "avg_interest_rate": 3.43
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "1.090",
+      "avg_interest_rate": 1.09
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "3.512",
+      "avg_interest_rate": 3.512
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.383",
+      "avg_interest_rate": 2.383
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.411",
+      "avg_interest_rate": 3.411
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.898",
+      "avg_interest_rate": 2.898
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.336",
+      "avg_interest_rate": 3.336
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.160",
+      "avg_interest_rate": 3.16
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "4.418",
+      "avg_interest_rate": 4.418
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.395",
+      "avg_interest_rate": 3.395
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.391",
+      "avg_interest_rate": 1.391
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.399",
+      "avg_interest_rate": 3.399
+    },
+    {
+      "record_date": "2026-06-30",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.409",
+      "avg_interest_rate": 3.409
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "3.690",
+      "avg_interest_rate": 3.69
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.248",
+      "avg_interest_rate": 3.248
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.413",
+      "avg_interest_rate": 3.413
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "1.079",
+      "avg_interest_rate": 1.079
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "3.563",
+      "avg_interest_rate": 3.563
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.386",
+      "avg_interest_rate": 3.386
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.781",
+      "avg_interest_rate": 2.781
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.324",
+      "avg_interest_rate": 3.324
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.169",
+      "avg_interest_rate": 3.169
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "4.383",
+      "avg_interest_rate": 4.383
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.194",
+      "avg_interest_rate": 3.194
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.349",
+      "avg_interest_rate": 1.349
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.201",
+      "avg_interest_rate": 3.201
+    },
+    {
+      "record_date": "2026-05-31",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.353",
+      "avg_interest_rate": 3.353
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "3.696",
+      "avg_interest_rate": 3.696
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.230",
+      "avg_interest_rate": 3.23
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.403",
+      "avg_interest_rate": 3.403
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "1.068",
+      "avg_interest_rate": 1.068
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "3.764",
+      "avg_interest_rate": 3.764
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.373",
+      "avg_interest_rate": 3.373
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.781",
+      "avg_interest_rate": 2.781
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.313",
+      "avg_interest_rate": 3.313
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.176",
+      "avg_interest_rate": 3.176
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "4.349",
+      "avg_interest_rate": 4.349
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.184",
+      "avg_interest_rate": 3.184
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.348",
+      "avg_interest_rate": 1.348
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.191",
+      "avg_interest_rate": 3.191
+    },
+    {
+      "record_date": "2026-04-30",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.340",
+      "avg_interest_rate": 3.34
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "3.702",
+      "avg_interest_rate": 3.702
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.212",
+      "avg_interest_rate": 3.212
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.392",
+      "avg_interest_rate": 3.392
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "0.999",
+      "avg_interest_rate": 0.999
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "3.628",
+      "avg_interest_rate": 3.628
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.365",
+      "avg_interest_rate": 3.365
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.801",
+      "avg_interest_rate": 2.801
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Foreign Series",
+      "avg_interest_rate_amt": "0.000",
+      "avg_interest_rate": 0
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.317",
+      "avg_interest_rate": 3.317
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.216",
+      "avg_interest_rate": 3.216
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "4.281",
+      "avg_interest_rate": 4.281
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.146",
+      "avg_interest_rate": 3.146
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.348",
+      "avg_interest_rate": 1.348
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.154",
+      "avg_interest_rate": 3.154
+    },
+    {
+      "record_date": "2026-03-31",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.327",
+      "avg_interest_rate": 3.327
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "3.720",
+      "avg_interest_rate": 3.72
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.190",
+      "avg_interest_rate": 3.19
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.377",
+      "avg_interest_rate": 3.377
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "0.990",
+      "avg_interest_rate": 0.99
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "3.748",
+      "avg_interest_rate": 3.748
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.355",
+      "avg_interest_rate": 3.355
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.781",
+      "avg_interest_rate": 2.781
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Foreign Series",
+      "avg_interest_rate_amt": "0.000",
+      "avg_interest_rate": 0
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.253",
+      "avg_interest_rate": 3.253
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.252",
+      "avg_interest_rate": 3.252
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "4.248",
+      "avg_interest_rate": 4.248
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.153",
+      "avg_interest_rate": 3.153
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.347",
+      "avg_interest_rate": 1.347
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.161",
+      "avg_interest_rate": 3.161
+    },
+    {
+      "record_date": "2026-02-28",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.320",
+      "avg_interest_rate": 3.32
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "3.760",
+      "avg_interest_rate": 3.76
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.169",
+      "avg_interest_rate": 3.169
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.369",
+      "avg_interest_rate": 3.369
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "0.983",
+      "avg_interest_rate": 0.983
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "3.744",
+      "avg_interest_rate": 3.744
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.348",
+      "avg_interest_rate": 3.348
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.771",
+      "avg_interest_rate": 2.771
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Foreign Series",
+      "avg_interest_rate_amt": "0.000",
+      "avg_interest_rate": 0
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.304",
+      "avg_interest_rate": 3.304
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.287",
+      "avg_interest_rate": 3.287
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "4.213",
+      "avg_interest_rate": 4.213
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.167",
+      "avg_interest_rate": 3.167
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.297",
+      "avg_interest_rate": 1.297
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.175",
+      "avg_interest_rate": 3.175
+    },
+    {
+      "record_date": "2026-01-31",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.316",
+      "avg_interest_rate": 3.316
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "3.860",
+      "avg_interest_rate": 3.86
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.157",
+      "avg_interest_rate": 3.157
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.360",
+      "avg_interest_rate": 3.36
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "0.978",
+      "avg_interest_rate": 0.978
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "3.559",
+      "avg_interest_rate": 3.559
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.362",
+      "avg_interest_rate": 3.362
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.762",
+      "avg_interest_rate": 2.762
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Foreign Series",
+      "avg_interest_rate_amt": "0.000",
+      "avg_interest_rate": 0
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.346",
+      "avg_interest_rate": 3.346
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.328",
+      "avg_interest_rate": 3.328
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "4.154",
+      "avg_interest_rate": 4.154
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.150",
+      "avg_interest_rate": 3.15
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.311",
+      "avg_interest_rate": 1.311
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.159",
+      "avg_interest_rate": 3.159
+    },
+    {
+      "record_date": "2025-12-31",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.324",
+      "avg_interest_rate": 3.324
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "3.983",
+      "avg_interest_rate": 3.983
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.133",
+      "avg_interest_rate": 3.133
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.346",
+      "avg_interest_rate": 3.346
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "0.972",
+      "avg_interest_rate": 0.972
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "3.965",
+      "avg_interest_rate": 3.965
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.382",
+      "avg_interest_rate": 3.382
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.907",
+      "avg_interest_rate": 2.907
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Foreign Series",
+      "avg_interest_rate_amt": "0.000",
+      "avg_interest_rate": 0
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.415",
+      "avg_interest_rate": 3.415
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.376",
+      "avg_interest_rate": 3.376
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "4.113",
+      "avg_interest_rate": 4.113
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.191",
+      "avg_interest_rate": 3.191
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.311",
+      "avg_interest_rate": 1.311
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.201",
+      "avg_interest_rate": 3.201
+    },
+    {
+      "record_date": "2025-11-30",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.348",
+      "avg_interest_rate": 3.348
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "4.075",
+      "avg_interest_rate": 4.075
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.124",
+      "avg_interest_rate": 3.124
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.338",
+      "avg_interest_rate": 3.338
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "0.964",
+      "avg_interest_rate": 0.964
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "3.901",
+      "avg_interest_rate": 3.901
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.393",
+      "avg_interest_rate": 3.393
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.888",
+      "avg_interest_rate": 2.888
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Foreign Series",
+      "avg_interest_rate_amt": "0.000",
+      "avg_interest_rate": 0
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.434",
+      "avg_interest_rate": 3.434
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.415",
+      "avg_interest_rate": 3.415
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "4.073",
+      "avg_interest_rate": 4.073
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.175",
+      "avg_interest_rate": 3.175
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.311",
+      "avg_interest_rate": 1.311
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.186",
+      "avg_interest_rate": 3.186
+    },
+    {
+      "record_date": "2025-10-31",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.355",
+      "avg_interest_rate": 3.355
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "4.187",
+      "avg_interest_rate": 4.187
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.112",
+      "avg_interest_rate": 3.112
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.327",
+      "avg_interest_rate": 3.327
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "0.909",
+      "avg_interest_rate": 0.909
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "4.034",
+      "avg_interest_rate": 4.034
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.406",
+      "avg_interest_rate": 3.406
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "2.995",
+      "avg_interest_rate": 2.995
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Foreign Series",
+      "avg_interest_rate_amt": "0.000",
+      "avg_interest_rate": 0
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.461",
+      "avg_interest_rate": 3.461
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.397",
+      "avg_interest_rate": 3.397
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "3.822",
+      "avg_interest_rate": 3.822
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.162",
+      "avg_interest_rate": 3.162
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.241",
+      "avg_interest_rate": 1.241
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.173",
+      "avg_interest_rate": 3.173
+    },
+    {
+      "record_date": "2025-09-30",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.363",
+      "avg_interest_rate": 3.363
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "4.283",
+      "avg_interest_rate": 4.283
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.087",
+      "avg_interest_rate": 3.087
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.311",
+      "avg_interest_rate": 3.311
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "0.901",
+      "avg_interest_rate": 0.901
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "4.303",
+      "avg_interest_rate": 4.303
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.415",
+      "avg_interest_rate": 3.415
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "3.179",
+      "avg_interest_rate": 3.179
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Foreign Series",
+      "avg_interest_rate_amt": "0.000",
+      "avg_interest_rate": 0
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.533",
+      "avg_interest_rate": 3.533
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.381",
+      "avg_interest_rate": 3.381
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "3.704",
+      "avg_interest_rate": 3.704
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.173",
+      "avg_interest_rate": 3.173
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.241",
+      "avg_interest_rate": 1.241
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.185",
+      "avg_interest_rate": 3.185
+    },
+    {
+      "record_date": "2025-08-31",
+      "security_type_desc": "Interest-bearing Debt",
+      "security_desc": "Total Interest-bearing Debt",
+      "avg_interest_rate_amt": "3.372",
+      "avg_interest_rate": 3.372
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bills",
+      "avg_interest_rate_amt": "4.314",
+      "avg_interest_rate": 4.314
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Notes",
+      "avg_interest_rate_amt": "3.073",
+      "avg_interest_rate": 3.073
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Bonds",
+      "avg_interest_rate_amt": "3.309",
+      "avg_interest_rate": 3.309
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Inflation-Protected Securities (TIPS)",
+      "avg_interest_rate_amt": "0.894",
+      "avg_interest_rate": 0.894
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Treasury Floating Rate Notes (FRN)",
+      "avg_interest_rate_amt": "4.407",
+      "avg_interest_rate": 4.407
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Federal Financing Bank",
+      "avg_interest_rate_amt": "2.389",
+      "avg_interest_rate": 2.389
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Marketable",
+      "security_desc": "Total Marketable",
+      "avg_interest_rate_amt": "3.399",
+      "avg_interest_rate": 3.399
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Domestic Series",
+      "avg_interest_rate_amt": "7.577",
+      "avg_interest_rate": 7.577
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Special Purpose Vehicle",
+      "avg_interest_rate_amt": "3.286",
+      "avg_interest_rate": 3.286
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Foreign Series",
+      "avg_interest_rate_amt": "0.000",
+      "avg_interest_rate": 0
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "State and Local Government Series",
+      "avg_interest_rate_amt": "3.536",
+      "avg_interest_rate": 3.536
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Securities",
+      "avg_interest_rate_amt": "3.365",
+      "avg_interest_rate": 3.365
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "United States Savings Inflation Securities",
+      "avg_interest_rate_amt": "3.579",
+      "avg_interest_rate": 3.579
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series",
+      "avg_interest_rate_amt": "3.138",
+      "avg_interest_rate": 3.138
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Government Account Series Inflation Securities",
+      "avg_interest_rate_amt": "1.241",
+      "avg_interest_rate": 1.241
+    },
+    {
+      "record_date": "2025-07-31",
+      "security_type_desc": "Non-marketable",
+      "security_desc": "Total Non-marketable",
+      "avg_interest_rate_amt": "3.151",
+      "avg_interest_rate": 3.151
+    }
+  ]
+}

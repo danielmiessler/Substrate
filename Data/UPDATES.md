@@ -4,6 +4,25 @@ This file tracks all datasets added to the Substrate Data directory.
 
 ---
 
+## 2026-07-23 - U.S. National Debt
+
+**Dataset**: US-National-Debt
+**Status**: Active
+**Coverage**: 1790-2026 (annual), daily Debt to the Penny, monthly foreign holders (TIC), quarterly debt/GDP
+**Source**: Treasury Fiscal Data API, TIC SLT Table 5, NY Fed SOMA, FRED, SSA/DoD/OPM trustee reports, CRS, CBO
+
+### Contents
+- 11 JSON data files with `_meta` provenance blocks (headline, daily, annual 1790→, debt/GDP, foreign holders, Fed SOMA, interest, rates, MSPD, gifts, curated research figures)
+- `SUMMARY.md` (answer-first), `US-National-Debt.md` (full doc), `source.md`, `RESOURCES.md`, `README.md`
+- `update.ts` — self-contained refresh with plausibility bounds (`bun update.ts`)
+- Research provenance: `research/us-national-debt-2026-07/`
+
+### Notes
+- Powers the live site **https://usdebt.io**
+- Encodes the discovery that legacy TIC `Publish/mfh.txt` is frozen at Jan 2023; uses SLT Table 5
+
+---
+
 ## 2025-10-16 - U.S. Gross Domestic Product (GDP)
 
 **Dataset**: US-GDP

@@ -6,6 +6,8 @@ This file tracks all significant changes, additions, and milestones in the Subst
 
 ## 🚀 Recent Updates
 
+> **2026-07-23:** New dataset **US-National-Debt** — size, composition, cost, history, and ownership of US federal debt (1790→present) from nine primary sources, with research project `research/us-national-debt-2026-07/`. Powers the live interactive site **https://usdebt.io**.
+
 > **2025-10-25:** Major data infrastructure upgrade - Comprehensive data management system with library science methodology
 
 ---

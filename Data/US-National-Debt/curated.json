@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "source": "Research-sourced context figures — every value carries its own citation. Compiled from research/us-national-debt-2026-07 findings (holders.md, history-and-outlook.md).",
+    "compiled": "2026-07-23",
+    "rule": "No value here without a named source + as-of date. See substrate research project for full citations."
+  },
+  "_pending": false,
+  "intragovFunds": {
+    "note": "Largest Government Account Series holders; remainder computed at build as 'Other federal accounts'.",
+    "asof": "SSA/CMS 2026 Trustees (end-2025); DoD FY2024 audited AFR; CRS/OPM FY2024",
+    "funds": [
+      { "name": "Social Security (OASI)", "amount": 2338300000000, "asof": "end-2025", "source": "SSA 2026 Trustees Summary, ssa.gov/oact/trsum" },
+      { "name": "Social Security (DI)", "amount": 223000000000, "asof": "end-2025", "source": "SSA 2026 Trustees Summary" },
+      { "name": "Military Retirement Fund", "amount": 1604700000000, "asof": "FY2024 audited", "source": "DoD FY2024 MRF Agency Financial Report" },
+      { "name": "Civil Service Retirement (CSRDF)", "amount": 1100000000000, "asof": "FY2024 est.", "source": "CRS 98-972; OPM CSRDF annual report" },
+      { "name": "Medicare (HI + SMI)", "amount": 424100000000, "asof": "end-2025", "source": "SSA/CMS 2026 Trustees (HI $255.7B + SMI $168.4B)" }
+    ]
+  },
+  "domesticPrivate": {
+    "note": "Category proportions from Fed Z.1 L.210 / PGPF (2024-2025), scaled at build time to the current domestic-private residual (public debt minus Fed minus foreign). 'Individuals, money-market funds & other' is the within-category remainder.",
+    "asof": "Fed Z.1 / PGPF 2024-2025",
+    "source": "federalreserve.gov/releases/z1 (L.210); pgpf.org who-owns-all-that-debt; CRS RS22331",
+    "categories": [
+      { "name": "Mutual funds", "amount": 4500000000000 },
+      { "name": "Banks & depository institutions", "amount": 1900000000000 },
+      { "name": "State & local governments", "amount": 1700000000000 },
+      { "name": "Pension funds", "amount": 956000000000 },
+      { "name": "Insurance companies", "amount": 830000000000 },
+      { "name": "Individuals, money-market funds & other", "amount": 8108000000000 }
+    ]
+  },
+  "outlays": {
+    "fy": 2025,
+    "netInterest": 970000000000,
+    "defense": 917000000000,
+    "medicare": null,
+    "source": "CRFB 'Interest Costs Just Surpassed Defense and Medicare'; Taxpayers for Common Sense (FY2025 net interest ~$970B vs defense ~$917B)"
+  },
+  "population": { "count": 342400000, "asof": "2025", "source": "US Census Bureau resident population (~342.4M, 2025); census.gov/popclock" },
+  "households": { "count": 134790000, "asof": "2025", "source": "US Census / Statista household count (~134.79M, 2025)" },
+  "chinaPeak": { "amount": 1320000000000, "date": "2013-11", "approx": true, "source": "TIC via SCMP/Global Times — peak ~$1.32T Nov 2013" },
+  "milestoneOverrides": {
+    "1": { "date": "1981-10-22", "source": "House Budget Committee" },
+    "37": { "date": "2025-08-11", "source": "NBC News / CRFB" },
+    "38": { "date": "2025-10-23", "source": "PBS NewsHour / House Budget Committee" }
+  },
+  "projections": {
+    "edition": "CBO, The Long-Term Budget Outlook: 2025 to 2055 (March 2025)",
+    "url": "https://www.cbo.gov/publication/61270",
+    "measure": "debt held by the public, % of GDP",
+    "fy2025": 100,
+    "fy2029": 107,
+    "fy2035": 118,
+    "fy2055": 156,
+    "altScenario2055": 175,
+    "altScenarioNote": "extending expiring policies (CRFB analysis of CBO alternative scenario)"
+  },
+  "foreignContext": {
+    "officialShareNote": "TIC SLT Table 5, May 2026: $3,848.0B official of $9,371.1B total = 41.1% official / 58.9% private",
+    "interestPaidToForeigners2025": { "amount": 282400000000, "source": "CRS RS22331 (2026-04-22)" },
+    "foreignSharePeak": { "pct": 49, "year": 2011, "source": "CRS RS22331" },
+    "setserCaveat": "Custody-adjusted (Euroclear/Belgium etc.), China's true US exposure est. $1.8-1.9T — Brad Setser, CFR 'Finding China in the U.S. TIC Data'"
+  },
+  "ratings": [
+    { "agency": "S&P", "date": "2011-08-05", "action": "AAA → AA+", "reason": "debt-ceiling brinkmanship; fiscal-process doubts" },
+    { "agency": "Fitch", "date": "2023-08-01", "action": "AAA → AA+", "reason": "expected fiscal deterioration; governance erosion" },
+    { "agency": "Moody's", "date": "2025-05-16", "action": "Aaa → Aa1", "reason": "rising debt & interest costs; deficits unaddressed. Last top-tier rating lost (held since 1917)" }
+  ],
+  "interestContext": {
+    "pctOfRevenueFY2025": "18.5-19%",
+    "maturingWithin12moPct": 32,
+    "maturingBy2028Pct": 61,
+    "avgRate2021Low": 1.6,
+    "source": "Econofact interest-burden explainer; Treasury avg-rates dataset"
+  },
+  "gifts": {
+    "totalSince1996": 67300000, "fy2022": 180310,
+    "source": "Treasury Fiscal Data — Gift Contributions; fiscaldata.treasury.gov/datasets/gift-contributions-reduce-debt-held-by-public"
+  }
+}
