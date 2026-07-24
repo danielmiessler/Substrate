@@ -6,6 +6,8 @@ This file tracks all significant changes, additions, and milestones in the Subst
 
 ## 🚀 Recent Updates
 
+> **2026-07-24:** New plan **[PL-00002 — The US Buildout Plan](Plans/PL-00002—US_Buildout_Plan.md)** — a numbers-first plan for rebuilding US energy, autonomy manufacturing, and human capability, and the first fully cross-linked component graph in the repo: 4 Problems (PR-00001…4), 3 Solutions (SO-00001…3), 3 Funding-Sources (FS-00001…3), 3 Claims (CL-00001…3), 3 Risks (RI-00001…3). Every quantitative anchor carries a primary source; every entry names what would falsify it. Headline finding: the stated 10×-in-4-years energy target requires 2,925 GW/yr against a 2026 record of 86 GW, while the proposed funding stack (~$473B/yr) covers ~101% of the maximum physically reachable program (~2.4× in ten years).
+
 > **2026-07-23:** New dataset **US-National-Debt** — size, composition, cost, history, and ownership of US federal debt (1790→present) from nine primary sources, with research project `research/us-national-debt-2026-07/`. Powers the live interactive site **https://usdebt.io**.
 
 > **2025-10-25:** Major data infrastructure upgrade - Comprehensive data management system with library science methodology
