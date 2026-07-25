@@ -1,25 +1,26 @@
 # PL-00002 — The US Buildout Plan
 
-**Author:** Daniel Miessler
-**Created:** 2026-07-24
-**Status:** Draft v1
-**Type:** Substrate Plan (Telos format)
-**Related:** [PL-00001 / us-plan1-miessler.md](./us-plan1-miessler.md) — the cultural plan. This is the material one.
+**Author:** Daniel Miessler · **Created:** 2026-07-24 · **Status:** Draft v1 · **Type:** Substrate Plan (Telos format)
+**Part of:** [The US Program](./README.md) · **Pairs with:** [PL-00001](./us-plan1-miessler.md) — the cultural plan. This is the material one.
 
 ---
 
 ## 🎯 THE ANSWER FIRST
 
+**The ambition: 10× American energy capacity, a domestic drone and robotics industry, and free
+training for 50 million adults — paid for by AI infrastructure capital and recovered corporate tax
+base rather than by households.**
+
 | Question | Answer |
 |---|---|
-| **Can the US 10x its electricity capacity in 4 years?** | **No.** It requires 2,925 GW/yr of new capacity — 34× the record 86 GW planned for 2026, and 4× the entire world's annual renewable buildout. |
-| **Can it 16x in 10 years?** | **No.** 1,950 GW/yr, 23× the record year. |
-| **What can it do?** | **~2.4× in ten years** (1,300 GW → ~3,160 GW) by climbing from 86 GW/yr to a sustained 250 GW/yr. That is still the largest industrial mobilization since WWII. |
-| **What binds it?** | Not money. Solar cells (3 GW/yr domestic), transformers (4-year lead times), interconnection (2,061 GW queued, 4+ yr median), and electricians (81,000/yr short). |
-| **Does the proposed funding cover it?** | **Yes, almost exactly.** AI levy + corporate tax expenditure repeal + profit-shifting recovery ≈ **$473B/yr** against a **$419B/yr** maximum-reachable program. |
-| **How many people does it employ?** | **~3.1 million** direct energy workers, derived from 1,690 workers/GW. |
+| **What does 10× in four years demand?** | **2,925 GW/yr** — 34× the record 86 GW planned for 2026, and 4× the world's entire annual renewable buildout. That is the number to beat. |
+| **What does 16× in ten years demand?** | **1,950 GW/yr**, 23× the record year. Notably a *lower* annual rate than the four-year target. |
+| **What is reachable on the current supply chain?** | **~2.4× in ten years** (1,300 GW → ~3,160 GW), climbing from 86 GW/yr to a sustained 250 GW/yr — still the largest industrial mobilization since WWII. |
+| **So what has to change to go beyond it?** | Four things, all fixable: solar cells (3 GW/yr domestic), transformers (4-year lead times), interconnection (2,061 GW queued, 4+ yr median), electricians (81,000/yr short). **None of them is money.** |
+| **Does the proposed funding cover it?** | **Yes, almost exactly.** AI levy + corporate tax expenditure repeal + profit-shifting recovery ≈ **$473B/yr** against a **$466B/yr** program. |
+| **How many people does it put to work?** | **~3.1 million** direct energy workers, derived at 1,690 workers/GW. |
 
-**One-liner:** The money is there; the buildrate is not, so the plan is a buildrate plan.
+**One-liner:** The money is there; the buildrate is what has to be built first.
 
 **Caveat:** Every capacity multiple below is against a *derived* 2025 baseline of ~1,300 GW (see Baseline).
 
@@ -121,8 +122,11 @@ For scale: US war production peaked near 40% of GDP in 1943–44, across the ent
 would be 14–21% of GDP on electric generation by itself, for a decade, on top of everything else the
 economy does.
 
-**Verdict:** the stated targets are not achievable and should not be published as commitments. What
-follows is the plan that survives contact with the constraints. See
+**What this means for the plan.** The targets are the ambition; the buildrate is the work. Nothing
+below asks anyone to lower the ambition — it identifies the four things standing between 86 GW/yr
+and a rate that could eventually reach them, and funds those first. A plan that published 10× as a
+commitment without naming the 2,925 GW/yr underneath it would be a press release. The reasoning
+chain, including the six observations that would falsify it, is filed as
 [CL-00001](../Claims/CL-00001—Ten_X_Energy_In_Four_Years_Is_Physically_Impossible.md).
 
 ---
