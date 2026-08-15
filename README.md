@@ -714,6 +714,6 @@ MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=danielmiessler/Substrate&type=Date)](https://star-history.com/#danielmiessler/Substrate&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=danielmiessler/Substrate&type=Date)](https://star-history.dera.page/#danielmiessler/Substrate&Date)
 
 </div>
