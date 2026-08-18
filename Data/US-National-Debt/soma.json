@@ -2,20 +2,20 @@
   "_meta": {
     "source": "Federal Reserve Bank of New York — SOMA Holdings Summary",
     "url": "https://markets.newyorkfed.org/api/soma/summary.json",
-    "fetched": "2026-07-23T17:34:54.851Z",
-    "record_date_range": "2026-07-15"
+    "fetched": "2026-08-18T18:09:20.292Z",
+    "record_date_range": "2026-08-12"
   },
   "latest": {
-    "asOfDate": "2026-07-15",
-    "mbs": "1940803306434.30",
-    "cmbs": "7533878406.10",
-    "tips": "273754527000",
-    "frn": "18382825800",
-    "tipsInflationCompensation": "106128651704.32",
-    "notesbonds": "3605789260700",
-    "bills": "505885926700",
+    "asOfDate": "2026-08-12",
+    "mbs": "1923337226040.60",
+    "cmbs": "7517477244.40",
+    "tips": "276076310700",
+    "frn": "20045553800",
+    "tipsInflationCompensation": "106852470067.88",
+    "notesbonds": "3601804749000",
+    "bills": "533508926700",
     "agencies": "2347000000",
-    "total": "6354496725040.40"
+    "total": "6364637243485.00"
   },
   "all": [
     {
@@ -14441,6 +14441,54 @@
       "bills": "505885926700",
       "agencies": "2347000000",
       "total": "6354496725040.40"
+    },
+    {
+      "asOfDate": "2026-07-22",
+      "mbs": "1937256962541.10",
+      "cmbs": "7531350684.10",
+      "tips": "273754527000",
+      "frn": "18382825800",
+      "tipsInflationCompensation": "106668680927.50",
+      "notesbonds": "3605789260700",
+      "bills": "511065926700",
+      "agencies": "2347000000",
+      "total": "6356127853425.20"
+    },
+    {
+      "asOfDate": "2026-07-29",
+      "mbs": "1923337226040.60",
+      "cmbs": "7517477244.40",
+      "tips": "273754527000",
+      "frn": "18382825800",
+      "tipsInflationCompensation": "107208811368.59",
+      "notesbonds": "3605789260700",
+      "bills": "514518926700",
+      "agencies": "2347000000",
+      "total": "6345647243485.00"
+    },
+    {
+      "asOfDate": "2026-08-05",
+      "mbs": "1923337226040.60",
+      "cmbs": "7517477244.40",
+      "tips": "276076310700",
+      "frn": "20045553800",
+      "tipsInflationCompensation": "107154932207.04",
+      "notesbonds": "3601804749000",
+      "bills": "524876926700",
+      "agencies": "2347000000",
+      "total": "6356005243485.00"
+    },
+    {
+      "asOfDate": "2026-08-12",
+      "mbs": "1923337226040.60",
+      "cmbs": "7517477244.40",
+      "tips": "276076310700",
+      "frn": "20045553800",
+      "tipsInflationCompensation": "106852470067.88",
+      "notesbonds": "3601804749000",
+      "bills": "533508926700",
+      "agencies": "2347000000",
+      "total": "6364637243485.00"
     }
   ]
 }

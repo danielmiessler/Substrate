@@ -2,76 +2,68 @@
   "_meta": {
     "source": "US Treasury Fiscal Data — Interest Expense on the Public Debt Outstanding",
     "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/interest_expense",
-    "fetched": "2026-07-23T17:34:54.199Z",
-    "record_date_range": "2025-03-31 .. 2026-06-30",
+    "fetched": "2026-08-18T18:09:19.822Z",
+    "record_date_range": "2025-04-30 .. 2026-07-31",
     "count": 600,
     "note": "No explicit total row in source; totals here are summed across all expense groups at the latest record_date. FYTD = fiscal-year-to-date (FY starts Oct 1)."
   },
   "latest_total_interest": {
-    "record_date": "2026-06-30",
-    "fytd_total": 1052462998928.0199,
-    "fytd_public_issues": 799562928039.71,
-    "fytd_govt_account_series": 252900070888.31003,
-    "month_total": 185199785714.46,
+    "record_date": "2026-07-31",
+    "fytd_total": 1170036575035.2603,
+    "fytd_public_issues": 900081518806.8704,
+    "fytd_govt_account_series": 269955056228.39,
+    "month_total": 117573576107.23999,
     "rows": [
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-        "month_expense_amt": "41950999755.25",
-        "fytd_expense_amt": "366634955981.39",
-        "fytd_expense": 366634955981.39
+        "month_expense_amt": "43854569972.32",
+        "fytd_expense_amt": "410489525953.71",
+        "fytd_expense": 410489525953.71
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-        "month_expense_amt": "15040575946.16",
-        "fytd_expense_amt": "131462407874.56",
-        "fytd_expense": 131462407874.56
+        "month_expense_amt": "15684270760.28",
+        "fytd_expense_amt": "147146678634.84",
+        "fytd_expense": 147146678634.84
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-        "month_expense_amt": "414524224.99",
-        "fytd_expense_amt": "17860366444.19",
-        "fytd_expense": 17860366444.19
+        "month_expense_amt": "2206636455.08",
+        "fytd_expense_amt": "20067002899.27",
+        "fytd_expense": 20067002899.27
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-        "month_expense_amt": "19569925865.75",
-        "fytd_expense_amt": "63254483599.89",
-        "fytd_expense": 63254483599.89
+        "month_expense_amt": "13675575219.35",
+        "fytd_expense_amt": "76930058819.24",
+        "fytd_expense": 76930058819.24
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-        "month_expense_amt": "2184028996.06",
-        "fytd_expense_amt": "19733011346.29",
-        "fytd_expense": 19733011346.29
+        "month_expense_amt": "2387535872.57",
+        "fytd_expense_amt": "22120547218.86",
+        "fytd_expense": 22120547218.86
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-        "month_expense_amt": "506455.23",
-        "fytd_expense_amt": "16112265.04",
-        "fytd_expense": 16112265.04
+        "month_expense_amt": "506115.56",
+        "fytd_expense_amt": "16618380.60",
+        "fytd_expense": 16618380.6
       },
       {
-        "record_date": "2026-06-30",
-        "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-        "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-        "month_expense_amt": "0.00",
-        "fytd_expense_amt": "0.00",
-        "fytd_expense": 0
-      },
-      {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "ACCRUED INTEREST EXPENSE",
         "month_expense_amt": "0.00",
@@ -79,15 +71,7 @@
         "fytd_expense": 0
       },
       {
-        "record_date": "2026-06-30",
-        "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-        "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-        "month_expense_amt": "243714333.34",
-        "fytd_expense_amt": "2041351161.30",
-        "fytd_expense": 2041351161.3
-      },
-      {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "ACCRUED INTEREST EXPENSE",
         "month_expense_amt": "0.00",
@@ -95,55 +79,71 @@
         "fytd_expense": 0
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-        "expense_group_desc": "AMORTIZED DISCOUNT",
-        "month_expense_amt": "20216564508.68",
-        "fytd_expense_amt": "188058003375.18",
-        "fytd_expense": 188058003375.18
+        "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+        "month_expense_amt": "235715047.01",
+        "fytd_expense_amt": "2277066208.31",
+        "fytd_expense": 2277066208.31
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-        "expense_group_desc": "AMORTIZED DISCOUNT",
-        "month_expense_amt": "921765621.29",
-        "fytd_expense_amt": "8211452525.14",
-        "fytd_expense": 8211452525.14
+        "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+        "month_expense_amt": "0.00",
+        "fytd_expense_amt": "0.00",
+        "fytd_expense": 0
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED DISCOUNT",
-        "month_expense_amt": "243638927.27",
-        "fytd_expense_amt": "2165317313.76",
-        "fytd_expense": 2165317313.76
+        "month_expense_amt": "21174544780.84",
+        "fytd_expense_amt": "209232548156.02",
+        "fytd_expense": 209232548156.02
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED DISCOUNT",
-        "month_expense_amt": "161139766.63",
-        "fytd_expense_amt": "1396810851.96",
-        "fytd_expense": 1396810851.96
+        "month_expense_amt": "959912479.75",
+        "fytd_expense_amt": "9171365004.89",
+        "fytd_expense": 9171365004.89
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED DISCOUNT",
-        "month_expense_amt": "5454036.88",
-        "fytd_expense_amt": "50771656.58",
-        "fytd_expense": 50771656.58
+        "month_expense_amt": "252242910.92",
+        "fytd_expense_amt": "2417560224.68",
+        "fytd_expense": 2417560224.68
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED DISCOUNT",
-        "month_expense_amt": "48840796.30",
-        "fytd_expense_amt": "433129600.32",
-        "fytd_expense": 433129600.32
+        "month_expense_amt": "179862526.68",
+        "fytd_expense_amt": "1576673378.64",
+        "fytd_expense": 1576673378.64
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
+        "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+        "expense_group_desc": "AMORTIZED DISCOUNT",
+        "month_expense_amt": "5553321.48",
+        "fytd_expense_amt": "56324978.06",
+        "fytd_expense": 56324978.06
+      },
+      {
+        "record_date": "2026-07-31",
+        "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+        "expense_group_desc": "AMORTIZED DISCOUNT",
+        "month_expense_amt": "50565366.19",
+        "fytd_expense_amt": "483694966.51",
+        "fytd_expense": 483694966.51
+      },
+      {
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED DISCOUNT",
         "month_expense_amt": "0.00",
@@ -151,7 +151,7 @@
         "fytd_expense": 0
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED DISCOUNT",
         "month_expense_amt": "0.00",
@@ -159,39 +159,39 @@
         "fytd_expense": 0
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED PREMIUM",
-        "month_expense_amt": "-134121737.60",
-        "fytd_expense_amt": "-1229516853.56",
-        "fytd_expense": -1229516853.56
+        "month_expense_amt": "-138894838.86",
+        "fytd_expense_amt": "-1368411692.42",
+        "fytd_expense": -1368411692.42
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED PREMIUM",
-        "month_expense_amt": "-108839724.34",
-        "fytd_expense_amt": "-988890636.00",
-        "fytd_expense": -988890636
+        "month_expense_amt": "-112650551.88",
+        "fytd_expense_amt": "-1101541187.88",
+        "fytd_expense": -1101541187.88
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED PREMIUM",
-        "month_expense_amt": "-266991533.75",
-        "fytd_expense_amt": "-2835371391.64",
-        "fytd_expense": -2835371391.64
+        "month_expense_amt": "-273265394.33",
+        "fytd_expense_amt": "-3108636785.97",
+        "fytd_expense": -3108636785.97
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED PREMIUM",
-        "month_expense_amt": "-4599592.37",
-        "fytd_expense_amt": "-45299641.62",
-        "fytd_expense": -45299641.62
+        "month_expense_amt": "-5191520.39",
+        "fytd_expense_amt": "-50491162.01",
+        "fytd_expense": -50491162.01
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "AMORTIZED PREMIUM",
         "month_expense_amt": "0.00",
@@ -199,15 +199,15 @@
         "fytd_expense": 0
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "SAVINGS BONDS",
-        "month_expense_amt": "71331581.25",
-        "fytd_expense_amt": "737745610.77",
-        "fytd_expense": 737745610.77
+        "month_expense_amt": "70125794.03",
+        "fytd_expense_amt": "807871404.80",
+        "fytd_expense": 807871404.8
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "SAVINGS BONDS",
         "month_expense_amt": "0.00",
@@ -215,23 +215,23 @@
         "fytd_expense": -607.2
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "SAVINGS BONDS",
-        "month_expense_amt": "307745480.81",
-        "fytd_expense_amt": "2603238076.42",
-        "fytd_expense": 2603238076.42
+        "month_expense_amt": "310795399.45",
+        "fytd_expense_amt": "2914033475.87",
+        "fytd_expense": 2914033475.87
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "SAVINGS BONDS",
-        "month_expense_amt": "527651.25",
-        "fytd_expense_amt": "2849486.94",
-        "fytd_expense": 2849486.94
+        "month_expense_amt": "181051.11",
+        "fytd_expense_amt": "3030538.05",
+        "fytd_expense": 3030538.05
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "MISCELLANEOUS INTEREST EXPENSE",
         "month_expense_amt": "0.00",
@@ -239,7 +239,7 @@
         "fytd_expense": 0
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
         "expense_group_desc": "MISCELLANEOUS INTEREST EXPENSE",
         "month_expense_amt": "0.00",
@@ -247,63 +247,63 @@
         "fytd_expense": 0
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
         "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-        "month_expense_amt": "-477383364.19",
-        "fytd_expense_amt": "-1175643667.64",
-        "fytd_expense": -1175643667.64
+        "month_expense_amt": "-1116951.11",
+        "fytd_expense_amt": "-1176760618.75",
+        "fytd_expense": -1176760618.75
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
         "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-        "month_expense_amt": "7046147436.99",
+        "month_expense_amt": "0.00",
         "fytd_expense_amt": "7060436786.05",
         "fytd_expense": 7060436786.05
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
         "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-        "month_expense_amt": "-19088.59",
+        "month_expense_amt": "0.00",
         "fytd_expense_amt": "-17254346.80",
         "fytd_expense": -17254346.8
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
         "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-        "month_expense_amt": "944990056.51",
-        "fytd_expense_amt": "9268044237.96",
-        "fytd_expense": 9268044237.96
+        "month_expense_amt": "849240384.50",
+        "fytd_expense_amt": "10117284622.46",
+        "fytd_expense": 10117284622.46
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
         "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-        "month_expense_amt": "-1825676381.18",
-        "fytd_expense_amt": "-3233635691.59",
-        "fytd_expense": -3233635691.59
+        "month_expense_amt": "-52631923.87",
+        "fytd_expense_amt": "-3286267615.46",
+        "fytd_expense": -3286267615.46
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
         "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-        "month_expense_amt": "60897303786.58",
-        "fytd_expense_amt": "180980900023.98",
-        "fytd_expense": 180980900023.98
+        "month_expense_amt": "3661567890.71",
+        "fytd_expense_amt": "184642467914.69",
+        "fytd_expense": 184642467914.69
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
         "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-        "month_expense_amt": "17361499859.80",
-        "fytd_expense_amt": "56270299466.60",
-        "fytd_expense": 56270299466.6
+        "month_expense_amt": "12196405882.10",
+        "fytd_expense_amt": "68466705348.70",
+        "fytd_expense": 68466705348.7
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
         "expense_group_desc": "CASH BASIS GAS PAYMENTS",
         "month_expense_amt": "0.00",
@@ -311,16 +311,320 @@
         "fytd_expense": 443612949.17
       },
       {
-        "record_date": "2026-06-30",
+        "record_date": "2026-07-31",
         "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
         "expense_group_desc": "ACCRUAL BASIS GAS EXPENSE",
-        "month_expense_amt": "386192049.46",
-        "fytd_expense_amt": "3303311130.58",
-        "fytd_expense": 3303311130.58
+        "month_expense_amt": "401520057.75",
+        "fytd_expense_amt": "3704831188.33",
+        "fytd_expense": 3704831188.33
       }
     ]
   },
   "data": [
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+      "month_expense_amt": "43854569972.32",
+      "fytd_expense_amt": "410489525953.71",
+      "fytd_expense": 410489525953.71
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+      "month_expense_amt": "15684270760.28",
+      "fytd_expense_amt": "147146678634.84",
+      "fytd_expense": 147146678634.84
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+      "month_expense_amt": "2206636455.08",
+      "fytd_expense_amt": "20067002899.27",
+      "fytd_expense": 20067002899.27
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+      "month_expense_amt": "13675575219.35",
+      "fytd_expense_amt": "76930058819.24",
+      "fytd_expense": 76930058819.24
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+      "month_expense_amt": "2387535872.57",
+      "fytd_expense_amt": "22120547218.86",
+      "fytd_expense": 22120547218.86
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+      "month_expense_amt": "506115.56",
+      "fytd_expense_amt": "16618380.60",
+      "fytd_expense": 16618380.6
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "0.00",
+      "fytd_expense": 0
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "0.00",
+      "fytd_expense": 0
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+      "month_expense_amt": "235715047.01",
+      "fytd_expense_amt": "2277066208.31",
+      "fytd_expense": 2277066208.31
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "0.00",
+      "fytd_expense": 0
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED DISCOUNT",
+      "month_expense_amt": "21174544780.84",
+      "fytd_expense_amt": "209232548156.02",
+      "fytd_expense": 209232548156.02
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED DISCOUNT",
+      "month_expense_amt": "959912479.75",
+      "fytd_expense_amt": "9171365004.89",
+      "fytd_expense": 9171365004.89
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED DISCOUNT",
+      "month_expense_amt": "252242910.92",
+      "fytd_expense_amt": "2417560224.68",
+      "fytd_expense": 2417560224.68
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED DISCOUNT",
+      "month_expense_amt": "179862526.68",
+      "fytd_expense_amt": "1576673378.64",
+      "fytd_expense": 1576673378.64
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED DISCOUNT",
+      "month_expense_amt": "5553321.48",
+      "fytd_expense_amt": "56324978.06",
+      "fytd_expense": 56324978.06
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED DISCOUNT",
+      "month_expense_amt": "50565366.19",
+      "fytd_expense_amt": "483694966.51",
+      "fytd_expense": 483694966.51
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED DISCOUNT",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "0.00",
+      "fytd_expense": 0
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED DISCOUNT",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "0.00",
+      "fytd_expense": 0
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED PREMIUM",
+      "month_expense_amt": "-138894838.86",
+      "fytd_expense_amt": "-1368411692.42",
+      "fytd_expense": -1368411692.42
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED PREMIUM",
+      "month_expense_amt": "-112650551.88",
+      "fytd_expense_amt": "-1101541187.88",
+      "fytd_expense": -1101541187.88
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED PREMIUM",
+      "month_expense_amt": "-273265394.33",
+      "fytd_expense_amt": "-3108636785.97",
+      "fytd_expense": -3108636785.97
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED PREMIUM",
+      "month_expense_amt": "-5191520.39",
+      "fytd_expense_amt": "-50491162.01",
+      "fytd_expense": -50491162.01
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "AMORTIZED PREMIUM",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "0.00",
+      "fytd_expense": 0
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "SAVINGS BONDS",
+      "month_expense_amt": "70125794.03",
+      "fytd_expense_amt": "807871404.80",
+      "fytd_expense": 807871404.8
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "SAVINGS BONDS",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "-607.20",
+      "fytd_expense": -607.2
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "SAVINGS BONDS",
+      "month_expense_amt": "310795399.45",
+      "fytd_expense_amt": "2914033475.87",
+      "fytd_expense": 2914033475.87
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "SAVINGS BONDS",
+      "month_expense_amt": "181051.11",
+      "fytd_expense_amt": "3030538.05",
+      "fytd_expense": 3030538.05
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "MISCELLANEOUS INTEREST EXPENSE",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "0.00",
+      "fytd_expense": 0
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
+      "expense_group_desc": "MISCELLANEOUS INTEREST EXPENSE",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "0.00",
+      "fytd_expense": 0
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
+      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
+      "month_expense_amt": "-1116951.11",
+      "fytd_expense_amt": "-1176760618.75",
+      "fytd_expense": -1176760618.75
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
+      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "7060436786.05",
+      "fytd_expense": 7060436786.05
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
+      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "-17254346.80",
+      "fytd_expense": -17254346.8
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
+      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
+      "month_expense_amt": "849240384.50",
+      "fytd_expense_amt": "10117284622.46",
+      "fytd_expense": 10117284622.46
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
+      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
+      "month_expense_amt": "-52631923.87",
+      "fytd_expense_amt": "-3286267615.46",
+      "fytd_expense": -3286267615.46
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
+      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
+      "month_expense_amt": "3661567890.71",
+      "fytd_expense_amt": "184642467914.69",
+      "fytd_expense": 184642467914.69
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
+      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
+      "month_expense_amt": "12196405882.10",
+      "fytd_expense_amt": "68466705348.70",
+      "fytd_expense": 68466705348.7
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
+      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
+      "month_expense_amt": "0.00",
+      "fytd_expense_amt": "443612949.17",
+      "fytd_expense": 443612949.17
+    },
+    {
+      "record_date": "2026-07-31",
+      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
+      "expense_group_desc": "ACCRUAL BASIS GAS EXPENSE",
+      "month_expense_amt": "401520057.75",
+      "fytd_expense_amt": "3704831188.33",
+      "fytd_expense": 3704831188.33
+    },
     {
       "record_date": "2026-06-30",
       "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
@@ -4816,310 +5120,6 @@
       "month_expense_amt": "-19647114.55",
       "fytd_expense_amt": "-9241926913.21",
       "fytd_expense": -9241926913.21
-    },
-    {
-      "record_date": "2025-04-30",
-      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
-      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "10479962.50",
-      "fytd_expense": 10479962.5
-    },
-    {
-      "record_date": "2025-04-30",
-      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
-      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-      "month_expense_amt": "-913534.69",
-      "fytd_expense_amt": "-1146601872.56",
-      "fytd_expense": -1146601872.56
-    },
-    {
-      "record_date": "2025-04-30",
-      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
-      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-      "month_expense_amt": "844433909.31",
-      "fytd_expense_amt": "8586361946.77",
-      "fytd_expense": 8586361946.77
-    },
-    {
-      "record_date": "2025-04-30",
-      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
-      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-      "month_expense_amt": "-77790480.28",
-      "fytd_expense_amt": "-1442913769.14",
-      "fytd_expense": -1442913769.14
-    },
-    {
-      "record_date": "2025-04-30",
-      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
-      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-      "month_expense_amt": "8585070261.15",
-      "fytd_expense_amt": "105802274210.66",
-      "fytd_expense": 105802274210.66
-    },
-    {
-      "record_date": "2025-04-30",
-      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
-      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-      "month_expense_amt": "7421263640.04",
-      "fytd_expense_amt": "23445186921.39",
-      "fytd_expense": 23445186921.39
-    },
-    {
-      "record_date": "2025-04-30",
-      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
-      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "0.00",
-      "fytd_expense": 0
-    },
-    {
-      "record_date": "2025-04-30",
-      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
-      "expense_group_desc": "ACCRUAL BASIS GAS EXPENSE",
-      "month_expense_amt": "278711555.56",
-      "fytd_expense_amt": "1913290548.33",
-      "fytd_expense": 1913290548.33
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-      "month_expense_amt": "36083916182.16",
-      "fytd_expense_amt": "201258534302.62",
-      "fytd_expense": 201258534302.62
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-      "month_expense_amt": "13357727972.74",
-      "fytd_expense_amt": "75792254522.97",
-      "fytd_expense": 75792254522.97
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-      "month_expense_amt": "1742889941.15",
-      "fytd_expense_amt": "9946907555.44",
-      "fytd_expense": 9946907555.44
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-      "month_expense_amt": "12726520527.71",
-      "fytd_expense_amt": "19677598879.66",
-      "fytd_expense": 19677598879.66
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-      "month_expense_amt": "2404483095.97",
-      "fytd_expense_amt": "14038836835.48",
-      "fytd_expense": 14038836835.48
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-      "month_expense_amt": "8927337.25",
-      "fytd_expense_amt": "60594386.41",
-      "fytd_expense": 60594386.41
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "0.00",
-      "fytd_expense": 0
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "0.00",
-      "fytd_expense": 0
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-      "month_expense_amt": "250207455.85",
-      "fytd_expense_amt": "1740571227.67",
-      "fytd_expense": 1740571227.67
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "ACCRUED INTEREST EXPENSE",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "0.00",
-      "fytd_expense": 0
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED DISCOUNT",
-      "month_expense_amt": "22952937537.61",
-      "fytd_expense_amt": "142568729010.60",
-      "fytd_expense": 142568729010.6
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED DISCOUNT",
-      "month_expense_amt": "890115827.37",
-      "fytd_expense_amt": "5094937675.49",
-      "fytd_expense": 5094937675.49
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED DISCOUNT",
-      "month_expense_amt": "236670944.30",
-      "fytd_expense_amt": "1348982909.23",
-      "fytd_expense": 1348982909.23
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED DISCOUNT",
-      "month_expense_amt": "155507520.61",
-      "fytd_expense_amt": "876238220.99",
-      "fytd_expense": 876238220.99
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED DISCOUNT",
-      "month_expense_amt": "7965114.46",
-      "fytd_expense_amt": "48404397.46",
-      "fytd_expense": 48404397.46
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED DISCOUNT",
-      "month_expense_amt": "46114015.66",
-      "fytd_expense_amt": "265344144.12",
-      "fytd_expense": 265344144.12
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED DISCOUNT",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "0.00",
-      "fytd_expense": 0
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED DISCOUNT",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "0.00",
-      "fytd_expense": 0
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED PREMIUM",
-      "month_expense_amt": "-124607825.10",
-      "fytd_expense_amt": "-722079185.76",
-      "fytd_expense": -722079185.76
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED PREMIUM",
-      "month_expense_amt": "-107615408.57",
-      "fytd_expense_amt": "-627064953.75",
-      "fytd_expense": -627064953.75
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED PREMIUM",
-      "month_expense_amt": "-406652174.99",
-      "fytd_expense_amt": "-2402303678.51",
-      "fytd_expense": -2402303678.51
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED PREMIUM",
-      "month_expense_amt": "-5456550.33",
-      "fytd_expense_amt": "-28370215.79",
-      "fytd_expense": -28370215.79
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "AMORTIZED PREMIUM",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "0.00",
-      "fytd_expense": 0
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "SAVINGS BONDS",
-      "month_expense_amt": "119543437.63",
-      "fytd_expense_amt": "809484342.86",
-      "fytd_expense": 809484342.86
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "SAVINGS BONDS",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "1360.00",
-      "fytd_expense": 1360
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "SAVINGS BONDS",
-      "month_expense_amt": "267137786.91",
-      "fytd_expense_amt": "1815608748.77",
-      "fytd_expense": 1815608748.77
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "SAVINGS BONDS",
-      "month_expense_amt": "155556.05",
-      "fytd_expense_amt": "1357144.35",
-      "fytd_expense": 1357144.35
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "MISCELLANEOUS INTEREST EXPENSE",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "0.00",
-      "fytd_expense": 0
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON PUBLIC ISSUES",
-      "expense_group_desc": "MISCELLANEOUS INTEREST EXPENSE",
-      "month_expense_amt": "0.00",
-      "fytd_expense_amt": "0.00",
-      "fytd_expense": 0
-    },
-    {
-      "record_date": "2025-03-31",
-      "expense_catg_desc": "INTEREST EXPENSE ON GOVT ACCOUNT SERIES",
-      "expense_group_desc": "CASH BASIS GAS PAYMENTS",
-      "month_expense_amt": "-33065208.97",
-      "fytd_expense_amt": "-9222279798.66",
-      "fytd_expense": -9222279798.66
     }
   ]
 }

@@ -2,7 +2,7 @@
   "_meta": {
     "source": "US Treasury Fiscal Data — Historical Debt Outstanding",
     "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_outstanding",
-    "fetched": "2026-07-23T17:34:53.800Z",
+    "fetched": "2026-08-18T18:09:19.472Z",
     "record_date_range": "1790-01-01 .. 2025-09-30",
     "count": 237
   },

@@ -2,7 +2,7 @@
   "_meta": {
     "source": "FRED — Federal Debt: Total Public Debt as Percent of GDP (GFDEGDQ188S)",
     "url": "https://api.stlouisfed.org/fred/series/observations?series_id=GFDEGDQ188S",
-    "fetched": "2026-07-23T17:34:55.336Z",
+    "fetched": "2026-08-18T18:09:20.927Z",
     "record_date_range": "1966-01-01 .. 2026-01-01",
     "count": 241
   },

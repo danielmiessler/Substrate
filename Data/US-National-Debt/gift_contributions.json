@@ -2,11 +2,22 @@
   "_meta": {
     "source": "US Treasury Fiscal Data — Gift Contributions to Reduce the Public Debt",
     "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/gift_contributions",
-    "fetched": "2026-07-23T17:34:55.543Z",
-    "record_date_range": "2022-04-30 .. 2026-05-31",
+    "fetched": "2026-08-18T18:09:21.176Z",
+    "record_date_range": "2022-05-31 .. 2026-06-30",
     "count": 50
   },
   "data": [
+    {
+      "record_date": "2026-06-30",
+      "contribution_amt": "51278.89",
+      "src_line_nbr": "1",
+      "record_fiscal_year": "2026",
+      "record_fiscal_quarter": "3",
+      "record_calendar_year": "2026",
+      "record_calendar_quarter": "2",
+      "record_calendar_month": "06",
+      "record_calendar_day": "30"
+    },
     {
       "record_date": "2026-05-31",
       "contribution_amt": "68539.58",
@@ -545,17 +556,6 @@
       "record_calendar_quarter": "2",
       "record_calendar_month": "05",
       "record_calendar_day": "31"
-    },
-    {
-      "record_date": "2022-04-30",
-      "contribution_amt": "228963.68",
-      "src_line_nbr": "1",
-      "record_fiscal_year": "2022",
-      "record_fiscal_quarter": "3",
-      "record_calendar_year": "2022",
-      "record_calendar_quarter": "2",
-      "record_calendar_month": "04",
-      "record_calendar_day": "30"
     }
   ]
 }

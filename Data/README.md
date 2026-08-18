@@ -22,7 +22,7 @@ The Data directory contains curated, ground-truth datasets about important aspec
 | [US Common Metrics](./US-Common-Metrics/SUMMARY.md) | 60+ indicators | Real-time dashboard of U.S. economic indicators |
 | [Pulitzer Winners](./Pulitzer-Prize-Winners/SUMMARY.md) | 249 winners | Complete Arts & Letters database (1918-2024) |
 | [Vulnerability & Breach Data](./Vulnerability-And-Breach-Data/SUMMARY.md) | 48,185 CVEs · 3,322 breaches (2025) | Vulns and breaches hit records; no dataset attributes either to AI |
-| [US National Debt](./US-National-Debt/SUMMARY.md) | $39.66T gross (2026-07-21) | Three-quarters of US debt is held domestically; powers usdebt.io |
+| [US National Debt](./US-National-Debt/SUMMARY.md) | $39.93T gross (2026-08-14) | Three-quarters of US debt is held domestically; powers usdebt.io |
 
 ### Schema Structure
 
