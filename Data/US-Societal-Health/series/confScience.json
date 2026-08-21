@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "key": "confScience",
+    "name": "Confidence in Science",
+    "unit": "percent with a great deal of confidence in the scientific community",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "… — Scientific community NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable CONSCI: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1973–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1973": 41.1,
+    "1974": 50.6,
+    "1975": 42,
+    "1976": 47.9,
+    "1977": 44.2,
+    "1978": 40.8,
+    "1980": 44.4,
+    "1982": 43.3,
+    "1983": 44.9,
+    "1984": 49.9,
+    "1986": 42.9,
+    "1987": 47.8,
+    "1988": 43.2,
+    "1989": 45.2,
+    "1990": 42.2,
+    "1991": 43.8,
+    "1993": 40.4,
+    "1994": 41.1,
+    "1996": 43.3,
+    "1998": 43.9,
+    "2000": 45.3,
+    "2002": 40.5,
+    "2004": 42.6,
+    "2006": 44.1,
+    "2008": 40.2,
+    "2010": 42.9,
+    "2012": 42.3,
+    "2014": 43,
+    "2016": 43.6,
+    "2018": 47.6,
+    "2021": 47.9,
+    "2022": 39,
+    "2024": 36.3
+  }
+}

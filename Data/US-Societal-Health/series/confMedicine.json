@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "key": "confMedicine",
+    "name": "Confidence in Medicine (GSS)",
+    "unit": "percent with a great deal of confidence",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "… — Medicine NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable CONMEDIC: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1973–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1973": 54.9,
+    "1974": 62.4,
+    "1975": 52.4,
+    "1976": 54.9,
+    "1977": 53.9,
+    "1978": 47.3,
+    "1980": 54.1,
+    "1982": 45.9,
+    "1983": 52.7,
+    "1984": 51,
+    "1986": 48.5,
+    "1987": 53.1,
+    "1988": 53.5,
+    "1989": 48.2,
+    "1990": 45.6,
+    "1991": 49.1,
+    "1993": 40.9,
+    "1994": 43.2,
+    "1996": 45.9,
+    "1998": 46.3,
+    "2000": 45.5,
+    "2002": 38.6,
+    "2004": 37.4,
+    "2006": 40.8,
+    "2008": 39.4,
+    "2010": 42.5,
+    "2012": 40.2,
+    "2014": 39.1,
+    "2016": 36.7,
+    "2018": 38.8,
+    "2021": 37.7,
+    "2022": 33.5,
+    "2024": 26.3
+  }
+}

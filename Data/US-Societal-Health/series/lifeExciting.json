@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "key": "lifeExciting",
+    "name": "Life Is Exciting",
+    "unit": "percent of adults who find life exciting",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "In general, do you find life exciting, pretty routine, or dull? NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable LIFE: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1973–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1973": 46.5,
+    "1974": 43.3,
+    "1976": 45.2,
+    "1977": 45.6,
+    "1980": 47.7,
+    "1982": 46.5,
+    "1984": 46.3,
+    "1985": 47.7,
+    "1987": 45.2,
+    "1988": 46.8,
+    "1989": 45,
+    "1990": 44.2,
+    "1991": 45.4,
+    "1993": 46.2,
+    "1994": 47.9,
+    "1996": 50.5,
+    "1998": 45.3,
+    "2000": 46.5,
+    "2002": 52.9,
+    "2004": 48.2,
+    "2006": 51,
+    "2008": 47.6,
+    "2010": 52,
+    "2012": 52.7,
+    "2014": 51.1,
+    "2016": 51.2,
+    "2018": 51.6,
+    "2021": 35.1,
+    "2022": 43,
+    "2024": 37.3
+  }
+}

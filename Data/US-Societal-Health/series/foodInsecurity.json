@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "key": "foodInsecurity",
+    "name": "Food Insecurity",
+    "unit": "percent of households food insecure at some time during the year",
+    "source": "USDA Economic Research Service, Household Food Security in the United States",
+    "sourceUrl": "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-u-s/key-statistics-graphics",
+    "historicalSourceUrls": [
+      "https://www.ers.usda.gov/media/6990/trends.xlsx"
+    ],
+    "goodDirection": "down",
+    "note": "Households with low or very low food security, from the December CPS Food Security Supplement. ERS's comparable series starts in 2001 (1995–2000 used a different screening procedure). ERS announced the cancellation of the 2025 report; the series may end at 2024.",
+    "method": "trends.xlsx sheet Trends, column B",
+    "coverage": "2001–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "2001": 10.7,
+    "2002": 11.1,
+    "2003": 11.2,
+    "2004": 11.9,
+    "2005": 11,
+    "2006": 10.9,
+    "2007": 11.1,
+    "2008": 14.6,
+    "2009": 14.7,
+    "2010": 14.5,
+    "2011": 14.9,
+    "2012": 14.5,
+    "2013": 14.3,
+    "2014": 14,
+    "2015": 12.7,
+    "2016": 12.3,
+    "2017": 11.8,
+    "2018": 11.1,
+    "2019": 10.5,
+    "2020": 10.5,
+    "2021": 10.2,
+    "2022": 12.8,
+    "2023": 13.5,
+    "2024": 13.7
+  }
+}

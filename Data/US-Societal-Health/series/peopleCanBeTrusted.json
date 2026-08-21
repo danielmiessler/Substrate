@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "key": "peopleCanBeTrusted",
+    "name": "Most People Can Be Trusted",
+    "unit": "percent saying most people can be trusted",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "Generally speaking, would you say that most people can be trusted or that you can't be too careful in dealing with people? NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable TRUST: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1972–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1972": 46.6,
+    "1973": 47.2,
+    "1975": 40,
+    "1976": 43,
+    "1978": 38.4,
+    "1980": 42.7,
+    "1983": 34.9,
+    "1984": 49.2,
+    "1986": 37.4,
+    "1987": 43.1,
+    "1988": 39.5,
+    "1989": 40.1,
+    "1990": 37.6,
+    "1991": 38.1,
+    "1993": 33.6,
+    "1994": 33.5,
+    "1996": 32.9,
+    "1998": 36.7,
+    "2000": 35.1,
+    "2002": 33.8,
+    "2004": 33.9,
+    "2006": 32.5,
+    "2008": 32.2,
+    "2010": 32.1,
+    "2012": 31.8,
+    "2014": 29.6,
+    "2016": 31.9,
+    "2018": 33.8,
+    "2022": 26.2,
+    "2024": 24.8
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "key": "gallupSmallBusiness",
+    "name": "Confidence in Small Business",
+    "unit": "percent with a great deal or quite a lot of confidence",
+    "source": "Gallup, Confidence in Institutions",
+    "sourceUrl": "https://news.gallup.com/poll/1597/confidence-institutions.aspx",
+    "goodDirection": "up",
+    "note": "Gallup's annual June Confidence in Institutions poll (telephone, ~1,000 adults): \"Please tell me how much confidence you, yourself, have in each one — a great deal, quite a lot, some, or very little?\" Value is great deal + quite a lot. Asked every year since 1993 and irregularly before; where Gallup polled twice in one year (1991) the later poll is kept.",
+    "method": "table captioned \"Small Business\", column \"Great deal/Quite a lot\"",
+    "coverage": "1997–2026",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1997": 63,
+    "1998": 57,
+    "2007": 59,
+    "2008": 60,
+    "2009": 67,
+    "2010": 66,
+    "2011": 64,
+    "2012": 63,
+    "2013": 65,
+    "2014": 62,
+    "2015": 67,
+    "2016": 68,
+    "2017": 70,
+    "2018": 67,
+    "2019": 68,
+    "2020": 75,
+    "2021": 70,
+    "2022": 68,
+    "2023": 65,
+    "2024": 68,
+    "2025": 70,
+    "2026": 67
+  }
+}

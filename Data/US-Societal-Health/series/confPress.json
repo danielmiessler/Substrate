@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "key": "confPress",
+    "name": "Confidence in the Press (GSS)",
+    "unit": "percent with a great deal of confidence",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them? — The press NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable CONPRESS: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1973–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1973": 23.2,
+    "1974": 26.1,
+    "1975": 25.2,
+    "1976": 28.8,
+    "1977": 25.3,
+    "1978": 21.1,
+    "1980": 23.6,
+    "1982": 18.7,
+    "1983": 13.8,
+    "1984": 18.8,
+    "1986": 19.4,
+    "1987": 18.3,
+    "1988": 19.7,
+    "1989": 17.9,
+    "1990": 15.7,
+    "1991": 17.1,
+    "1993": 11.1,
+    "1994": 10.8,
+    "1996": 11.3,
+    "1998": 9.4,
+    "2000": 10.5,
+    "2002": 10.6,
+    "2004": 9.6,
+    "2006": 10.4,
+    "2008": 8.9,
+    "2010": 11.1,
+    "2012": 9.4,
+    "2014": 7.8,
+    "2016": 8,
+    "2018": 13.4,
+    "2021": 10.3,
+    "2022": 7.1,
+    "2024": 7.5
+  }
+}

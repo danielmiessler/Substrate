@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "key": "confBanks",
+    "name": "Confidence in Banks (GSS)",
+    "unit": "percent with a great deal of confidence",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "… — Banks and financial institutions NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable CONFINAN: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1975–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1975": 32.7,
+    "1976": 39,
+    "1977": 41.6,
+    "1978": 31.4,
+    "1980": 33.6,
+    "1982": 26.5,
+    "1983": 24,
+    "1984": 30.9,
+    "1986": 21,
+    "1987": 28.3,
+    "1988": 27.9,
+    "1989": 19,
+    "1990": 17.6,
+    "1991": 12.3,
+    "1993": 14.4,
+    "1994": 18.9,
+    "1996": 25.2,
+    "1998": 26.9,
+    "2000": 30.6,
+    "2002": 23.5,
+    "2004": 29.7,
+    "2006": 30.8,
+    "2008": 19.7,
+    "2010": 11.2,
+    "2012": 11.8,
+    "2014": 15.7,
+    "2016": 13.8,
+    "2018": 20.1,
+    "2021": 19.4,
+    "2022": 18.1,
+    "2024": 17
+  }
+}

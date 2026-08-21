@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "key": "confBusiness",
+    "name": "Confidence in Major Companies (GSS)",
+    "unit": "percent with a great deal of confidence",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "… — Major companies NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable CONBUS: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1973–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1973": 30.7,
+    "1974": 32.3,
+    "1975": 21,
+    "1976": 21.7,
+    "1977": 27.2,
+    "1978": 21.6,
+    "1980": 28.2,
+    "1982": 24,
+    "1983": 24.8,
+    "1984": 33,
+    "1986": 26.6,
+    "1987": 31.6,
+    "1988": 26,
+    "1989": 25.9,
+    "1990": 27,
+    "1991": 20.6,
+    "1993": 21.6,
+    "1994": 26.6,
+    "1996": 24.6,
+    "1998": 28.3,
+    "2000": 29.6,
+    "2002": 18.1,
+    "2004": 18.1,
+    "2006": 18.6,
+    "2008": 16.1,
+    "2010": 13.6,
+    "2012": 18.7,
+    "2014": 19.3,
+    "2016": 18.7,
+    "2018": 20.6,
+    "2021": 16.7,
+    "2022": 15,
+    "2024": 15
+  }
+}

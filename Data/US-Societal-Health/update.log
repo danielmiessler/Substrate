@@ -1,0 +1,8 @@
+2026-08-21T21:49:15.378Z wrote 46 series; errors: gallup-confidence: Error: InvariantViolation: gallupHigherEd: only 6 years | gallup-media: Error: InvariantViolation: Gallup 1663 header: |% Great deal/Fair amount | nsduh: Error: InvariantViolation: NSDUH row Marijuana: expected 18 numbers, got 1
+2026-08-21T21:49:54.112Z wrote 20 series; errors: none
+2026-08-21T21:52:32.361Z wrote 1 series; errors: none
+2026-08-21T21:57:59.925Z wrote 8 series; errors: nyfed: Error: InvariantViolation: NY Fed HHDC: no report xlsx linked on the page
+2026-08-21T21:58:46.861Z wrote 0 series; errors: nyfed: Error: unzip xl/workbook.xml from /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/substrate/Data/US-
+2026-08-21T21:59:01.999Z wrote 2 series; errors: none
+2026-08-21T22:02:57.152Z wrote 7 series; errors: none
+2026-08-21T22:03:22.838Z wrote 66 series; errors: none

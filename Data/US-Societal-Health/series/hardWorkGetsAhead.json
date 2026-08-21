@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "key": "hardWorkGetsAhead",
+    "name": "Hard Work Gets You Ahead",
+    "unit": "percent saying people get ahead by hard work (vs. luck or help)",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "Some people say that people get ahead by their own hard work; others say that lucky breaks or help from other people are more important. Which do you think is most important? NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable GETAHEAD: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1973–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1973": 65.1,
+    "1974": 61.4,
+    "1976": 61.3,
+    "1977": 60.5,
+    "1980": 63.4,
+    "1982": 61.3,
+    "1984": 66.6,
+    "1985": 66.3,
+    "1987": 65.8,
+    "1988": 67.7,
+    "1989": 66,
+    "1990": 65.1,
+    "1991": 67.5,
+    "1993": 66,
+    "1994": 70.1,
+    "1996": 69.2,
+    "1998": 68.1,
+    "2000": 65.6,
+    "2002": 64.6,
+    "2004": 66.4,
+    "2006": 68.7,
+    "2008": 67,
+    "2010": 69,
+    "2012": 68.8,
+    "2014": 70.3,
+    "2016": 70.7,
+    "2018": 72.9,
+    "2022": 58,
+    "2024": 65.4
+  }
+}

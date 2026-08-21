@@ -4,6 +4,25 @@ This file tracks all datasets added to the Substrate Data directory.
 
 ---
 
+## 2026-08-21 - U.S. Societal Health
+
+**Dataset**: US-Societal-Health
+**Status**: Active
+**Coverage**: 66 annual national series, 1850/1915/1950/1972→2026 depending on series
+**Source**: NORC GSS (public microdata), Gallup published trend tables, University of Michigan Surveys of Consumers, SAMHSA NSDUH, NIAAA, Monitoring the Future via CDC/NCHS, CDC/NCHS Health US + Data Query System, Census (CPS ASEC, ACS), Federal Reserve Board via FRED, NY Fed Consumer Credit Panel, USDA FNS/ERS, NHTSA, BLS
+
+### Contents
+- `series/<key>.json` × 66, each with a `_meta` provenance block (publisher, URL, unit, question wording, breaks, exact method) — happiness & outlook, trust in people and institutions (Gallup + GSS), substance use, health access & suicide by age, household financial stress
+- `SUMMARY.md` (answer-first), `README.md`, `source.md` — all regenerated from the data by `docs.ts`
+- `update.ts` — one re-runnable fetcher, no API keys; `lib/stata.ts` reads NORC's GSS cumulative file directly; `lib/xlsx.ts` reads publisher spreadsheets
+- Research provenance: `research/us-societal-health-2026-08/` (question, filter, every candidate's disposition, synthesis)
+
+### Notes
+- Powers the Happiness & Outlook, Trust & Institutions, Substance Use, and new Health / Money rows of **https://usstats.io**
+- Survey seams are disclosed per series (GSS 2021 web mode, NSDUH 2021 redesign, NHIS 2019 redesign, Michigan 2017–2024 web transition)
+
+---
+
 ## 2026-07-23 - U.S. National Debt
 
 **Dataset**: US-National-Debt

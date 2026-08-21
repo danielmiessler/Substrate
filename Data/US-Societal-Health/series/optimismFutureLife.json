@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "key": "optimismFutureLife",
+    "name": "Optimistic About Life in 5 Years",
+    "unit": "percent rating their expected life in five years 8–10 on a 0–10 ladder",
+    "source": "Gallup National Health and Well-Being Index",
+    "sourceUrl": "https://news.gallup.com/poll/702125/american-optimism-slumps-record-low.aspx",
+    "goodDirection": "up",
+    "note": "Gallup National Health and Well-Being Index (U.S. adults, tens of thousands of interviews a year), Cantril Self-Anchoring Striving Scale: respondents rate their life today and their expected life five years from now on a 0–10 ladder. Gallup moved from daily phone tracking to its web panel over 2018–2020. Values are Gallup's own published annual figures.",
+    "method": "table \"Among U.S. Adults, Anticipated Life in 5 Years Slumps to Record Low in 2025\", column \"Future Life (%8-10)\"",
+    "partialYear": 2026,
+    "coverage": "2009–2026",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "2009": 63,
+    "2010": 64.1,
+    "2011": 63.4,
+    "2012": 63.8,
+    "2013": 63.1,
+    "2014": 67.7,
+    "2015": 68.7,
+    "2016": 68.9,
+    "2017": 68.2,
+    "2018": 66.4,
+    "2019": 66.1,
+    "2020": 68.3,
+    "2021": 67.7,
+    "2022": 63.1,
+    "2023": 61.9,
+    "2024": 62.7,
+    "2025": 59.2,
+    "2026": 59.7
+  }
+}

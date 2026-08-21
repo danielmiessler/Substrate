@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "key": "confLabor",
+    "name": "Confidence in Organized Labor (GSS)",
+    "unit": "percent with a great deal of confidence",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "… — Organized labor NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable CONLABOR: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1973–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1973": 16.2,
+    "1974": 19.8,
+    "1975": 10.3,
+    "1976": 12.9,
+    "1977": 14.9,
+    "1978": 11.9,
+    "1980": 15.3,
+    "1982": 14,
+    "1983": 9.3,
+    "1984": 9.1,
+    "1986": 9.4,
+    "1987": 11.2,
+    "1988": 11.3,
+    "1989": 10.2,
+    "1990": 11.6,
+    "1991": 12.8,
+    "1993": 8.4,
+    "1994": 11.6,
+    "1996": 13.1,
+    "1998": 12.8,
+    "2000": 14.5,
+    "2002": 13,
+    "2004": 13.8,
+    "2006": 12.9,
+    "2008": 13,
+    "2010": 12.9,
+    "2012": 12.2,
+    "2014": 12.5,
+    "2016": 14.1,
+    "2018": 13.8,
+    "2021": 12.7,
+    "2022": 16.6,
+    "2024": 17.5
+  }
+}

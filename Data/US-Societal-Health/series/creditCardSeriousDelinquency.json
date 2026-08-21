@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "key": "creditCardSeriousDelinquency",
+    "name": "Credit Card Serious Delinquency",
+    "unit": "percent of credit card balances 90+ days delinquent, annual average",
+    "source": "Federal Reserve Bank of New York, Household Debt and Credit Report (Consumer Credit Panel/Equifax)",
+    "sourceUrl": "https://www.newyorkfed.org/microeconomics/hhdc",
+    "goodDirection": "down",
+    "note": "Share of credit card balances 90 or more days delinquent across all lenders (not just banks), from the New York Fed Consumer Credit Panel, a 5% sample of Equifax credit files. Annual value is the mean of the quarters published. Not seasonally adjusted.",
+    "method": "HHD_C_Report_2026Q2.xlsx sheet \"Page 12 Data\" column CC, annual mean of quarters",
+    "partialYear": 2026,
+    "coverage": "2003–2026",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "2003": 8.91,
+    "2004": 8.99,
+    "2005": 9.11,
+    "2006": 9.16,
+    "2007": 9.48,
+    "2008": 9.82,
+    "2009": 11.95,
+    "2010": 13.47,
+    "2011": 12.07,
+    "2012": 10.8,
+    "2013": 9.75,
+    "2014": 7.78,
+    "2015": 8.16,
+    "2016": 7.25,
+    "2017": 7.46,
+    "2018": 7.9,
+    "2019": 8.32,
+    "2020": 9.48,
+    "2021": 9.09,
+    "2022": 7.91,
+    "2023": 8.85,
+    "2024": 11.03,
+    "2025": 12.42,
+    "2026": 13.02
+  }
+}

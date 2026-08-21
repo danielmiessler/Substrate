@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "key": "confMilitary",
+    "name": "Confidence in the Military (GSS)",
+    "unit": "percent with a great deal of confidence",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "… — Military NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable CONARMY: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1973–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1973": 32.7,
+    "1974": 40.9,
+    "1975": 36.2,
+    "1976": 42.3,
+    "1977": 36.4,
+    "1978": 31.7,
+    "1980": 29.5,
+    "1982": 31,
+    "1983": 31.4,
+    "1984": 37.1,
+    "1986": 32.3,
+    "1987": 36.7,
+    "1988": 36.4,
+    "1989": 34.3,
+    "1990": 34.7,
+    "1991": 63.1,
+    "1993": 42.3,
+    "1994": 39.4,
+    "1996": 40.9,
+    "1998": 38.2,
+    "2000": 42,
+    "2002": 57.7,
+    "2004": 58.3,
+    "2006": 48.3,
+    "2008": 51.6,
+    "2010": 54.4,
+    "2012": 56.1,
+    "2014": 51.9,
+    "2016": 54,
+    "2018": 62.2,
+    "2021": 46.8,
+    "2022": 46.7,
+    "2024": 43.3
+  }
+}

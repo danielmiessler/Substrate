@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "key": "rxCostBarrier",
+    "name": "Couldn't Afford Prescriptions",
+    "unit": "percent of people who did not get needed prescription drugs in the past 12 months because of cost",
+    "source": "CDC/NCHS Health, United States (National Health Interview Survey), via Data Query System",
+    "sourceUrl": "https://data.cdc.gov/d/p4r5-qsgs",
+    "historicalSourceUrls": [
+      "https://data.cdc.gov/d/dmzy-x2ad",
+      "https://data.cdc.gov/d/gj3i-hsbz"
+    ],
+    "goodDirection": "down",
+    "note": "NHIS, all ages, crude percent, as published in Health, United States. The series ENDS AT 2019: the NHIS questionnaire was redesigned that year and NCHS has not carried this item forward on the new basis. The closest replacement item, asked of adults 18+ since 2019 (\"did not take medication as prescribed to save money\"), runs 2019 9.6%, 2020 8.3%, 2021 6.8%, 2022 6.8%, 2023 7.8%, 2024 7.8% — a different question, shown here in the note rather than spliced onto the chart.",
+    "method": "SODA p4r5-qsgs, subtopic 'Nonreceipt of needed prescription drugs due to cost', group Total, crude",
+    "coverage": "1997–2019",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1997": 4.8,
+    "1998": 4.2,
+    "1999": 4.4,
+    "2000": 5.1,
+    "2001": 5.6,
+    "2002": 6,
+    "2003": 6.3,
+    "2004": 7.1,
+    "2005": 7.2,
+    "2006": 7,
+    "2007": 7.2,
+    "2008": 8,
+    "2009": 8.4,
+    "2010": 8.3,
+    "2011": 7.7,
+    "2012": 6.8,
+    "2013": 6.4,
+    "2014": 5.6,
+    "2015": 5.2,
+    "2016": 5.1,
+    "2017": 5.1,
+    "2018": 5.3,
+    "2019": 5.6
+  }
+}

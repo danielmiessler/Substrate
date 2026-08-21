@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "key": "uninsured",
+    "name": "Uninsured Rate",
+    "unit": "percent of the civilian noninstitutionalized population without health insurance",
+    "source": "Census Bureau, American Community Survey (Table HIC-4_ACS)",
+    "sourceUrl": "https://www.census.gov/data/tables/time-series/demo/health-insurance/historical-series/hic.html",
+    "historicalSourceUrls": [
+      "https://www2.census.gov/programs-surveys/demo/tables/health-insurance/time-series/acs/hic04_acs.xlsx"
+    ],
+    "goodDirection": "down",
+    "note": "People with no health insurance coverage at the time of the survey, all ages, from the 1-year ACS. The ACS health-insurance question began in 2008; 2020 has no standard estimate (Census released experimental data only for the pandemic year) and is left blank. The CPS series reaches back to 1987 but was redesigned in 2013 and is not spliced in.",
+    "method": "hic04_acs.xlsx, 'United States' / '.Uninsured' row, Percent column per year",
+    "coverage": "2008–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "2008": 14.6,
+    "2009": 15.1,
+    "2010": 15.5,
+    "2011": 15.1,
+    "2012": 14.8,
+    "2013": 14.5,
+    "2014": 11.7,
+    "2015": 9.4,
+    "2016": 8.6,
+    "2017": 8.7,
+    "2018": 8.9,
+    "2019": 9.2,
+    "2021": 8.6,
+    "2022": 8,
+    "2023": 7.9,
+    "2024": 8.2
+  }
+}

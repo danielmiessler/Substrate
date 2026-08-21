@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "key": "confReligion",
+    "name": "Confidence in Organized Religion (GSS)",
+    "unit": "percent with a great deal of confidence",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "… — Organized religion NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable CONCLERG: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1973–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1973": 35.7,
+    "1974": 45.2,
+    "1975": 25.7,
+    "1976": 31.5,
+    "1977": 39.8,
+    "1978": 31.4,
+    "1980": 36.8,
+    "1982": 32.9,
+    "1983": 29.7,
+    "1984": 31.3,
+    "1986": 25.5,
+    "1987": 29.6,
+    "1988": 20.5,
+    "1989": 21.8,
+    "1990": 23.3,
+    "1991": 25.8,
+    "1993": 23.2,
+    "1994": 25.1,
+    "1996": 27,
+    "1998": 28.2,
+    "2000": 28.9,
+    "2002": 19.3,
+    "2004": 24,
+    "2006": 25,
+    "2008": 20.2,
+    "2010": 19.6,
+    "2012": 20.7,
+    "2014": 19.8,
+    "2016": 19.8,
+    "2018": 22.2,
+    "2021": 14.7,
+    "2022": 15.5,
+    "2024": 15.5
+  }
+}

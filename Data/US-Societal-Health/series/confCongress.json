@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "key": "confCongress",
+    "name": "Confidence in Congress (GSS)",
+    "unit": "percent with a great deal of confidence",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "… — Congress NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable CONLEGIS: 1 of valid codes 1/2/3, weight WTSSPS",
+    "coverage": "1973–2024",
+    "fetched": "2026-08-21T22:03:22.838Z"
+  },
+  "data": {
+    "1973": 24.1,
+    "1974": 17.5,
+    "1975": 13.9,
+    "1976": 13.7,
+    "1977": 19.1,
+    "1978": 13.3,
+    "1980": 9.6,
+    "1982": 14,
+    "1983": 11.4,
+    "1984": 14.3,
+    "1986": 17.7,
+    "1987": 17.4,
+    "1988": 16.8,
+    "1989": 18.1,
+    "1990": 16.6,
+    "1991": 18.9,
+    "1993": 6.9,
+    "1994": 9,
+    "1996": 7.8,
+    "1998": 11.6,
+    "2000": 14,
+    "2002": 15.2,
+    "2004": 16.2,
+    "2006": 12,
+    "2008": 10.4,
+    "2010": 11,
+    "2012": 7.4,
+    "2014": 5.9,
+    "2016": 5.9,
+    "2018": 6.2,
+    "2021": 7,
+    "2022": 5.7,
+    "2024": 5.6
+  }
+}
