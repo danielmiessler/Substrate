@@ -561,6 +561,40 @@ await run("census-uninsured", async () => {
   }, data, [0, 30]);
 });
 
+// ================= late additions from the health lane (teen births, firearm deaths) =================
+await run("nchs-teen-births", async () => {
+  const hist = await getJSON<{ year: string; birth_rate: string }[]>(`https://data.cdc.gov/resource/e8kx-wbww.json?${new URLSearchParams({ $where: "race='All Races' AND age='15-19 Years'", $select: "year,birth_rate", $order: "year", $limit: "200" })}`);
+  const data: Record<string, number> = {};
+  for (const r of hist) if (/^\d{4}$/.test(r.year) && Number.isFinite(Number(r.birth_rate))) data[r.year] = Number(r.birth_rate);
+  const recent = await getJSON<{ time_period: string; estimate: string }[]>(`https://data.cdc.gov/resource/daba-4vfq.json?${new URLSearchParams({ $where: "subgroup='15-19 years' AND classification='Demographic Characteristic'", $select: "time_period,estimate", $order: "time_period", $limit: "100" })}`);
+  let overlap = 0;
+  for (const r of recent) if (/^\d{4}$/.test(r.time_period) && Number.isFinite(Number(r.estimate))) { const v = Number(r.estimate); if (r.time_period in data) { invariant(Math.abs(data[r.time_period] - v) <= 0.1, `teen births ${r.time_period}: ${data[r.time_period]} vs ${v}`); overlap++; } data[r.time_period] = v; }
+  invariant(overlap >= 2, "teen births: no overlap between the two NCHS tables");
+  await save("teenBirthRate", {
+    name: "Teen Birth Rate", unit: "births per 1,000 females aged 15–19", source: "CDC/NCHS National Vital Statistics System (Health, United States + Data Query System)", sourceUrl: "https://data.cdc.gov/d/daba-4vfq", historicalSourceUrls: ["https://data.cdc.gov/d/e8kx-wbww"], goodDirection: "down",
+    note: "Live births to women aged 15–19 per 1,000 women in that age group. 1960–2018 from the Health, United States table of birth rates by age of mother; 2016 onward from the NCHS Data Query System; the three overlap years agree exactly. The 1991 peak (61.8) and the steady fall since are as published.",
+    method: "e8kx-wbww (All Races, 15-19 Years) + daba-4vfq (subgroup '15-19 years', Demographic Characteristic)",
+  }, data, [0, 120]);
+});
+await run("firearm", async () => {
+  // Health, United States 2017 Table 31 (1970, 1980–2016, crude) + CDC Injury Center firearm deaths (2019→, crude). 2017–2018 are a real gap.
+  const xlsx = await download("https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/Health_US/hus17tables/Table031.xlsx", "hus17-table031.xlsx");
+  const rows = await sheetRows(xlsx);
+  const hdr = rows.find((r) => r.A === "Sex, race, Hispanic origin, and age"); invariant(hdr, "HUS17 T31: header row not found");
+  const crude = rows.find((r) => /^All ages, crude/.test(r.A ?? "")); invariant(crude, "HUS17 T31: crude row not found");
+  const data: Record<string, number> = {};
+  for (const [col, label] of Object.entries(hdr)) { const y = label.match(/^(19|20)\d\d/)?.[0]; const v = Number(crude[col]); if (col !== "A" && y && Number.isFinite(v)) data[y] = round(v); }
+  invariant(Object.keys(data).length >= 35, `HUS17 T31: only ${Object.keys(data).length} years`);
+  const recent = await getJSON<{ period: string; rate: string }[]>(`https://data.cdc.gov/resource/t6u2-f84c.json?${new URLSearchParams({ $where: "intent='FA_Deaths' AND type='year'", $select: "period,rate", $order: "period", $limit: "50" })}`);
+  for (const r of recent) { const y = r.period.slice(0, 4); const v = Number(r.rate); if (/^\d{4}$/.test(y) && Number.isFinite(v)) data[y] = round(v); }
+  const ty = new Date().getFullYear();
+  await save("firearmDeaths", {
+    name: "Firearm Deaths", unit: "firearm-related deaths per 100,000 people (crude), all intents", source: "CDC/NCHS Health, United States 2017 Table 31; CDC Injury Center firearm mortality (NVSS)", sourceUrl: "https://data.cdc.gov/d/t6u2-f84c", historicalSourceUrls: ["https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/Health_US/hus17tables/Table031.xlsx"], goodDirection: "down",
+    note: "Deaths from firearm injuries of all intents (homicide, suicide, unintentional, legal intervention, undetermined) per 100,000 residents, crude rate, from NVSS death certificates. 1970 and 1980–2016 from Health, United States 2017 Table 31 ('All ages, crude'); 2019 onward from the CDC Injury Center's national firearm-mortality series (also crude). NCHS dropped the table after the 2017 edition and no public machine path carries 2017–2018, so those two years are a gap, shown as a gap. The latest year is provisional until NCHS finalizes it.",
+    method: "Table031.xlsx row 'All ages, crude' + t6u2-f84c intent FA_Deaths type year", partialYear: data[String(ty - 1)] !== undefined && recent.some((r) => r.period.startsWith(String(ty - 1))) ? undefined : undefined,
+  }, data, [0, 40]);
+});
+
 // ================= index + log =================
 const keys = (await Array.fromAsync(new Bun.Glob("*.json").scan(SERIES))).map((f) => f.replace(/\.json$/, "")).sort();
 const index: Record<string, unknown> = {};

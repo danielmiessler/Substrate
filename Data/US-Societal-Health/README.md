@@ -1,6 +1,6 @@
 # US Societal Health
 
-**66 long-run annual US series on happiness and optimism, trust in people and institutions, substance use, health access, and household financial stress — every value from its primary publisher, in one machine-readable place.**
+**68 long-run annual US series on happiness and optimism, trust in people and institutions, substance use, health access, and household financial stress — every value from its primary publisher, in one machine-readable place.**
 
 Companion to [US-Common-Metrics](../US-Common-Metrics/) (economic indicators) and [US-National-Debt](../US-National-Debt/). Powers the societal-health sections of the live almanac **https://usstats.io** (each row there links to a page with the full series and these sources).
 
@@ -154,6 +154,13 @@ Rules this dataset runs on:
 | [Child Poverty Rate](series/childPoverty.json) | 14.3% (2024) | 27.3% (1959) | 1959–2024 · 66 pts | Census Bureau, CPS ASEC Historical Poverty Table 3 |
 | [On Food Stamps (SNAP)](series/snapShare.json) | 12.4% (2025) | 1.4% (1969) | 1969–2025 · 57 pts | USDA Food and Nutrition Service, SNAP Annual Summary; population from BEA via FRED (POPTHM) |
 | [Food Insecurity](series/foodInsecurity.json) | 13.7% (2024) | 10.7% (2001) | 2001–2024 · 24 pts | USDA Economic Research Service, Household Food Security in the United States |
+
+### Other
+
+| Series | Latest | First | Coverage | Publisher |
+|---|---|---|---|---|
+| [Firearm Deaths](series/firearmDeaths.json) | 12.6% (2025) | 13.1% (1970) | 1970–2025 · 45 pts | CDC/NCHS Health, United States 2017 Table 31; CDC Injury Center firearm mortality (NVSS) |
+| [Teen Birth Rate](series/teenBirthRate.json) | 12.6% (2024) | 89.1% (1960) | 1960–2024 · 65 pts | CDC/NCHS National Vital Statistics System (Health, United States + Data Query System) |
 
 ## Not included, and why
 

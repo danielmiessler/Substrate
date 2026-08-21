@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T22:03:22.838Z",
+  "generated": "2026-08-21T22:16:04.064Z",
   "series": {
     "alcoholPerCapita": {
       "name": "Alcohol Consumption per Capita",
@@ -154,6 +154,13 @@
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1972–2024",
       "fetched": "2026-08-21T22:03:22.838Z"
+    },
+    "firearmDeaths": {
+      "name": "Firearm Deaths",
+      "unit": "firearm-related deaths per 100,000 people (crude), all intents",
+      "source": "CDC/NCHS Health, United States 2017 Table 31; CDC Injury Center firearm mortality (NVSS)",
+      "coverage": "1970–2025",
+      "fetched": "2026-08-21T22:16:04.064Z"
     },
     "foodInsecurity": {
       "name": "Food Insecurity",
@@ -413,6 +420,13 @@
       "source": "Monitoring the Future (University of Michigan), via CDC/NCHS Data Query System",
       "coverage": "1980–2024",
       "fetched": "2026-08-21T22:03:22.838Z"
+    },
+    "teenBirthRate": {
+      "name": "Teen Birth Rate",
+      "unit": "births per 1,000 females aged 15–19",
+      "source": "CDC/NCHS National Vital Statistics System (Health, United States + Data Query System)",
+      "coverage": "1960–2024",
+      "fetched": "2026-08-21T22:16:04.064Z"
     },
     "teenCigarettes": {
       "name": "Teen Cigarette Smoking",
