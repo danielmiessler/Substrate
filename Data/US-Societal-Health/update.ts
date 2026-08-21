@@ -566,6 +566,8 @@ const keys = (await Array.fromAsync(new Bun.Glob("*.json").scan(SERIES))).map((f
 const index: Record<string, unknown> = {};
 for (const k of keys) { const j = await Bun.file(join(SERIES, `${k}.json`)).json(); index[k] = { name: j._meta.name, unit: j._meta.unit, source: j._meta.source, coverage: j._meta.coverage, fetched: j._meta.fetched }; }
 await writeFile(join(DIR, "index.json"), JSON.stringify({ generated: NOW, series: index }, null, 2));
-await appendFile(join(DIR, "update.log"), `${NOW} wrote ${Object.keys(written).length} series; errors: ${Object.keys(errors).length ? Object.entries(errors).map(([k, e]) => `${k}: ${e.slice(0, 120)}`).join(" | ") : "none"}\n`);
+// never write absolute machine paths into the log: the repo is public
+const scrub = (e: string) => e.split(DIR).join(".").split(CACHE).join("./.cache").slice(0, 120);
+await appendFile(join(DIR, "update.log"), `${NOW} wrote ${Object.keys(written).length} series; errors: ${Object.keys(errors).length ? Object.entries(errors).map(([k, e]) => `${k}: ${scrub(e)}`).join(" | ") : "none"}\n`);
 console.log(`\n${Object.keys(written).length} series written, ${keys.length} in index; errors: ${Object.keys(errors).length}`);
 if (Object.keys(errors).length) process.exit(1);
