@@ -12,7 +12,7 @@
     "note": "Union members as a percent of employed wage and salary workers aged 16+, annual averages from the CPS. BLS's consistent series begins in 1983; earlier figures came from a different survey and are not spliced in.",
     "method": "BLS public API v2, series LUU0204899600, annual (A01) values",
     "coverage": "1983–2025",
-    "fetched": "2026-08-21T22:03:22.838Z"
+    "fetched": "2026-08-24T16:21:54.867Z"
   },
   "data": {
     "1983": 20.1,

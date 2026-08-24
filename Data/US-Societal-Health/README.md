@@ -185,4 +185,4 @@ See [source.md](source.md). Publishers: NORC (GSS), Gallup, University of Michig
 
 ---
 
-*Last regenerated 2026-08-21 by `docs.ts`.*
+*Last regenerated 2026-08-24 by `docs.ts`.*

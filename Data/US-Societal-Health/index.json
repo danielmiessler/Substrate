@@ -1,481 +1,481 @@
 {
-  "generated": "2026-08-21T22:16:04.064Z",
+  "generated": "2026-08-24T16:21:54.867Z",
   "series": {
     "alcoholPerCapita": {
       "name": "Alcohol Consumption per Capita",
       "unit": "gallons of pure ethanol per person aged 14+, per year",
       "source": "NIAAA Surveillance Report #122, Table 1",
       "coverage": "1850–2023",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "bankruptcies": {
       "name": "Consumer Bankruptcies",
       "unit": "thousands of consumers with a new bankruptcy notation per year",
       "source": "Federal Reserve Bank of New York, Household Debt and Credit Report (Consumer Credit Panel/Equifax)",
       "coverage": "2003–2025",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "betterOffThanYearAgo": {
       "name": "Better Off Than a Year Ago",
       "unit": "percent saying they are better off financially than a year ago",
       "source": "University of Michigan Surveys of Consumers, Table 6",
       "coverage": "1978–2025",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "betterThanParents": {
       "name": "Better Off Than Parents",
       "unit": "percent whose standard of living is better than their parents' at the same age",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1994–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "childPoverty": {
       "name": "Child Poverty Rate",
       "unit": "percent of people under 18 below the official poverty line",
       "source": "Census Bureau, CPS ASEC Historical Poverty Table 3",
       "coverage": "1959–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confBanks": {
       "name": "Confidence in Banks (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1975–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confBusiness": {
       "name": "Confidence in Major Companies (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confCongress": {
       "name": "Confidence in Congress (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confEducation": {
       "name": "Confidence in Education",
       "unit": "percent with a great deal of confidence in the people running education",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confExecutive": {
       "name": "Confidence in the Executive Branch (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confLabor": {
       "name": "Confidence in Organized Labor (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confMedicine": {
       "name": "Confidence in Medicine (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confMilitary": {
       "name": "Confidence in the Military (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confPress": {
       "name": "Confidence in the Press (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confReligion": {
       "name": "Confidence in Organized Religion (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confScience": {
       "name": "Confidence in Science",
       "unit": "percent with a great deal of confidence in the scientific community",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confSupremeCourt": {
       "name": "Confidence in the Supreme Court (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "confTv": {
       "name": "Confidence in Television (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "creditCardDelinquency": {
       "name": "Credit Card Delinquency Rate",
       "unit": "percent of credit card balances 30+ days past due, all commercial banks, annual average",
       "source": "Federal Reserve Board via FRED (DRCCLACBS)",
       "coverage": "1991–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "creditCardSeriousDelinquency": {
       "name": "Credit Card Serious Delinquency",
       "unit": "percent of credit card balances 90+ days delinquent, annual average",
       "source": "Federal Reserve Bank of New York, Household Debt and Credit Report (Consumer Credit Panel/Equifax)",
       "coverage": "2003–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "expectBetterOffNextYear": {
       "name": "Expect to Be Better Off Next Year",
       "unit": "percent expecting to be better off financially a year from now",
       "source": "University of Michigan Surveys of Consumers, Table 8",
       "coverage": "1978–2025",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "financesBetter": {
       "name": "Finances Getting Better",
       "unit": "percent whose financial situation has been getting better",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1972–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "firearmDeaths": {
       "name": "Firearm Deaths",
       "unit": "firearm-related deaths per 100,000 people (crude), all intents",
       "source": "CDC/NCHS Health, United States 2017 Table 31; CDC Injury Center firearm mortality (NVSS)",
       "coverage": "1970–2025",
-      "fetched": "2026-08-21T22:16:04.064Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "foodInsecurity": {
       "name": "Food Insecurity",
       "unit": "percent of households food insecure at some time during the year",
       "source": "USDA Economic Research Service, Household Food Security in the United States",
       "coverage": "2001–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupBanks": {
       "name": "Confidence in Banks",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1979–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupBigBusiness": {
       "name": "Confidence in Big Business",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1973–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupCongress": {
       "name": "Confidence in Congress",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1973–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupCriminalJustice": {
       "name": "Confidence in the Criminal Justice System",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1993–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupLabor": {
       "name": "Confidence in Organized Labor",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1973–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupMedical": {
       "name": "Confidence in the Medical System",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1975–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupMilitary": {
       "name": "Confidence in the Military",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1975–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupNewspapers": {
       "name": "Confidence in Newspapers",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1973–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupPolice": {
       "name": "Confidence in the Police",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1993–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupPresidency": {
       "name": "Confidence in the Presidency",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1975–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupPublicSchools": {
       "name": "Confidence in Public Schools",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1973–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupReligion": {
       "name": "Confidence in Organized Religion",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1973–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupSmallBusiness": {
       "name": "Confidence in Small Business",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1997–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupSupremeCourt": {
       "name": "Confidence in the Supreme Court",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1973–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "gallupTvNews": {
       "name": "Confidence in Television News",
       "unit": "percent with a great deal or quite a lot of confidence",
       "source": "Gallup, Confidence in Institutions",
       "coverage": "1993–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "hardWorkGetsAhead": {
       "name": "Hard Work Gets You Ahead",
       "unit": "percent saying people get ahead by hard work (vs. luck or help)",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "infantMortality": {
       "name": "Infant Mortality",
       "unit": "infant deaths per 1,000 live births",
       "source": "CDC/NCHS National Vital Statistics System (via data.cdc.gov)",
       "coverage": "1915–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "kidsBetterOff": {
       "name": "Kids Will Be Better Off",
       "unit": "percent expecting their children's standard of living to be better than their own",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1994–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "lifeExciting": {
       "name": "Life Is Exciting",
       "unit": "percent of adults who find life exciting",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "lifeRatedHigh": {
       "name": "Rate Their Current Life Highly",
       "unit": "percent rating their current life 7–10 on a 0–10 ladder",
       "source": "Gallup National Health and Well-Being Index",
       "coverage": "2009–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "marijuanaPastMonth": {
       "name": "Marijuana Use, Past Month",
       "unit": "percent of people 12+ who used marijuana in the past 30 days",
       "source": "SAMHSA, National Survey on Drug Use and Health",
       "coverage": "2002–2025",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "marijuanaPastYear": {
       "name": "Marijuana Use, Past Year",
       "unit": "percent of people 12+ who used marijuana in the past year",
       "source": "SAMHSA, National Survey on Drug Use and Health",
       "coverage": "2002–2025",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "optimismFutureLife": {
       "name": "Optimistic About Life in 5 Years",
       "unit": "percent rating their expected life in five years 8–10 on a 0–10 ladder",
       "source": "Gallup National Health and Well-Being Index",
       "coverage": "2009–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "peopleCanBeTrusted": {
       "name": "Most People Can Be Trusted",
       "unit": "percent saying most people can be trusted",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1972–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "primeAgeEmployment": {
       "name": "Prime-Age Employment Rate",
       "unit": "percent of 25–54-year-olds employed, annual average",
       "source": "BLS Current Population Survey via FRED (LNS12300060)",
       "coverage": "1948–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "rxCostBarrier": {
       "name": "Couldn't Afford Prescriptions",
       "unit": "percent of people who did not get needed prescription drugs in the past 12 months because of cost",
       "source": "CDC/NCHS Health, United States (National Health Interview Survey), via Data Query System",
       "coverage": "1997–2019",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "satisfiedFinances": {
       "name": "Satisfied With Finances",
       "unit": "percent pretty well satisfied with their financial situation",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1972–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "satisfiedWithCountry": {
       "name": "Satisfied With How Things Are Going in the U.S.",
       "unit": "percent satisfied, annual average of Gallup readings",
       "source": "Gallup, Satisfaction With the United States",
       "coverage": "1979–2026",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "snapShare": {
       "name": "On Food Stamps (SNAP)",
       "unit": "percent of US residents receiving SNAP, fiscal-year average",
       "source": "USDA Food and Nutrition Service, SNAP Annual Summary; population from BEA via FRED (POPTHM)",
       "coverage": "1969–2025",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "suicide10to14": {
       "name": "Suicide Rate, Ages 10–14",
       "unit": "deaths per 100,000 people in the age group (crude)",
       "source": "CDC/NCHS National Vital Statistics System (Health, United States + Data Query System)",
       "coverage": "1950–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "suicide15to24": {
       "name": "Suicide Rate, Ages 15–24",
       "unit": "deaths per 100,000 people in the age group (crude)",
       "source": "CDC/NCHS National Vital Statistics System (Health, United States + Data Query System)",
       "coverage": "1950–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "suicide25to44": {
       "name": "Suicide Rate, Ages 25–44",
       "unit": "deaths per 100,000 people in the age group (crude)",
       "source": "CDC/NCHS National Vital Statistics System (Health, United States + Data Query System)",
       "coverage": "1950–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "suicide45to64": {
       "name": "Suicide Rate, Ages 45–64",
       "unit": "deaths per 100,000 people in the age group (crude)",
       "source": "CDC/NCHS National Vital Statistics System (Health, United States + Data Query System)",
       "coverage": "1950–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "suicide65plus": {
       "name": "Suicide Rate, Ages 65+",
       "unit": "deaths per 100,000 people in the age group (crude)",
       "source": "CDC/NCHS National Vital Statistics System (Health, United States + Data Query System)",
       "coverage": "1950–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "teenAlcohol": {
       "name": "Teen Alcohol Use",
       "unit": "percent of 12th graders using alcohol in the past 30 days",
       "source": "Monitoring the Future (University of Michigan), via CDC/NCHS Data Query System",
       "coverage": "1980–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "teenBingeDrinking": {
       "name": "Teen Binge Drinking",
       "unit": "percent of 12th graders using — five or more drinks in a row — in the past 30 days",
       "source": "Monitoring the Future (University of Michigan), via CDC/NCHS Data Query System",
       "coverage": "1980–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "teenBirthRate": {
       "name": "Teen Birth Rate",
       "unit": "births per 1,000 females aged 15–19",
       "source": "CDC/NCHS National Vital Statistics System (Health, United States + Data Query System)",
       "coverage": "1960–2024",
-      "fetched": "2026-08-21T22:16:04.064Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "teenCigarettes": {
       "name": "Teen Cigarette Smoking",
       "unit": "percent of 12th graders using cigarettes in the past 30 days",
       "source": "Monitoring the Future (University of Michigan), via CDC/NCHS Data Query System",
       "coverage": "1980–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "teenMarijuana": {
       "name": "Teen Marijuana Use",
       "unit": "percent of 12th graders using marijuana in the past 30 days",
       "source": "Monitoring the Future (University of Michigan), via CDC/NCHS Data Query System",
       "coverage": "1980–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "trafficDeaths": {
       "name": "Traffic Deaths per 100M Miles",
       "unit": "motor-vehicle traffic deaths per 100 million vehicle miles traveled",
       "source": "NHTSA Fatality Analysis Reporting System (FARS) / FHWA vehicle miles",
       "coverage": "1921–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "trustMedia": {
       "name": "Trust in Mass Media",
       "unit": "percent with a great deal or fair amount of trust",
       "source": "Gallup, Media Use and Evaluation",
       "coverage": "1972–2025",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "uninsured": {
       "name": "Uninsured Rate",
       "unit": "percent of the civilian noninstitutionalized population without health insurance",
       "source": "Census Bureau, American Community Survey (Table HIC-4_ACS)",
       "coverage": "2008–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "unionMembership": {
       "name": "Union Membership",
       "unit": "percent of employed wage and salary workers who are union members",
       "source": "BLS Current Population Survey (series LUU0204899600)",
       "coverage": "1983–2025",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     },
     "veryHappy": {
       "name": "Very Happy",
       "unit": "percent of adults \"very happy\"",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1972–2024",
-      "fetched": "2026-08-21T22:03:22.838Z"
+      "fetched": "2026-08-24T16:21:54.867Z"
     }
   }
 }

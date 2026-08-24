@@ -55,7 +55,7 @@ Confidence: **Very High (95%+)** for published agency/survey figures copied as-i
 | Monitoring the Future (via NCHS) | annual | ~1 year |
 | NIAAA per-capita alcohol | annual report each spring | ~16 months |
 
-Last regenerated: 2026-08-21.
+Last regenerated: 2026-08-24.
 
 ---
 
