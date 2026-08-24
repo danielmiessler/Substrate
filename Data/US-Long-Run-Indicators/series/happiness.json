@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "key": "happiness",
+    "name": "Happiness",
+    "unit": "Cantril ladder score (0-10)",
+    "source": "World Happiness Report (Gallup World Poll)",
+    "sourceUrl": "https://data.worldhappiness.report/country/USA",
+    "note": "World Happiness Report / Gallup World Poll, US single-year national average life evaluation by data year (not the 3-year ranking average). Series begins 2006; 2025 published in WHR 2026. 3-year means reproduce the published Figure 2.1 values exactly.",
+    "coverage": "2006–2025",
+    "fetched": "2026-08-24T16:21:07.634Z"
+  },
+  "data": {
+    "2006": 7.182,
+    "2007": 7.513,
+    "2008": 7.28,
+    "2009": 7.158,
+    "2010": 7.164,
+    "2011": 7.115,
+    "2012": 7.026,
+    "2013": 7.249,
+    "2014": 7.151,
+    "2015": 6.864,
+    "2016": 6.804,
+    "2017": 6.992,
+    "2018": 6.883,
+    "2019": 6.944,
+    "2020": 7.028,
+    "2021": 6.959,
+    "2022": 6.693,
+    "2023": 6.521,
+    "2024": 6.959,
+    "2025": 6.969
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "key": "suicide",
+    "name": "Suicide Rate",
+    "unit": "age-adjusted deaths per 100,000",
+    "source": "CDC/NCHS, age-adjusted",
+    "sourceUrl": "https://www.cdc.gov/nchs/data/databriefs/db433-tables.pdf",
+    "note": "CDC/NCHS NVSS mortality files (ICD-10 U03, X60-X84, Y87.0), age-adjusted to the 2000 standard population. 2000-2001 from Data Brief 433, 2002-2022 from Data Brief 509, 2023 from Data Brief 541; all overlapping years identical across briefs. 2023 latest final. 2024 final (13.7) from Data Brief 548.",
+    "coverage": "2000–2024",
+    "fetched": "2026-08-24T16:21:07.634Z"
+  },
+  "data": {
+    "2000": 10.4,
+    "2001": 10.7,
+    "2002": 10.9,
+    "2003": 10.8,
+    "2004": 11,
+    "2005": 10.9,
+    "2006": 11,
+    "2007": 11.3,
+    "2008": 11.6,
+    "2009": 11.8,
+    "2010": 12.1,
+    "2011": 12.3,
+    "2012": 12.6,
+    "2013": 12.6,
+    "2014": 13,
+    "2015": 13.3,
+    "2016": 13.5,
+    "2017": 14,
+    "2018": 14.2,
+    "2019": 13.9,
+    "2020": 13.5,
+    "2021": 14.1,
+    "2022": 14.2,
+    "2023": 14.1,
+    "2024": 13.7
+  }
+}

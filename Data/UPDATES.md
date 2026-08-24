@@ -4,6 +4,25 @@ This file tracks all datasets added to the Substrate Data directory.
 
 ---
 
+## 2026-08-24 - U.S. Long-Run Indicators
+
+**Dataset**: US-Long-Run-Indicators
+**Status**: Active
+**Coverage**: 51 annual national series, 1895/1930/1948/1970→2026 depending on series
+**Source**: BLS, BEA, Census, Federal Reserve/FRED, Freddie Mac, EIA, NOAA NCEI, FBI CDE, CDC/NCHS, BJS, World Happiness Report, Pew, World Bank (via FRED)
+
+### Contents
+- `series/<key>.json` × 51, each with a `_meta` provenance block — economy & work (incl. the payroll gender pair), money & debt, cost of living, wealth & education, health, crime & justice, family & society, government/energy/environment
+- `SUMMARY.md` / `README.md` / `source.md` — regenerated from the data by `docs.ts`
+- `update.ts` — one re-runnable fetcher, no API keys required (FBI CDE optionally keyed); checked-in citation series under `data/` for publishers with no machine endpoint
+- Research/migration provenance: `research/us-long-run-indicators-2026-08/`
+
+### Notes
+- Companion to US-Societal-Health; together the two datasets are the complete source of record for **https://usstats.io** (the site only copies)
+- Historical splices disclosed and machine-verified where publications overlap (BJS imprisonment, FBI CIUS crime, NCHS marriage/divorce/fertility)
+
+---
+
 ## 2026-08-21 - U.S. Societal Health
 
 **Dataset**: US-Societal-Health

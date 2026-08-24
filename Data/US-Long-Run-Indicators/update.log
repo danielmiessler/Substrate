@@ -1,0 +1,5 @@
+2026-08-24T16:15:27.902Z wrote 51 series; errors: none
+2026-08-24T16:17:31.453Z wrote 0 series; errors: eia: Error: InvariantViolation: co2 1949: 2207 outside [3000,7000]
+2026-08-24T16:17:35.790Z wrote 0 series; errors: none
+2026-08-24T16:18:48.715Z wrote 2 series; errors: none
+2026-08-24T16:21:07.634Z wrote 51 series; errors: none

@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "key": "homicide",
+    "name": "Homicide Rate",
+    "unit": "offenses per 100,000 people",
+    "source": "FBI Crime Data Explorer, reported homicide",
+    "sourceUrl": "https://cde.ucr.cjis.gov/",
+    "note": "FBI CDE reported homicide offenses, monthly rates per 100,000 summed to an annual rate. Reported figures, not the retired UCR estimates, so the series starts at 2000 and carries the same 2021 NIBRS-transition caveat as the other crime rows. Partial years are excluded.",
+    "goodDirection": "down",
+    "coverage": "2000–2025",
+    "fetched": "2026-08-24T16:21:07.634Z"
+  },
+  "data": {
+    "2000": 5.8,
+    "2001": 5.9,
+    "2002": 5.9,
+    "2003": 5.9,
+    "2004": 5.7,
+    "2005": 5.9,
+    "2006": 5.9,
+    "2007": 5.8,
+    "2008": 5.5,
+    "2009": 5.1,
+    "2010": 4.8,
+    "2011": 4.8,
+    "2012": 4.8,
+    "2013": 4.6,
+    "2014": 4.5,
+    "2015": 5,
+    "2016": 5.4,
+    "2017": 5.3,
+    "2018": 5.2,
+    "2019": 5.3,
+    "2020": 6.8,
+    "2021": 6.9,
+    "2022": 6.9,
+    "2023": 6.1,
+    "2024": 5.2,
+    "2025": 4.3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_source": "Pew Research Center, Public Trust in Government: 1958-2025",
+  "_sourceUrl": "https://www.pewresearch.org/politics/2024/06/24/public-trust-in-government-1958-2024/",
+  "_note": "Percent saying they trust the federal government to do what is right just about always or most of the time. Pew's long series stitches its own surveys to ANES, Gallup, CBS/NYT, and others; years with no survey are absent rather than interpolated. Read from Pew's published series 2026-08-18; there is no machine-readable endpoint, so these values are checked in and re-verified on each data refresh.",
+  "values": {
+    "1958": 73, "1964": 77, "1966": 65, "1968": 62, "1970": 54, "1972": 53,
+    "1974": 36, "1976": 33, "1977": 35, "1978": 29, "1979": 30, "1980": 26,
+    "1982": 33, "1984": 44, "1985": 46, "1986": 49, "1987": 42, "1988": 41,
+    "1989": 44, "1990": 42, "1991": 47, "1992": 29, "1993": 28, "1994": 24,
+    "1995": 22, "1996": 33, "1997": 39, "1998": 40, "1999": 38, "2000": 44,
+    "2001": 55, "2002": 55, "2003": 37, "2004": 46, "2005": 32, "2006": 34,
+    "2007": 31, "2008": 31, "2009": 26, "2010": 25, "2011": 20, "2012": 22,
+    "2013": 20, "2014": 24, "2015": 19, "2017": 20, "2019": 17, "2020": 27,
+    "2021": 24, "2022": 20, "2023": 16, "2024": 22, "2025": 17
+  }
+}

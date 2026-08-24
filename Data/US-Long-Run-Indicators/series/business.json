@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "key": "business",
+    "name": "New Business Applications",
+    "unit": "applications per year",
+    "source": "FRED BABATOTALSAUS",
+    "sourceUrl": "https://fred.stlouisfed.org/series/BABATOTALSAUS",
+    "note": "Census Business Formation Statistics; tracking began July 2004, so the series starts 2005. Partial years excluded.",
+    "goodDirection": "up",
+    "coverage": "2005–2025",
+    "fetched": "2026-08-24T16:21:07.634Z"
+  },
+  "data": {
+    "2005": 2504996,
+    "2006": 2621411,
+    "2007": 2652392,
+    "2008": 2521737,
+    "2009": 2428403,
+    "2010": 2497405,
+    "2011": 2573236,
+    "2012": 2574634,
+    "2013": 2610142,
+    "2014": 2666367,
+    "2015": 2822714,
+    "2016": 2975857,
+    "2017": 3197455,
+    "2018": 3498607,
+    "2019": 3517607,
+    "2020": 4379813,
+    "2021": 5408801,
+    "2022": 5083802,
+    "2023": 5489174,
+    "2024": 5246630,
+    "2025": 5636988
+  }
+}

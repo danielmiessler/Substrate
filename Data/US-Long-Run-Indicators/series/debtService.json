@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "key": "debtService",
+    "name": "Household Debt Service Ratio",
+    "unit": "percent of disposable income",
+    "source": "FRED TDSP",
+    "sourceUrl": "https://fred.stlouisfed.org/series/TDSP",
+    "note": "Fed: required debt payments as share of disposable income.",
+    "goodDirection": "down",
+    "partialYear": 2026,
+    "partialThrough": "2026-01",
+    "coverage": "2005–2026",
+    "fetched": "2026-08-24T16:21:07.634Z"
+  },
+  "data": {
+    "2005": 14.9,
+    "2006": 15.2,
+    "2007": 15.7,
+    "2008": 15.6,
+    "2009": 15.2,
+    "2010": 14,
+    "2011": 13,
+    "2012": 12,
+    "2013": 11.9,
+    "2014": 11.7,
+    "2015": 11.6,
+    "2016": 11.8,
+    "2017": 11.8,
+    "2018": 11.6,
+    "2019": 11.6,
+    "2020": 10.4,
+    "2021": 9.8,
+    "2022": 10.6,
+    "2023": 10.7,
+    "2024": 11.1,
+    "2025": 11.2,
+    "2026": 11.2
+  }
+}

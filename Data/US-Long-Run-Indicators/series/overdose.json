@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "key": "overdose",
+    "name": "Drug Overdose Deaths",
+    "unit": "age-adjusted deaths per 100,000",
+    "source": "CDC/NCHS, age-adjusted",
+    "sourceUrl": "https://www.cdc.gov/nchs/data/databriefs/db428-tables.pdf",
+    "note": "CDC/NCHS NVSS mortality files (ICD-10 X40-X44, X60-X64, X85, Y10-Y14), age-adjusted. 2000-2002 from Data Brief 428, 2003-2023 from Data Brief 522; the 2003-2020 overlap is identical across briefs. 2023 latest final. 2024 final (23.1) from Data Brief 549 — a 26% single-year drop.",
+    "coverage": "2000–2024",
+    "fetched": "2026-08-24T16:21:07.634Z"
+  },
+  "data": {
+    "2000": 6.2,
+    "2001": 6.8,
+    "2002": 8.2,
+    "2003": 8.9,
+    "2004": 9.4,
+    "2005": 10.1,
+    "2006": 11.5,
+    "2007": 11.9,
+    "2008": 11.9,
+    "2009": 11.9,
+    "2010": 12.3,
+    "2011": 13.2,
+    "2012": 13.1,
+    "2013": 13.8,
+    "2014": 14.7,
+    "2015": 16.3,
+    "2016": 19.8,
+    "2017": 21.7,
+    "2018": 20.7,
+    "2019": 21.6,
+    "2020": 28.3,
+    "2021": 32.4,
+    "2022": 32.6,
+    "2023": 31.3,
+    "2024": 23.1
+  }
+}

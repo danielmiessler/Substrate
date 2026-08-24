@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "key": "smoking",
+    "name": "Adult Smoking Rate",
+    "unit": "percent of adults, current cigarette smokers (crude)",
+    "source": "CDC National Health Interview Survey",
+    "sourceUrl": "https://data.cdc.gov/resource/gj3i-hsbz.json",
+    "note": "NHIS crude prevalence, adults 18+. 2000-2018 from the annual MMWR smoking-prevalence series; 2019-2024 from the NCHS Data Query System (NHIS Adult Summary Health Statistics). NHIS was redesigned in 2019, so the two legs are not strictly comparable across that boundary.",
+    "coverage": "2000–2024",
+    "fetched": "2026-08-24T16:21:07.634Z"
+  },
+  "data": {
+    "2000": 23.3,
+    "2001": 22.8,
+    "2002": 22.5,
+    "2003": 21.6,
+    "2004": 20.9,
+    "2005": 20.9,
+    "2006": 20.8,
+    "2007": 19.8,
+    "2008": 20.6,
+    "2009": 20.6,
+    "2010": 19.3,
+    "2011": 19,
+    "2012": 18.1,
+    "2013": 17.8,
+    "2014": 16.8,
+    "2015": 15.1,
+    "2016": 15.5,
+    "2017": 14,
+    "2018": 13.7,
+    "2019": 14,
+    "2020": 12.5,
+    "2021": 11.5,
+    "2022": 11.6,
+    "2023": 10.8,
+    "2024": 9.9
+  }
+}

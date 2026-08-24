@@ -21,8 +21,10 @@ The Data directory contains curated, ground-truth datasets about important aspec
 | [COVID Wastewater](./Bay-Area-COVID-Wastewater/SUMMARY.md) | HIGH (5.6 log10) | California COVID wastewater is HIGH |
 | [US Common Metrics](./US-Common-Metrics/SUMMARY.md) | 60+ indicators | Real-time dashboard of U.S. economic indicators |
 | [Pulitzer Winners](./Pulitzer-Prize-Winners/SUMMARY.md) | 249 winners | Complete Arts & Letters database (1918-2024) |
+| [BigToSmall](./BigToSmall/SUMMARY.md) | All 12 signals directional | Established companies declining, startup ecosystem growing |
 | [Vulnerability & Breach Data](./Vulnerability-And-Breach-Data/SUMMARY.md) | 48,185 CVEs · 3,322 breaches (2025) | Vulns and breaches hit records; no dataset attributes either to AI |
 | [US National Debt](./US-National-Debt/SUMMARY.md) | $39.93T gross (2026-08-14) | Three-quarters of US debt is held domestically; powers usdebt.io |
+| [US Long-Run Indicators](./US-Long-Run-Indicators/SUMMARY.md) | 51 primary-sourced series | Fifty years of US life in numbers; powers usstats.io with US-Societal-Health |
 
 ### Schema Structure
 
@@ -111,6 +113,8 @@ Data/
 │   ├── DS-00007—BLS_JOLTS_Labor_Market/
 │   ├── DS-00008—EPA_Air_Quality_System/
 │   └── WELLBEING_DATA_SOURCES.md
+├── BigToSmall/                            # Value shift: established companies → startup ecosystem
+│   └── SUMMARY.md                         # ← Start here
 ├── Bay-Area-COVID-Wastewater/             # COVID wastewater surveillance
 │   └── SUMMARY.md                         # ← Start here
 ├── US-National-Debt/                      # Size, ownership, cost, history of US federal debt (powers usdebt.io)

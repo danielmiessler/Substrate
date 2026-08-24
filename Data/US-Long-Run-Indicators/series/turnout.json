@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "key": "turnout",
+    "name": "Voter Turnout",
+    "unit": "percent of voting-age population, presidential elections",
+    "source": "Census Bureau, CPS Voting and Registration, Table A-1",
+    "sourceUrl": "https://www.census.gov/data/tables/time-series/demo/voting-and-registration/voting-historical-time-series.html",
+    "note": "Share of the voting-age population who told the Census they voted, presidential years only. Self-reported, so it runs several points above turnout counted from ballots; the trend, not the level, is the signal. The Census's citizen-only rate runs higher still but only exists from 1978, so this series uses the voting-age-population measure, which covers every election back to 1964. Midterms run structurally lower and are excluded.",
+    "goodDirection": "up",
+    "coverage": "1964–2024",
+    "fetched": "2026-08-24T16:21:07.634Z"
+  },
+  "data": {
+    "1964": 69.3,
+    "1968": 67.8,
+    "1972": 63,
+    "1976": 59.2,
+    "1980": 59.2,
+    "1984": 59.9,
+    "1988": 57.4,
+    "1992": 61.3,
+    "1996": 54.2,
+    "2000": 54.7,
+    "2004": 58.3,
+    "2008": 58.2,
+    "2012": 56.5,
+    "2016": 56,
+    "2020": 61.3,
+    "2024": 59.3
+  }
+}

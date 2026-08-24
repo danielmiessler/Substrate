@@ -1,0 +1,37 @@
+{
+  "co2": {
+    "extendOnly": true,
+    "unit": "million metric tons per year",
+    "sourceUrls": [
+      "https://www.eia.gov/totalenergy/data/monthly/#environment",
+      "https://api.eia.gov/v2/total-energy/ (TETCEUS, frequency=annual)"
+    ],
+    "note": "1949-1972 total energy CO2 emissions as served by the EIA total-energy API (which merges Annual Energy Review history); the public Monthly Energy Review CSV begins at 1973, so these pre-MER years are checked in, read from the API 2026-08.",
+    "values": {
+      "1949": 2207,
+      "1950": 2382,
+      "1951": 2527,
+      "1952": 2473,
+      "1953": 2537,
+      "1954": 2422,
+      "1955": 2685,
+      "1956": 2777,
+      "1957": 2757,
+      "1958": 2703,
+      "1959": 2807,
+      "1960": 2914,
+      "1961": 2943,
+      "1962": 3065,
+      "1963": 3185,
+      "1964": 3317,
+      "1965": 3462,
+      "1966": 3654,
+      "1967": 3749,
+      "1968": 3965,
+      "1969": 4135,
+      "1970": 4261,
+      "1971": 4312,
+      "1972": 4532
+    }
+  }
+}
