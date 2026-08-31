@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "key": "readAnyBook",
+    "name": "Read Any Book Last Year",
+    "unit": "percent of adults who read any book not required for work or school, past 12 months",
+    "source": "National Endowment for the Arts, Survey of Public Participation in the Arts (with the Census Bureau)",
+    "sourceUrl": "https://www.arts.gov/impact/research/arts-data-profile-series/adp-36",
+    "historicalSourceUrls": [
+      "https://www.arts.gov/sites/default/files/SPPA_Comprehensive_Report_FINAL.pdf",
+      "https://www.arts.gov/sites/default/files/US_Patterns_of_Arts_ParticipationRevised.pdf",
+      "https://www.arts.gov/sites/default/files/2012-sppa-feb2015.pdf"
+    ],
+    "goodDirection": "up",
+    "note": "\"Read any book\" excluding books required for work or school, adults 18+, from the SPPA — a Census Bureau CPS supplement fielded roughly every five years. NEA's own comparable trend runs 2002–2022 (the survey exists back to 1982, but NEA does not trend book reading across the older instruments, and the 2012 redesign is bridged by NEA's comparable variables). 2017 is the value implied by NEA's published 4.2-point 2017→2022 decline (48.5 + 4.2 = 52.7), consistent with the 2017 report's printed \"53 percent.\" Next wave ~2027.",
+    "method": "2022 report Exhibit 19 endpoints (2002 56.6, 2022 48.5, the stated 8.1-pt decline checks); 2012 report Figure 5-1 (2002 56.6, 2008 54.3, 2012 54.6); 2017 from the 2022 report's published 4.2-pt decline",
+    "coverage": "2002–2022",
+    "fetched": "2026-08-31T20:21:01.514Z"
+  },
+  "data": {
+    "2002": 56.6,
+    "2008": 54.3,
+    "2012": 54.6,
+    "2017": 52.7,
+    "2022": 48.5
+  }
+}

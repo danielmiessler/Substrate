@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "key": "lttReading13",
+    "name": "Reading Score, Age 13 (NAEP LTT)",
+    "unit": "average long-term-trend reading scale score, age 13 (0–500)",
+    "source": "NCES, National Assessment of Educational Progress",
+    "sourceUrl": "https://www.nationsreportcard.gov/",
+    "historicalSourceUrls": [
+      "https://www.nationsreportcard.gov/Dataservice/GetAdhocData.aspx?type=data&Program=LTT&subject=RED&cohort=2&subscale=RRPSCT&variable=TOTAL&jurisdiction=NT&stattype=MN:MN&Year=1971R1,1975R1,1980R1,1984R1,1988R1,1990R1,1992R1,1994R1,1996R1,1999R1,2004R3,2008R3,2012R3,2020R3,2023R3"
+    ],
+    "goodDirection": "up",
+    "note": "NAEP Long-Term Trend reading, age 13, from the same 1971-anchored instrument as the age-9 series (same R1→R3 format seam at 2004). The 2023 score (255.7) is back at the 1971 level after a 2012 peak. Age 17 was last assessed in 2012 and is not carried here. The 0–500-scale NAEP Long-Term Trend and 0–300-scale main assessments are NCES's national probability samples; values are national public+private averages for all students.",
+    "method": "NAEP Data Service API, Program=LTT&subject=RED&cohort=2&subscale=RRPSCT, year tokens 1971R1,1975R1,1980R1,1984R1,1988R1,1990R1,1992R1,1994R1,1996R1,1999R1,2004R3,2008R3,2012R3,2020R3,2023R3 (suffixed tokens are the pre-accommodations samples), 999-sentinel values dropped",
+    "coverage": "1971–2023",
+    "fetched": "2026-08-31T20:21:01.514Z"
+  },
+  "data": {
+    "1971": 255.2,
+    "1975": 255.9,
+    "1980": 258.5,
+    "1984": 257.1,
+    "1988": 257.5,
+    "1990": 256.8,
+    "1992": 259.8,
+    "1994": 257.9,
+    "1996": 257.9,
+    "1999": 259.4,
+    "2004": 256.7,
+    "2008": 259.7,
+    "2012": 262.8,
+    "2020": 260.1,
+    "2023": 255.7
+  }
+}

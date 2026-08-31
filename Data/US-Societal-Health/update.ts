@@ -47,9 +47,9 @@ type Meta = {
   note: string; goodDirection: "up" | "down" | "neutral"; method: string; partialYear?: number; partialThrough?: string;
 };
 const written: Record<string, { years: number; first: number; last: number; latest: number }> = {};
-async function save(key: string, meta: Meta, data: Record<string, number>, bounds: [number, number]) {
+async function save(key: string, meta: Meta, data: Record<string, number>, bounds: [number, number], min = 10) {
   const years = Object.keys(data).map(Number).sort((a, b) => a - b);
-  invariant(years.length >= 10, `${key}: only ${years.length} years`);
+  invariant(years.length >= min, `${key}: only ${years.length} years (min ${min})`);
   for (const y of years) invariant(data[y] >= bounds[0] && data[y] <= bounds[1], `${key} ${y}: ${data[y]} outside [${bounds}]`);
   const ordered: Record<string, number> = {};
   for (const y of years) ordered[String(y)] = data[String(y)];
@@ -117,12 +117,15 @@ await run("gss", async () => {
   const zip = await download(GSS_ZIP, "GSS_stata.zip");
   const dta = join(CACHE, "GSS_stata", "gss7224_r3a.dta");
   if (!existsSync(dta)) await sh(["unzip", "-o", "-q", zip, "GSS_stata/gss7224_r3a.dta", "-d", CACHE]);
-  const vars = ["year", "wtssps", ...GSS_ITEMS.map((i) => i.v)];
+  const vars = ["year", "wtssps", "wordsum", ...GSS_ITEMS.map((i) => i.v)];
   const acc: Record<string, Record<string, { pos: number; all: number }>> = {};
   for (const it of GSS_ITEMS) acc[it.key] = {};
+  const ws: Record<string, { sum: number; all: number }> = {}; // WORDSUM is a 0–10 mean, not a share
   await readDta(dta, vars, (r) => {
     const y = String(r.year), w = r.wtssps;
     if (w === null || w <= 0) return;
+    const wv = r.wordsum;
+    if (wv !== null && wv >= 0 && wv <= 10) { const a = (ws[y] ??= { sum: 0, all: 0 }); a.sum += w * wv; a.all += w; }
     for (const it of GSS_ITEMS) {
       const v = r[it.v];
       if (v === null || !it.valid.includes(v)) continue;
@@ -130,6 +133,16 @@ await run("gss", async () => {
       a.all += w; if (it.pos.includes(v)) a.pos += w;
     }
   });
+  {
+    const data: Record<string, number> = {};
+    for (const [y, a] of Object.entries(ws)) if (a.all >= 200) data[y] = round(a.sum / a.all, 2);
+    await save("wordsum", {
+      name: "Vocabulary Test Score", unit: "mean correct answers on the GSS 10-word vocabulary test", source: "NORC General Social Survey (cumulative file 1972–2024)", sourceUrl: GSS_PAGE,
+      historicalSourceUrls: [GSS_ZIP], goodDirection: "up",
+      note: `WORDSUM: a ten-item multiple-choice vocabulary test administered in the GSS since 1974 with unchanged words — the longest-running repeated knowledge measure of US adults. Value is the weighted mean number correct (0–10). ${GSS_NOTE} The 2022/2024 upticks sit on that mode seam. Years with fewer than 200 weighted responses are dropped.`,
+      method: "variable WORDSUM: weighted mean of valid scores 0–10, weight WTSSPS",
+    }, data, [0, 10]);
+  }
   for (const it of GSS_ITEMS) {
     const data: Record<string, number> = {};
     for (const [y, a] of Object.entries(acc[it.key])) if (a.all >= 200) data[y] = round(100 * a.pos / a.all);
@@ -593,6 +606,90 @@ await run("firearm", async () => {
     note: "Deaths from firearm injuries of all intents (homicide, suicide, unintentional, legal intervention, undetermined) per 100,000 residents, crude rate, from NVSS death certificates. 1970 and 1980–2016 from Health, United States 2017 Table 31 ('All ages, crude'); 2019 onward from the CDC Injury Center's national firearm-mortality series (also crude). NCHS dropped the table after the 2017 edition and no public machine path carries 2017–2018, so those two years are a gap, shown as a gap. The latest year is provisional until NCHS finalizes it.",
     method: "Table031.xlsx row 'All ages, crude' + t6u2-f84c intent FA_Deaths type year", partialYear: data[String(ty - 1)] !== undefined && recent.some((r) => r.period.startsWith(String(ty - 1))) ? undefined : undefined,
   }, data, [0, 40]);
+});
+
+// ================= NAEP (NCES Data Service API) — education efficacy, v6 =================
+// Year tokens carry the sample suffix where NCES requires one: pre-2001 main-NAEP years and
+// pre-2004 LTT years are the R1/R2 (accommodations-not-permitted) samples and error without it.
+// The API returns 999.0 as a sentinel for non-assessed cells — filtered, never saved.
+const NAEP_API = "https://www.nationsreportcard.gov/Dataservice/GetAdhocData.aspx";
+const NAEP_COMMON = "The 0–500-scale NAEP Long-Term Trend and 0–300-scale main assessments are NCES's national probability samples; values are national public+private averages for all students.";
+const NAEP_SPECS: { key: string; params: string; years: string[]; name: string; unit: string; note: string; bounds: [number, number]; min: number; anchor?: [string, number] }[] = [
+  { key: "naepCivics", params: "subject=civics&grade=8&subscale=CIVRP", years: ["1998", "2006", "2010", "2014", "2018", "2022"], name: "Civics Knowledge (NAEP)", unit: "grade-8 average civics scale score (0–300)", bounds: [100, 200], min: 6, anchor: ["1998", 150.0],
+    note: "NAEP Civics, grade 8, average scale score. Assessed 1998, 2006, 2010, 2014, 2018, 2022 (an irregular ~4–8-year cadence, drawn as a connected trend the way NCES charts it). The 2026 assessment was administered; results are expected summer 2027. Grades 4 and 12 were also assessed through 2010; grade 8 carries the trend." },
+  { key: "naepHistory", params: "subject=history&grade=8&subscale=HRPCM", years: ["1994R2", "2001", "2006", "2010", "2014", "2018", "2022"], name: "U.S. History Knowledge (NAEP)", unit: "grade-8 average U.S. history scale score (0–500)", bounds: [200, 300], min: 7, anchor: ["1994", 259.3],
+    note: "NAEP U.S. History, grade 8, average scale score. 1994 is the accommodations-not-permitted sample (NCES footnotes it on the same trend line — the one comparability break). Scores rose to a 2014 peak (267.5) then fell below the 1994 level by 2022. Next assessment 2030 per the NAGB schedule." },
+  { key: "naepGeography", params: "subject=geography&grade=8&subscale=GRPCM", years: ["1994R2", "2001", "2010", "2014", "2018"], name: "Geography Knowledge (NAEP)", unit: "grade-8 average geography scale score (0–500)", bounds: [200, 300], min: 5, anchor: ["1994", 259.7],
+    note: "NAEP Geography, grade 8, average scale score. DISCONTINUED: NAGB removed geography from the assessment schedule in July 2019, so 2018 is the final point — the only long-run national measure of American students' geographic knowledge ends there. 1994 is the accommodations-not-permitted sample, footnoted by NCES on the same trend." },
+  { key: "naepScience", params: "subject=science&grade=8&subscale=SRPUV", years: ["2009", "2011", "2015", "2019", "2024"], name: "Science Knowledge (NAEP)", unit: "grade-8 average science scale score (0–300)", bounds: [100, 200], min: 5, anchor: ["2009", 150.0],
+    note: "NAEP Science, grade 8, average scale score on the 2009 framework (earlier science assessments used a different framework and are not comparable). Scores rose through 2015, held in 2019, and fell back to the 2009 baseline by 2024." },
+  { key: "lttReading9", params: "Program=LTT&subject=RED&cohort=1&subscale=RRPSCT", years: ["1971R1", "1975R1", "1980R1", "1984R1", "1988R1", "1990R1", "1992R1", "1994R1", "1996R1", "1999R1", "2004R3", "2008R3", "2012R3", "2020R3", "2022R3"], name: "Reading Score, Age 9 (NAEP LTT)", unit: "average long-term-trend reading scale score, age 9 (0–500)", bounds: [150, 300], min: 14, anchor: ["1971", 207.6],
+    note: "NAEP Long-Term Trend reading, age 9 — the same instrument design maintained since 1971 expressly to measure trend. Through 1999 the original format (R1 sample); from 2004 the revised format with accommodations (R3), NCES's bridge study linking the two — the one seam. The 2020→2022 drop (219.7→214.6) is the largest on record." },
+  { key: "lttReading13", params: "Program=LTT&subject=RED&cohort=2&subscale=RRPSCT", years: ["1971R1", "1975R1", "1980R1", "1984R1", "1988R1", "1990R1", "1992R1", "1994R1", "1996R1", "1999R1", "2004R3", "2008R3", "2012R3", "2020R3", "2023R3"], name: "Reading Score, Age 13 (NAEP LTT)", unit: "average long-term-trend reading scale score, age 13 (0–500)", bounds: [200, 320], min: 14, anchor: ["1971", 255.2],
+    note: "NAEP Long-Term Trend reading, age 13, from the same 1971-anchored instrument as the age-9 series (same R1→R3 format seam at 2004). The 2023 score (255.7) is back at the 1971 level after a 2012 peak. Age 17 was last assessed in 2012 and is not carried here." },
+  { key: "lttMath9", params: "Program=LTT&subject=MAT&cohort=1&subscale=MRPSCT", years: ["1978R1", "1982R1", "1986R1", "1990R1", "1992R1", "1994R1", "1996R1", "1999R1", "2004R3", "2008R3", "2012R3", "2020R3", "2022R3"], name: "Math Score, Age 9 (NAEP LTT)", unit: "average long-term-trend mathematics scale score, age 9 (0–500)", bounds: [180, 300], min: 12, anchor: ["1978", 218.6],
+    note: "NAEP Long-Term Trend mathematics, age 9. The API-served series begins 1978 (NCES reports 1973 as an extrapolated point, not served). Same R1→R3 format seam at 2004 as the reading series. The 2020→2022 drop (241.4→233.9) erased two decades of gains." },
+  { key: "lttMath13", params: "Program=LTT&subject=MAT&cohort=2&subscale=MRPSCT", years: ["1978R1", "1982R1", "1986R1", "1990R1", "1992R1", "1994R1", "1996R1", "1999R1", "2004R3", "2008R3", "2012R3", "2020R3", "2023R3"], name: "Math Score, Age 13 (NAEP LTT)", unit: "average long-term-trend mathematics scale score, age 13 (0–500)", bounds: [220, 320], min: 12, anchor: ["1978", 264.1],
+    note: "NAEP Long-Term Trend mathematics, age 13, from the 1978-anchored instrument (1973 is extrapolated and not API-served; same 2004 format seam). 2023 (270.7) is the lowest since the 1990s after the 285 peak of 2012." },
+];
+await run("naep", async () => {
+  for (const sp of NAEP_SPECS) {
+    const data: Record<string, number> = {};
+    for (const tok of sp.years) {
+      const j = await getJSON<{ status?: number; result?: { year: number; value: number }[] }>(`${NAEP_API}?type=data&${sp.params}&variable=TOTAL&jurisdiction=NT&stattype=MN:MN&Year=${tok}`);
+      const rows = Array.isArray(j.result) ? j.result : [];
+      for (const r of rows) if (Number.isFinite(r.value) && r.value < 900) data[String(r.year)] = round(r.value);
+      await new Promise((r) => setTimeout(r, 400));
+    }
+    if (sp.anchor) invariant(Math.abs((data[sp.anchor[0]] ?? NaN) - sp.anchor[1]) <= 0.5, `${sp.key}: anchor ${sp.anchor[0]} = ${data[sp.anchor[0]]}, expected ~${sp.anchor[1]}`);
+    await save(sp.key, {
+      name: sp.name, unit: sp.unit, source: "NCES, National Assessment of Educational Progress", sourceUrl: "https://www.nationsreportcard.gov/",
+      historicalSourceUrls: [`${NAEP_API}?type=data&${sp.params}&variable=TOTAL&jurisdiction=NT&stattype=MN:MN&Year=${sp.years.join(",")}`], goodDirection: "up",
+      note: `${sp.note} ${NAEP_COMMON}`, method: `NAEP Data Service API, ${sp.params}, year tokens ${sp.years.join(",")} (suffixed tokens are the pre-accommodations samples), 999-sentinel values dropped`,
+    }, data, sp.bounds, sp.min);
+  }
+});
+
+// ================= ATUS reading (BLS American Time Use Survey, API v2) =================
+await run("atus", async () => {
+  const fetchSeries = async (id: string): Promise<Record<string, number>> => {
+    const data: Record<string, number> = {};
+    const ty = new Date().getFullYear();
+    for (let start = 2003; start <= ty; start += 10) {
+      const j = await getJSON<{ status: string; Results?: { series: { data: { year: string; value: string }[] }[] } }>(`https://api.bls.gov/publicAPI/v2/timeseries/data/${id}?startyear=${start}&endyear=${Math.min(start + 9, ty)}`);
+      invariant(j.status === "REQUEST_SUCCEEDED", `BLS API ${id}: ${j.status}`);
+      for (const d of j.Results?.series[0]?.data ?? []) if (Number.isFinite(Number(d.value))) data[d.year] = Number(d.value);
+      await new Promise((r) => setTimeout(r, 2500));
+    }
+    return data;
+  };
+  const hours = await fetchSeries("TUU10101AA01006315");
+  invariant(Math.abs((hours["2003"] ?? NaN) - 0.36) <= 0.01, `ATUS hours 2003 = ${hours["2003"]}, expected 0.36`);
+  const minutes: Record<string, number> = {};
+  for (const [y, v] of Object.entries(hours)) minutes[y] = round(v * 60, 1);
+  const atusNote = "BLS American Time Use Survey time-diary activity \"reading for personal interest,\" civilians aged 15 and older, all days of the week. Diary coding, not a survey question, so there is no wording drift. 2020 was not published (COVID cut data collection) and is a real one-year hole.";
+  await save("readingTime", {
+    name: "Time Spent Reading", unit: "minutes per day reading for personal interest, all people 15+", source: "BLS American Time Use Survey (series TUU10101AA01006315)", sourceUrl: "https://www.bls.gov/tus/", historicalSourceUrls: ["https://api.bls.gov/publicAPI/v2/timeseries/data/TUU10101AA01006315"], goodDirection: "up",
+    note: `${atusNote} BLS publishes hours per day; stored here as minutes (×60, exact). Averaged over everyone — readers and non-readers alike (readers themselves average ~1.7 hours).`,
+    method: "BLS public API v2, series TUU10101AA01006315 (avg hours/day, total population) × 60",
+  }, minutes, [0, 60], 15);
+  const part = await fetchSeries("TUU30105AA01006315");
+  invariant(Math.abs((part["2003"] ?? NaN) - 26.3) <= 0.1, `ATUS participation 2003 = ${part["2003"]}, expected 26.3`);
+  await save("readingParticipation", {
+    name: "Read on an Average Day", unit: "percent of people 15+ who read for personal interest on an average day", source: "BLS American Time Use Survey (series TUU30105AA01006315)", sourceUrl: "https://www.bls.gov/tus/", historicalSourceUrls: ["https://api.bls.gov/publicAPI/v2/timeseries/data/TUU30105AA01006315"], goodDirection: "up",
+    note: `${atusNote} The share of the population that read at all on a given day — down from about a quarter in 2003 to about a sixth today.`,
+    method: "BLS public API v2, series TUU30105AA01006315 (% engaged in the activity per day, total population)",
+  }, part, [0, 100], 15);
+});
+
+// ================= checked-in citation series (publishers with no data endpoint) =================
+// The pew-trust precedent: values transcribed from the publisher's own documents, with the exact
+// document list, read date, and per-value citations carried in the data/*.json file itself.
+await run("citations", async () => {
+  for (const file of ["appc-branches.json", "reading-citations.json"]) {
+    const j = await Bun.file(join(DIR, "data", file)).json() as { series: Record<string, { meta: Meta; bounds: [number, number]; min: number; data: Record<string, number> }> };
+    for (const [key, sp] of Object.entries(j.series)) await save(key, sp.meta, sp.data, sp.bounds, sp.min);
+  }
 });
 
 // ================= index + log =================

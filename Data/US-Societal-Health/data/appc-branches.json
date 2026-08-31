@@ -1,0 +1,49 @@
+{
+  "_source": {
+    "publisher": "Annenberg Public Policy Center, University of Pennsylvania — Annenberg Constitution Day Civics Survey",
+    "readDate": "2026-08-31",
+    "documents": [
+      "https://www.annenbergpublicpolicycenter.org/wp-content/uploads/Appendix_APPC_Civics_Sept_2022a.pdf",
+      "https://www.annenbergpublicpolicycenter.org/wp-content/uploads/APPC_Con_Day_Topline_2023_final.pdf",
+      "https://www.annenbergpublicpolicycenter.org/wp-content/uploads/Constitution_Day_Topline_2025.pdf"
+    ],
+    "whyCheckedIn": "APPC publishes topline PDFs only (no data endpoint) and annenbergpublicpolicycenter.org sits behind a Cloudflare challenge that blocks plain fetchers. Values transcribed from the CIVI3/CIVI4 summary table (2022 appendix p.2), the 2023 topline CIVI4 table, and the 2025 topline 'Number of Branches Correctly Recalled' table. A new topline appears each September around Constitution Day (Sept 17)."
+  },
+  "series": {
+    "appcBranchesWeb": {
+      "meta": {
+        "name": "Can Name All Three Branches of Government",
+        "unit": "percent of adults naming all three branches (online panel)",
+        "source": "Annenberg Public Policy Center, Constitution Day Civics Survey",
+        "sourceUrl": "https://www.annenbergpublicpolicycenter.org/political-communication/civics-knowledge-survey/",
+        "historicalSourceUrls": [
+          "https://www.annenbergpublicpolicycenter.org/wp-content/uploads/APPC_Con_Day_Topline_2023_final.pdf",
+          "https://www.annenbergpublicpolicycenter.org/wp-content/uploads/Constitution_Day_Topline_2025.pdf"
+        ],
+        "goodDirection": "up",
+        "note": "\"Would you mind naming any of them, the three branches of government?\" — percent of all respondents naming executive, legislative, and judicial, from APPC's annual Constitution Day survey (SSRS Opinion Panel, self-administered online, fielded each August–September). The survey moved from telephone to this online panel: APPC's own 2022 parallel run measured 72% online against 47% by phone (~25-point mode effect) and says the online years \"will not be presented as part of a historical trend\" with the phone years — so the phone era is a separate line (appcBranchesPhone) and the two are never joined. The 2022 value here is that parallel online reading.",
+        "method": "transcribed from APPC topline PDFs (read 2026-08-31): 2023 topline CIVI4 table (2023 + 2022 online panel), 2025 topline 'Number of Branches Correctly Recalled' table (2024, 2025)"
+      },
+      "bounds": [0, 100],
+      "min": 4,
+      "data": { "2022": 72, "2023": 66, "2024": 65, "2025": 70 }
+    },
+    "appcBranchesPhone": {
+      "meta": {
+        "name": "Can Name All Three Branches (phone era)",
+        "unit": "percent of adults naming all three branches (telephone survey)",
+        "source": "Annenberg Public Policy Center, Constitution Day Civics Survey",
+        "sourceUrl": "https://www.annenbergpublicpolicycenter.org/political-communication/civics-knowledge-survey/",
+        "historicalSourceUrls": [
+          "https://www.annenbergpublicpolicycenter.org/wp-content/uploads/Appendix_APPC_Civics_Sept_2022a.pdf"
+        ],
+        "goodDirection": "up",
+        "note": "Same question as appcBranchesWeb, asked by telephone (RDD/CATI, ~1,000–1,400 adults) from 2006 through 2022. The series ends in 2022 when APPC moved to its online panel; APPC's 2022 parallel run (47% phone vs 72% online) measured a ~25-point mode effect, which is why the eras are separate series. Not asked 2007–2010 or 2012.",
+        "method": "transcribed from the CIVI3/CIVI4 summary table, p.2 of APPC's September 2022 appendix PDF (read 2026-08-31)"
+      },
+      "bounds": [0, 100],
+      "min": 10,
+      "data": { "2006": 33, "2011": 38, "2013": 38, "2014": 36, "2015": 31, "2016": 26, "2017": 26, "2018": 32, "2019": 39, "2020": 51, "2021": 56, "2022": 47 }
+    }
+  }
+}

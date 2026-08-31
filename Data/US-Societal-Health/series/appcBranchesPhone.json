@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "key": "appcBranchesPhone",
+    "name": "Can Name All Three Branches (phone era)",
+    "unit": "percent of adults naming all three branches (telephone survey)",
+    "source": "Annenberg Public Policy Center, Constitution Day Civics Survey",
+    "sourceUrl": "https://www.annenbergpublicpolicycenter.org/political-communication/civics-knowledge-survey/",
+    "historicalSourceUrls": [
+      "https://www.annenbergpublicpolicycenter.org/wp-content/uploads/Appendix_APPC_Civics_Sept_2022a.pdf"
+    ],
+    "goodDirection": "up",
+    "note": "Same question as appcBranchesWeb, asked by telephone (RDD/CATI, ~1,000–1,400 adults) from 2006 through 2022. The series ends in 2022 when APPC moved to its online panel; APPC's 2022 parallel run (47% phone vs 72% online) measured a ~25-point mode effect, which is why the eras are separate series. Not asked 2007–2010 or 2012.",
+    "method": "transcribed from the CIVI3/CIVI4 summary table, p.2 of APPC's September 2022 appendix PDF (read 2026-08-31)",
+    "coverage": "2006–2022",
+    "fetched": "2026-08-31T20:21:01.514Z"
+  },
+  "data": {
+    "2006": 33,
+    "2011": 38,
+    "2013": 38,
+    "2014": 36,
+    "2015": 31,
+    "2016": 26,
+    "2017": 26,
+    "2018": 32,
+    "2019": 39,
+    "2020": 51,
+    "2021": 56,
+    "2022": 47
+  }
+}

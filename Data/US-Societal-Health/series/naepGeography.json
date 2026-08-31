@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "key": "naepGeography",
+    "name": "Geography Knowledge (NAEP)",
+    "unit": "grade-8 average geography scale score (0–500)",
+    "source": "NCES, National Assessment of Educational Progress",
+    "sourceUrl": "https://www.nationsreportcard.gov/",
+    "historicalSourceUrls": [
+      "https://www.nationsreportcard.gov/Dataservice/GetAdhocData.aspx?type=data&subject=geography&grade=8&subscale=GRPCM&variable=TOTAL&jurisdiction=NT&stattype=MN:MN&Year=1994R2,2001,2010,2014,2018"
+    ],
+    "goodDirection": "up",
+    "note": "NAEP Geography, grade 8, average scale score. DISCONTINUED: NAGB removed geography from the assessment schedule in July 2019, so 2018 is the final point — the only long-run national measure of American students' geographic knowledge ends there. 1994 is the accommodations-not-permitted sample, footnoted by NCES on the same trend. The 0–500-scale NAEP Long-Term Trend and 0–300-scale main assessments are NCES's national probability samples; values are national public+private averages for all students.",
+    "method": "NAEP Data Service API, subject=geography&grade=8&subscale=GRPCM, year tokens 1994R2,2001,2010,2014,2018 (suffixed tokens are the pre-accommodations samples), 999-sentinel values dropped",
+    "coverage": "1994–2018",
+    "fetched": "2026-08-31T20:21:01.514Z"
+  },
+  "data": {
+    "1994": 259.7,
+    "2001": 260.2,
+    "2010": 261.2,
+    "2014": 261.5,
+    "2018": 258.4
+  }
+}

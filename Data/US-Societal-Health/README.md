@@ -1,6 +1,6 @@
 # US Societal Health
 
-**68 long-run annual US series on happiness and optimism, trust in people and institutions, substance use, health access, and household financial stress — every value from its primary publisher, in one machine-readable place.**
+**84 long-run annual US series on happiness and optimism, trust in people and institutions, substance use, health access, and household financial stress — every value from its primary publisher, in one machine-readable place.**
 
 Companion to [US-Common-Metrics](../US-Common-Metrics/) (economic indicators) and [US-National-Debt](../US-National-Debt/). Powers the societal-health sections of the live almanac **https://usstats.io** (each row there links to a page with the full series and these sources).
 
@@ -159,8 +159,24 @@ Rules this dataset runs on:
 
 | Series | Latest | First | Coverage | Publisher |
 |---|---|---|---|---|
+| [Can Name All Three Branches (phone era)](series/appcBranchesPhone.json) | 47% (2022) | 33% (2006) | 2006–2022 · 12 pts | Annenberg Public Policy Center, Constitution Day Civics Survey |
+| [Can Name All Three Branches of Government](series/appcBranchesWeb.json) | 70% (2025) | 72% (2022) | 2022–2025 · 4 pts | Annenberg Public Policy Center, Constitution Day Civics Survey |
+| [Books Read per Year](series/booksPerYear.json) | 12.6% (2021) | 15.3% (1990) | 1990–2021 · 7 pts | Gallup |
 | [Firearm Deaths](series/firearmDeaths.json) | 12.6% (2025) | 13.1% (1970) | 1970–2025 · 45 pts | CDC/NCHS Health, United States 2017 Table 31; CDC Injury Center firearm mortality (NVSS) |
+| [Math Score, Age 13 (NAEP LTT)](series/lttMath13.json) | 270.7% (2023) | 264.1% (1978) | 1978–2023 · 13 pts | NCES, National Assessment of Educational Progress |
+| [Math Score, Age 9 (NAEP LTT)](series/lttMath9.json) | 233.9% (2022) | 218.6% (1978) | 1978–2022 · 13 pts | NCES, National Assessment of Educational Progress |
+| [Reading Score, Age 13 (NAEP LTT)](series/lttReading13.json) | 255.7% (2023) | 255.2% (1971) | 1971–2023 · 15 pts | NCES, National Assessment of Educational Progress |
+| [Reading Score, Age 9 (NAEP LTT)](series/lttReading9.json) | 214.6% (2022) | 207.6% (1971) | 1971–2022 · 15 pts | NCES, National Assessment of Educational Progress |
+| [Civics Knowledge (NAEP)](series/naepCivics.json) | 150.2% (2022) | 150% (1998) | 1998–2022 · 6 pts | NCES, National Assessment of Educational Progress |
+| [Geography Knowledge (NAEP)](series/naepGeography.json) | 258.4% (2018) | 259.7% (1994) | 1994–2018 · 5 pts | NCES, National Assessment of Educational Progress |
+| [U.S. History Knowledge (NAEP)](series/naepHistory.json) | 258.4% (2022) | 259.3% (1994) | 1994–2022 · 7 pts | NCES, National Assessment of Educational Progress |
+| [Science Knowledge (NAEP)](series/naepScience.json) | 149.9% (2024) | 150% (2009) | 2009–2024 · 5 pts | NCES, National Assessment of Educational Progress |
+| [Read a Book Last Year (any format)](series/pewReadBook.json) | 75% (2025) | 78% (2011) | 2011–2025 · 9 pts | Pew Research Center |
+| [Read Any Book Last Year](series/readAnyBook.json) | 48.5% (2022) | 56.6% (2002) | 2002–2022 · 5 pts | National Endowment for the Arts, Survey of Public Participation in the Arts (with the Census Bureau) |
+| [Read on an Average Day](series/readingParticipation.json) | 16.1% (2025) | 26.3% (2003) | 2003–2025 · 22 pts | BLS American Time Use Survey (series TUU30105AA01006315) |
+| [Time Spent Reading](series/readingTime.json) | 16.2% (2025) | 21.6% (2003) | 2003–2025 · 22 pts | BLS American Time Use Survey (series TUU10101AA01006315) |
 | [Teen Birth Rate](series/teenBirthRate.json) | 12.6% (2024) | 89.1% (1960) | 1960–2024 · 65 pts | CDC/NCHS National Vital Statistics System (Health, United States + Data Query System) |
+| [Vocabulary Test Score](series/wordsum.json) | 6.33% (2024) | 5.94% (1974) | 1974–2024 · 25 pts | NORC General Social Survey (cumulative file 1972–2024) |
 
 ## Not included, and why
 
@@ -185,4 +201,4 @@ See [source.md](source.md). Publishers: NORC (GSS), Gallup, University of Michig
 
 ---
 
-*Last regenerated 2026-08-24 by `docs.ts`.*
+*Last regenerated 2026-08-31 by `docs.ts`.*

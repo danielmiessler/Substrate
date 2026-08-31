@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "key": "readingParticipation",
+    "name": "Read on an Average Day",
+    "unit": "percent of people 15+ who read for personal interest on an average day",
+    "source": "BLS American Time Use Survey (series TUU30105AA01006315)",
+    "sourceUrl": "https://www.bls.gov/tus/",
+    "historicalSourceUrls": [
+      "https://api.bls.gov/publicAPI/v2/timeseries/data/TUU30105AA01006315"
+    ],
+    "goodDirection": "up",
+    "note": "BLS American Time Use Survey time-diary activity \"reading for personal interest,\" civilians aged 15 and older, all days of the week. Diary coding, not a survey question, so there is no wording drift. 2020 was not published (COVID cut data collection) and is a real one-year hole. The share of the population that read at all on a given day — down from about a quarter in 2003 to about a sixth today.",
+    "method": "BLS public API v2, series TUU30105AA01006315 (% engaged in the activity per day, total population)",
+    "coverage": "2003–2025",
+    "fetched": "2026-08-31T20:21:01.514Z"
+  },
+  "data": {
+    "2003": 26.3,
+    "2004": 27.7,
+    "2005": 27,
+    "2006": 26.4,
+    "2007": 24.9,
+    "2008": 23.9,
+    "2009": 24.2,
+    "2010": 21.1,
+    "2011": 20,
+    "2012": 20.7,
+    "2013": 20.5,
+    "2014": 21.3,
+    "2015": 21.1,
+    "2016": 19.5,
+    "2017": 18.7,
+    "2018": 17.5,
+    "2019": 18,
+    "2021": 17.9,
+    "2022": 16.7,
+    "2023": 16.2,
+    "2024": 16.1,
+    "2025": 16.1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "key": "naepScience",
+    "name": "Science Knowledge (NAEP)",
+    "unit": "grade-8 average science scale score (0–300)",
+    "source": "NCES, National Assessment of Educational Progress",
+    "sourceUrl": "https://www.nationsreportcard.gov/",
+    "historicalSourceUrls": [
+      "https://www.nationsreportcard.gov/Dataservice/GetAdhocData.aspx?type=data&subject=science&grade=8&subscale=SRPUV&variable=TOTAL&jurisdiction=NT&stattype=MN:MN&Year=2009,2011,2015,2019,2024"
+    ],
+    "goodDirection": "up",
+    "note": "NAEP Science, grade 8, average scale score on the 2009 framework (earlier science assessments used a different framework and are not comparable). Scores rose through 2015, held in 2019, and fell back to the 2009 baseline by 2024. The 0–500-scale NAEP Long-Term Trend and 0–300-scale main assessments are NCES's national probability samples; values are national public+private averages for all students.",
+    "method": "NAEP Data Service API, subject=science&grade=8&subscale=SRPUV, year tokens 2009,2011,2015,2019,2024 (suffixed tokens are the pre-accommodations samples), 999-sentinel values dropped",
+    "coverage": "2009–2024",
+    "fetched": "2026-08-31T20:21:01.514Z"
+  },
+  "data": {
+    "2009": 150,
+    "2011": 151.7,
+    "2015": 153.9,
+    "2019": 153.8,
+    "2024": 149.9
+  }
+}

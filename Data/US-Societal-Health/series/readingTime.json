@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "key": "readingTime",
+    "name": "Time Spent Reading",
+    "unit": "minutes per day reading for personal interest, all people 15+",
+    "source": "BLS American Time Use Survey (series TUU10101AA01006315)",
+    "sourceUrl": "https://www.bls.gov/tus/",
+    "historicalSourceUrls": [
+      "https://api.bls.gov/publicAPI/v2/timeseries/data/TUU10101AA01006315"
+    ],
+    "goodDirection": "up",
+    "note": "BLS American Time Use Survey time-diary activity \"reading for personal interest,\" civilians aged 15 and older, all days of the week. Diary coding, not a survey question, so there is no wording drift. 2020 was not published (COVID cut data collection) and is a real one-year hole. BLS publishes hours per day; stored here as minutes (×60, exact). Averaged over everyone — readers and non-readers alike (readers themselves average ~1.7 hours).",
+    "method": "BLS public API v2, series TUU10101AA01006315 (avg hours/day, total population) × 60",
+    "coverage": "2003–2025",
+    "fetched": "2026-08-31T20:21:01.514Z"
+  },
+  "data": {
+    "2003": 21.6,
+    "2004": 22.8,
+    "2005": 22.8,
+    "2006": 21.6,
+    "2007": 21,
+    "2008": 20.4,
+    "2009": 20.4,
+    "2010": 18,
+    "2011": 18,
+    "2012": 19.8,
+    "2013": 19.2,
+    "2014": 19.2,
+    "2015": 19.2,
+    "2016": 17.4,
+    "2017": 16.8,
+    "2018": 15.6,
+    "2019": 16.2,
+    "2021": 16.8,
+    "2022": 15.6,
+    "2023": 15.6,
+    "2024": 16.8,
+    "2025": 16.2
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_source": {
+    "publisher": "NEA/Census SPPA · Gallup · Pew Research Center",
+    "readDate": "2026-08-31",
+    "documents": [
+      "https://www.arts.gov/sites/default/files/SPPA_Comprehensive_Report_FINAL.pdf",
+      "https://www.arts.gov/sites/default/files/US_Patterns_of_Arts_ParticipationRevised.pdf",
+      "https://www.arts.gov/sites/default/files/2012-sppa-feb2015.pdf",
+      "https://news.gallup.com/poll/388541/americans-reading-fewer-books-past.aspx",
+      "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/04/S_26.04.09_books_topline.pdf"
+    ],
+    "whyCheckedIn": "None of these publishers offers a data endpoint for these trends. SPPA values are printed across three NEA report PDFs; Gallup's books-per-year trend is prose on one poll page; Pew's trend is a topline PDF whose URL changes per release. Each value transcribed with its citation below."
+  },
+  "series": {
+    "readAnyBook": {
+      "meta": {
+        "name": "Read Any Book Last Year",
+        "unit": "percent of adults who read any book not required for work or school, past 12 months",
+        "source": "National Endowment for the Arts, Survey of Public Participation in the Arts (with the Census Bureau)",
+        "sourceUrl": "https://www.arts.gov/impact/research/arts-data-profile-series/adp-36",
+        "historicalSourceUrls": [
+          "https://www.arts.gov/sites/default/files/SPPA_Comprehensive_Report_FINAL.pdf",
+          "https://www.arts.gov/sites/default/files/US_Patterns_of_Arts_ParticipationRevised.pdf",
+          "https://www.arts.gov/sites/default/files/2012-sppa-feb2015.pdf"
+        ],
+        "goodDirection": "up",
+        "note": "\"Read any book\" excluding books required for work or school, adults 18+, from the SPPA — a Census Bureau CPS supplement fielded roughly every five years. NEA's own comparable trend runs 2002–2022 (the survey exists back to 1982, but NEA does not trend book reading across the older instruments, and the 2012 redesign is bridged by NEA's comparable variables). 2017 is the value implied by NEA's published 4.2-point 2017→2022 decline (48.5 + 4.2 = 52.7), consistent with the 2017 report's printed \"53 percent.\" Next wave ~2027.",
+        "method": "2022 report Exhibit 19 endpoints (2002 56.6, 2022 48.5, the stated 8.1-pt decline checks); 2012 report Figure 5-1 (2002 56.6, 2008 54.3, 2012 54.6); 2017 from the 2022 report's published 4.2-pt decline"
+      },
+      "bounds": [0, 100],
+      "min": 5,
+      "data": { "2002": 56.6, "2008": 54.3, "2012": 54.6, "2017": 52.7, "2022": 48.5 }
+    },
+    "booksPerYear": {
+      "meta": {
+        "name": "Books Read per Year",
+        "unit": "mean books read, all or part of the way through, past year",
+        "source": "Gallup",
+        "sourceUrl": "https://news.gallup.com/poll/388541/americans-reading-fewer-books-past.aspx",
+        "goodDirection": "up",
+        "note": "\"How many books did you read, either all or part of the way through, in the past year?\" — interviewers count printed books, e-books, and audiobooks. Gallup's trend, asked seven times between 1990 and 2021 (an irregular cadence, shown honestly). LAST ASKED December 2021: the series is dormant until Gallup re-asks. The 2021 reading (12.6) was the lowest Gallup had measured, driven by fewer heavy readers (27% read 10+ books, down 8 points from 2016).",
+        "method": "transcribed from the trend prose and chart on Gallup poll page 388541 (read 2026-08-31): 1990 15.3, 1999 18.5, 2001 14.5, 2002 15.8, 2005 14.2, 2016 15.6, 2021 12.6"
+      },
+      "bounds": [0, 50],
+      "min": 7,
+      "data": { "1990": 15.3, "1999": 18.5, "2001": 14.5, "2002": 15.8, "2005": 14.2, "2016": 15.6, "2021": 12.6 }
+    },
+    "pewReadBook": {
+      "meta": {
+        "name": "Read a Book Last Year (any format)",
+        "unit": "percent of adults who read a book, in whole or in part, in any format, past 12 months",
+        "source": "Pew Research Center",
+        "sourceUrl": "https://www.pewresearch.org/short-reads/2026/04/09/americans-still-opt-for-print-books-over-digital-or-audio-versions-few-are-in-book-clubs/",
+        "historicalSourceUrls": [
+          "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/04/S_26.04.09_books_topline.pdf"
+        ],
+        "goodDirection": "up",
+        "note": "\"In the past 12 months, about how many books did you read either all or part of the way through?\" (print, electronic, or audiobooks) — percent reading at least one. 2011–2021 by live telephone; October 2025 on Pew's American Trends Panel (web). Pew charts the mode change with a dashed segment and notes minor wording adjustment in 2025; the level was unchanged across it (75% in 2021, 75% in 2025). 2012 was asked twice (Jan 75, Oct 74); the annual value is their mean — the only arithmetic here.",
+        "method": "transcribed from the October 2025 topline's 'phone trend for comparison' table plus the 2025 reading (read 2026-08-31): 2011 78, 2012 mean(75,74)=74.5, 2014 76, 2015 72, 2016 73, 2018 74, 2019 72, 2021 75, 2025 75"
+      },
+      "bounds": [0, 100],
+      "min": 9,
+      "data": { "2011": 78, "2012": 74.5, "2014": 76, "2015": 72, "2016": 73, "2018": 74, "2019": 72, "2021": 75, "2025": 75 }
+    }
+  }
+}

@@ -4,6 +4,23 @@ This file tracks all datasets added to the Substrate Data directory.
 
 ---
 
+## 2026-08-31 - U.S. Societal Health: education-efficacy expansion
+
+**Dataset**: US-Societal-Health (expanded 68 → 84 series)
+**Status**: Active
+**Source (new)**: NCES NAEP Data Service API (main + Long-Term Trend), Annenberg Public Policy Center topline PDFs, NORC GSS microdata (WORDSUM), BLS American Time Use Survey API, NEA/Census SPPA reports, Gallup, Pew Research Center
+
+### Contents
+- 16 new series measuring education as **actual efficacy**: NAEP civics/U.S. history/geography/science grade-8 scores, NAEP LTT reading + math at ages 9 and 13, the APPC "name all three branches of government" item (phone and online eras kept as separate series — APPC's own 2022 parallel run measured a ~25-point mode effect), GSS WORDSUM vocabulary (1974–2024), ATUS reading minutes/day + participation, SPPA any-book, Gallup books-per-year, Pew read-a-book-any-format
+- `update.ts` gains `naep`, `atus`, and `citations` groups; WORDSUM computed inside the existing `gss` group; checked-in citation JSON (`data/appc-branches.json`, `data/reading-citations.json`) for the endpoint-less publishers
+- Research provenance: `research/us-education-2026-08/` (filter, riders, every candidate's disposition)
+
+### Notes
+- NAEP fetch gotchas encoded: pre-2001/2004 years need the `R1`/`R2` sample suffix; 999.0 is a not-assessed sentinel; anchor values asserted in the fetcher
+- Powers the expanded Education section of **https://usstats.io** (2 → 15 rows)
+
+---
+
 ## 2026-08-24 - U.S. Long-Run Indicators
 
 **Dataset**: US-Long-Run-Indicators

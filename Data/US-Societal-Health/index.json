@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24T16:21:54.867Z",
+  "generated": "2026-08-31T20:22:21.007Z",
   "series": {
     "alcoholPerCapita": {
       "name": "Alcohol Consumption per Capita",
@@ -7,6 +7,20 @@
       "source": "NIAAA Surveillance Report #122, Table 1",
       "coverage": "1850–2023",
       "fetched": "2026-08-24T16:21:54.867Z"
+    },
+    "appcBranchesPhone": {
+      "name": "Can Name All Three Branches (phone era)",
+      "unit": "percent of adults naming all three branches (telephone survey)",
+      "source": "Annenberg Public Policy Center, Constitution Day Civics Survey",
+      "coverage": "2006–2022",
+      "fetched": "2026-08-31T20:21:01.514Z"
+    },
+    "appcBranchesWeb": {
+      "name": "Can Name All Three Branches of Government",
+      "unit": "percent of adults naming all three branches (online panel)",
+      "source": "Annenberg Public Policy Center, Constitution Day Civics Survey",
+      "coverage": "2022–2025",
+      "fetched": "2026-08-31T20:21:01.514Z"
     },
     "bankruptcies": {
       "name": "Consumer Bankruptcies",
@@ -27,7 +41,14 @@
       "unit": "percent whose standard of living is better than their parents' at the same age",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1994–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
+    },
+    "booksPerYear": {
+      "name": "Books Read per Year",
+      "unit": "mean books read, all or part of the way through, past year",
+      "source": "Gallup",
+      "coverage": "1990–2021",
+      "fetched": "2026-08-31T20:21:01.514Z"
     },
     "childPoverty": {
       "name": "Child Poverty Rate",
@@ -41,91 +62,91 @@
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1975–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confBusiness": {
       "name": "Confidence in Major Companies (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confCongress": {
       "name": "Confidence in Congress (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confEducation": {
       "name": "Confidence in Education",
       "unit": "percent with a great deal of confidence in the people running education",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confExecutive": {
       "name": "Confidence in the Executive Branch (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confLabor": {
       "name": "Confidence in Organized Labor (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confMedicine": {
       "name": "Confidence in Medicine (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confMilitary": {
       "name": "Confidence in the Military (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confPress": {
       "name": "Confidence in the Press (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confReligion": {
       "name": "Confidence in Organized Religion (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confScience": {
       "name": "Confidence in Science",
       "unit": "percent with a great deal of confidence in the scientific community",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confSupremeCourt": {
       "name": "Confidence in the Supreme Court (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "confTv": {
       "name": "Confidence in Television (GSS)",
       "unit": "percent with a great deal of confidence",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "creditCardDelinquency": {
       "name": "Credit Card Delinquency Rate",
@@ -153,7 +174,7 @@
       "unit": "percent whose financial situation has been getting better",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1972–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "firearmDeaths": {
       "name": "Firearm Deaths",
@@ -279,7 +300,7 @@
       "unit": "percent saying people get ahead by hard work (vs. luck or help)",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "infantMortality": {
       "name": "Infant Mortality",
@@ -293,14 +314,14 @@
       "unit": "percent expecting their children's standard of living to be better than their own",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1994–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "lifeExciting": {
       "name": "Life Is Exciting",
       "unit": "percent of adults who find life exciting",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1973–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "lifeRatedHigh": {
       "name": "Rate Their Current Life Highly",
@@ -308,6 +329,34 @@
       "source": "Gallup National Health and Well-Being Index",
       "coverage": "2009–2026",
       "fetched": "2026-08-24T16:21:54.867Z"
+    },
+    "lttMath13": {
+      "name": "Math Score, Age 13 (NAEP LTT)",
+      "unit": "average long-term-trend mathematics scale score, age 13 (0–500)",
+      "source": "NCES, National Assessment of Educational Progress",
+      "coverage": "1978–2023",
+      "fetched": "2026-08-31T20:21:01.514Z"
+    },
+    "lttMath9": {
+      "name": "Math Score, Age 9 (NAEP LTT)",
+      "unit": "average long-term-trend mathematics scale score, age 9 (0–500)",
+      "source": "NCES, National Assessment of Educational Progress",
+      "coverage": "1978–2022",
+      "fetched": "2026-08-31T20:21:01.514Z"
+    },
+    "lttReading13": {
+      "name": "Reading Score, Age 13 (NAEP LTT)",
+      "unit": "average long-term-trend reading scale score, age 13 (0–500)",
+      "source": "NCES, National Assessment of Educational Progress",
+      "coverage": "1971–2023",
+      "fetched": "2026-08-31T20:21:01.514Z"
+    },
+    "lttReading9": {
+      "name": "Reading Score, Age 9 (NAEP LTT)",
+      "unit": "average long-term-trend reading scale score, age 9 (0–500)",
+      "source": "NCES, National Assessment of Educational Progress",
+      "coverage": "1971–2022",
+      "fetched": "2026-08-31T20:21:01.514Z"
     },
     "marijuanaPastMonth": {
       "name": "Marijuana Use, Past Month",
@@ -323,6 +372,34 @@
       "coverage": "2002–2025",
       "fetched": "2026-08-24T16:21:54.867Z"
     },
+    "naepCivics": {
+      "name": "Civics Knowledge (NAEP)",
+      "unit": "grade-8 average civics scale score (0–300)",
+      "source": "NCES, National Assessment of Educational Progress",
+      "coverage": "1998–2022",
+      "fetched": "2026-08-31T20:21:01.514Z"
+    },
+    "naepGeography": {
+      "name": "Geography Knowledge (NAEP)",
+      "unit": "grade-8 average geography scale score (0–500)",
+      "source": "NCES, National Assessment of Educational Progress",
+      "coverage": "1994–2018",
+      "fetched": "2026-08-31T20:21:01.514Z"
+    },
+    "naepHistory": {
+      "name": "U.S. History Knowledge (NAEP)",
+      "unit": "grade-8 average U.S. history scale score (0–500)",
+      "source": "NCES, National Assessment of Educational Progress",
+      "coverage": "1994–2022",
+      "fetched": "2026-08-31T20:21:01.514Z"
+    },
+    "naepScience": {
+      "name": "Science Knowledge (NAEP)",
+      "unit": "grade-8 average science scale score (0–300)",
+      "source": "NCES, National Assessment of Educational Progress",
+      "coverage": "2009–2024",
+      "fetched": "2026-08-31T20:21:01.514Z"
+    },
     "optimismFutureLife": {
       "name": "Optimistic About Life in 5 Years",
       "unit": "percent rating their expected life in five years 8–10 on a 0–10 ladder",
@@ -335,7 +412,14 @@
       "unit": "percent saying most people can be trusted",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1972–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
+    },
+    "pewReadBook": {
+      "name": "Read a Book Last Year (any format)",
+      "unit": "percent of adults who read a book, in whole or in part, in any format, past 12 months",
+      "source": "Pew Research Center",
+      "coverage": "2011–2025",
+      "fetched": "2026-08-31T20:21:01.514Z"
     },
     "primeAgeEmployment": {
       "name": "Prime-Age Employment Rate",
@@ -343,6 +427,27 @@
       "source": "BLS Current Population Survey via FRED (LNS12300060)",
       "coverage": "1948–2026",
       "fetched": "2026-08-24T16:21:54.867Z"
+    },
+    "readAnyBook": {
+      "name": "Read Any Book Last Year",
+      "unit": "percent of adults who read any book not required for work or school, past 12 months",
+      "source": "National Endowment for the Arts, Survey of Public Participation in the Arts (with the Census Bureau)",
+      "coverage": "2002–2022",
+      "fetched": "2026-08-31T20:21:01.514Z"
+    },
+    "readingParticipation": {
+      "name": "Read on an Average Day",
+      "unit": "percent of people 15+ who read for personal interest on an average day",
+      "source": "BLS American Time Use Survey (series TUU30105AA01006315)",
+      "coverage": "2003–2025",
+      "fetched": "2026-08-31T20:21:01.514Z"
+    },
+    "readingTime": {
+      "name": "Time Spent Reading",
+      "unit": "minutes per day reading for personal interest, all people 15+",
+      "source": "BLS American Time Use Survey (series TUU10101AA01006315)",
+      "coverage": "2003–2025",
+      "fetched": "2026-08-31T20:21:01.514Z"
     },
     "rxCostBarrier": {
       "name": "Couldn't Afford Prescriptions",
@@ -356,7 +461,7 @@
       "unit": "percent pretty well satisfied with their financial situation",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1972–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
     },
     "satisfiedWithCountry": {
       "name": "Satisfied With How Things Are Going in the U.S.",
@@ -475,7 +580,14 @@
       "unit": "percent of adults \"very happy\"",
       "source": "NORC General Social Survey (cumulative file 1972–2024)",
       "coverage": "1972–2024",
-      "fetched": "2026-08-24T16:21:54.867Z"
+      "fetched": "2026-08-31T20:22:21.007Z"
+    },
+    "wordsum": {
+      "name": "Vocabulary Test Score",
+      "unit": "mean correct answers on the GSS 10-word vocabulary test",
+      "source": "NORC General Social Survey (cumulative file 1972–2024)",
+      "coverage": "1974–2024",
+      "fetched": "2026-08-31T20:22:21.007Z"
     }
   }
 }

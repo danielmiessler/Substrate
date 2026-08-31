@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "key": "wordsum",
+    "name": "Vocabulary Test Score",
+    "unit": "mean correct answers on the GSS 10-word vocabulary test",
+    "source": "NORC General Social Survey (cumulative file 1972–2024)",
+    "sourceUrl": "https://gss.norc.org/get-the-data/stata.html",
+    "historicalSourceUrls": [
+      "https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/GSS_stata.zip"
+    ],
+    "goodDirection": "up",
+    "note": "WORDSUM: a ten-item multiple-choice vocabulary test administered in the GSS since 1974 with unchanged words — the longest-running repeated knowledge measure of US adults. Value is the weighted mean number correct (0–10). NORC General Social Survey cumulative file, computed here from the public microdata: weighted (WTSSPS, NORC's post-stratification weight available for every year 1972–2024) share of valid responses. 2021 moved to a push-to-web design during the pandemic and 2022/2024 are mixed-mode; NORC advises caution comparing 2021+ with the in-person years, so treat 2021 as a seam. The 2022/2024 upticks sit on that mode seam. Years with fewer than 200 weighted responses are dropped.",
+    "method": "variable WORDSUM: weighted mean of valid scores 0–10, weight WTSSPS",
+    "coverage": "1974–2024",
+    "fetched": "2026-08-31T20:22:21.007Z"
+  },
+  "data": {
+    "1974": 5.94,
+    "1976": 5.99,
+    "1978": 5.95,
+    "1982": 5.96,
+    "1984": 6.03,
+    "1987": 5.89,
+    "1988": 5.8,
+    "1989": 5.73,
+    "1990": 5.99,
+    "1991": 5.92,
+    "1993": 5.84,
+    "1994": 6,
+    "1996": 5.92,
+    "1998": 6.01,
+    "2000": 5.86,
+    "2004": 5.99,
+    "2006": 6.12,
+    "2008": 5.89,
+    "2010": 5.93,
+    "2012": 5.92,
+    "2014": 5.94,
+    "2016": 6.02,
+    "2018": 5.82,
+    "2022": 6.22,
+    "2024": 6.33
+  }
+}
