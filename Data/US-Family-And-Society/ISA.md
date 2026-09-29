@@ -1,5 +1,6 @@
 ---
 phase: climbing
+progress: 6/6
 ---
 # US Family and Society
 
@@ -51,3 +52,5 @@ No interpolation, fabricated values, silent source loss, merged incompatible ins
 
 ## Decisions
 The explicit directory-only constraint overrides external tracking and reflection writes. No git commands, including the contradictory requested status command. Numeric source parsing and executable probes cover the supplied thinking lenses; no separate thinking-skill orchestration is needed. API presence probe returned CENSUS_API_KEY no and BLS_API_KEY no. Annual ACS is explicitly deferred; ATUS uses keyless sources.
+
+2026-09-29 14:32: refined: structural gate repair — added the missing `progress:` frontmatter line at the mechanical 6/6.
