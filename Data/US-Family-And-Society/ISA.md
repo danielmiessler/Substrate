@@ -20,7 +20,7 @@ At its ideal state the dataset is a self-contained, regenerable collection of fa
 
 ### L1 · Full articulation
 
-US Family and Society is a new Substrate dataset that lives at ~/Projects/substrate/Data/US-Family-And-Society/. Its purpose is to recover measures of American family and social life in a form anyone can check. Every measure it contains can be reproduced from its primary publisher. The reader that pulls numbers out of source spreadsheets reproduces the source cells exactly, and the saved series hold against primary-source anchors and against each other wherever sources overlap.
+US Family and Society is a new Substrate dataset that lives at `Data/US-Family-And-Society/` in this repository. Its purpose is to recover measures of American family and social life in a form anyone can check. Every measure it contains can be reproduced from its primary publisher. The reader that pulls numbers out of source spreadsheets reproduces the source cells exactly, and the saved series hold against primary-source anchors and against each other wherever sources overlap.
 
 The dataset treats honesty about evidence as the governing rule. It does not interpolate, fabricate values, or quietly drop a source. It also keeps instrument boundaries visible, so that series from incompatible instruments are never merged into one line. Failures stay isolated, which means one broken source cannot corrupt the rest. When evidence is missing, the dataset says so. Every requested key is either shipped or explicitly deferred with evidence. Annual ACS is one such deferral, because the API presence probe found no Census API key and no BLS API key. ATUS is served from keyless sources instead.
 
