@@ -49,6 +49,14 @@ No interpolation, fabricated values, silent source loss, merged incompatible ins
 | C1 | bun-test | bun test lib/xls.test.ts | build |
 | C2,C3,C5,C6 | bun-test | bun test lib/checks.test.ts | build |
 | C4 | bash | bun update.ts && bun docs.ts | build |
+| C2 | bun-test | bun test ./lib/checks.test.ts -t "C2" | build |
+| C3 | bun-test | bun test ./lib/checks.test.ts -t "C3" | build |
+| C5 | bun-test | bun test ./lib/checks.test.ts -t "C5" | build |
+| C6 | bash | test ! -e package.json && test -z "$(rg -l '/Users/' -g '!.cache' -g '!ISA.md' .)" | build |
+
+## Harness
+
+None — a regenerable data set (series JSON rebuilt by `update.ts` and `docs.ts`), not an app a person drives; `bun test ./lib` is its check.
 
 ## Decisions
 The explicit directory-only constraint overrides external tracking and reflection writes. No git commands, including the contradictory requested status command. Numeric source parsing and executable probes cover the supplied thinking lenses; no separate thinking-skill orchestration is needed. API presence probe returned CENSUS_API_KEY no and BLS_API_KEY no. Annual ACS is explicitly deferred; ATUS uses keyless sources.
