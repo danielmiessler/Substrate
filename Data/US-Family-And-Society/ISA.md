@@ -44,11 +44,11 @@ Every recovered measure is reproducible from its primary publisher, with instrum
 No interpolation, fabricated values, silent source loss, merged incompatible instruments, writes outside this dataset, or git commands.
 
 ## Test Strategy
-| Claim | Assert | Lane |
-|---|---|---|
-| C1 | bun test lib/xls.test.ts | build |
-| C2,C3,C5,C6 | bun test lib/checks.test.ts | build |
-| C4 | bun update.ts && bun docs.ts | build |
+| Claim | type | Assert | Lane |
+|---| --- |---|---|
+| C1 | bun-test | bun test lib/xls.test.ts | build |
+| C2,C3,C5,C6 | bun-test | bun test lib/checks.test.ts | build |
+| C4 | bash | bun update.ts && bun docs.ts | build |
 
 ## Decisions
 The explicit directory-only constraint overrides external tracking and reflection writes. No git commands, including the contradictory requested status command. Numeric source parsing and executable probes cover the supplied thinking lenses; no separate thinking-skill orchestration is needed. API presence probe returned CENSUS_API_KEY no and BLS_API_KEY no. Annual ACS is explicitly deferred; ATUS uses keyless sources.
