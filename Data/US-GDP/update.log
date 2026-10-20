@@ -16,8 +16,8 @@
 [2025-10-25T00:47:07.485Z] Performing data quality checks...
 [2025-10-25T00:47:07.485Z] Quality checks passed
 [2025-10-25T00:47:07.485Z] Saving data files...
-[2025-10-25T00:47:07.485Z] Quarterly data saved to: /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data/US-GDP/Real-GDP-Quarterly-1947-2025.csv
-[2025-10-25T00:47:07.485Z] Annual data saved to: /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data/US-GDP/Real-GDP-Annual-1929-2024.csv
+[2025-10-25T00:47:07.485Z] Quarterly data saved to: substrate/Data/US-GDP/Real-GDP-Quarterly-1947-2025.csv
+[2025-10-25T00:47:07.485Z] Annual data saved to: substrate/Data/US-GDP/Real-GDP-Annual-1929-2024.csv
 [2025-10-25T00:47:07.485Z] Updating source record...
 [2025-10-25T00:47:07.485Z] Source record updated
 [2025-10-25T00:47:07.485Z] 

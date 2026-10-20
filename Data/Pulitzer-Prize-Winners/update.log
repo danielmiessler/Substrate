@@ -13,10 +13,10 @@
 [2025-10-25T00:47:08.678Z] Performing data quality checks...
 [2025-10-25T00:47:08.678Z] Quality checks passed
 [2025-10-25T00:47:08.678Z] Saving data files...
-[2025-10-25T00:47:08.678Z] Combined data saved to: /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data/Pulitzer-Prize-Winners/Pulitzer-Prize-Winners-Arts-Letters-1918-2024.csv
-[2025-10-25T00:47:08.678Z] Poetry data saved to: /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data/Pulitzer-Prize-Winners/category-poetry.csv
-[2025-10-25T00:47:08.678Z] Drama data saved to: /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data/Pulitzer-Prize-Winners/category-drama.csv
-[2025-10-25T00:47:08.678Z] General awards saved to: /Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data/Pulitzer-Prize-Winners/category-general.csv
+[2025-10-25T00:47:08.678Z] Combined data saved to: substrate/Data/Pulitzer-Prize-Winners/Pulitzer-Prize-Winners-Arts-Letters-1918-2024.csv
+[2025-10-25T00:47:08.678Z] Poetry data saved to: substrate/Data/Pulitzer-Prize-Winners/category-poetry.csv
+[2025-10-25T00:47:08.678Z] Drama data saved to: substrate/Data/Pulitzer-Prize-Winners/category-drama.csv
+[2025-10-25T00:47:08.678Z] General awards saved to: substrate/Data/Pulitzer-Prize-Winners/category-general.csv
 [2025-10-25T00:47:08.678Z] Updating source record...
 [2025-10-25T00:47:08.678Z] Source record updated
 [2025-10-25T00:47:08.678Z] 

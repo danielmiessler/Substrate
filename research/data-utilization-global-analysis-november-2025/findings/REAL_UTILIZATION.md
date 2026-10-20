@@ -302,13 +302,13 @@ But the ACTUAL data generation is dominated by:
 3. **IoT utilization** - 21.1B devices, <5% analysis, 90% dark data
 
 **Files:**
-- `/Users/daniel/.claude/history/research/2025-11/2025-11-10_global-data-generation-breakdown/`
+- `(local research archive) 2025-11/2025-11-10_global-data-generation-breakdown/`
   - data-types-breakdown.md
   - video-utilization.md
   - iot-utilization.md
 
 **Previous research (still valid for enterprise category):**
-- `/Users/daniel/.claude/history/research/2025-11/2025-11-10_data-utilization-rates/`
+- `(local research archive) 2025-11/2025-11-10_data-utilization-rates/`
   - 6 comprehensive reports on enterprise data utilization
   - 134KB, 150+ sources
   - CORRECT for the 9% of data that's enterprise

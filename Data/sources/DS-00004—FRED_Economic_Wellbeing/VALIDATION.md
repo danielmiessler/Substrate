@@ -154,7 +154,7 @@ DS-00004—FRED_Economic_Wellbeing/
 
 ### Run Update
 ```bash
-cd "/Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Projects/Substrate/Data-Sources/DS-00004—FRED_Economic_Wellbeing/"
+cd "substrate/Data-Sources/DS-00004—FRED_Economic_Wellbeing/"
 ./update.ts
 ```
 

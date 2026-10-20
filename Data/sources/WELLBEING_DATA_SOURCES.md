@@ -415,7 +415,7 @@ Traditional wellbeing measurement focuses on:
 **Implementation:** Complete substrate-style documentation for each source
 
 **Research Documents:**
-- `/Users/daniel/.claude/history/research/2025-10/2025-10-27_wellbeing-substrate-datasets/`
+- `(local research archive) 2025-10/2025-10-27_wellbeing-substrate-datasets/`
 - FRED research: 50+ series IDs identified
 - Pew/Gallup research: 15 major datasets cataloged
 - Alternative sources: 37 indicators across 6 categories

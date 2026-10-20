@@ -477,7 +477,7 @@ Even when data IS examined, most provides little value:
 
 ### Research Documents Created
 
-All saved to: `/Users/daniel/.claude/history/research/2025-11/2025-11-10_data-utilization-rates/`
+All saved to: `(local research archive) 2025-11/2025-11-10_data-utilization-rates/`
 
 1. **dark-data-statistics.md** (25KB)
    - Veritas Global Databerg Report
