@@ -22,7 +22,7 @@ The Data directory contains curated, ground-truth datasets about important aspec
 | [US Common Metrics](./US-Common-Metrics/SUMMARY.md) | 60+ indicators | Real-time dashboard of U.S. economic indicators |
 | [Pulitzer Winners](./Pulitzer-Prize-Winners/SUMMARY.md) | 249 winners | Complete Arts & Letters database (1918-2024) |
 | [BigToSmall](./BigToSmall/SUMMARY.md) | All 12 signals directional | Established companies declining, startup ecosystem growing |
-| [Vulnerability & Breach Data](./Vulnerability-And-Breach-Data/SUMMARY.md) | 48,185 CVEs · 3,322 breaches (2025) | Vulns and breaches hit records; no dataset attributes either to AI |
+| [Vulnerability & Breach Data](./Vulnerability-And-Breach-Data/SUMMARY.md) | 48,185 CVEs · 3,322 breaches (2025) | AI shows up in outcomes only where a source attributes it, and every such count is a floor |
 | [US National Debt](./US-National-Debt/SUMMARY.md) | $39.93T gross (2026-08-14) | Three-quarters of US debt is held domestically; powers usdebt.io |
 | [US Long-Run Indicators](./US-Long-Run-Indicators/SUMMARY.md) | 51 primary-sourced series | Fifty years of US life in numbers; powers usstats.io with US-Societal-Health |
 | [US Disease & Vaccination](./US-Disease-And-Vaccination/SUMMARY.md) | 35 primary-sourced series | Reported disease incidence 1950→, infectious-disease deaths 1900→, and vaccination coverage 1989→; powers the Disease & Vaccination section of usstats.io |
@@ -149,7 +149,7 @@ Data/
 - **[Knowledge Worker Compensation](./Knowledge-Worker-Global-Salaries/SUMMARY.md)** - Global and US compensation estimates
 
 ### Security
-- **[Vulnerability & Breach Data](./Vulnerability-And-Breach-Data/SUMMARY.md)** - CVE disclosure, Patch Tuesday, breaches, and the AI question (2016-2026)
+- **[Vulnerability & Breach Data](./Vulnerability-And-Breach-Data/SUMMARY.md)** - How AI is changing real-world security outcomes: breaches, losses and the vulnerabilities behind them (2016-2026)
 
 ### Political & Social
 - **[Presidential Approval](./US-Presidential-Approval/SUMMARY.md)** - Approval ratings (1937-2025)
