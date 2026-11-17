@@ -129,7 +129,7 @@
    "tier": "confirmed",
    "repo": "https://github.com/oritera/Cairn",
    "description": "multi-agent pentest framework",
-   "stars": 5299,
+   "stars": 5301,
    "actors": [
     {
      "name": "CL-STA-1238",
@@ -311,7 +311,7 @@
    "tier": "confirmed",
    "repo": "https://github.com/vxcontrol/pentagi",
    "description": "multi-agent pentest system",
-   "stars": 34425,
+   "stars": 34426,
    "actors": [
     {
      "name": "GTG-50020",
@@ -362,7 +362,7 @@
    "tier": "confirmed",
    "repo": "https://github.com/openclaw/openclaw",
    "description": "general-purpose agent",
-   "stars": 394668,
+   "stars": 394672,
    "actors": [
     {
      "name": "Unnamed operator",
@@ -401,7 +401,7 @@
    "tier": "confirmed",
    "repo": "https://github.com/NousResearch/hermes-agent",
    "description": "open-source autonomous agent with memory and self-written skills",
-   "stars": 264174,
+   "stars": 264173,
    "actors": [
     {
      "name": "knaithe / KnYuan",
@@ -489,7 +489,7 @@
    "tier": "confirmed",
    "repo": "https://github.com/usestrix/strix",
    "description": "multi-agent pentest framework",
-   "stars": 76295,
+   "stars": 76297,
    "actors": [
     {
      "name": "Suspected China-linked actor",
@@ -553,7 +553,7 @@
    "tier": "observed",
    "repo": "https://github.com/0x4m4/hexstrike-ai",
    "description": "MCP server wrapping 150+ offensive tools",
-   "stars": 13695,
+   "stars": 13694,
    "actors": [
     {
      "name": "Suspected China-linked actor",
@@ -686,7 +686,7 @@
    "tier": "observed",
    "repo": "https://github.com/CyberStrikeus/CyberStrike",
    "description": "open-source AI pentest agent; not CyberStrikeAI",
-   "stars": 3615,
+   "stars": 3616,
    "actors": [
     {
      "name": "BOSSAI operator",
@@ -827,7 +827,7 @@
    "repo": "https://github.com/agent0ai/agent-zero",
    "description": "General agent framework that writes and runs its own code and tools.",
    "kind": "General agent",
-   "stars": 19899,
+   "stars": 19900,
    "license": "MIT",
    "last_push": "2026-11-17",
    "archived": false,
@@ -890,7 +890,7 @@
    "repo": "https://github.com/elementalsouls/Claude-BugHunter",
    "description": "Claude Code skill bundle for bug hunting and external red-team work.",
    "kind": "Skill pack",
-   "stars": 8897,
+   "stars": 8917,
    "license": "MIT",
    "last_push": "2026-11-17",
    "archived": false,
@@ -1472,7 +1472,7 @@
    "repo": "https://github.com/jm33-m0/emp3r0r",
    "description": "Linux-first post-exploitation C2 whose MCP server lets an AI harness operate it in natural language.",
    "kind": "C2 with MCP",
-   "stars": 2110,
+   "stars": 2112,
    "license": "GPL-3.0",
    "last_push": "2026-11-17",
    "archived": false,
