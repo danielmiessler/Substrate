@@ -1,0 +1,305 @@
+# Sources
+
+Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti, 59 press, 16 government, 16 incident-database, 9 model-provider, 9 regional-cert, 3 academic, 2 court-record). **Swept** means it was searched for incidents and has a sweep record with pages read; **unreachable** means the sweep could not read any page from it (the reason is in sources.json); **cited** means an incident cites it and no sweep was needed. The last sweep was 2026-11-17. The same list with citation counts is [Data/AI-Hacking-Incidents/sources.csv](../../Data/AI-Hacking-Incidents/sources.csv); the URLs each incident cites are in [incidents.csv](../../Data/AI-Hacking-Incidents/incidents.csv).
+
+## vendor-ti
+
+- Abnormal (swept, 2026-11-17) — https://abnormal.ai/blog
+- Accenture (swept, 2026-11-17) — https://accenture.com/
+- Acronis (swept, 2026-11-17) — https://www.acronis.com/en/tru/
+- AhnLab (swept, 2026-11-17) — https://asec.ahnlab.com/en/
+- Aikido (swept, 2026-11-17) — https://www.aikido.dev/blog
+- Akamai (unreachable) — https://www.akamai.com/blog
+- Aqua Security (swept, 2026-11-17) — https://aquasec.com/
+- Arctic Wolf (swept, 2026-11-17) — https://arcticwolf.com/resources/blog/
+- Avast/Gen Digital (swept, 2026-11-17) — https://www.gendigital.com/blog/insights/research
+- Barracuda (swept, 2026-11-17) — https://barracuda.com/
+- BioCatch (swept, 2026-11-17) — https://biocatch.com/
+- Bitdefender (swept, 2026-11-17) — https://www.bitdefender.com/en-us/blog/labs/
+- Blackpoint (swept, 2026-11-17) — https://blackpointcyber.com/
+- Cato Networks (swept, 2026-11-17) — https://www.catonetworks.com/blog/
+- Censys (swept, 2026-11-17) — https://censys.com/
+- Check Point (swept, 2026-11-17) — https://blog.checkpoint.com/
+- Check Point Research (swept, 2026-11-17) — https://research.checkpoint.com/
+- Checkmarx (swept, 2026-11-17) — https://checkmarx.com/
+- Cisco Talos (swept, 2026-11-17) — https://blog.talosintelligence.com/
+- Claroty (swept, 2026-11-17) — https://claroty.com/
+- Cleafy (swept, 2026-11-17) — https://cleafy.com/
+- Cloudflare Cloudforce One (swept, 2026-11-17) — https://blog.cloudflare.com/
+- CloudSEK (swept, 2026-11-17) — https://www.cloudsek.com/blog
+- Coalition (swept, 2026-11-17) — https://www.coalitioninc.com/
+- Cofense (swept, 2026-11-17) — https://cofense.com/
+- CrowdStrike (swept, 2026-11-17) — https://www.crowdstrike.com/en-us/blog/
+- Cybereason (swept, 2026-11-17) — https://cybereason.com/
+- Cybersixgill (unreachable) — https://cybersixgill.com/
+- Cyble (swept, 2026-11-17) — https://cyble.com/blog/
+- Cyera (swept, 2026-11-17) — https://cyera.com/
+- Darktrace (swept, 2026-11-17) — https://darktrace.com/blog
+- Datadog Security Labs (swept, 2026-11-17) — https://securitylabs.datadoghq.com/
+- Deep Instinct (swept, 2026-11-17) — https://deepinstinct.com/
+- Deloitte (swept, 2026-11-17) — https://deloitte.com/
+- DomainTools (swept, 2026-11-17) — https://www.domaintools.com/resources/blog/
+- Doppel (swept, 2026-11-17) — https://doppel.com/
+- Dragos (swept, 2026-11-17) — https://dragos.com/
+- Dream (cited) — https://www.dreamgroup.com/
+- EclecticIQ (swept, 2026-11-17) — https://blog.eclecticiq.com/
+- Egress (swept, 2026-11-17) — https://egress.com/
+- Elastic Security Labs (swept, 2026-11-17) — https://www.elastic.co/security-labs
+- eSentire (swept, 2026-11-17) — https://esentire.com/
+- ESET (swept, 2026-11-17) — https://www.welivesecurity.com/en/eset-research/
+- Expel (swept, 2026-11-17) — https://expel.com/blog/
+- F5 Labs (swept, 2026-11-17) — https://f5.com/
+- Flare (swept, 2026-11-17) — https://flare.io/learn/resources/blog
+- Flashpoint (swept, 2026-11-17) — https://flashpoint.io/blog/
+- Forescout (unreachable) — https://forescout.com/
+- Fortinet (swept, 2026-11-17) — https://www.fortinet.com/blog/threat-research
+- Gambit Security (swept, 2026-11-17) — https://gambit.security/
+- Genians Security Center (swept, 2026-11-17) — https://www.genians.co.kr/
+- Gigamon (swept, 2026-11-17) — https://gigamon.com/
+- Google Threat Intelligence (swept, 2026-11-17) — https://cloud.google.com/
+- GreyNoise (swept, 2026-11-17) — https://greynoise.io/
+- Group-IB (swept, 2026-11-17) — https://www.group-ib.com/blog/
+- Halcyon (swept, 2026-11-17) — https://halcyon.ai/
+- HiddenLayer (swept, 2026-11-17) — https://hiddenlayer.com/research/
+- Hoxhunt (swept, 2026-11-17) — https://hoxhunt.com/
+- HP Wolf Security (swept, 2026-11-17) — https://hp.com/
+- Hudson Rock (unreachable) — https://hudsonrock.com/
+- Hunt.io (swept, 2026-11-17) — https://hunt.io/
+- Hunters (swept, 2026-11-17) — https://hunters.security/
+- Huntress (swept, 2026-11-17) — https://www.huntress.com/blog
+- IBM X-Force (swept, 2026-11-17) — https://www.ibm.com/think/x-force
+- Imperva (swept, 2026-11-17) — https://imperva.com/
+- Infoblox (swept, 2026-11-17) — https://blogs.infoblox.com/
+- Intel 471 (swept, 2026-11-17) — https://intel471.com/blog
+- Invariant Labs (swept, 2026-11-17) — https://invariantlabs.ai/
+- IRONSCALES (swept, 2026-11-17) — https://ironscales.com/
+- Jamf (swept, 2026-11-17) — https://jamf.com/
+- JFrog (swept, 2026-11-17) — https://jfrog.com/
+- Kaspersky (swept, 2026-11-17) — https://securelist.com/
+- Kela (swept, 2026-11-17) — https://kelacyber.com/
+- KnowBe4 (swept, 2026-11-17) — https://blog.knowbe4.com/
+- Koi (swept, 2026-11-17) — https://www.koi.ai/blog
+- Koi Security (cited) — https://www.koi.security/blog/postmark-mcp-npm-malicious-backdoor-email-theft
+- Kroll (swept, 2026-11-17) — https://kroll.com/
+- Kudelski (swept, 2026-11-17) — https://kudelskisecurity.com/
+- Lakera (swept, 2026-11-17) — https://lakera.ai/
+- Lasso Security (swept, 2026-11-17) — https://lasso.security/
+- LastPass (unreachable) — https://blog.lastpass.com/
+- Legit Security (swept, 2026-11-17) — https://legitsecurity.com/
+- Lookout (swept, 2026-11-17) — https://lookout.com/
+- Lumen Black Lotus Labs (swept, 2026-11-17) — https://blog.lumen.com/
+- Malwarebytes (swept, 2026-11-17) — https://www.malwarebytes.com/blog
+- Microsoft Security Blog (swept, 2026-11-17) — https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/
+- Mimecast (swept, 2026-11-17) — https://mimecast.com/
+- Mitiga (swept, 2026-11-17) — https://mitiga.io/
+- Morphisec (swept, 2026-11-17) — https://morphisec.com/
+- NCC Group (swept, 2026-11-17) — https://www.nccgroup.com/research/
+- Netcraft (swept, 2026-11-17) — https://netcraft.com/
+- Netskope (swept, 2026-11-17) — https://www.netskope.com/blog
+- Nisos (unreachable) — https://nisos.com/
+- Noma Security (swept, 2026-11-17) — https://noma.security/blog/
+- NorForge (cited) — https://norforge.com/
+- Nozomi (swept, 2026-11-17) — https://nozominetworks.com/
+- Obsidian Security (swept, 2026-11-17) — https://obsidiansecurity.com/
+- Okta (swept, 2026-11-17) — https://sec.okta.com/
+- Oligo (swept, 2026-11-17) — https://www.oligo.security/blog
+- Onfido/Entrust (unreachable) — https://entrust.com/
+- Orange Cyberdefense (swept, 2026-11-17) — https://orangecyberdefense.com/
+- Orca Security (swept, 2026-11-17) — https://orca.security/
+- Outpost24 (unreachable) — https://outpost24.com/
+- OX Security (swept, 2026-11-17) — https://ox.security/
+- Palo Alto Networks Unit 42 (swept, 2026-11-17) — https://www.paloaltonetworks.com/
+- Pangea/CrowdStrike (swept, 2026-11-17) — https://pangea.cloud/
+- Permiso (swept, 2026-11-17) — https://permiso.io/blog
+- Phylum/Veracode (swept, 2026-11-17) — https://veracode.com/
+- Picus (swept, 2026-11-17) — https://picussecurity.com/
+- Pillar Security (swept, 2026-11-17) — https://www.pillar.security/blog
+- Pindrop (swept, 2026-11-17) — https://pindrop.com/
+- Positive Technologies (unreachable) — https://global.ptsecurity.com/en/research/
+- Prompt Security (swept, 2026-11-17) — https://prompt.security/
+- Proofpoint (swept, 2026-11-17) — https://www.proofpoint.com/us/blog/threat-insight
+- Protect AI (unreachable) — https://protectai.com/
+- Push Security (swept, 2026-11-17) — https://pushsecurity.com/blog/
+- PwC (unreachable) — https://pwc.com/
+- Qianxin (swept, 2026-11-17) — https://blog.xlab.qianxin.com/
+- Qualys (swept, 2026-11-17) — https://qualys.com/
+- Quorum Cyber (swept, 2026-11-17) — https://quorumcyber.com/
+- Radware (swept, 2026-11-17) — https://radware.com/
+- Rapid7 (swept, 2026-11-17) — https://www.rapid7.com/blog/
+- Reality Defender (swept, 2026-11-17) — https://realitydefender.com/
+- Recorded Future (swept, 2026-11-17) — https://www.recordedfuture.com/research
+- Recorded Future Insikt (swept, 2026-11-17) — https://recordedfuture.com/
+- Red Canary (swept, 2026-11-17) — https://redcanary.com/blog/
+- ReliaQuest (swept, 2026-11-17) — https://reliaquest.com/blog/
+- Resecurity (swept, 2026-11-17) — https://www.resecurity.com/blog
+- Retool (swept, 2026-11-17) — https://retool.com/
+- ReversingLabs (swept, 2026-11-17) — https://reversinglabs.com/
+- S2W (unreachable) — https://s2w.inc/
+- Secureworks (swept, 2026-11-17) — https://www.secureworks.com/blog
+- Securonix (swept, 2026-11-17) — https://www.securonix.com/blog/
+- Sekoia (swept, 2026-11-17) — https://blog.sekoia.io/
+- SentinelOne (swept, 2026-11-17) — https://www.sentinelone.com/labs/
+- Silent Push (swept, 2026-11-17) — https://www.silentpush.com/blog/
+- Snyk (swept, 2026-11-17) — https://snyk.io/blog/
+- Socket (swept, 2026-11-17) — https://socket.dev/blog
+- SOCRadar (swept, 2026-11-17) — https://socradar.io/
+- Sophos (swept, 2026-11-17) — https://news.sophos.com/en-us/
+- StepSecurity (swept, 2026-11-17) — https://stepsecurity.io/
+- Straiker (swept, 2026-11-17) — https://www.straiker.ai/blog
+- Sumsub (swept, 2026-11-17) — https://sumsub.com/
+- Symantec (security.com) (swept, 2026-11-17) — https://www.security.com/threat-intelligence
+- Sysdig (swept, 2026-11-17) — https://www.sysdig.com/blog
+- Team Cymru (swept, 2026-11-17) — https://www.team-cymru.com/blog
+- Telefonica Tech (swept, 2026-11-17) — https://telefonica.com/
+- Tenable (swept, 2026-11-17) — https://tenable.com/
+- ThreatFabric (swept, 2026-11-17) — https://threatfabric.com/
+- ThreatLocker (swept, 2026-11-17) — https://threatlocker.com/
+- Trellix (unreachable) — https://www.trellix.com/blogs/research/
+- Trend Micro (swept, 2026-11-17) — https://www.trendmicro.com/en_us/research.html
+- Truesec (swept, 2026-11-17) — https://www.truesec.com/hub/blog
+- Trustwave (swept, 2026-11-17) — https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/
+- Unit 42, Palo Alto Networks (swept, 2026-11-17) — https://unit42.paloaltonetworks.com/
+- Vade/Hornetsecurity (swept, 2026-11-17) — https://hornetsecurity.com/
+- Varonis (swept, 2026-11-17) — https://varonis.com/
+- Vectra AI (swept, 2026-11-17) — https://vectra.ai/
+- Volexity (swept, 2026-11-17) — https://www.volexity.com/blog/
+- WithSecure (swept, 2026-11-17) — https://labs.withsecure.com/
+- Wiz (swept, 2026-11-17) — https://www.wiz.io/blog
+- Zenity (swept, 2026-11-17) — https://zenity.io/blog
+- Zimperium (swept, 2026-11-17) — https://zimperium.com/
+- Zscaler (swept, 2026-11-17) — https://www.zscaler.com/blogs/security-research
+
+## press
+
+- 404 Media (swept, 2026-11-17) — https://www.404media.co/
+- ANSA (Italy) (swept, 2026-11-17) — https://www.ansa.it/
+- Ars Technica (swept, 2026-11-17) — https://arstechnica.com/security/
+- BleepingComputer (swept, 2026-11-17) — https://www.bleepingcomputer.com/
+- Bloomberg (unreachable) — https://www.bloomberg.com/
+- CBS News (swept, 2026-11-17) — https://www.cbsnews.com/
+- CNN (swept, 2026-11-17) — https://edition.cnn.com/
+- CNN (cited) — https://www.cnn.com/2023/04/29/us/ai-scam-calls-kidnapping-cec
+- CyberScoop (swept, 2026-11-17) — https://cyberscoop.com/
+- Cybersecurity Dive (swept, 2026-11-17) — https://www.cybersecuritydive.com/
+- Dark Reading (unreachable) — https://www.darkreading.com/
+- Dexerto (swept, 2026-11-17) — https://www.dexerto.com/
+- Engadget (swept, 2026-11-17) — https://www.engadget.com/
+- Euronews (unreachable) — https://www.euronews.com/
+- Financial Times (unreachable) — https://www.ft.com/
+- Focus Taiwan (swept, 2026-11-17) — https://focustaiwan.tw/
+- Forbes (unreachable) — https://www.forbes.com/sites/steveweisman/2025/10/07/millions-stolen-through-giselle-bundchen-deepfake-scam/
+- Fortune (swept, 2026-11-17) — https://fortune.com/
+- Gulf News (swept, 2026-11-17) — https://gulfnews.com/
+- Hackread (swept, 2026-11-17) — https://hackread.com/
+- Hindustan Times (swept, 2026-11-17) — https://www.hindustantimes.com/india-news/deepfake-scammers-trick-indian-man-into-transferring-money-police-investigating-multi-million-rupee-scam-101689622291654.html
+- Infosecurity Magazine (swept, 2026-11-17) — https://www.infosecurity-magazine.com/
+- Jalopnik (swept, 2026-11-17) — https://www.jalopnik.com/
+- Korea Herald (swept, 2026-11-17) — https://www.koreaherald.com/
+- Korea JoongAng Daily (swept, 2026-11-17) — https://www.koreajoongangdaily.com/
+- Krebs on Security (swept, 2026-11-17) — https://krebsonsecurity.com/
+- machine.net (swept, 2026-11-17) — https://machine.net/
+- Mothership.sg (swept, 2026-11-17) — https://mothership.sg/
+- NBC News (swept, 2026-11-17) — https://www.nbcnews.com/
+- Nikkei Asia (swept, 2026-11-17) — https://asia.nikkei.com/
+- NL Times (swept, 2026-11-17) — https://nltimes.nl/
+- NPR (swept, 2026-11-17) — https://www.npr.org/
+- Resultsense (swept, 2026-11-17) — https://www.resultsense.com/
+- Reuters (unreachable) — https://www.reuters.com/
+- Risky Business (swept, 2026-11-17) — https://risky.biz/
+- Risky Business (Risky Bulletin) (swept, 2026-11-17) — https://news.risky.biz/
+- SC Media (unreachable) — https://www.scworld.com/
+- Security Affairs (swept, 2026-11-17) — https://securityaffairs.com/
+- SecurityWeek (swept, 2026-11-17) — https://www.securityweek.com/
+- SiliconANGLE (swept, 2026-11-17) — https://siliconangle.com/
+- South China Morning Post (unreachable) — https://www.scmp.com/
+- South China Morning Post (cited) — https://www.scmp.com/news/hong-kong/law-and-crime/article/3232273/hong-kong-police-arrest-6-crackdown-fraud-syndicate-using-ai-deepfake-technology-apply-loans
+- South China Morning Post (cited) — https://www.scmp.com/news/hong-kong/law-and-crime/article/3282345/hong-kong-fraudsters-use-deepfake-tech-swindle-love-struck-men-out-hk360-million
+- Tech Wire Asia (swept, 2026-11-17) — https://techwireasia.com/
+- TechCrunch (swept, 2026-11-17) — https://techcrunch.com/
+- TechTimes (swept, 2026-11-17) — https://www.techtimes.com/
+- The Guardian (swept, 2026-11-17) — https://www.theguardian.com/
+- The Guardian (cited) — https://www.theguardian.com/world/2025/jan/14/french-tv-show-pulled-ridicule-woman-fell-ai-brad-pitt
+- The Hacker News (swept, 2026-11-17) — https://thehackernews.com/
+- The Hacker News (cited) — https://thehackernews.com/2025/09/cybercriminals-exploit-xs-grok-ai-to.html
+- The Pragmatic Engineer (swept, 2026-11-17) — https://newsletter.pragmaticengineer.com/
+- The Record (Recorded Future News) (swept, 2026-11-17) — https://therecord.media/
+- The Register (swept, 2026-11-17) — https://www.theregister.com/
+- The Standard (Hong Kong) and Hong Kong Government press releases (swept, 2026-11-17) — https://www.thestandard.com.hk/
+- The Star (swept, 2026-11-17) — https://www.thestar.com.my/tech/tech-news/2023/05/22/deepfake-scam-in-china-fans-worries-over-ai-driven-fraud
+- Victim post-mortems and primary vendor pages read as quote sources (swept, 2026-11-17) — https://blog.railway.com/
+- WIRED (swept, 2026-11-17) — https://www.wired.com/
+- Yahoo News (swept, 2026-11-17) — https://www.yahoo.com/
+- Yomiuri Shimbun (swept, 2026-11-17) — https://www.yomiuri.co.jp/national/20250227-OYT1T50322/
+
+## government
+
+- Australia ASD ACSC (swept, 2026-11-17) — https://www.cyber.gov.au/publication/annual-cyber-threat-report-2025-26/executive-summary
+- Canadian Centre for Cyber Security (swept, 2026-11-17) — https://www.cyber.gc.ca/en/guidance/national-cyber-threat-assessments
+- CERT-EU threat intelligence briefs (swept, 2026-11-17) — https://cert.europa.eu/publications/threat-intelligence/cb26-11
+- CISA (swept, 2026-11-17) — https://www.cisa.gov/
+- ENISA, BSI Germany, Taiwan, Netherlands, Israel INCD, India CERT-In, Singapore police, Viginum (unreachable) — https://www.enisa.europa.eu/topics/cyber-threats/threats-and-trends
+- Europol (IOCTA, operation press releases) (swept, 2026-11-17) — https://www.europol.europa.eu/media-press/newsroom
+- FBI IC3 (PSAs, FLASH, joint advisories) and CISA, NSA joint advisories (swept, 2026-11-17) — https://www.ic3.gov/CSA
+- France ANSSI and CERT-FR (swept, 2026-11-17) — https://www.cert.cyber.gouv.fr/uploads/CERTFR-2026-CTI-003.pdf
+- Hong Kong Government (cited) — https://www.info.gov.hk/
+- Hong Kong Police Force (via RTHK) (swept, 2026-11-17) — https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1868796-20260904.htm
+- Japan National Police Agency and Tokyo Metropolitan Police (via AFP) (swept, 2026-11-17) — https://www.arabnews.jp/en/business/man-arrested-in-japan-for-creating-malware-using-generative-ai-122855
+- Singapore Police Force (swept, 2026-11-17) — https://www.police.gov.sg/media-hub/news/2026/05/20260516_footage_from_zoom_video_conference_involving_impersonation_of_senior_government_officials
+- South Korean police, NIS and KISA (via ThaiCERT and JoongAng Daily) (swept, 2026-11-17) — https://www.koreajoongangdaily.com/korea/seven-arrested-for-using-generative-ai-to-hack-90-organizations/12938493
+- UK NCSC and National Crime Agency (swept, 2026-11-17) — https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027
+- Ukraine SSSCIP and CERT-UA (swept, 2026-11-17) — https://cip.gov.ua/en/statics/analitichni-materiali-derzhspeczv-yazku
+- US Department of the Treasury (OFAC press releases) (swept, 2026-11-17) — https://home.treasury.gov/news/press-releases
+
+## incident-database
+
+- AI Adoption: AI-Powered Cyber Attacks record (swept, 2026-11-17) — https://aiadoption.org/record/ai-powered-cyber-attacks/
+- AI Incident Database (Responsible AI Collaborative) (swept, 2026-11-17) — https://incidentdatabase.ai/
+- AI Risk Wire: AI cyberattacks register (swept, 2026-11-17) — https://airiskwire.com/incidents/ai-cyberattacks
+- AI Threat Watch case files (aithreat.io) (swept, 2026-11-17) — https://aithreat.io/cases/
+- AI Threat Watch wire (ai-threat.watch) attackers-using-AI feed (swept, 2026-11-17) — https://ai-threat.watch/ai-enabled/
+- Alignment Incident Database (swept, 2026-11-17) — https://mcscope.github.io/
+- CSIS Significant Cyber Incidents (swept, 2026-11-17) — https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents
+- Cybersecurity Tracker takedowns and arrests (swept, 2026-11-17) — https://cybersecuritytracker.ai/takedowns/
+- GuardionAI AI Incidents Database (swept, 2026-11-17) — https://guardion.ai/ai-incidents
+- MIT AI Risk Repository AI incidents (unreachable) — https://airisk.mit.edu/ai-incidents
+- MITRE ATLAS case studies (swept, 2026-11-17) — https://atlas.mitre.org/atlas-data/dist/v6/ATLAS-2026.07.yaml
+- NOPE AI incident tracker (swept, 2026-11-17) — https://nope.net/incidents
+- OECD AI Incidents and Hazards Monitor (swept, 2026-11-17) — https://oecd.ai/en/incidents
+- Resemble AI Global Deepfake and Agentic AI Incident Database (swept, 2026-11-17) — https://www.resemble.ai/learn/deepfake-incident-database/
+- Substrate datasets: Vulnerability & Breach Data ai-incidents and Offensive AI Harnesses (the maintainer's own) (swept, 2026-11-17) — https://github.com/danielmiessler/substrate/tree/main/Data/Vulnerability-And-Breach-Data
+- Tim McAllister AI cybersecurity incident dashboard (swept, 2026-11-17) — https://www.timmcallister.io/ai-incidents
+
+## model-provider
+
+- Amazon Threat Intelligence and AWS Security Blog (swept, 2026-11-17) — https://aws.amazon.com/blogs/security/tag/threat-intelligence/
+- Anthropic (swept, 2026-11-17) — https://www.anthropic.com/threat-intelligence
+- Google Threat Intelligence Group (GTIG) and Mandiant AI-misuse reports (swept, 2026-11-17) — https://cloud.google.com/blog/topics/threat-intelligence
+- Hugging Face security disclosure (swept, 2026-11-17) — https://huggingface.co/blog/security-incident-july-2026
+- Meta Adversarial Threat Reports (swept, 2026-11-17) — https://transparency.meta.com/metasecurity/threat-reporting
+- Microsoft (swept, 2026-11-17) — https://blogs.microsoft.com/
+- Microsoft Threat Intelligence, Digital Crimes Unit, Cyber Signals and Digital Defense Report (swept, 2026-11-17) — https://www.microsoft.com/en-us/security/blog/threat-intelligence/ai-threats/
+- OpenAI (swept, 2026-11-17) — https://openai.com/global-affairs/disrupting-malicious-uses-of-ai/
+- xAI, Mistral, DeepSeek, Alibaba, GitHub and ElevenLabs (abuse of their own systems) (unreachable) — https://elevenlabs.io/use-policy
+
+## regional-cert
+
+- CERT-EU (swept, 2026-11-17) — https://www.cert.europa.eu/blog/threat-landscape-report-2025
+- CERT-FR / ANSSI (swept, 2026-11-17) — https://cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-001/
+- CERT-In (CSIRT-Fin) (swept, 2026-11-17) — https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02&
+- CERT-UA (unreachable) — https://cert.gov.ua/
+- JPCERT/CC (swept, 2026-11-17) — https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html
+- KrCERT/CC (KISA) (swept, 2026-11-17) — https://www.krcert.or.kr/kr/bbs/list.do?menuNo=205020&bbsId=B0000133
+- NCSC (UK National Cyber Security Centre) (swept, 2026-11-17) — https://www.ncsc.gov.uk/
+- SingCERT / Cyber Security Agency of Singapore (swept, 2026-11-17) — https://www.csa.gov.sg/alerts-and-advisories/advisories/
+- ThaiCERT (swept, 2026-11-17) — https://www.thaicert.or.th/
+
+## academic
+
+- ACM IMC 2025: Do Spammers Dream of Electric Sheep (Columbia, Barracuda) (swept, 2026-11-17) — https://www.cs.columbia.edu/~junfeng/papers/ai-email/
+- arXiv cs.CR: LLM misuse papers (22 abstracts read) (swept, 2026-11-17) — https://arxiv.org/abs/2508.12622
+- USENIX Security 2024: Malla (swept, 2026-11-17) — https://www.usenix.org/conference/usenixsecurity24/presentation/lin-zilong
+
+## court-record
+
+- California Attorney General (complaint against OpenAI) (swept, 2026-11-17) — https://oag.ca.gov/media/news
+- US Department of Justice (press releases and indictments) (swept, 2026-11-17) — https://www.justice.gov/news/press-releases

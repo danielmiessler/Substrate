@@ -26,6 +26,7 @@ The Data directory contains curated, ground-truth datasets about important aspec
 | [US National Debt](./US-National-Debt/SUMMARY.md) | $39.93T gross (2026-08-14) | Three-quarters of US debt is held domestically; powers usdebt.io |
 | [US Long-Run Indicators](./US-Long-Run-Indicators/SUMMARY.md) | 51 primary-sourced series | Fifty years of US life in numbers; powers usstats.io with US-Societal-Health |
 | [Offensive AI Harnesses](./Offensive-AI-Harnesses/SUMMARY.md) | 14 of 154 seen in real attacks | Open-source offensive AI harnesses, which attackers used, and what each is used for; powers offsecharnesses.ai |
+| [AI Hacking Incidents](./AI-Hacking-Incidents/SUMMARY.md) | 286 incidents on file (145 Confirmed) | A count of published reports, not of attacks, each graded by the strength of the evidence of AI use; powers hackingincidents.ai |
 | [US Disease & Vaccination](./US-Disease-And-Vaccination/SUMMARY.md) | 35 primary-sourced series | Reported disease incidence 1950→, infectious-disease deaths 1900→, and vaccination coverage 1989→; powers the Disease & Vaccination section of usstats.io |
 
 ### Schema Structure
