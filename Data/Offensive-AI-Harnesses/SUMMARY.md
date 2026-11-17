@@ -6,12 +6,12 @@
 
 | Metric | Value | Confidence | Last Updated |
 |--------|-------|------------|--------------|
-| **Open-source offensive AI harnesses tracked** | **57** | 80% (roster is a floor: public GitHub, 100+ stars) | 2026-11-17 |
-| **Seen in real attacks (primary reporting)** | **11** (8 confirmed, 3 observed) | 90% (floor: only what a report names) | 2026-11-16 |
-| **Claim no more than recon or scanning** | **8** of 57 | 75% (each project's own README, untested) | 2026-11-17 |
-| **Primary reports behind the evidence** | **19** from 12 publishers | 95% | 2026-11-16 |
+| **Open-source offensive AI harnesses tracked** | **154** | 80% (roster is a floor: public GitHub, 100+ stars) | 2026-11-17 |
+| **Seen in real attacks (primary reporting)** | **14** (9 confirmed, 5 observed) | 90% (floor: only what a report names) | 2026-11-17 |
+| **Claim no more than recon or scanning** | **25** of 154 | 75% (each project's own README, untested) | 2026-11-17 |
+| **Primary reports behind the evidence** | **32** from 22 publishers | 95% | 2026-11-17 |
 
-**One-liner:** 11 of 57 open-source offensive AI harnesses have documented attacker use.
+**One-liner:** 14 of 154 open-source offensive AI harnesses have documented attacker use.
 
 **Caveat:** A harness with no attack on record has none in primary reporting, which does not mean none happened.
 
@@ -21,13 +21,13 @@
 
 | Tag | Harnesses | Meaning |
 |-----|-----------|---------|
-| Recon | 37 | Maps a target: subdomains, ports, services, assets, OSINT. |
-| Scanning | 36 | Runs existing scanners and security tools (nmap, nuclei, sqlmap and the like) and reads their output. |
-| Vuln discovery | 27 | Finds vulnerabilities by its own analysis: code review, fuzzing, logic, beyond a signature scanner. |
-| Exploitation | 38 | Attacks a live target to prove or use a weakness. |
-| Exploit dev | 20 | Writes exploits, proof-of-concept code or attack tooling. |
-| Post-exploitation | 21 | Works after access: credentials, privilege escalation, lateral movement, persistence, exfiltration. |
-| Research | 7 | Academic paper code, a benchmark, or a CTF research harness. |
+| Recon | 76 | Maps a target: subdomains, ports, services, assets, OSINT. |
+| Scanning | 56 | Runs existing scanners and security tools (nmap, nuclei, sqlmap and the like) and reads their output. |
+| Vuln discovery | 74 | Finds vulnerabilities by its own analysis: code review, fuzzing, logic, beyond a signature scanner. |
+| Exploitation | 59 | Attacks a live target to prove or use a weakness. |
+| Exploit dev | 36 | Writes exploits, proof-of-concept code or attack tooling. |
+| Post-exploitation | 42 | Works after access: credentials, privilege escalation, lateral movement, persistence, exfiltration. |
+| Research | 20 | Academic paper code, a benchmark, or a CTF research harness. |
 
 ## Seen in real attacks
 
@@ -35,14 +35,17 @@
 |---------|------|---------------------|--------|
 | ARTEX | confirmed | Recon, Exploitation, Post-exploitation | Yes |
 | Cairn | confirmed | Recon, Exploitation, Post-exploitation | Yes |
-| CyberStrikeAI | confirmed | Post-exploitation | Yes |
+| CyberStrikeAI | confirmed | Post-exploitation, Recon, Vuln discovery, Exploitation | Yes |
 | PentestGPT | confirmed | Scanning, Exploitation | Yes |
 | PentAGI | confirmed | Scanning, Exploitation, Post-exploitation | Yes |
 | OpenClaw | confirmed | Exploitation, Post-exploitation | Yes |
-| Hermes Agent | confirmed | Recon, Exploitation | Human only |
+| Hermes Agent | confirmed | Recon, Exploitation, Scanning, Post-exploitation | Yes |
 | oh-my-claudecode | confirmed | Scanning | Tooling |
+| Strix | confirmed | Vuln discovery, Scanning | Discovery only |
 | HexStrike AI | observed | Recon, Scanning | Not stated |
 | DeepAudit | observed | — | Not stated |
-| Strix | observed | Vuln discovery | Not stated |
+| AntiFox | observed | Exploitation, Post-exploitation | Associated |
+| CyberStrike | observed | Vuln discovery, Exploitation | Not stated |
+| HalberdStrike | observed | Recon, Vuln discovery | Not stated |
 
 Full rows: [harnesses.csv](./harnesses.csv) · sources: [sources.csv](./sources.csv) · method: [source.md](./source.md) · research: [research/offensive-ai-harnesses-2026-11](../../research/offensive-ai-harnesses-2026-11/README.md)

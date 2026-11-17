@@ -1,7 +1,7 @@
 {
  "name": "Offsec Harness Index",
  "url": "https://offsecharnesses.ai",
- "evidence_reviewed": "2026-11-16",
+ "evidence_reviewed": "2026-11-17",
  "github_facts": "2026-11-17",
  "tiers": {
   "confirmed": "A vendor, IR firm, CERT, government agency or AI lab shows the harness in a real operation.",
@@ -73,9 +73,17 @@
     {
      "name": "Unnamed actor",
      "note": "Chinese-speaking, financially motivated"
+    },
+    {
+     "name": "Onyx Sleet",
+     "note": "North Korean state actor (Microsoft)"
+    },
+    {
+     "name": "Pearl Sleet",
+     "note": "North Korean state actor (Microsoft)"
     }
    ],
-   "what_it_did": "One controller hit 200+ organizations in 11 days, with access confirmed at nine. Storm-0940 used it to try sign-ins at 2,250+ Microsoft 365 tenants. Zscaler tied a theft of personal data on about 67,000 people from South Korean financial firms to it.",
+   "what_it_did": "One controller hit 200+ organizations in 11 days, with access confirmed at nine. Storm-0940 used it to try sign-ins at 2,250+ Microsoft 365 tenants. Zscaler tied a theft of personal data on about 67,000 people from South Korean financial firms to it. Check Point read operator consoles: one operator stole 300+ iOS code-signing certificates. GMO found it on the attack infrastructure behind breaches of Japanese companies. Microsoft names two North Korean actors using it.",
    "key_figure": "200+ organizations targeted",
    "breach": "Yes",
    "uses": [
@@ -106,16 +114,22 @@
     "certin-2026-11",
     "fbi-2026-11",
     "gtig-2026-10",
-    "gtig-2026-11"
+    "gtig-2026-11",
+    "checkpoint-2026-11-05",
+    "datadog-2026-11-09",
+    "unit42-2026-11-11",
+    "amazon-2026-11-13",
+    "microsoft-2026-10-29",
+    "gmo-2026-10-19"
    ]
   },
   {
    "name": "Cairn",
    "table": "evidence",
    "tier": "confirmed",
-   "repo": null,
+   "repo": "https://github.com/oritera/Cairn",
    "description": "multi-agent pentest framework",
-   "stars": null,
+   "stars": 5299,
    "actors": [
     {
      "name": "CL-STA-1238",
@@ -124,10 +138,22 @@
     {
      "name": "CRAFTY FALCON",
      "note": "targets Indian financial firms"
+    },
+    {
+     "name": "Retail card-theft operator",
+     "note": "unnamed, financially motivated, prompts in Chinese"
+    },
+    {
+     "name": "AIA0001",
+     "note": "NorForge cluster: Chinese-language, e-commerce access"
+    },
+    {
+     "name": "AIA0002",
+     "note": "NorForge cluster: English-language, card and crypto theft"
     }
    ],
-   "what_it_did": "Given a domain and a one-line goal, ran 25 operations against at least 19 organizations, with access or data taken at 10. Google separately saw it used against a US aerospace target.",
-   "key_figure": "10 organizations breached",
+   "what_it_did": "Given a domain and a one-line goal, ran 25 operations against at least 19 organizations, with access or data taken at 10. Gambit counted 105 attack projects launched between 10 and 15 September and at least 27 companies compromised; NorForge found 20+ exposed panels and confirmed a live uploader web shell at a hardware-parts vendor. Google separately saw it used against a US aerospace target.",
+   "key_figure": "27+ companies compromised in one campaign",
    "breach": "Yes",
    "uses": [
     {
@@ -151,6 +177,8 @@
    ],
    "sources": [
     "unit42-2026-11",
+    "gambit-2026-09",
+    "norforge-2026-10",
     "gtig-2026-11",
     "certin-2026-11",
     "gtig-2026-10"
@@ -162,7 +190,7 @@
    "tier": "confirmed",
    "repo": "https://github.com/AIPentest/CyberStrikeAI",
    "description": "LLM orchestrator with a built-in C2",
-   "stars": 8737,
+   "stars": 8770,
    "actors": [
     {
      "name": "Unattributed operators",
@@ -171,9 +199,13 @@
     {
      "name": "CRAFTY FALCON",
      "note": "targets Indian financial firms"
+    },
+    {
+     "name": "Unattributed operator (Japan)",
+     "note": "TrendAI: Simplified-Chinese console, targets in Japan"
     }
    ],
-   "what_it_did": "Implant deployed on education-sector networks in Latin America and Africa. The operator set the plan; the model on the command server chose and issued the technical steps: credential dumping, lateral movement, DCSync and Golden Ticket attacks, then database export.",
+   "what_it_did": "Implant deployed on education-sector networks in Latin America and Africa. The operator set the plan; the model on the command server chose and issued the technical steps: credential dumping, lateral movement, DCSync and Golden Ticket attacks, then database export. TrendAI separately confirmed it running 44 agents against at least 19 organizations, 16 or more in Japan, in October; deep compromise reached only a small share. Team Cymru found its banner on an IP Amazon had published from an AI-augmented actor's infrastructure, with NetFlow to the FortiGate devices that actor targeted.",
    "key_figure": "3–4 days to domain admin",
    "breach": "Yes",
    "uses": [
@@ -185,9 +217,21 @@
     },
     {
      "tag": "recon",
-     "basis": "project docs",
-     "source": "https://github.com/AIPentest/CyberStrikeAI#readme",
-     "quote": "**Subdomain Enumeration** – subfinder, amass, findomain, dnsenum, fierce"
+     "basis": "attack report",
+     "source": "https://www.trendaisecurity.com/en-us/resources-insights/deep-research/not-only-artex-the-different-levels-ai-is-used-in-attacks-targeting-japan",
+     "quote": "Reconnaissance, vulnerability discovery and validation, exploitation, command and control (C2), persistence, data exfiltration, and automated reporting formed a single, repeatable workflow."
+    },
+    {
+     "tag": "vuln",
+     "basis": "attack report",
+     "source": "https://www.trendaisecurity.com/en-us/resources-insights/deep-research/not-only-artex-the-different-levels-ai-is-used-in-attacks-targeting-japan",
+     "quote": "Reconnaissance, vulnerability discovery and validation, exploitation, command and control (C2), persistence, data exfiltration, and automated reporting formed a single, repeatable workflow."
+    },
+    {
+     "tag": "exploit",
+     "basis": "attack report",
+     "source": "https://www.trendaisecurity.com/en-us/resources-insights/deep-research/not-only-artex-the-different-levels-ai-is-used-in-attacks-targeting-japan",
+     "quote": "Reconnaissance, vulnerability discovery and validation, exploitation, command and control (C2), persistence, data exfiltration, and automated reporting formed a single, repeatable workflow."
     },
     {
      "tag": "scan",
@@ -197,7 +241,9 @@
     }
    ],
    "sources": [
+    "teamcymru-2026-03",
     "kaspersky-2026-11",
+    "trendai-2026-10",
     "certin-2026-11",
     "gtig-2026-11"
    ]
@@ -208,7 +254,7 @@
    "tier": "confirmed",
    "repo": "https://github.com/GreyDGL/PentestGPT",
    "description": "autonomous pentest agent",
-   "stars": 16452,
+   "stars": 16468,
    "actors": [
     {
      "name": "UAT-10147",
@@ -265,7 +311,7 @@
    "tier": "confirmed",
    "repo": "https://github.com/vxcontrol/pentagi",
    "description": "multi-agent pentest system",
-   "stars": 34324,
+   "stars": 34425,
    "actors": [
     {
      "name": "GTG-50020",
@@ -316,7 +362,7 @@
    "tier": "confirmed",
    "repo": "https://github.com/openclaw/openclaw",
    "description": "general-purpose agent",
-   "stars": 394613,
+   "stars": 394668,
    "actors": [
     {
      "name": "Unnamed operator",
@@ -354,17 +400,29 @@
    "table": "evidence",
    "tier": "confirmed",
    "repo": "https://github.com/NousResearch/hermes-agent",
-   "description": "on DeepSeek, run over Telegram",
-   "stars": 264001,
+   "description": "open-source autonomous agent with memory and self-written skills",
+   "stars": 264174,
    "actors": [
     {
      "name": "knaithe / KnYuan",
      "note": "Chinese-speaking"
+    },
+    {
+     "name": "Retail card-theft operator",
+     "note": "unnamed, financially motivated, prompts in Chinese"
+    },
+    {
+     "name": "Silent Lynx",
+     "note": "Central Asia espionage cluster, medium-confidence Kazakhstan link"
+    },
+    {
+     "name": "BOSSAI operator",
+     "note": "lone operator; Acronis found no clear affiliation"
     }
    ],
-   "what_it_did": "Recon and exploit attempts against Langflow and n8n. The agent’s exploits failed; a Citrix exploit run by hand got in.",
-   "key_figure": "0 agent exploits landed",
-   "breach": "Human only",
+   "what_it_did": "Four operations. Unit 42: exploit attempts against Langflow and n8n failed and a Citrix exploit run by hand got in. Gambit: the operator's console in a retail card-theft campaign. Acronis: the main attack agent in a lone operator's 12-agent mesh, extracting data at a Thai university. CloudSEK: handled recon, collection and log cleanup for an espionage cluster inside Tajikistan’s railway network.",
+   "key_figure": "4 operations reported",
+   "breach": "Yes",
    "uses": [
     {
      "tag": "recon",
@@ -377,10 +435,25 @@
      "basis": "attack report",
      "source": "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/",
      "quote": "Their Hermes Agent conducted autonomous vulnerability enumeration, downloaded public exploit code from the internet and attempted exploits against targets."
+    },
+    {
+     "tag": "scan",
+     "basis": "attack report",
+     "source": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/",
+     "quote": "It began by enumerating over 50 subdomains of the target institution, then launched concurrent scans with nmap, nikto, ffuf, gobuster, and dirsearch (via the Kali MCP)."
+    },
+    {
+     "tag": "postex",
+     "basis": "attack report",
+     "source": "https://www.cloudsek.com/blog/off-the-rails-inside-an-exposed-silent-lynx-server",
+     "quote": "The railway intrusion folder includes a handoff file written for the agent, describing the working EDO login chain so the agent could continue collection without the operator."
     }
    ],
    "sources": [
-    "unit42-2026-07"
+    "unit42-2026-07",
+    "gambit-2026-09",
+    "acronis-2026-11",
+    "cloudsek-2026-11"
    ]
   },
   {
@@ -389,7 +462,7 @@
    "tier": "confirmed",
    "repo": "https://github.com/Yeachan-Heo/oh-my-claudecode",
    "description": "add-on layer for Claude Code",
-   "stars": 40879,
+   "stars": 40899,
    "actors": [
     {
      "name": "Zerofot"
@@ -411,19 +484,87 @@
    ]
   },
   {
+   "name": "Strix",
+   "table": "evidence",
+   "tier": "confirmed",
+   "repo": "https://github.com/usestrix/strix",
+   "description": "multi-agent pentest framework",
+   "stars": 76295,
+   "actors": [
+    {
+     "name": "Suspected China-linked actor",
+     "note": "plus an attacker on hijacked AI servers"
+    },
+    {
+     "name": "Retail card-theft operator",
+     "note": "unnamed, financially motivated, prompts in Chinese"
+    }
+   ],
+   "what_it_did": "In GTIG's suspected China-linked campaign, validated vulnerabilities. A honeypot caught it aimed at a live French shop with no permission prompts. Gambit saw it run 146 times against 138 hosts as the vulnerability-search stage of a retail card-theft operation, and some of its reports opened the next stage of exploitation, handed to Cairn.",
+   "key_figure": "2,000+ unattended steps",
+   "breach": "Discovery only",
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "attack report",
+     "source": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
+     "quote": "Simultaneously, the actor leveraged Strix, a multi-agent penetration testing framework, to automate the identification and validation of vulnerabilities."
+    },
+    {
+     "tag": "scan",
+     "basis": "attack report",
+     "source": "https://gambit.security/blog-posts/autonomous-ai-agents-online-retailers-25-a-company",
+     "quote": "Strix is an open source AI penetration testing tool. Between 23 and 31 August 2026 Strix was run 146 times in “deep mode” against 138 hosts, accounting for 633 hours of scanner time in 195 hours of clock time."
+    },
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/usestrix/strix#readme",
+     "quote": "**Reconnaissance & OSINT** - Automated attack surface mapping, subdomain enumeration, and fingerprinting"
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/usestrix/strix#readme",
+     "quote": "**Real exploit validation** - working PoCs, not false positives like legacy vulnerability scanners"
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/usestrix/strix#readme",
+     "quote": "**Custom Exploit Runtime** - Python sandbox for writing and validating proof-of-concept exploits"
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/usestrix/strix#readme",
+     "quote": "**Shell & Command Execution** - Interactive terminal for exploit development and post-exploitation"
+    }
+   ],
+   "sources": [
+    "gtig-2026-05",
+    "zenity-2026-06",
+    "gambit-2026-09"
+   ]
+  },
+  {
    "name": "HexStrike AI",
    "table": "evidence",
    "tier": "observed",
    "repo": "https://github.com/0x4m4/hexstrike-ai",
    "description": "MCP server wrapping 150+ offensive tools",
-   "stars": 13675,
+   "stars": 13695,
    "actors": [
     {
      "name": "Suspected China-linked actor",
      "note": "the same actor as the Strix case"
+    },
+    {
+     "name": "BOSSAI operator",
+     "note": "lone operator; Acronis found no clear affiliation"
     }
    ],
-   "what_it_did": "Moved between recon tools on its own against a Japanese tech firm and an East Asian security company. Google listed it among frameworks abused in incident response in October, then described what it had seen of HexStrike as experimentation in November.",
+   "what_it_did": "Moved between recon tools on its own against a Japanese tech firm and an East Asian security company. Google listed it among frameworks abused in incident response in October, then described what it had seen of HexStrike as experimentation in November. Acronis found it installed as an MCP tool server on a lone operator's attack node and wired into every agent that needed it; the report ties no breach to it.",
    "key_figure": "2 named targets",
    "breach": "Not stated",
    "uses": [
@@ -455,7 +596,8 @@
    "sources": [
     "gtig-2026-05",
     "gtig-2026-10",
-    "gtig-2026-11"
+    "gtig-2026-11",
+    "acronis-2026-11"
    ]
   },
   {
@@ -464,7 +606,7 @@
    "tier": "observed",
    "repo": "https://github.com/lintsinghua/DeepAudit",
    "description": "multi-agent source-code auditor",
-   "stars": 7310,
+   "stars": 7317,
    "actors": [
     {
      "name": "UAT-10147",
@@ -505,56 +647,111 @@
    ]
   },
   {
-   "name": "Strix",
+   "name": "AntiFox",
    "table": "evidence",
    "tier": "observed",
-   "repo": "https://github.com/usestrix/strix",
-   "description": "multi-agent pentest framework",
-   "stars": 76129,
+   "repo": "https://github.com/AntiFox-AI/antifox",
+   "description": "ARTEX derivative; Chinese-language agentic pentest platform",
+   "stars": 748,
    "actors": [
     {
-     "name": "Suspected China-linked actor",
-     "note": "plus an attacker on hijacked AI servers"
+     "name": "Unattributed AntiFox operators",
+     "note": "Arctic Wolf names no actor; AntiFox hosted on Alibaba Cloud"
     }
    ],
-   "what_it_did": "Validated vulnerabilities in the same campaign. A honeypot caught it aimed at a live French shop with no permission prompts.",
-   "key_figure": "2,000+ unattended steps",
+   "what_it_did": "Infrastructure hosting AntiFox on Alibaba Cloud was “associated with” confirmed intrusions: a web exploit, an IIS web shell, AWS credential checks and a successful read of a production secret. Arctic Wolf ties the activity to the infrastructure, not to the tool itself.",
+   "key_figure": "1+ production secret read",
+   "breach": "Associated",
+   "uses": [
+    {
+     "tag": "exploit",
+     "basis": "attack report",
+     "source": "https://github.com/rtkwlf/wolf-tools/tree/main/pack_alerts/202611-antifox-alibaba-hosted-platforms-facilitate-web-cloud-intrusions",
+     "quote": "In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against internet-facing web services and associated AWS environments."
+    },
+    {
+     "tag": "postex",
+     "basis": "attack report",
+     "source": "https://github.com/rtkwlf/wolf-tools/tree/main/pack_alerts/202611-antifox-alibaba-hosted-platforms-facilitate-web-cloud-intrusions",
+     "quote": "Activity eventually progressed to a successful GetSecretValue request against a production secret."
+    }
+   ],
+   "sources": [
+    "arcticwolf-2026-11"
+   ]
+  },
+  {
+   "name": "CyberStrike",
+   "table": "evidence",
+   "tier": "observed",
+   "repo": "https://github.com/CyberStrikeus/CyberStrike",
+   "description": "open-source AI pentest agent; not CyberStrikeAI",
+   "stars": 3615,
+   "actors": [
+    {
+     "name": "BOSSAI operator",
+     "note": "lone operator; Acronis found no clear affiliation"
+    }
+   ],
+   "what_it_did": "One agent in a lone operator's 12-agent attack mesh. Acronis says it appears to have run vulnerability assessments and exploitation attempts against live targets, but its outputs could not be verified.",
+   "key_figure": "1 of 12 agents in the operator's mesh",
    "breach": "Not stated",
    "uses": [
     {
      "tag": "vuln",
      "basis": "attack report",
-     "source": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
-     "quote": "Simultaneously, the actor leveraged Strix, a multi-agent penetration testing framework, to automate the identification and validation of vulnerabilities."
+     "source": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/",
+     "quote": "Unlike some of the other agents, CyberStrike appears to have run both vulnerability assessments and exploitation attempts against live targets, though its session data was stored server-side and its specific outputs could not be independently verified from the captured corpus."
+    },
+    {
+     "tag": "exploit",
+     "basis": "attack report",
+     "source": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/",
+     "quote": "Unlike some of the other agents, CyberStrike appears to have run both vulnerability assessments and exploitation attempts against live targets, though its session data was stored server-side and its specific outputs could not be independently verified from the captured corpus."
     },
     {
      "tag": "recon",
      "basis": "project docs",
-     "source": "https://github.com/usestrix/strix#readme",
-     "quote": "**Reconnaissance & OSINT** - Automated attack surface mapping, subdomain enumeration, and fingerprinting"
-    },
-    {
-     "tag": "exploit",
-     "basis": "project docs",
-     "source": "https://github.com/usestrix/strix#readme",
-     "quote": "**Real exploit validation** - working PoCs, not false positives like legacy vulnerability scanners"
-    },
-    {
-     "tag": "exploitdev",
-     "basis": "project docs",
-     "source": "https://github.com/usestrix/strix#readme",
-     "quote": "**Custom Exploit Runtime** - Python sandbox for writing and validating proof-of-concept exploits"
-    },
-    {
-     "tag": "postex",
-     "basis": "project docs",
-     "source": "https://github.com/usestrix/strix#readme",
-     "quote": "**Shell & Command Execution** - Interactive terminal for exploit development and post-exploitation"
+     "source": "https://github.com/CyberStrikeus/CyberStrike#readme",
+     "quote": "Point it at a target. CyberStrike runs reconnaissance, finds attack surfaces, tests for vulnerabilities, and delivers a report — each finding with severity, proof-of-concept requests, CWE mapping, and remediation steps."
     }
    ],
    "sources": [
-    "gtig-2026-05",
-    "zenity-2026-06"
+    "acronis-2026-11"
+   ]
+  },
+  {
+   "name": "HalberdStrike",
+   "table": "evidence",
+   "tier": "observed",
+   "repo": "https://github.com/kuaiyelink/HalberdStrike",
+   "description": "pentest harness based on PentestGPT",
+   "stars": 6,
+   "actors": [
+    {
+     "name": "BOSSAI operator",
+     "note": "lone operator; Acronis found no clear affiliation"
+    }
+   ],
+   "what_it_did": "Mapped the attack surface across at least 20 projects, from a Taiwanese emergency-services portal to 50+ commercial sites, and passed its reports to other agents for exploitation. Over half its high and critical findings were false positives or misclassifications.",
+   "key_figure": "20+ projects mapped",
+   "breach": "Not stated",
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "attack report",
+     "source": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/",
+     "quote": "HalberdStrike was used across at least 20 distinct projects, from a single Taiwanese emergency-services portal to a batch of over 50 commercial websites, to map out the potential attack surface of various targets, resulting in pentesting reports that were then passed on to other agents for exploitation."
+    },
+    {
+     "tag": "vuln",
+     "basis": "attack report",
+     "source": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/",
+     "quote": "In one documented example, HalberdStrike scanned a Taiwanese emergency services target and generated a penetration-testing report documenting several misconfigurations."
+    }
+   ],
+   "sources": [
+    "acronis-2026-11"
    ]
   },
   {
@@ -564,7 +761,7 @@
    "repo": "https://github.com/KeygraphHQ/shannon",
    "description": "AI pentester for web apps and APIs. Reads the source, then attacks the running app to prove each finding.",
    "kind": "Pentest agent",
-   "stars": 51995,
+   "stars": 52013,
    "license": "AGPL-3.0",
    "last_push": "2026-11-16",
    "archived": false,
@@ -597,13 +794,40 @@
    "note": null
   },
   {
+   "name": "reverse-skill",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/zhaoxuya520/reverse-skill",
+   "description": "Skill router that sends AI coding agents to reverse-engineering, pentest and CTF toolchains.",
+   "kind": "Skill pack",
+   "stars": 44828,
+   "license": "MIT",
+   "last_push": "2026-11-14",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/zhaoxuya520/reverse-skill#readme",
+     "quote": "| Pwn / exploit development | `skills/pwn-chain/` |"
+    },
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/zhaoxuya520/reverse-skill#readme",
+     "quote": "| CTF competition | `CTF-Sandbox-Orchestrator/` (42 sub-skills) |"
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "Agent Zero",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/agent0ai/agent-zero",
    "description": "General agent framework that writes and runs its own code and tools.",
    "kind": "General agent",
-   "stars": 19887,
+   "stars": 19899,
    "license": "MIT",
    "last_push": "2026-11-17",
    "archived": false,
@@ -621,9 +845,9 @@
    "repo": "https://github.com/SnailSploit/Claude-Red",
    "description": "Library of offensive security skills for the Claude skills system.",
    "kind": "Skill pack",
-   "stars": 11142,
+   "stars": 11173,
    "license": "MIT",
-   "last_push": "2026-11-11",
+   "last_push": "2026-11-17",
    "archived": false,
    "uses": [
     {
@@ -666,9 +890,9 @@
    "repo": "https://github.com/elementalsouls/Claude-BugHunter",
    "description": "Claude Code skill bundle for bug hunting and external red-team work.",
    "kind": "Skill pack",
-   "stars": 7718,
+   "stars": 8897,
    "license": "MIT",
-   "last_push": "2026-11-16",
+   "last_push": "2026-11-17",
    "archived": false,
    "uses": [
     {
@@ -705,7 +929,7 @@
    "repo": "https://github.com/elder-plinius/T3MP3ST",
    "description": "Autonomous red-teaming platform: a multi-agent offensive meta-harness.",
    "kind": "Red-team platform",
-   "stars": 7066,
+   "stars": 7070,
    "license": "AGPL-3.0",
    "last_push": "2026-09-08",
    "archived": false,
@@ -750,7 +974,7 @@
    "repo": "https://github.com/BitterSecurity/Decepticon",
    "description": "Autonomous hacking agent for red teams.",
    "kind": "Red-team platform",
-   "stars": 6626,
+   "stars": 6634,
    "license": "Apache-2.0",
    "last_push": "2026-11-17",
    "archived": false,
@@ -789,7 +1013,7 @@
    "repo": "https://github.com/awarexone/Agentic-Bug-Hunter",
    "description": "AI bug-bounty hunting toolkit.",
    "kind": "Bug-bounty agent",
-   "stars": 5941,
+   "stars": 5968,
    "license": "MIT",
    "last_push": "2026-11-12",
    "archived": false,
@@ -828,40 +1052,121 @@
    "note": null
   },
   {
-   "name": "CyberStrike",
+   "name": "METATRON",
    "table": "field",
    "tier": "no attack on record",
-   "repo": "https://github.com/CyberStrikeus/CyberStrike",
-   "description": "Offensive security harness for automated penetration testing. A different project from CyberStrikeAI.",
+   "repo": "https://github.com/sooryathejas/METATRON",
+   "description": "Local-LLM pentest assistant that runs recon tools and has the model analyze the results.",
    "kind": "Pentest agent",
-   "stars": 3607,
-   "license": "AGPL-3.0",
-   "last_push": "2026-11-16",
+   "stars": 4281,
+   "license": "MIT",
+   "last_push": "2026-04-11",
    "archived": false,
    "uses": [
     {
      "tag": "recon",
      "basis": "project docs",
-     "source": "https://github.com/CyberStrikeus/CyberStrike#readme",
-     "quote": "reconnaissance, vulnerability discovery, exploitation, and reporting from your terminal."
+     "source": "https://github.com/sooryathejas/METATRON#readme",
+     "quote": "🔍 **Automated Recon** — nmap, whois, whatweb, curl headers, dig DNS, nikto"
     },
     {
      "tag": "scan",
      "basis": "project docs",
-     "source": "https://github.com/CyberStrikeus/CyberStrike#readme",
-     "quote": "Bolt** runs your security tools on remote servers. Deploy on any VPS or Docker container, pair with Ed25519 keys, and control from your terminal. One CyberStrike instance orchestrates many Bolt servers — each with its"
+     "source": "https://github.com/sooryathejas/METATRON#readme",
+     "quote": "It runs real recon tools (nmap, whois, whatweb, curl, dig, nikto), feeds all results to a locally running AI model, and the AI analyzes the target, identifies vulnerabilities, suggests exploits, and recommends fixes."
     },
     {
      "tag": "vuln",
      "basis": "project docs",
-     "source": "https://github.com/CyberStrikeus/CyberStrike#readme",
-     "quote": "Point it at a target. CyberStrike runs reconnaissance, finds attack surfaces, tests for vulnerabilities, and delivers a report — each finding with severity, proof-of-concept requests, CWE mapping, and remediation steps."
+     "source": "https://github.com/sooryathejas/METATRON#readme",
+     "quote": "It runs real recon tools (nmap, whois, whatweb, curl, dig, nikto), feeds all results to a locally running AI model, and the AI analyzes the target, identifies vulnerabilities, suggests exploits, and recommends fixes."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "RAPTOR",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/gadievron/raptor",
+   "description": "Claude Code set up as an offensive and defensive security research agent.",
+   "kind": "Code auditor",
+   "stars": 4032,
+   "license": "MIT",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/gadievron/raptor#readme",
+     "quote": "It chains together static analysis, binary analysis, LLM-powered vulnerability validation, exploit generation, and patch writing into a single workflow you can run against a codebase or binary."
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/gadievron/raptor#readme",
+     "quote": "It chains together static analysis, binary analysis, LLM-powered vulnerability validation, exploit generation, and patch writing into a single workflow you can run against a codebase or binary."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "VulnClaw",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/Netw0rkNoob/VulnClaw",
+   "description": "Chinese-language pentest CLI agent that takes a target from recon through exploitation to a report.",
+   "kind": "Pentest agent",
+   "stars": 3937,
+   "license": "MIT",
+   "last_push": "2026-10-30",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/Netw0rkNoob/VulnClaw#readme",
+     "quote": "基于 LLM Agent + MCP 工具链 + 可选 Skill 参考资料， 配合 OpenAI / Anthropic / MiniMax / DeepSeek 等兼容模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。"
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/Netw0rkNoob/VulnClaw#readme",
+     "quote": "基于 LLM Agent + MCP 工具链 + 可选 Skill 参考资料， 配合 OpenAI / Anthropic / MiniMax / DeepSeek 等兼容模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。"
     },
     {
      "tag": "exploit",
      "basis": "project docs",
-     "source": "https://github.com/CyberStrikeus/CyberStrike#readme",
-     "quote": "reconnaissance, vulnerability discovery, exploitation, and reporting from your terminal."
+     "source": "https://github.com/Netw0rkNoob/VulnClaw#readme",
+     "quote": "基于 LLM Agent + MCP 工具链 + 可选 Skill 参考资料， 配合 OpenAI / Anthropic / MiniMax / DeepSeek 等兼容模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。"
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/Netw0rkNoob/VulnClaw#readme",
+     "quote": "**自动报告 & PoC** — 生成结构化 Markdown 报告和可运行的 Python PoC 脚本"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "ctf-skills",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/ljagiello/ctf-skills",
+   "description": "Agent skills for solving CTF challenges across web, pwn, crypto, reversing and forensics.",
+   "kind": "Skill pack",
+   "stars": 3730,
+   "license": "MIT",
+   "last_push": "2026-11-15",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/ljagiello/ctf-skills#readme",
+     "quote": "[Agent Skills](https://agentskills.io) for solving CTF challenges — web exploitation, binary pwn, crypto, reverse engineering, forensics, OSINT, and more."
     }
    ],
    "note": null
@@ -873,7 +1178,7 @@
    "repo": "https://github.com/samugit83/redamon",
    "description": "Self-hosted pentest framework that maps the attack surface into a graph and works it autonomously.",
    "kind": "Pentest agent",
-   "stars": 3423,
+   "stars": 3428,
    "license": "MIT",
    "last_push": "2026-11-14",
    "archived": false,
@@ -912,7 +1217,7 @@
    "repo": "https://github.com/GH05TCREW/pentestagent",
    "description": "Agent framework for black-box testing: bug bounty, red team and pentest.",
    "kind": "Pentest agent",
-   "stars": 3304,
+   "stars": 3307,
    "license": "MIT",
    "last_push": "2026-11-09",
    "archived": false,
@@ -939,7 +1244,7 @@
    "repo": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
    "description": "Swarm of agents that runs recon, classification and exploitation.",
    "kind": "Pentest agent",
-   "stars": 3242,
+   "stars": 3248,
    "license": "AGPL-3.0",
    "last_push": "2026-11-13",
    "archived": false,
@@ -978,13 +1283,34 @@
    "note": null
   },
   {
+   "name": "Claude-OSINT",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/elementalsouls/Claude-OSINT",
+   "description": "Eight Claude skills that prime the model with offensive recon methodology: asset discovery and exposure checks.",
+   "kind": "Skill pack",
+   "stars": 3067,
+   "license": "MIT",
+   "last_push": "2026-10-20",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/elementalsouls/Claude-OSINT#readme",
+     "quote": "Each skill is a structured `SKILL.md` file that primes Claude with expert-level methodology for one part of the offensive recon problem."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "Vulnhuntr",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/protectai/vulnhuntr",
    "description": "Zero-shot vulnerability discovery with LLMs: traces code paths to find remotely exploitable bugs.",
    "kind": "Code auditor",
-   "stars": 2821,
+   "stars": 2824,
    "license": "AGPL-3.0",
    "last_push": "2025-02-06",
    "archived": false,
@@ -1005,13 +1331,34 @@
    "note": null
   },
   {
+   "name": "hack-skills",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/yaklang/hack-skills",
+   "description": "Knowledge base of 102 hacking skills that AI agents load, covering web, AD, pwn and mobile.",
+   "kind": "Skill pack",
+   "stars": 2667,
+   "license": "MIT",
+   "last_push": "2026-09-13",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/yaklang/hack-skills#readme",
+     "quote": "| [linux-lateral-movement](./skills/linux-lateral-movement/SKILL.md) | SSH key harvesting, credential reuse, service exploitation, NFS/shared mount abuse, cron-based persistence |"
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "pentest-ai-agents",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/0xSteph/pentest-ai-agents",
    "description": "Offensive-security subagents for Claude Code.",
    "kind": "Skill pack",
-   "stars": 2454,
+   "stars": 2455,
    "license": "MIT",
    "last_push": "2026-10-06",
    "archived": false,
@@ -1056,13 +1403,97 @@
    "note": null
   },
   {
+   "name": "Open Kritt",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/Kritt-ai/open-kritt",
+   "description": "Self-hosted platform that orchestrates AI agents to find and validate vulnerabilities in code.",
+   "kind": "Code auditor",
+   "stars": 2430,
+   "license": "AGPL-3.0",
+   "last_push": "2026-11-16",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/Kritt-ai/open-kritt#readme",
+     "quote": "**Orchestrate AI agents to find real vulnerabilities in code.**"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Deep Eye",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/zakirkun/deep-eye",
+   "description": "Pentest tool that has LLMs generate payloads and scan targets for 50+ vulnerability types.",
+   "kind": "Pentest agent",
+   "stars": 2375,
+   "license": "MIT",
+   "last_push": "2026-10-30",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/zakirkun/deep-eye#readme",
+     "quote": "Deep Eye orchestrates multiple AI providers (OpenAI, Claude, Grok, Gemini, OLLAMA, Groq, Mistral, OpenRouter, OrcaRouter, LiteLLM, LM Studio) for intelligent payload generation, scans targets for **50+** vulnerability checks, and produces professional reports with compliance mapping, dedupe, and retest workflows."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "sapper",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/N1nEmAn/sapper-v2",
+   "description": "Multi-agent pentest orchestration harness that won a Tencent Cloud attack-defense challenge qualifier.",
+   "kind": "Pentest agent",
+   "stars": 2305,
+   "license": "MIT",
+   "last_push": "2026-11-11",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/N1nEmAn/sapper-v2#readme",
+     "quote": "**This project is designed for competition scenarios** (Tencent Intelligent Attack-Defense Challenge CTF)."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "emp3r0r",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/jm33-m0/emp3r0r",
+   "description": "Linux-first post-exploitation C2 whose MCP server lets an AI harness operate it in natural language.",
+   "kind": "C2 with MCP",
+   "stars": 2110,
+   "license": "GPL-3.0",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/jm33-m0/emp3r0r#readme",
+     "quote": "Over time it grew into a multi-operator C2 featuring modular Go and C agents, a self-healing P2P mesh, in-memory execution across Linux and Windows, and an OPSEC-screened MCP server that lets operators turn their own private AI harness into a fully interactive, natural-language C2 interface."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "pentest-ai",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/0xSteph/pentest-ai",
    "description": "AI pentester that re-runs each exploit to prove the finding.",
    "kind": "Pentest agent",
-   "stars": 1839,
+   "stars": 1841,
    "license": "MIT",
    "last_push": "2026-11-16",
    "archived": false,
@@ -1083,13 +1514,40 @@
    "note": null
   },
   {
+   "name": "Burp AI Agent",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/six2dez/burp-ai-agent",
+   "description": "Burp Suite extension that adds AI scanners and an MCP bridge for AI agents.",
+   "kind": "MCP server",
+   "stars": 1594,
+   "license": "MIT",
+   "last_push": "2026-10-21",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/six2dez/burp-ai-agent#readme",
+     "quote": "Use local models or cloud providers, connect external AI agents via MCP, and let passive/active scanners find vulnerabilities while you focus on manual testing."
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/six2dez/burp-ai-agent#readme",
+     "quote": "Use local models or cloud providers, connect external AI agents via MCP, and let passive/active scanners find vulnerabilities while you focus on manual testing."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "Pentest Copilot",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/bugbasesecurity/pentest-copilot",
    "description": "Browser-based AI assistant for ethical hacking.",
    "kind": "Assistant",
-   "stars": 1562,
+   "stars": 1563,
    "license": "MIT",
    "last_push": "2026-08-14",
    "archived": false,
@@ -1173,7 +1631,7 @@
    "repo": "https://github.com/SanMuzZzZz/LuaN1aoAgent",
    "description": "Fully autonomous pentest agent built on graph-based reasoning.",
    "kind": "Pentest agent",
-   "stars": 1483,
+   "stars": 1486,
    "license": "AGPL-3.0",
    "last_push": "2026-09-15",
    "archived": false,
@@ -1194,15 +1652,63 @@
    "note": null
   },
   {
+   "name": "PentesterFlow",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/PentesterFlow/agent",
+   "description": "Terminal pentest agent with skills, a Burp bridge and coverage tracking that keeps the analyst in control.",
+   "kind": "Pentest agent",
+   "stars": 1457,
+   "license": "Apache-2.0",
+   "last_push": "2026-08-31",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/PentesterFlow/agent#readme",
+     "quote": "PentesterFlow helps security engineers move through recon, enumeration, validation, evidence collection, and reporting while keeping the analyst in control."
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/PentesterFlow/agent#readme",
+     "quote": "| Generic AI workflows | Built-in pentest skills for recon, web vulns, SSRF, SSTI, JWT, GraphQL, race, takeover, Supabase, and deserialization. |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "recon-skills",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/uphiago/recon-skills",
+   "description": "Skill pack for agents covering external recon, web and API testing, validation and attack paths.",
+   "kind": "Skill pack",
+   "stars": 1385,
+   "license": "MIT",
+   "last_push": "2026-11-07",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/uphiago/recon-skills#readme",
+     "quote": "A curated pack of security skills for external reconnaissance, web applications, APIs, authentication, vulnerability validation, attack-path analysis, and reporting."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "Xalgorix",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/xalgorix/xalgorix",
    "description": "Pentest agent that exploit-verifies every finding across a 22-phase run.",
    "kind": "Pentest agent",
-   "stars": 1363,
+   "stars": 1366,
    "license": "Apache-2.0",
-   "last_push": "2026-11-16",
+   "last_push": "2026-11-17",
    "archived": false,
    "uses": [
     {
@@ -1239,7 +1745,7 @@
    "repo": "https://github.com/ipa-lab/hackingBuddyGPT",
    "description": "Research framework for building LLM hacking agents in 50 lines or less.",
    "kind": "Research framework",
-   "stars": 1332,
+   "stars": 1333,
    "license": "MIT",
    "last_push": "2026-10-24",
    "archived": false,
@@ -1278,7 +1784,7 @@
    "repo": "https://github.com/ASCIT31/Dark-Moon",
    "description": "Autonomous pentesting with 50 specialist agents across web, API, cloud and Active Directory.",
    "kind": "Pentest agent",
-   "stars": 1251,
+   "stars": 1259,
    "license": "GPL-3.0",
    "last_push": "2026-10-27",
    "archived": false,
@@ -1311,6 +1817,54 @@
    "note": null
   },
   {
+   "name": "AutoCVE",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/larlarua/AutoCVE",
+   "description": "Chinese-language agent platform that audits source code for vulnerabilities and drafts CVE reports.",
+   "kind": "Code auditor",
+   "stars": 1229,
+   "license": "AGPL-3.0",
+   "last_push": "2026-10-01",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/larlarua/AutoCVE#readme",
+     "quote": "实现从项目筛选、仓库导入、审计任务创建、Agent 漏洞挖掘到 CVE 申报报告生成的全流程自动化。用户仅需复制报告内容并提交，即可完成后续 CVE 申请。"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "VulnHunter (Capital One)",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/capitalone/VulnHunter",
+   "description": "Agentic source-code hunter that reasons like an adversary and drops findings it cannot prove exploitable.",
+   "kind": "Code auditor",
+   "stars": 1180,
+   "license": "Apache-2.0",
+   "last_push": "2026-10-07",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/capitalone/VulnHunter#readme",
+     "quote": "VulnHunter is an open-source, **agentic AI security tool** that applies proactive, attacker-first analysis directly to source code."
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/capitalone/VulnHunter#readme",
+     "quote": "| **`/vulnhunter-fix`** | **Fix** | Developer-led, test-driven remediation. It writes an exploit demo, creates a failing security test (**RED**), implements the code fix (**GREEN**), verifies the exploit is blocked without regressions, and cuts a reviewable PR. |"
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "Nebula",
    "table": "field",
    "tier": "no attack on record",
@@ -1332,48 +1886,44 @@
    "note": null
   },
   {
-   "name": "AIRecon",
+   "name": "Vigolium",
    "table": "field",
    "tier": "no attack on record",
-   "repo": "https://github.com/pikpikcu/airecon",
-   "description": "Autonomous cybersecurity agent built on a self-hosted LLM through Ollama.",
+   "repo": "https://github.com/vigolium/vigolium",
+   "description": "Vulnerability scanner with an agentic mode whose swarm picks modules and writes custom attack extensions.",
    "kind": "Pentest agent",
-   "stars": 1093,
+   "stars": 1151,
    "license": "MIT",
-   "last_push": "2026-11-12",
+   "last_push": "2026-11-16",
    "archived": false,
    "uses": [
     {
-     "tag": "recon",
-     "basis": "project docs",
-     "source": "https://github.com/pikpikcu/airecon#readme",
-     "quote": "find subdomains of example.com"
-    },
-    {
      "tag": "scan",
      "basis": "project docs",
-     "source": "https://github.com/pikpikcu/airecon#readme",
-     "quote": "scan ports on 10.0.0.1"
-    },
-    {
-     "tag": "vuln",
-     "basis": "project docs",
-     "source": "https://github.com/pikpikcu/airecon#readme",
-     "quote": "**Full Stack** — Kali sandbox + browser automation + custom fuzzer + Schemathesis API fuzzing + Semgrep SAST."
-    },
-    {
-     "tag": "exploit",
-     "basis": "project docs",
-     "source": "https://github.com/pikpikcu/airecon#readme",
-     "quote": "structured **RECON → ANALYSIS → EXPLOIT → REPORT pipeline**"
+     "source": "https://github.com/vigolium/vigolium#readme",
+     "quote": "**Swarm**: master agent selects modules, generates custom JS attack extensions, runs code audit + SAST, executes scans, and triages results; targeted or full-scope (`--discover`), with `--diff`/`--last-commits` for change-focused runs"
     },
     {
      "tag": "exploitdev",
      "basis": "project docs",
-     "source": "https://github.com/pikpikcu/airecon#readme",
-     "quote": "AI-generated exploit scripts (.py, .sh)"
+     "source": "https://github.com/vigolium/vigolium#readme",
+     "quote": "**Swarm**: master agent selects modules, generates custom JS attack extensions, runs code audit + SAST, executes scans, and triages results; targeted or full-scope (`--discover`), with `--diff`/`--last-commits` for change-focused runs"
     }
    ],
+   "note": null
+  },
+  {
+   "name": "codex-redteam-mode",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/chAng-L19/codex-redteam-mode",
+   "description": "Opt-in red-team operation runtime for Codex that injects a jailbreak prompt into the system layer.",
+   "kind": "General agent",
+   "stars": 1137,
+   "license": "MIT",
+   "last_push": "2026-10-09",
+   "archived": false,
+   "uses": [],
    "note": null
   },
   {
@@ -1383,7 +1933,7 @@
    "repo": "https://github.com/s0ld13rr/pentestcode",
    "description": "Multi-agent pentest system that keeps engagement state between runs.",
    "kind": "Pentest agent",
-   "stars": 1093,
+   "stars": 1108,
    "license": "MIT",
    "last_push": "2026-11-05",
    "archived": false,
@@ -1428,13 +1978,97 @@
    "note": null
   },
   {
+   "name": "AIRecon",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/pikpikcu/airecon",
+   "description": "Autonomous cybersecurity agent built on a self-hosted LLM through Ollama.",
+   "kind": "Pentest agent",
+   "stars": 1094,
+   "license": "MIT",
+   "last_push": "2026-11-12",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/pikpikcu/airecon#readme",
+     "quote": "find subdomains of example.com"
+    },
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/pikpikcu/airecon#readme",
+     "quote": "scan ports on 10.0.0.1"
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/pikpikcu/airecon#readme",
+     "quote": "**Full Stack** — Kali sandbox + browser automation + custom fuzzer + Schemathesis API fuzzing + Semgrep SAST."
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/pikpikcu/airecon#readme",
+     "quote": "structured **RECON → ANALYSIS → EXPLOIT → REPORT pipeline**"
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/pikpikcu/airecon#readme",
+     "quote": "AI-generated exploit scripts (.py, .sh)"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Clearwing",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/Lazarus-ai-OSS/clearwing",
+   "description": "Autonomous scanner and vulnerability hunter that runs Kali tools and builds exploits with human approval.",
+   "kind": "Pentest agent",
+   "stars": 1090,
+   "license": "MIT",
+   "last_push": "2026-11-05",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/Lazarus-ai-OSS/clearwing#readme",
+     "quote": "**Attack-surface management** — passive external discovery (subdomains, cert transparency, Wayback, DNS/liveness), a scope-keyed asset inventory with delta detection"
+    },
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/Lazarus-ai-OSS/clearwing#readme",
+     "quote": "**Network-pentest agent** — a ReAct-loop agent with 63 bind-tools that scans live targets, detects services and vulnerabilities, runs sandboxed Kali tools, attempts exploits (gated through a human-approval guardrail), and writes reports to a persistent knowledge graph."
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/Lazarus-ai-OSS/clearwing#readme",
+     "quote": "**Network-pentest agent** — a ReAct-loop agent with 63 bind-tools that scans live targets, detects services and vulnerabilities, runs sandboxed Kali tools, attempts exploits (gated through a human-approval guardrail), and writes reports to a persistent knowledge graph."
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/Lazarus-ai-OSS/clearwing#readme",
+     "quote": "multi-turn agentic exploit development, and human-in-the-loop exploit elaboration."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "Cybermes",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Zyrexnn/Cybermes",
    "description": "Offensive security and bug-bounty agent framework built on Hermes Agent.",
    "kind": "Bug-bounty agent",
-   "stars": 1035,
+   "stars": 1038,
    "license": "Apache-2.0",
    "last_push": "2026-11-16",
    "archived": false,
@@ -1468,6 +2102,189 @@
      "basis": "project docs",
      "source": "https://github.com/Zyrexnn/Cybermes#readme",
      "quote": "Requires standalone, non-destructive Python scripts (`pocs/poc_<name>.py`) and raw HTTP traces before logging findings."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Z3r0",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/yv1ing/Z3r0",
+   "description": "AI red-team workbench with specialist agents, sandboxed tooling and replayable timelines.",
+   "kind": "Red-team platform",
+   "stars": 1025,
+   "license": "MIT",
+   "last_push": "2026-09-13",
+   "archived": true,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/yv1ing/Z3r0#readme",
+     "quote": "Z3r0 is an AI-native red-team workbench for authorized penetration testing and vulnerability research, with specialist agents, sandboxed tooling, evidence records, and replayable timelines."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Cain",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/cdxiaodong/cain-agent",
+   "description": "AI pentest engineer for real authorized assessments, with 46 tools and a cloud penetration module.",
+   "kind": "Pentest agent",
+   "stars": 953,
+   "license": "Apache-2.0",
+   "last_push": "2026-10-14",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/cdxiaodong/cain-agent#readme",
+     "quote": "Reconnaissance is mostly repetitive enumeration, while the test stage needs a high-capability model for vulnerability judgment — the two discovery stages can each run their own engine and model:"
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/cdxiaodong/cain-agent#readme",
+     "quote": "Reconnaissance is mostly repetitive enumeration, while the test stage needs a high-capability model for vulnerability judgment — the two discovery stages can each run their own engine and model:"
+    },
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/cdxiaodong/cain-agent#readme",
+     "quote": "**Read-only toolchain** — 46 built-in security tools (recon / scan / verify / post / report), each with a per-tool `dangerous_flags` blacklist; write/exploit/persist operations (`POST`, `PUT`, `DELETE`, `aws rm/mv/cp`, …) are rejected before execution."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "ctf-agent",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/verialabs/ctf-agent",
+   "description": "Multi-model swarm that solves CTF challenges autonomously; won first place at BSidesSF 2026.",
+   "kind": "CTF agent",
+   "stars": 939,
+   "license": "MIT",
+   "last_push": "2026-03-29",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/verialabs/ctf-agent#readme",
+     "quote": "Autonomous CTF (Capture The Flag) solver that races multiple AI models against challenges in parallel."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "dsh-redteam-model",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/SeaOf0/dsh-redteam-model",
+   "description": "Ten red-team working modes and runtime plugins for the DeepSeek harness; README in Chinese.",
+   "kind": "Skill pack",
+   "stars": 897,
+   "license": "MIT",
+   "last_push": "2026-10-27",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/SeaOf0/dsh-redteam-model#readme",
+     "quote": "| `code-audit` 代码审计 | 白盒源码审计，动静态代码审计 |"
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/SeaOf0/dsh-redteam-model#readme",
+     "quote": "| `attack-defense` 攻防评估 | 做了多条主线：web打点+内网环境(内网环境又分Windows场景、Linux场景、有无监测、域环境、云内网等) |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "IoTHackBot",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/BrownFineSecurity/iothackbot",
+   "description": "IoT security testing toolkit with Claude Code skills for vulnerability discovery.",
+   "kind": "Skill pack",
+   "stars": 890,
+   "license": "MIT",
+   "last_push": "2026-06-01",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/BrownFineSecurity/iothackbot#readme",
+     "quote": "Open-source IoT security testing toolkit with integrated Claude Code skills for automated vulnerability discovery."
+    },
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/BrownFineSecurity/iothackbot#readme",
+     "quote": "**nmap** (skill) - Professional network reconnaissance with two-phase scanning strategy"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "audit",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/evilsocket/audit",
+   "description": "Eight-stage Claude agent pipeline that hunts vulnerabilities and compiles proof-of-concept code.",
+   "kind": "Code auditor",
+   "stars": 889,
+   "license": "MIT",
+   "last_push": "2026-06-10",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/evilsocket/audit#readme",
+     "quote": "An 8-stage vulnerability-discovery agent, driven by your **Claude Pro / Max subscription** through the official Claude Code Agent SDK."
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/evilsocket/audit#readme",
+     "quote": "| 2 | Hunt | Sonnet 4.6 | One attack class per agent; compile/run PoCs |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Ars0n Framework v2",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/R-s0n/ars0n-framework-v2",
+   "description": "Bug bounty recon framework whose MCP server exposes data and scans to AI assistants.",
+   "kind": "Bug-bounty agent",
+   "stars": 883,
+   "license": "GPL-3.0",
+   "last_push": "2026-11-16",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/R-s0n/ars0n-framework-v2#readme",
+     "quote": "The results of each tool are stored in a central database and can be used for understanding/visualizing the target company's attack surface."
+    },
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/R-s0n/ars0n-framework-v2#readme",
+     "quote": "The framework ships with a **Model Context Protocol (MCP) server** that exposes its data and scan controls to AI assistants (Claude Desktop, Claude Code, Cursor, and other MCP-capable clients)."
     }
    ],
    "note": null
@@ -1527,6 +2344,33 @@
    "note": null
   },
   {
+   "name": "FofaMap",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/asaotomo/FofaMap",
+   "description": "Chinese tool that ties FOFA asset discovery, AI reflection and Nuclei validation into one workflow.",
+   "kind": "Recon agent",
+   "stars": 769,
+   "license": "Apache-2.0",
+   "last_push": "2026-11-02",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/asaotomo/FofaMap#readme",
+     "quote": "**证据驱动的 AI 资产测绘与安全研判工具。**"
+    },
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/asaotomo/FofaMap#readme",
+     "quote": "FofaMap 由 **Hx0 工作室**开发，将 **FOFA 资产发现、AI 反思、Nuclei 授权验证与交互式报告**融入同一工作流，让查询依据、分析过程与验证结果可追溯、可复核。"
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "MetasploitMCP",
    "table": "field",
    "tier": "no attack on record",
@@ -1566,13 +2410,34 @@
    "note": null
   },
   {
+   "name": "StrikeAgent",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/Yean-Sec/StrikeAgent_AtkBrain-Flash",
+   "description": "Chinese AI pentest platform with red-team re-rating and re-verification of findings, tested in CTF settings.",
+   "kind": "Pentest agent",
+   "stars": 745,
+   "license": "AGPL-3.0",
+   "last_push": "2026-11-13",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/Yean-Sec/StrikeAgent_AtkBrain-Flash#readme",
+     "quote": "为了避免 AI 给出的漏洞存在夸大或误报的情况，团队特别设计了红队二次评级和二次验证，让漏洞所见即所得、拿着就能用"
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "Muteki",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/FishCodeTech/muteki",
    "description": "Offensive security harness for automated penetration testing.",
    "kind": "Pentest agent",
-   "stars": 684,
+   "stars": 687,
    "license": "AGPL-3.0",
    "last_push": "2026-11-14",
    "archived": false,
@@ -1582,6 +2447,27 @@
      "basis": "project docs",
      "source": "https://github.com/FishCodeTech/muteki#readme",
      "quote": "Muteki took first blood in about two hours of actual solving"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "src-hunter-skill",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/MyuriKanao/src-hunter-skill",
+   "description": "Chinese Claude Code skill for SRC and bug bounty hunting with attack playbooks and payloads.",
+   "kind": "Skill pack",
+   "stars": 656,
+   "license": "MIT",
+   "last_push": "2026-05-24",
+   "archived": true,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/MyuriKanao/src-hunter-skill#readme",
+     "quote": "简单说，就是你给它一个目标，它会按一套固定流程帮你推进漏洞挖掘：先确认目标范围，再做信息收集和资产枚举，然后进入漏洞测试，最后整理报告。"
     }
    ],
    "note": null
@@ -1620,7 +2506,7 @@
    "repo": "https://github.com/transilienceai/communitytools",
    "description": "Claude Code skills, agents and commands for pentesting and bug bounty.",
    "kind": "Skill pack",
-   "stars": 623,
+   "stars": 624,
    "license": "MIT",
    "last_push": "2026-07-29",
    "archived": false,
@@ -1665,6 +2551,27 @@
    "note": null
   },
   {
+   "name": "CHYing-agent",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/yhy0/CHYing-agent",
+   "description": "Agent from Tencent Cloud AI pentest hackathons, ninth in the first year; README in Chinese.",
+   "kind": "CTF agent",
+   "stars": 596,
+   "license": "MIT",
+   "last_push": "2026-04-25",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/yhy0/CHYing-agent#readme",
+     "quote": "第一届第九，第二届主赛场排名 60（总共 54 个 flag，全程 GLM5 解出 30 个，卡在了第三关，2140 分），零界平行赛场第一 🏆。"
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "Cyber-AutoAgent",
    "table": "field",
    "tier": "no attack on record",
@@ -1699,6 +2606,99 @@
      "basis": "project docs",
      "source": "https://github.com/westonbrown/Cyber-AutoAgent#readme",
      "quote": "**Meta-Tool Creation**: Dynamically creates custom exploitation tools when needed"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Mitsu",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/ARCANGEL0/Mitsu",
+   "description": "Pentest agent client that runs an authorized engagement from recon through post-exploitation with 165+ MCP tools.",
+   "kind": "Pentest agent",
+   "stars": 541,
+   "license": "MIT",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/ARCANGEL0/Mitsu#readme",
+     "quote": "Given an in-scope target and objective, she can carry out reconnaissance, enumerate hosts and services, research vulnerabilities and exploits, validate findings, and continue into post-exploitation."
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/ARCANGEL0/Mitsu#readme",
+     "quote": "Given an in-scope target and objective, she can carry out reconnaissance, enumerate hosts and services, research vulnerabilities and exploits, validate findings, and continue into post-exploitation."
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/ARCANGEL0/Mitsu#readme",
+     "quote": "Given an in-scope target and objective, she can carry out reconnaissance, enumerate hosts and services, research vulnerabilities and exploits, validate findings, and continue into post-exploitation."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Flounder",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/adshao/flounder",
+   "description": "Turns coding agents into a security auditor for bug bounty work, with local exploit construction.",
+   "kind": "Bug-bounty agent",
+   "stars": 527,
+   "license": "AGPL-3.0",
+   "last_push": "2026-11-15",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/adshao/flounder#readme",
+     "quote": "Flounder turns modern coding agents into an end-to-end security audit system."
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/adshao/flounder#readme",
+     "quote": "| Exploit construction | Writes local PoCs, tests, fixtures, or harnesses inside an isolated workspace. |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Blitz Strike",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/shinthink/blitzstrike",
+   "description": "MCP security toolbelt that maps attack surface, traces source-to-sink paths and verifies findings live.",
+   "kind": "MCP server",
+   "stars": 518,
+   "license": "MIT",
+   "last_push": "2026-11-04",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/shinthink/blitzstrike#readme",
+     "quote": "It enumerates the attack surface (BLITZ), traces source-to-sink reachability (EAGLE-EYE), and verifies each finding live before it is reported (STRIKE)."
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/shinthink/blitzstrike#readme",
+     "quote": "It enumerates the attack surface (BLITZ), traces source-to-sink reachability (EAGLE-EYE), and verifies each finding live before it is reported (STRIKE)."
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/shinthink/blitzstrike#readme",
+     "quote": "It enumerates the attack surface (BLITZ), traces source-to-sink reachability (EAGLE-EYE), and verifies each finding live before it is reported (STRIKE)."
     }
    ],
    "note": null
@@ -1749,6 +2749,27 @@
    "note": null
   },
   {
+   "name": "Mantishack",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/deonmenezes/mantishack",
+   "description": "AI vulnerability pipeline with recon, attacker-simulation validation and gated exploitation over a codebase.",
+   "kind": "Code auditor",
+   "stars": 507,
+   "license": "Apache-2.0",
+   "last_push": "2026-10-03",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/deonmenezes/mantishack#readme",
+     "quote": "`stalk - wait - strike - hold` **Ethically hack and discover vulnerabilities in any software with the power of AI.**"
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "Zen-Ai-Pentest",
    "table": "field",
    "tier": "no attack on record",
@@ -1788,15 +2809,164 @@
    "note": null
   },
   {
+   "name": "AdStrike",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/capture0x/AdStrike",
+   "description": "Active Directory attack framework with an MCP server so the user's own LLM host drives 53 tools.",
+   "kind": "Pentest agent",
+   "stars": 489,
+   "license": "MIT",
+   "last_push": "2026-10-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/capture0x/AdStrike#readme",
+     "quote": "It helps operators move through discovery, enumeration, exploitation, credential access, lateral movement, persistence, and reporting while keeping session state in one place."
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/capture0x/AdStrike#readme",
+     "quote": "It helps operators move through discovery, enumeration, exploitation, credential access, lateral movement, persistence, and reporting while keeping session state in one place."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Rogue",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/faizann24/rogue",
+   "description": "LLM web vulnerability scanner agent that generates test payloads and verifies findings.",
+   "kind": "Pentest agent",
+   "stars": 483,
+   "license": "GPL-3.0",
+   "last_push": "2025-06-18",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/faizann24/rogue#readme",
+     "quote": "Rogue is an advanced AI security testing agent that leverages Large Language Models to intelligently discover and validate web application vulnerabilities."
+    },
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/faizann24/rogue#readme",
+     "quote": "**Subdomain Enumeration**: Optional discovery of related subdomains"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Pentest Harness",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/S1N6H/pentest-harness",
+   "description": "Self-hosted AI agent harness for authorized pentests, bug bounty, security labs and CTFs.",
+   "kind": "Pentest agent",
+   "stars": 474,
+   "license": "MIT",
+   "last_push": "2026-10-07",
+   "archived": false,
+   "uses": [],
+   "note": null
+  },
+  {
+   "name": "BoxPwnr",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/0ca/BoxPwnr",
+   "description": "Framework that benchmarks LLM agents solving HackTheBox, PortSwigger, CTF and other security labs.",
+   "kind": "CTF agent",
+   "stars": 471,
+   "license": "AGPL-3.0",
+   "last_push": "2026-07-24",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/0ca/BoxPwnr#readme",
+     "quote": "A fun experiment to see how far Large Language Models (LLMs) can go in solving CTF challenges and security labs on their own."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Bug-Bounty-Agents",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/matty69v/Bug-Bounty-Agents",
+   "description": "Drop-in agent personas for bug bounty recon, web hunting, PoC validation and reporting.",
+   "kind": "Skill pack",
+   "stars": 470,
+   "license": "MIT",
+   "last_push": "2026-04-30",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/matty69v/Bug-Bounty-Agents#readme",
+     "quote": "| [`recon-advisor`](recon-advisor.md) | Surface enumeration and asset discovery |"
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/matty69v/Bug-Bounty-Agents#readme",
+     "quote": "| [`web-hunter`](web-hunter.md) | Web application vulnerability hunting |"
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/matty69v/Bug-Bounty-Agents#readme",
+     "quote": "| [`poc-validator`](poc-validator.md) | Verify, stabilize, and minimize PoCs |"
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/matty69v/Bug-Bounty-Agents#readme",
+     "quote": "| [`privesc-advisor`](privesc-advisor.md) | Linux / Windows privilege escalation paths |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "OpenHack",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/openhackai/OpenHack",
+   "description": "Open-model agent scanner that hunts, validates and exploit-tests vulnerabilities in a codebase.",
+   "kind": "Code auditor",
+   "stars": 445,
+   "license": "MIT",
+   "last_push": "2026-10-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/openhackai/OpenHack#readme",
+     "quote": "**Hunter**: Specialized category based hunters get to finding vulnerabilities initially, along with feature based hunters divind deep to find vulnerabilities in risky code areas."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "cyber-harness",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/chainreactors/cyber-harness",
    "description": "Single-binary agent for pentest, red team and bug bounty.",
    "kind": "Pentest agent",
-   "stars": 421,
+   "stars": 422,
    "license": "AGPL-3.0",
-   "last_push": "2026-11-15",
+   "last_push": "2026-11-17",
    "archived": false,
    "uses": [
     {
@@ -1821,13 +2991,52 @@
    "note": null
   },
   {
+   "name": "offensive-claude",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/hypnguyen1209/offensive-claude",
+   "description": "Spec-driven offensive framework for Claude Code with 32 kill-chain skills.",
+   "kind": "Skill pack",
+   "stars": 421,
+   "license": "MIT",
+   "last_push": "2026-10-22",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/hypnguyen1209/offensive-claude#readme",
+     "quote": "| `/engage.recon` | 1 | Passive/active reconnaissance |"
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/hypnguyen1209/offensive-claude#readme",
+     "quote": "| `bug-bounty` | 0,1,4,8 | Bug bounty vulnerability hunting |"
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/hypnguyen1209/offensive-claude#readme",
+     "quote": "| `/engage.weaponize` | 2 | Payload development, exploit design |"
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/hypnguyen1209/offensive-claude#readme",
+     "quote": "| `/engage.install` | 5 | Persistence establishment |"
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "RedCell",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/martian56/redcell",
    "description": "Agents run a penetration test end to end inside a Kali container.",
    "kind": "Pentest agent",
-   "stars": 413,
+   "stars": 414,
    "license": "MIT",
    "last_push": "2026-11-12",
    "archived": false,
@@ -1866,7 +3075,7 @@
    "repo": "https://github.com/BugTraceAI/BugTraceAI",
    "description": "Self-hosted web pentesting suite with agentic scanning.",
    "kind": "Pentest agent",
-   "stars": 388,
+   "stars": 389,
    "license": "Apache-2.0",
    "last_push": "2026-10-19",
    "archived": false,
@@ -1899,6 +3108,117 @@
    "note": null
   },
   {
+   "name": "Vibe Pentest",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/ok-helloworld/vibe-pentest",
+   "description": "Chinese multi-agent black-box pentest tool that mimics a human expert, including business-logic flaws.",
+   "kind": "Pentest agent",
+   "stars": 387,
+   "license": "AGPL-3.0",
+   "last_push": "2026-09-21",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/ok-helloworld/vibe-pentest#readme",
+     "quote": "Vibe Pentest（氛围渗透）是一款模拟人类安全专家思维挖掘漏洞的 AI 渗透测试工具，采用多 Agent 并行执行架构，能够对 Web 应用、API、管理后台等进行全面的黑盒渗透测试（包括业务逻辑漏洞评估），输出稳定可靠的安全报告，并提供可落地的整改建议。"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Halberd",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/vectra-ai-research/Halberd",
+   "description": "Multi-cloud attack emulation tool with a Claude-powered agent that helps discover and execute attack paths.",
+   "kind": "Red-team platform",
+   "stars": 375,
+   "license": "GPL-3.0",
+   "last_push": "2026-04-08",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/vectra-ai-research/Halberd#readme",
+     "quote": "**Google Cloud Platform (GCP)** - Service account abuse, project enumeration, persistence"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "pentest-skills",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/crazyMarky/pentest-skills",
+   "description": "Chinese pentest skill set for Claude Code and Gemini CLI that turns natural language into tool runs.",
+   "kind": "Skill pack",
+   "stars": 368,
+   "license": "Apache-2.0",
+   "last_push": "2026-06-04",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/crazyMarky/pentest-skills#readme",
+     "quote": "| **recon-port-scan** | 端口扫描和服务识别 | nmap, masscan, rustscan |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "h1-brain",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/PatrikFehrenbach/h1-brain",
+   "description": "MCP server linking an AI assistant to HackerOne bug bounty history, scopes and reports.",
+   "kind": "MCP server",
+   "stars": 360,
+   "license": "MIT",
+   "last_push": "2026-10-13",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/PatrikFehrenbach/h1-brain#readme",
+     "quote": "The primary tool, `hack(handle)`, generates a full hacking session briefing in a single call: fresh scope from the API, your past findings, public disclosures for that program, weakness patterns, untouched assets, and suggested attack vectors — all formatted as actionable instructions that put the AI in offensive mode."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "RedAI",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/kpolley/redai",
+   "description": "Terminal workbench that finds vulnerabilities with AI, then validates them live with PoC scripts.",
+   "kind": "Pentest agent",
+   "stars": 356,
+   "license": "MIT",
+   "last_push": "2026-05-05",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/kpolley/redai#readme",
+     "quote": "A terminal workbench for AI-driven vulnerability discovery **and live validation**."
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/kpolley/redai#readme",
+     "quote": "Once a scan starts, validators do whatever the plan calls for — drive the UI, run shell commands, write PoC scripts, host helper servers, collect logs, save screenshots."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "TARS",
    "table": "field",
    "tier": "no attack on record",
@@ -1915,6 +3235,87 @@
      "basis": "project docs",
      "source": "https://github.com/osgil-defense/TARS#readme",
      "quote": "Build agents that can properly use existing cybersecurity tools for vulnerability scanning and threat analysis."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Pojun",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/chu0119/Pojun",
+   "description": "Chinese multi-agent platform that takes a one-line goal through recon, exploitation and post-exploitation to a report.",
+   "kind": "Red-team platform",
+   "stars": 349,
+   "license": "AGPL-3.0",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/chu0119/Pojun#readme",
+     "quote": "Pojun 是一套 **LLM 多 Agent 自主渗透测试平台**：给一句话目标，它自动完成 「目标拆解 → 侦察 → 漏洞挖掘 → 利用 → 后渗透 → 报告」全流程，人随时可以插手纠偏。"
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/chu0119/Pojun#readme",
+     "quote": "Pojun 是一套 **LLM 多 Agent 自主渗透测试平台**：给一句话目标，它自动完成 「目标拆解 → 侦察 → 漏洞挖掘 → 利用 → 后渗透 → 报告」全流程，人随时可以插手纠偏。"
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/chu0119/Pojun#readme",
+     "quote": "Pojun 是一套 **LLM 多 Agent 自主渗透测试平台**：给一句话目标，它自动完成 「目标拆解 → 侦察 → 漏洞挖掘 → 利用 → 后渗透 → 报告」全流程，人随时可以插手纠偏。"
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/chu0119/Pojun#readme",
+     "quote": "Pojun 是一套 **LLM 多 Agent 自主渗透测试平台**：给一句话目标，它自动完成 「目标拆解 → 侦察 → 漏洞挖掘 → 利用 → 后渗透 → 报告」全流程，人随时可以插手纠偏。"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "DorkAgent",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/yee-yore/DorkAgent",
+   "description": "LLM agent that automates Google dorking for bug hunting and pentesting.",
+   "kind": "Recon agent",
+   "stars": 341,
+   "license": "MIT",
+   "last_push": "2026-08-24",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/yee-yore/DorkAgent#readme",
+     "quote": "🤖 LLM-powered agent for automated Google Dorking in bug hunting &amp; pentesting."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "LeoAI",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/cha0upup/LeoAI",
+   "description": "Chinese post-exploitation management platform with platform-level and per-node AI copilots.",
+   "kind": "C2 with MCP",
+   "stars": 333,
+   "license": "GPL-3.0",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/cha0upup/LeoAI#readme",
+     "quote": "**AI 驱动的后渗透与主机协同管理平台**"
     }
    ],
    "note": null
@@ -1959,6 +3360,54 @@
    "note": null
   },
   {
+   "name": "Lyrie",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/OTT-Cybersecurity-LLC/lyrie-ai",
+   "description": "Pentest CLI that fingerprints and scans targets with AI-assisted exploit validation; also red-teams LLM endpoints.",
+   "kind": "Pentest agent",
+   "stars": 329,
+   "license": "MIT",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/OTT-Cybersecurity-LLC/lyrie-ai#readme",
+     "quote": "7-phase pipeline: **recon → fingerprint → scan → exploit → PoC → report**."
+    },
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/OTT-Cybersecurity-LLC/lyrie-ai#readme",
+     "quote": "7-phase pipeline: **recon → fingerprint → scan → exploit → PoC → report**."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Apex",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/pensarai/apex",
+   "description": "Terminal pentest agent that runs blackbox and whitebox tests with agent swarms in a Kali container.",
+   "kind": "Pentest agent",
+   "stars": 327,
+   "license": "Apache-2.0",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/pensarai/apex#readme",
+     "quote": "Run blackbox and whitebox pentests that explore, reason, and surface real vulnerabilities."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "HackSynth",
    "table": "field",
    "tier": "no attack on record",
@@ -1974,7 +3423,88 @@
      "tag": "research",
      "basis": "project docs",
      "source": "https://github.com/aielte-research/HackSynth#readme",
-     "quote": "To benchmark HackSynth, we propose two new Capture The Flag (CTF)-based benchmark sets utilizing the popular platforms PicoCTF and OverTheWire."
+     "quote": "we propose two new Capture The Flag (CTF)-based benchmark sets utilizing the popular platforms PicoCTF and OverTheWire."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Plamen",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/PlamenTSV/plamen",
+   "description": "Claude Code and Codex agent swarm that audits smart contracts and node clients with PoC exploits.",
+   "kind": "Code auditor",
+   "stars": 316,
+   "license": "MIT",
+   "last_push": "2026-09-26",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/PlamenTSV/plamen#readme",
+     "quote": "Autonomous Web3 security auditor for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and [OpenAI Codex CLI](https://github.com/openai/codex)."
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/PlamenTSV/plamen#readme",
+     "quote": "Orchestrates 18-100 AI agents across 40+ phases to produce audit reports with verified PoC exploits — for **smart contracts** and **L1 node-client infrastructure**."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "red-run",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/blacklanternsecurity/red-run",
+   "description": "Claude Code skills, MCP servers and agent teams for pentest phases from recon to privilege escalation.",
+   "kind": "Skill pack",
+   "stars": 309,
+   "license": "AGPL-3.0",
+   "last_push": "2026-11-12",
+   "archived": true,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/blacklanternsecurity/red-run#readme",
+     "quote": "red-run combines skills, MCP servers, and Claude Code agent teams with routing logic that guides Claude and the operator through the phases of a security assessment — recon, initial access, lateral movement, privilege escalation, and post-access."
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/blacklanternsecurity/red-run#readme",
+     "quote": "red-run combines skills, MCP servers, and Claude Code agent teams with routing logic that guides Claude and the operator through the phases of a security assessment — recon, initial access, lateral movement, privilege escalation, and post-access."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "BurpMCP-Ultra",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/Cy-S3c/BurpMCP-Ultra",
+   "description": "MCP server giving AI agents 150 Burp Suite Professional tools for scanning, fuzzing and traffic analysis.",
+   "kind": "MCP server",
+   "stars": 309,
+   "license": "MIT",
+   "last_push": "2026-09-28",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/Cy-S3c/BurpMCP-Ultra#readme",
+     "quote": "It exposes Burp's Montoya API as 150 structured tools over a token-secured local SSE transport, so an AI agent can run proxy history analysis, active scans, fuzzing, race conditions, OOB testing, custom scan checks, and guided exploitation — all from natural language."
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/Cy-S3c/BurpMCP-Ultra#readme",
+     "quote": "It exposes Burp's Montoya API as 150 structured tools over a token-secured local SSE transport, so an AI agent can run proxy history analysis, active scans, fuzzing, race conditions, OOB testing, custom scan checks, and guided exploitation — all from natural language."
     }
    ],
    "note": null
@@ -2025,6 +3555,48 @@
    "note": null
   },
   {
+   "name": "Scan-Spring-GO",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/sspsec/Scan-Spring-GO",
+   "description": "Go scanner and exploiter for Spring components that exposes all its modules to AI clients over MCP.",
+   "kind": "MCP server",
+   "stars": 302,
+   "license": "MIT",
+   "last_push": "2026-08-29",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/sspsec/Scan-Spring-GO#readme",
+     "quote": "SSP 是一个使用 Go 语言实现的轻量、高效的 Spring 全家桶漏洞扫描与利用工具：支持 17 个漏洞模块的检测与利用、actuator/swagger/druid 信息泄露探测、自定义字典、并发限速控制，并内置 **MCP 服务端**——可将全部能力暴露给 AI 客户端（Claude Desktop、ZCode、Cursor 等），实现\"AI 一句话完成从指纹识别到漏洞利用\"的自动化渗透链路。"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "WolfShell",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/0x7556/wolfshell",
+   "description": "ASPX WebShell and C2 manager with an MCP server and AI-assisted penetration.",
+   "kind": "C2 with MCP",
+   "stars": 286,
+   "license": "MIT",
+   "last_push": "2026-08-16",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/0x7556/wolfshell#readme",
+     "quote": "WolfShell(幽狼)是一款为微软 **.NET/ASPX** 环境打造的高级 **WebShell** 与 **C2 管理工具**，面向安全研究与渗透测试（**红队**）使用，提供强大的**命令执行**、**提权**与**内网穿透**能力；内置大量渗透工具并集成 **AI 智能渗透** 辅助，支持**内存加载**、**无文件落地**操作，从而实现**高隐蔽性**的内网渗透与灵活扩展。"
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "vulnerator-ai",
    "table": "field",
    "tier": "no attack on record",
@@ -2041,6 +3613,153 @@
      "basis": "project docs",
      "source": "https://github.com/irraz/vulnerator-ai#readme",
      "quote": "deterministic runtime for pentest and collection tools (nmap, whatweb, nuclei, ffuf,"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "SecGPT",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/ZacharyZcR/SecGPT",
+   "description": "AutoGPT-style LLM tool for pentesting, vulnerability scanning and code audit, with CTF aims.",
+   "kind": "Pentest agent",
+   "stars": 285,
+   "license": "Apache-2.0",
+   "last_push": "2023-11-15",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/ZacharyZcR/SecGPT#readme",
+     "quote": "This part shows that SecGPT, based on the return of the previous command, made the second decision to call Sqlmap for detection."
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/ZacharyZcR/SecGPT#readme",
+     "quote": "Then, following this logic, it calls local plugin functions to attempt tasks such as website penetration, vulnerability scanning, code audit, and report writing."
+    },
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/ZacharyZcR/SecGPT#readme",
+     "quote": "SecGPT aims to make further contributions to network security by combining LLM, including penetration testing, red-blue confrontations, CTF competitions, and other aspects."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "raptor-loop-hunt",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/dinosn/raptor-loop-hunt",
+   "description": "Claude Code skill that loops a multi-altitude vulnerability hunt over a codebase.",
+   "kind": "Code auditor",
+   "stars": 278,
+   "license": "MIT",
+   "last_push": "2026-09-01",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/dinosn/raptor-loop-hunt#readme",
+     "quote": "An autonomous, looping, multi-altitude **security vulnerability hunt** for a codebase, packaged as a Claude Code **skill**."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "BlacksmithAI",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/yohannesgk/blacksmith",
+   "description": "Multi-agent pentest framework with separate recon, vulnerability, exploit and post-exploit agents.",
+   "kind": "Pentest agent",
+   "stars": 269,
+   "license": "AGPL-3.0",
+   "last_push": "2026-10-23",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/yohannesgk/blacksmith#readme",
+     "quote": "**Recon Agent**: Attack surface mapping and information gathering"
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/yohannesgk/blacksmith#readme",
+     "quote": "**Vulnerability Analysis Agent**: Vulnerability mapping and risk assessment"
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/yohannesgk/blacksmith#readme",
+     "quote": "**Exploit Agent**: Proof-of-concept exploitation"
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/yohannesgk/blacksmith#readme",
+     "quote": "Discover credentials and authentication mechanisms"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "AutoPentest AI",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/bhavsec/autopentest-ai",
+   "description": "MCP server where Scout, Analyzer, Exploiter and Reporter agents run web pentests against OWASP test cases.",
+   "kind": "MCP server",
+   "stars": 251,
+   "license": "Apache-2.0",
+   "last_push": "2026-02-22",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/bhavsec/autopentest-ai#readme",
+     "quote": "Point it at a target — it crawls your app, maps every endpoint, then spawns role-specialized agents (Scout, Analyzer, Exploiter, Reporter) to test for XSS, SQLi, SSRF, SSTI, IDOR and more."
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/bhavsec/autopentest-ai#readme",
+     "quote": "Point it at a target — it crawls your app, maps every endpoint, then spawns role-specialized agents (Scout, Analyzer, Exploiter, Reporter) to test for XSS, SQLi, SSRF, SSTI, IDOR and more."
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/bhavsec/autopentest-ai#readme",
+     "quote": "**Exploiter** — consumes Analyzer output, proves exploitation with evidence, logs confirmed findings (Phase 4 exploitation)"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Haiou Workshop",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/haiou-666/Haiou-workshop",
+   "description": "Chinese AI workbench for reverse engineering, authorized pentests and CTF using Codex and Claude Code.",
+   "kind": "Assistant",
+   "stars": 237,
+   "license": "MIT",
+   "last_push": "2026-10-25",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/haiou-666/Haiou-workshop#readme",
+     "quote": "逆向工程 / 安全测试 / 代码审计 / CTF / 数字取证 / 自动化开发"
     }
    ],
    "note": null
@@ -2067,6 +3786,171 @@
    "note": null
   },
   {
+   "name": "Watchtower",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/fzn0x/watchtower",
+   "description": "LangGraph pentest CLI where LLM agents orchestrate 28 security tools.",
+   "kind": "Pentest agent",
+   "stars": 223,
+   "license": "MIT",
+   "last_push": "2026-11-15",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/fzn0x/watchtower#readme",
+     "quote": "**Parallel reconnaissance** and **smart truncation** of long tool output."
+    },
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/fzn0x/watchtower#readme",
+     "quote": "**28 integrated security tools** across network, web recon, crawling and URL discovery, DNS, vulnerability, TLS, content discovery, and secret scanning. See [Tools](https://fzn0x.github.io/watchtower/tools/)."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Claude-AD",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/ADScanPro/Claude-AD",
+   "description": "Active Directory pentest playbook for Claude Code as skills, agents and slash commands.",
+   "kind": "Skill pack",
+   "stars": 218,
+   "license": "MIT",
+   "last_push": "2026-08-24",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/ADScanPro/Claude-AD#readme",
+     "quote": "Once installed, the skills load automatically when you work on an AD engagement, and the commands (`/ad-scope`, `/ad-recon`, `/ad-attack-paths`) are available."
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/ADScanPro/Claude-AD#readme",
+     "quote": "Every AD assessment follows the same spine: map before you exploit, harvest the easy credentials before you spray, collect the graph before you reason about paths."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "web3-bug-bounty-hunting-ai-skills",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/awarexone/web3-bug-bounty-hunting-ai-skills",
+   "description": "Eighteen Claude Code skill files for smart contract bug bounty hunting.",
+   "kind": "Skill pack",
+   "stars": 192,
+   "license": "MIT",
+   "last_push": "2026-09-21",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/awarexone/web3-bug-bounty-hunting-ai-skills#readme",
+     "quote": "Smart contract bug bounty skills for Claude Code, Claude AI, and other AI tools."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "AIxVuln",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/m4xxxxx/AIxVuln",
+   "description": "Chinese LLM multi-agent system that audits code, then verifies vulnerabilities with PoCs in Docker sandboxes.",
+   "kind": "Code auditor",
+   "stars": 191,
+   "license": "MIT",
+   "last_push": "2026-04-25",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/m4xxxxx/AIxVuln#readme",
+     "quote": "AIxVuln 是一个基于大模型（LLM）+ 工具调用（Function Calling）+ Docker 沙箱的**自动化漏洞挖掘与验证系统**。"
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/m4xxxxx/AIxVuln#readme",
+     "quote": "系统通过 Web UI / 桌面客户端管理\"项目\"，为每个项目自动组织多个**数字人**协作完成环境搭建、代码审计、漏洞验证与报告生成，并在隔离的 Docker 环境内完成依赖安装、服务启动、PoC 验证与证据采集，最终产出可下载的漏洞报告。"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "kali-pentest",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/x-glacier/kali-pentest",
+   "description": "Kali Linux pentest skill for Claude Code, OpenClaw and Hermes Agent, with 200+ CLI tools.",
+   "kind": "Skill pack",
+   "stars": 187,
+   "license": "Apache-2.0",
+   "last_push": "2026-06-25",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/x-glacier/kali-pentest#readme",
+     "quote": "| `post-exploitation.md` | Privilege escalation, lateral movement, persistence, C2 |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "NYU CTF agents",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/NYU-LLM-CTF/nyuctf_agents",
+   "description": "Baseline and D-CIPHER LLM agents that solve CTF challenges for the NYU CTF Bench.",
+   "kind": "CTF agent",
+   "stars": 181,
+   "license": "MIT",
+   "last_push": "2026-07-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/NYU-LLM-CTF/nyuctf_agents#readme",
+     "quote": "This repository holds the LLM agents for solving CTF challenges developed for the [NYU CTF Bench](https://nyu-llm-ctf.github.io)."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Zypheron",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/KKingZero/Zypheron-CLI",
+   "description": "Local-first security CLI with recon, scanning and AI-assisted operator workflows.",
+   "kind": "Pentest agent",
+   "stars": 174,
+   "license": "MIT",
+   "last_push": "2026-10-25",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/KKingZero/Zypheron-CLI#readme",
+     "quote": "A local-first security CLI for **authorized** work: recon, scanning, and AI-assisted operator workflows."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "AI-OPS",
    "table": "field",
    "tier": "no attack on record",
@@ -2083,6 +3967,105 @@
      "basis": "project docs",
      "source": "https://github.com/antoninoLorenzo/AI-OPS#readme",
      "quote": "AI-OPS is an open agent for penetration-testing and cybersecurity tasks. You run the agent behind an HTTP API, in a container with the offensive tooling preinstalled, and drive it from a terminal client."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "CkSKILLS",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/zhaji2333/CkSKILLS",
+   "description": "Chinese skill library that turns researcher methodology into reusable agent skills for SRC bug hunting.",
+   "kind": "Skill pack",
+   "stars": 159,
+   "license": "MIT",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/zhaji2333/CkSKILLS#readme",
+     "quote": "基于 Claude Code / Codex / DeepSeek Harness 的 SRC 漏洞挖掘 Agent 技能体系 —— 将顶尖安全研究员的方法论沉淀为可调度、可复用的 Skill 知识资产。"
+    },
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/zhaji2333/CkSKILLS#readme",
+     "quote": "| `recon-js-analysis` | 资产测绘、webpack / source map 还原、API 与密钥提取、URL/IP/域名资产扩展、appid/appkey 凭证上报深挖 |"
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/zhaji2333/CkSKILLS#readme",
+     "quote": "| `internal-network` | 内网/域：域侦察、Kerberos、委派/ACL/ADCS、NTLM 中继、横向移动、隧道多跳、后渗透、持久化、内网基础设施 |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "forefy/.context",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/forefy/.context",
+   "description": "AI agent skills for security audits, pentests and bug bounty work, from recon to PoC generation.",
+   "kind": "Skill pack",
+   "stars": 156,
+   "license": "MIT",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/forefy/.context#readme",
+     "quote": "`pre-bounty` - pre-engagement recon and target prioritization for a bounty/VDP scope; maps assets, mines bug history, extracts scope gotchas, then scores and ranks every asset best-to-worst by opportunity and renders a ranked asset -> setup -> ROI Sankey."
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/forefy/.context#readme",
+     "quote": "`jwt-attacks` - forges and re-signs captured JWTs to test signature validation (alg:none, signature stripping, kid traversal, jwk/jku injection, RS256/HS256 confusion) plus offline HMAC secret cracking."
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/forefy/.context#readme",
+     "quote": "`foundry-poc` - context-window-optimized skill to generate a Foundry proof of concept for a discussed finding."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "agent-smith",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/0x0pointer/agent-smith",
+   "description": "Pentest framework where skills teach the LLM a methodology and it invents the attacks itself.",
+   "kind": "Pentest agent",
+   "stars": 155,
+   "license": "AGPL-3.0",
+   "last_push": "2026-11-14",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/0x0pointer/agent-smith#readme",
+     "quote": "| `/pentester scan https://staging.example.com depth=thorough` | Full hands-off engagement: OSINT → recon → web-exploit → post-exploit → report |"
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/0x0pointer/agent-smith#readme",
+     "quote": "| `/pentester scan https://staging.example.com depth=thorough` | Full hands-off engagement: OSINT → recon → web-exploit → post-exploit → report |"
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/0x0pointer/agent-smith#readme",
+     "quote": "| `/pentester scan https://staging.example.com depth=thorough` | Full hands-off engagement: OSINT → recon → web-exploit → post-exploit → report |"
     }
    ],
    "note": null
@@ -2121,6 +4104,303 @@
    "note": null
   },
   {
+   "name": "FuzzingBrain",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/fuzzingbrain/afc-crs-all-you-need-is-a-fuzzing-brain",
+   "description": "LLM system built on OSS-Fuzz that finds vulnerabilities, builds PoC inputs and patches; a DARPA AIxCC entry.",
+   "kind": "Code auditor",
+   "stars": 153,
+   "license": "Apache-2.0",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/fuzzingbrain/afc-crs-all-you-need-is-a-fuzzing-brain#readme",
+     "quote": "FuzzingBrain is an LLM-powered autonomous system for vulnerability discovery and patching, built on the OSS-Fuzz toolchain."
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/fuzzingbrain/afc-crs-all-you-need-is-a-fuzzing-brain#readme",
+     "quote": "A scan partitions the codebase into logic groups, reasons about vulnerability hypotheses (potential vulnerabilities), constructs candidate PoC inputs, and verifies every crash before it is reported."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Pentest MCP",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/DMontgomery40/pentest-mcp",
+   "description": "Scoped MCP server giving assessment agents nmap, Nuclei, Hashcat and other tools for authorized tests.",
+   "kind": "MCP server",
+   "stars": 151,
+   "license": "AGPL-3.0",
+   "last_push": "2026-10-30",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/DMontgomery40/pentest-mcp#readme",
+     "quote": "| Discovery and validation | `nmapScan`, `gobuster`, `nikto`, `subfinderEnum`, `httpxProbe`, `ffufScan`, `nucleiScan` |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Heimdall",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/QiantangCredit/heimdall-agent",
+   "description": "Self-hosted AI solver and toolkit for CTF and security labs; top 2 at two Chinese challenges.",
+   "kind": "CTF agent",
+   "stars": 151,
+   "license": "MIT",
+   "last_push": "2026-10-29",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/QiantangCredit/heimdall-agent#readme",
+     "quote": "Results: Heimdall placed in the **Top 2** in both Baidu's Agent+ online attack-and-defense challenge and [Tencent Cloud TSecBench](https://tsecbench.zc.tencent.com/#leaderboard), with the **lowest token usage on both leaderboards**."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Incalmo",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/cylabcyberautonomy/Incalmo",
+   "description": "Autonomous LLM-driven network pentest tool for multistage attacks, built for a research paper.",
+   "kind": "Pentest agent",
+   "stars": 150,
+   "license": "MIT",
+   "last_push": "2026-11-11",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/cylabcyberautonomy/Incalmo#readme",
+     "quote": "**Research Paper**: [On the Feasibility of Using LLMs to Execute Multistage Network Attacks](https://arxiv.org/abs/2501.16466)"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Executioner",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/dbx0/executioner",
+   "description": "Local workspace where teams of AI agents run an assessment against your tools and scope.",
+   "kind": "Pentest agent",
+   "stars": 147,
+   "license": "MIT",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/dbx0/executioner#readme",
+     "quote": "Recon & Strike enumerates, scans, exploits and writes the report, Web AppSec covers the OWASP surface, and Code Audit reviews a codebase."
+    },
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/dbx0/executioner#readme",
+     "quote": "Recon & Strike enumerates, scans, exploits and writes the report, Web AppSec covers the OWASP surface, and Code Audit reviews a codebase."
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/dbx0/executioner#readme",
+     "quote": "Recon & Strike enumerates, scans, exploits and writes the report, Web AppSec covers the OWASP surface, and Code Audit reviews a codebase."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "bloodhound_mcp",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/mwnickerson/bloodhound_mcp",
+   "description": "MCP server that lets an LLM query BloodHound attack paths across Active Directory and Entra ID.",
+   "kind": "MCP server",
+   "stars": 144,
+   "license": "GPL-3.0",
+   "last_push": "2026-08-19",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/mwnickerson/bloodhound_mcp#readme",
+     "quote": "Ask questions in natural language, get attack path analysis, run Cypher queries, and explore Active Directory, Azure/Entra ID, and OpenGraph environments — all from your AI assistant."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Phalanx",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/webxos/phalanx",
+   "description": "Multi-agent pentest framework with recon, exploit and post-exploit agents and 58 built-in tools.",
+   "kind": "Pentest agent",
+   "stars": 142,
+   "license": "MIT",
+   "last_push": "2026-08-16",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/webxos/phalanx#readme",
+     "quote": "Uses an orchestrator and dedicated Recon/Exploit/Post‑Exploit agents (with RoE confirmation)."
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/webxos/phalanx#readme",
+     "quote": "Uses an orchestrator and dedicated Recon/Exploit/Post‑Exploit agents (with RoE confirmation)."
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/webxos/phalanx#readme",
+     "quote": "Uses an orchestrator and dedicated Recon/Exploit/Post‑Exploit agents (with RoE confirmation)."
+    },
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/webxos/phalanx#readme",
+     "quote": "**Rich Tool Arsenal** – 58+ built‑in tools (nmap, nuclei, subfinder, sqlmap, impacket, wpscan, feroxbuster, theHarvester, …) with structured parsing and egress‑scope containment."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "PentestAgent (nbshenxm)",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/nbshenxm/pentest-agent",
+   "description": "Research LLM framework that automates intelligence gathering, vulnerability analysis and exploitation stages.",
+   "kind": "Pentest agent",
+   "stars": 139,
+   "license": "MIT",
+   "last_push": "2025-12-20",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/nbshenxm/pentest-agent#readme",
+     "quote": "**Reconnaissance Agent**: Gathers intelligence about the target system."
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/nbshenxm/pentest-agent#readme",
+     "quote": "**PentestAgent** is a novel LLM-driven penetration testing framework to automate intelligence gathering, vulnerability analysis, and exploitation stages, reducing manual intervention."
+    },
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/nbshenxm/pentest-agent#readme",
+     "quote": "For further is information, please refer to our [paper](https://arxiv.org/abs/2411.05185)."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "claude-pentest",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/Stickman230/claude-pentest",
+   "description": "Claude Code plugin with 15 agents and Kali MCP integration for full pentest engagements.",
+   "kind": "Pentest agent",
+   "stars": 139,
+   "license": "MIT",
+   "last_push": "2026-06-08",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/Stickman230/claude-pentest#readme",
+     "quote": "| `cve-tester` | Identifies tech stacks, researches NVD/Exploit-DB/GitHub, adapts PoC exploits, validates exploitability live. | Bash, Read, Write, WebFetch, WebSearch |"
+    },
+    {
+     "tag": "exploitdev",
+     "basis": "project docs",
+     "source": "https://github.com/Stickman230/claude-pentest#readme",
+     "quote": "Every finding ships with a working PoC, captured HTTP evidence, and a Playwright screenshot."
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/Stickman230/claude-pentest#readme",
+     "quote": "When MKS is active, the time-budget loop runs **post-exploitation** if a CVE or RCE finding is confirmed — deploying Metasploit via the MKS endpoint."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "gori",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/hahwul/gori",
+   "description": "Terminal intercepting proxy and pentest toolkit whose MCP server lets AI agents drive the same engagement.",
+   "kind": "MCP server",
+   "stars": 139,
+   "license": "Apache-2.0",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/hahwul/gori#readme",
+     "quote": "It captures every request and response as a *flow* you can replay, fuzz, and scan across HTTP/1.1, HTTP/2, WebSocket, gRPC, and SSE, and holds HTTP/1.1 and HTTP/2 traffic for editing in flight."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "PentestAssistant",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/InfSecLabs/PentestAssistant",
+   "description": "LLM web pentest detector using function calling and multiple agents to run nmap and sqlmap.",
+   "kind": "Pentest agent",
+   "stars": 138,
+   "license": "Apache-2.0",
+   "last_push": "2025-04-06",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/InfSecLabs/PentestAssistant#readme",
+     "quote": "LLM-based Web automatic penetration detector with function call techniques and multi-agent architectures."
+    },
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/InfSecLabs/PentestAssistant#readme",
+     "quote": "Moreover, it can invoke several penetration detection tools, such as nmap and sqlmap, according to user requests."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "MAPTA",
    "table": "field",
    "tier": "no attack on record",
@@ -2135,13 +4415,178 @@
    "note": null
   },
   {
+   "name": "Moxy",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/matank001/Moxy",
+   "description": "Intercepting-proxy DAST tool where an AI agent reasons about attack surface, edits traffic and drives a browser.",
+   "kind": "Pentest agent",
+   "stars": 134,
+   "license": "Apache-2.0",
+   "last_push": "2026-01-22",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/matank001/Moxy#readme",
+     "quote": "The agent uses AI to reason about your application's attack surface, replay or modify traffic, and even drive browser sessions to generate new test scenarios."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "pentestkit",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/lordx64/pentestkit",
+   "description": "Multi-agent pentest framework on the Claude Agent SDK where a skeptical verifier tries to exploit each candidate.",
+   "kind": "Pentest agent",
+   "stars": 127,
+   "license": "MIT",
+   "last_push": "2026-07-31",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/lordx64/pentestkit#readme",
+     "quote": "**Orchestrator** — does light recon, writes a testing plan into the knowledge base."
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/lordx64/pentestkit#readme",
+     "quote": "**Verifier** — a deliberately skeptical agent that tries to **exploit each candidate**. Reproduces it → `verified` with proof; can't → `refuted`. This is the ground-truth gate."
+    },
+    {
+     "tag": "research",
+     "basis": "project docs",
+     "source": "https://github.com/lordx64/pentestkit#readme",
+     "quote": "All 104 [XBOW validation-benchmarks](https://github.com/xbow-engineering/validation-benchmarks) — dockerized CTF web challenges at three difficulty levels, each with a hidden flag injected at build time."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Hexestra",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/ABSllk/Hexestra",
+   "description": "AI-native pentest workbench where Claude Code or Codex works with browser, shells and traffic capture.",
+   "kind": "Assistant",
+   "stars": 119,
+   "license": "Apache-2.0",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/ABSllk/Hexestra#readme",
+     "quote": "**Integrated tools.** Connect Claude Code or Codex CLI to the browser, terminals, managed shells, HTTP/HTTPS capture, interception and replay, payload generation, and Burp Suite. The agent can operate them directly."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "aimy-skill",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/Prohao42/aimy-skill",
+   "description": "Chinese pentest skill for AI agents with a structured check interface and exploit-chain engine.",
+   "kind": "Skill pack",
+   "stars": 115,
+   "license": "MIT",
+   "last_push": "2026-11-09",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/Prohao42/aimy-skill#readme",
+     "quote": "| **chain_engine** | SSRF→RCE · LFI→RCE · 链式利用组合 |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Zack AI Scanner",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/ZackSecurity/Zack-AI-Scanner",
+   "description": "Burp Suite extension that runs an LLM pipeline against one request and sends the real payloads.",
+   "kind": "Pentest agent",
+   "stars": 112,
+   "license": "GPL-3.0",
+   "last_push": "2026-09-27",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/ZackSecurity/Zack-AI-Scanner#readme",
+     "quote": "Point it at a request (Proxy history, Repeater, Target) and pick either a specific vulnerability type or **AI Smart Scan** to let the model decide."
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/ZackSecurity/Zack-AI-Scanner#readme",
+     "quote": "The extension then runs a staged LLM pipeline against that one request, sends real payloads through Burp, and reports what the evidence supports."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "ZeroTrace",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/sergio11/zero_trace_hacking_tool",
+   "description": "Personal AI-powered dorking tool that uncovers sensitive information for recon.",
+   "kind": "Recon agent",
+   "stars": 111,
+   "license": "MIT",
+   "last_push": "2025-12-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/sergio11/zero_trace_hacking_tool#readme",
+     "quote": "Whether you're conducting reconnaissance or performing security research, ZeroTrace helps uncover **hidden** and **sensitive information** 🔓 that may be exposed due to **misconfigurations** or **poor security practices**."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "awsome-kali-MCPServers",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/ccq1/awsome_kali_MCPServers",
+   "description": "Collection of MCP servers that expose Kali Linux tools to AI clients.",
+   "kind": "MCP server",
+   "stars": 110,
+   "license": "Apache-2.0",
+   "last_push": "2025-11-16",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/ccq1/awsome_kali_MCPServers#readme",
+     "quote": "Once configured, connect to the kali-mcps container via the MCP client and start using the built-in Kali tools (e.g., Nmap, nm, objdump, strings, tshark) for your tasks."
+    }
+   ],
+   "note": null
+  },
+  {
    "name": "AutoPentester",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/YasodGinige/AutoPentester",
    "description": "Tool for automated pentesting tasks.",
    "kind": "Pentest agent",
-   "stars": 108,
+   "stars": 109,
    "license": "MIT",
    "last_push": "2026-09-25",
    "archived": false,
@@ -2154,9 +4599,167 @@
     }
    ],
    "note": null
+  },
+  {
+   "name": "CyberSentry",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/prutxvi/cybersentry",
+   "description": "Autonomous AI agent for website penetration testing and vulnerability assessment.",
+   "kind": "Pentest agent",
+   "stars": 108,
+   "license": "MIT",
+   "last_push": "2026-10-27",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/prutxvi/cybersentry#readme",
+     "quote": "**CyberSentry** is an autonomous AI-powered security auditing agent designed for ethical website penetration testing and vulnerability assessment."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "SQLMap Skynet",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/drcrypterdotru/sqlmap-skynet",
+   "description": "AI-assisted SQLMap orchestration with a dashboard and an MCP tool server for agents.",
+   "kind": "Pentest agent",
+   "stars": 108,
+   "license": "Apache-2.0",
+   "last_push": "2026-02-26",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "scan",
+     "basis": "project docs",
+     "source": "https://github.com/drcrypterdotru/sqlmap-skynet#readme",
+     "quote": "**AI-assisted SQLMap orchestration** + **real-time dashboard** + **MCP tool server (agent-ready)**"
+    },
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/drcrypterdotru/sqlmap-skynet#readme",
+     "quote": "✅ **Operational phases** (Detect → Bypass → Enumerate → Dump)"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "HEAVEN",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/nishu2402/HEAVEN-Autonomous-Penetration-Testing",
+   "description": "Autonomous pentest framework with an LLM plan-act loop, vuln-hypothesis agent and post-exploitation playbook.",
+   "kind": "Pentest agent",
+   "stars": 106,
+   "license": "MIT",
+   "last_push": "2026-11-17",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/nishu2402/HEAVEN-Autonomous-Penetration-Testing#readme",
+     "quote": "| 🤖 **AI / LLM** | Observe→plan→act loop · recon agent · attack-chain planner · **vuln-hypothesis agent (LLM proposes, real detectors verify)** · FP review · knowledge graph |"
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/nishu2402/HEAVEN-Autonomous-Penetration-Testing#readme",
+     "quote": "| 🤖 **AI / LLM** | Observe→plan→act loop · recon agent · attack-chain planner · **vuln-hypothesis agent (LLM proposes, real detectors verify)** · FP review · knowledge graph |"
+    },
+    {
+     "tag": "postex",
+     "basis": "project docs",
+     "source": "https://github.com/nishu2402/HEAVEN-Autonomous-Penetration-Testing#readme",
+     "quote": "| `postex enum/loot/full` | Post-exploitation: privesc enumeration (Linux + Windows via `--os`) · loot harvest · full playbook (kill-chain + AI) |"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Ares",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/dreadnode/ares",
+   "description": "LLM-coordinated platform whose red-team agents chain 64+ Active Directory attack tools; also has a blue-team mode.",
+   "kind": "Red-team platform",
+   "stars": 104,
+   "license": "MIT",
+   "last_push": "2026-10-28",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "exploit",
+     "basis": "project docs",
+     "source": "https://github.com/dreadnode/ares#readme",
+     "quote": "**Red Team** - 7 specialized agents orchestrated by an LLM coordination loop that autonomously chains 64+ Active Directory attack tools across the full kill chain, from recon through domain dominance."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "open-sesame",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/hassan-algo/open-sesame",
+   "description": "Claude Code pentest skills for web and network engagements, from attack-surface mapping to reports.",
+   "kind": "Skill pack",
+   "stars": 102,
+   "license": "MIT",
+   "last_push": "2026-10-22",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "recon",
+     "basis": "project docs",
+     "source": "https://github.com/hassan-algo/open-sesame#readme",
+     "quote": "Point it at a target you're authorized to assess and it runs the whole engagement — maps the attack surface, works methodically through an industry methodology, validates findings with the lightest safe proof, and writes clean reports for both engineers and leadership."
+    },
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/hassan-algo/open-sesame#readme",
+     "quote": "Point it at a target you're authorized to assess and it runs the whole engagement — maps the attack surface, works methodically through an industry methodology, validates findings with the lightest safe proof, and writes clean reports for both engineers and leadership."
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Hacker Bob",
+   "table": "field",
+   "tier": "no attack on record",
+   "repo": "https://github.com/vmihalis/hacker-bob",
+   "description": "Autonomous bug bounty hunter built on a local MCP runtime, with a public portfolio of reported CVEs.",
+   "kind": "Bug-bounty agent",
+   "stars": 101,
+   "license": "Apache-2.0",
+   "last_push": "2026-11-07",
+   "archived": false,
+   "uses": [
+    {
+     "tag": "vuln",
+     "basis": "project docs",
+     "source": "https://github.com/vmihalis/hacker-bob#readme",
+     "quote": "Hacker Bob is an open-source autonomous bug bounty hunter built around a local Model Context Protocol (MCP) runtime.<br /> Run it against authorized targets or in continuous integration (CI)."
+    }
+   ],
+   "note": null
   }
  ],
  "sources": [
+  {
+   "id": "teamcymru-2026-03",
+   "publisher": "Team Cymru",
+   "kind": "Security vendor",
+   "date": "2026-03-02",
+   "title": "Tracking CyberStrikeAI: AI-Native Offensive Tools & MSS Ties",
+   "url": "https://www.team-cymru.com/post/tracking-cyberstrikeai-usage"
+  },
   {
    "id": "gtig-2026-05",
    "publisher": "Google GTIG",
@@ -2222,12 +4825,36 @@
    "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
   },
   {
+   "id": "gambit-2026-09",
+   "publisher": "Gambit Security",
+   "kind": "Security vendor",
+   "date": "2026-09-22",
+   "title": "AI Agents Are Hacking Online Retailers for $25 a Company",
+   "url": "https://gambit.security/blog-posts/autonomous-ai-agents-online-retailers-25-a-company"
+  },
+  {
    "id": "zscaler-2026-10",
    "publisher": "Zscaler ThreatLabz",
    "kind": "Security vendor",
    "date": "2026-10-14",
    "title": "Threat Actors Abuse AI Pentesting Framework",
    "url": "https://www.zscaler.com/blogs/security-research/threat-actor-abuses-agentic-ai-pentesting-framework-target-south-korean"
+  },
+  {
+   "id": "norforge-2026-10",
+   "publisher": "NorForge",
+   "kind": "Security vendor",
+   "date": "2026-10-19",
+   "title": "Inside Cairn: Open Windows into massive AI-Driven Cyber Operations",
+   "url": "https://norforge.com/blog/inside_cairn"
+  },
+  {
+   "id": "gmo-2026-10-19",
+   "publisher": "GMO Cybersecurity by IERAE",
+   "kind": "Security vendor",
+   "date": "2026-10-19",
+   "title": "相次ぐ不正アクセスの攻撃元の多くがAIであることを確認 (in Japanese)",
+   "url": "https://gmo-cybersecurity.com/blog/20261019/"
   },
   {
    "id": "microsoft-2026-10",
@@ -2246,12 +4873,28 @@
    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/"
   },
   {
+   "id": "trendai-2026-10",
+   "publisher": "TrendAI (Trend Micro)",
+   "kind": "Security vendor",
+   "date": "2026-10-27",
+   "title": "Not Only ARTEX: The Different Levels AI is Used in Attacks Targeting Japan",
+   "url": "https://www.trendaisecurity.com/en-us/resources-insights/deep-research/not-only-artex-the-different-levels-ai-is-used-in-attacks-targeting-japan"
+  },
+  {
    "id": "crowdstrike-2026-10-29",
    "publisher": "CrowdStrike",
    "kind": "Security vendor",
    "date": "2026-10-29",
    "title": "VAPOR PANDA Uses AI-Driven ARTEX to Grow Global Espionage Campaign",
    "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+  },
+  {
+   "id": "microsoft-2026-10-29",
+   "publisher": "Microsoft Threat Intelligence",
+   "kind": "Security vendor",
+   "date": "2026-10-29",
+   "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/"
   },
   {
    "id": "gtig-2026-10",
@@ -2278,6 +4921,22 @@
    "url": "https://www.cert-in.org.in/s2cMainServlet?CACODE=CICA-2026-3651&pageid=PUBADV01"
   },
   {
+   "id": "acronis-2026-11",
+   "publisher": "Acronis Threat Research Unit",
+   "kind": "Security vendor",
+   "date": "2026-11-04",
+   "title": "BOSSAI: Inside the AI attack mesh that targeted Taiwan’s emergency services",
+   "url": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/"
+  },
+  {
+   "id": "checkpoint-2026-11-05",
+   "publisher": "Check Point Research",
+   "kind": "Security vendor",
+   "date": "2026-11-05",
+   "title": "Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns",
+   "url": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/"
+  },
+  {
    "id": "microsoft-2026-11",
    "publisher": "Microsoft Threat Intelligence",
    "kind": "Security vendor",
@@ -2286,12 +4945,52 @@
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/"
   },
   {
+   "id": "datadog-2026-11-09",
+   "publisher": "Datadog Security Labs",
+   "kind": "Security vendor",
+   "date": "2026-11-09",
+   "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
+   "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/"
+  },
+  {
+   "id": "arcticwolf-2026-11",
+   "publisher": "Arctic Wolf Labs",
+   "kind": "Security vendor",
+   "date": "2026-11-10",
+   "title": "Antifox Agentic Pentesting Platform Used to Steal AWS Credentials and Move Laterally in Compromised Environments",
+   "url": "https://github.com/rtkwlf/wolf-tools/tree/main/pack_alerts/202611-antifox-alibaba-hosted-platforms-facilitate-web-cloud-intrusions"
+  },
+  {
+   "id": "unit42-2026-11-11",
+   "publisher": "Palo Alto Networks Unit 42",
+   "kind": "Security vendor",
+   "date": "2026-11-11",
+   "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know",
+   "url": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/"
+  },
+  {
+   "id": "cloudsek-2026-11",
+   "publisher": "CloudSEK",
+   "kind": "Security vendor",
+   "date": "2026-11-11",
+   "title": "Off the Rails: Inside an Exposed Silent Lynx Server",
+   "url": "https://www.cloudsek.com/blog/off-the-rails-inside-an-exposed-silent-lynx-server"
+  },
+  {
    "id": "unit42-2026-11",
    "publisher": "Palo Alto Networks Unit 42",
    "kind": "Security vendor",
    "date": "2026-11-12",
    "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
    "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/"
+  },
+  {
+   "id": "amazon-2026-11-13",
+   "publisher": "Amazon Threat Intelligence",
+   "kind": "Security vendor",
+   "date": "2026-11-13",
+   "title": "Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents",
+   "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/"
   },
   {
    "id": "fbi-2026-11",
@@ -2308,6 +5007,512 @@
    "date": "2026-11-16",
    "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold"
+  }
+ ],
+ "references": [
+  {
+   "name": "awesome-ai-pentesting (skyvanguard)",
+   "url": "https://github.com/skyvanguard/awesome-ai-pentesting",
+   "type": "curated list",
+   "what": "AI-powered pentesting tools, frameworks and MCP servers for autonomous security testing.",
+   "discovery": true
+  },
+  {
+   "name": "awesome-ai-pentest (insidetrust)",
+   "url": "https://github.com/insidetrust/awesome-ai-pentest",
+   "type": "curated list",
+   "what": "Open-source AI-assisted pentesting tools, frameworks, CTF agents and benchmarks.",
+   "discovery": true
+  },
+  {
+   "name": "Awesome-AI-Hacking-Agents (EvanThomasLuke)",
+   "url": "https://github.com/EvanThomasLuke/Awesome-AI-Hacking-Agents",
+   "type": "curated list",
+   "what": "A list of AI hacking agents with links to each project.",
+   "discovery": true
+  },
+  {
+   "name": "Awesome-Offensive-AI-Agentic-Landscape (Yeti-791)",
+   "url": "https://github.com/Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+   "type": "curated list",
+   "what": "Open-source projects, papers, benchmarks and commercial products for AI pentesting and autonomous offensive agents.",
+   "discovery": true
+  },
+  {
+   "name": "awesome-security-agent-harnesses (Ed-Marcavage)",
+   "url": "https://github.com/Ed-Marcavage/awesome-security-agent-harnesses",
+   "type": "curated list",
+   "what": "AI pentesting tools and security agent harnesses for code audit, vulnerability discovery, fuzzing and reverse engineering.",
+   "discovery": true
+  },
+  {
+   "name": "awesome-ai-security-tools (scadastrangelove)",
+   "url": "https://github.com/scadastrangelove/awesome-ai-security-tools",
+   "type": "curated list",
+   "what": "Public-source, research and commercial tools for AI security and AI-assisted security work, from pentest agents to AI code scanners.",
+   "discovery": true
+  },
+  {
+   "name": "awesome-ai-offensive-security (yeyintminthuhtut)",
+   "url": "https://github.com/yeyintminthuhtut/awesome-ai-offensive-security",
+   "type": "curated list",
+   "what": "AI agents and tools built for offensive security, plus tools for attacking AI systems.",
+   "discovery": true
+  },
+  {
+   "name": "Awesome-Hacking-with-AI (frangelbarrera)",
+   "url": "https://github.com/frangelbarrera/Awesome-Hacking-with-AI",
+   "type": "curated list",
+   "what": "A guide to AI for security and security for AI, covering agent safety, MCP security and AI red-teaming.",
+   "discovery": true
+  },
+  {
+   "name": "awesome-ai-security (gmh5225)",
+   "url": "https://github.com/gmh5225/awesome-ai-security",
+   "type": "curated list",
+   "what": "AI security materials for pentesters, bug hunters and security researchers.",
+   "discovery": true
+  },
+  {
+   "name": "Awesome-LLM4Security (liu673)",
+   "url": "https://github.com/liu673/Awesome-LLM4Security",
+   "type": "curated list",
+   "what": "Resources and tools for using LLMs across cybersecurity.",
+   "discovery": true
+  },
+  {
+   "name": "awesome-cyber-ai-arsenal (pazo01)",
+   "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
+   "type": "curated list",
+   "what": "Offensive, defensive and AI/LLM security tools in one curated collection.",
+   "discovery": false
+  },
+  {
+   "name": "awesome-llm-cybersecurity-tools (Tenable)",
+   "url": "https://github.com/tenable/awesome-llm-cybersecurity-tools",
+   "type": "curated list",
+   "what": "LLM tools for cybersecurity research.",
+   "discovery": false
+  },
+  {
+   "name": "Awesome-LLM4Cybersecurity (tmylla)",
+   "url": "https://github.com/tmylla/Awesome-LLM4Cybersecurity",
+   "type": "curated list",
+   "what": "An overview of how LLMs are used in cybersecurity.",
+   "discovery": false
+  },
+  {
+   "name": "awesome-autonomous-hacking-agents (vitorfhc)",
+   "url": "https://github.com/vitorfhc/awesome-autonomous-hacking-agents",
+   "type": "curated list",
+   "what": "Papers on building autonomous security bots: offensive AI, multi-agent design, memory and tool use.",
+   "discovery": false
+  },
+  {
+   "name": "awesome-mcp-security (Puliczek)",
+   "url": "https://github.com/Puliczek/awesome-mcp-security",
+   "type": "curated list",
+   "what": "Resources on the security of Model Context Protocol (MCP) servers and clients.",
+   "discovery": false
+  },
+  {
+   "name": "awesome-cyber-security-mcp (MorDavid)",
+   "url": "https://github.com/MorDavid/awesome-cyber-security-mcp",
+   "type": "curated list",
+   "what": "An index of MCP servers that connect AI models to security tools.",
+   "discovery": false
+  },
+  {
+   "name": "offensive-ai-compilation (jiep)",
+   "url": "https://github.com/jiep/offensive-ai-compilation",
+   "type": "curated list",
+   "what": "Resources that cover offensive uses of AI.",
+   "discovery": false
+  },
+  {
+   "name": "Awesome-AI-for-Hacking-Cybersecurity (Laprovittera)",
+   "url": "https://github.com/Laprovittera/Awesome-AI-for-Hacking-Cybersecurity",
+   "type": "curated list",
+   "what": "A large Spanish-language list of AI agents, tools, frameworks and papers for hacking and security, merged from eight community lists.",
+   "discovery": false
+  },
+  {
+   "name": "awesome-offensive-security-ai (ox01024)",
+   "url": "https://github.com/ox01024/awesome-offensive-security-ai",
+   "type": "curated list",
+   "what": "Offensive security AI work: papers, organizations, libraries and benchmarks.",
+   "discovery": false
+  },
+  {
+   "name": "Awesome-LLMs-for-Vulnerability-Detection (huhusmang)",
+   "url": "https://github.com/huhusmang/Awesome-LLMs-for-Vulnerability-Detection",
+   "type": "curated list",
+   "what": "An index of research on LLMs for finding software vulnerabilities, with datasets, benchmarks and surveys.",
+   "discovery": false
+  },
+  {
+   "name": "Cybench",
+   "url": "https://cybench.github.io/",
+   "type": "benchmark",
+   "what": "40 CTF tasks from four competitions, with subtasks, for scoring how well agents handle cybersecurity challenges.",
+   "discovery": false
+  },
+  {
+   "name": "NYU CTF Bench",
+   "url": "https://nyu-llm-ctf.github.io/",
+   "type": "benchmark",
+   "what": "200 dockerized CSAW CTF challenges across six categories for testing LLM agents, with a leaderboard.",
+   "discovery": false
+  },
+  {
+   "name": "CyberGym",
+   "url": "https://www.cybergym.io/",
+   "type": "benchmark",
+   "what": "Berkeley RDI's observatory of benchmarks on how well AI agents find, reproduce and exploit real vulnerabilities.",
+   "discovery": false
+  },
+  {
+   "name": "CVE-Bench",
+   "url": "https://github.com/uiuc-kang-lab/cve-bench",
+   "type": "benchmark",
+   "what": "Real web application vulnerabilities for testing whether AI agents can exploit them.",
+   "discovery": false
+  },
+  {
+   "name": "BountyBench",
+   "url": "https://github.com/bountybench/bountybench",
+   "type": "benchmark",
+   "what": "A bug bounty benchmark that tests AI agents on real-world vulnerabilities.",
+   "discovery": false
+  },
+  {
+   "name": "AutoPenBench",
+   "url": "https://github.com/lucagioacchini/auto-pen-bench",
+   "type": "benchmark",
+   "what": "A penetration testing benchmark for generative agents, with vulnerable containers you can add to.",
+   "discovery": false
+  },
+  {
+   "name": "PentestEval",
+   "url": "https://github.com/Richael-y/PentestEval",
+   "type": "benchmark",
+   "what": "Scores LLMs on each stage of a pentest, from gathering weaknesses to writing exploits for live containers; a small public demo release.",
+   "discovery": false
+  },
+  {
+   "name": "ExploitBench",
+   "url": "https://github.com/exploitbench/exploitbench",
+   "type": "benchmark",
+   "what": "Measures how far an agent climbs, from reaching vulnerable code to triggering the bug to arbitrary code execution.",
+   "discovery": false
+  },
+  {
+   "name": "ExploitGym",
+   "url": "https://github.com/sunblaze-ucb/exploitgym",
+   "type": "benchmark",
+   "what": "Real-world vulnerabilities for testing whether AI agents can develop working exploits.",
+   "discovery": false
+  },
+  {
+   "name": "XBOW validation-benchmarks",
+   "url": "https://github.com/xbow-engineering/validation-benchmarks",
+   "type": "benchmark",
+   "what": "Web security challenges used to score autonomous pentest agents; its authors now call them saturated and keep them for history.",
+   "discovery": false
+  },
+  {
+   "name": "CTFusion",
+   "url": "https://github.com/kaist-hacking/CTFusion",
+   "type": "benchmark",
+   "what": "A streaming framework that benchmarks LLM agents on live CTF competitions.",
+   "discovery": false
+  },
+  {
+   "name": "AIRTBench",
+   "url": "https://github.com/dreadnode/AIRTBench-Code",
+   "type": "benchmark",
+   "what": "Code for AIRTBench, which measures how well language models do autonomous AI red teaming.",
+   "discovery": false
+  },
+  {
+   "name": "EthiBench",
+   "url": "https://github.com/ethiack/ethibench",
+   "type": "benchmark",
+   "what": "Ethiack's AI pentesting benchmark framework, the code behind the From Controlled to the Wild paper.",
+   "discovery": false
+  },
+  {
+   "name": "SEC-bench",
+   "url": "https://github.com/SEC-bench/SEC-bench",
+   "type": "benchmark",
+   "what": "An automated benchmark of LLM agents on real-world software security tasks (NeurIPS 2025).",
+   "discovery": false
+  },
+  {
+   "name": "inspect_cyber",
+   "url": "https://github.com/UKGovernmentBEIS/inspect_cyber",
+   "type": "benchmark",
+   "what": "An extension to the Inspect framework for running agentic cyber evaluations.",
+   "discovery": false
+  },
+  {
+   "name": "PurpleLlama CyberSecEval",
+   "url": "https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks",
+   "type": "benchmark",
+   "what": "Meta's cybersecurity benchmarks for LLMs, part of the PurpleLlama toolset for assessing LLM security.",
+   "discovery": false
+  },
+  {
+   "name": "evmbench",
+   "url": "https://github.com/paradigmxyz/evmbench",
+   "type": "benchmark",
+   "what": "A benchmark and harness for finding and exploiting smart contract bugs, made with OpenAI.",
+   "discovery": false
+  },
+  {
+   "name": "CAIBench",
+   "url": "https://arxiv.org/abs/2510.24317",
+   "type": "benchmark",
+   "what": "A meta-benchmark for evaluating cybersecurity AI agents.",
+   "discovery": false
+  },
+  {
+   "name": "A Survey of LLM-Driven Penetration Testing",
+   "url": "https://arxiv.org/abs/2607.02605",
+   "type": "paper",
+   "what": "A survey that sorts LLM pentest agents into a taxonomy and lists the open challenges.",
+   "discovery": false
+  },
+  {
+   "name": "Agentic Security: Tools, Failure Modes and Design Laws",
+   "url": "https://arxiv.org/abs/2608.21423",
+   "type": "paper",
+   "what": "A systematization of LLM-driven pentest tools, how they fail and what design rules follow.",
+   "discovery": false
+  },
+  {
+   "name": "Benchmarking Practices in LLM-driven Offensive Security",
+   "url": "https://arxiv.org/abs/2504.10112",
+   "type": "paper",
+   "what": "A review of the testbeds, metrics and experiment design used to benchmark offensive LLM agents.",
+   "discovery": false
+  },
+  {
+   "name": "Artificial Intelligence as the New Hacker",
+   "url": "https://arxiv.org/abs/2406.07561",
+   "type": "paper",
+   "what": "An early paper on developing AI agents for offensive security.",
+   "discovery": false
+  },
+  {
+   "name": "On the Surprising Efficacy of LLMs for Penetration-Testing",
+   "url": "https://arxiv.org/abs/2507.00829",
+   "type": "paper",
+   "what": "A review of LLM pentesting research and where it falls short.",
+   "discovery": false
+  },
+  {
+   "name": "The Ethics of Autonomous AI Agents for Offensive Security",
+   "url": "https://arxiv.org/abs/2607.20255",
+   "type": "paper",
+   "what": "Discusses the ethical questions in building and releasing autonomous offensive agents.",
+   "discovery": false
+  },
+  {
+   "name": "Big Enough to Break Out",
+   "url": "https://arxiv.org/abs/2609.10780",
+   "type": "paper",
+   "what": "Tracks how the pentest capability of LLM agents has risen across model generations.",
+   "discovery": false
+  },
+  {
+   "name": "From Controlled to the Wild",
+   "url": "https://arxiv.org/abs/2605.10834",
+   "type": "paper",
+   "what": "Evaluates pentesting agents beyond controlled benchmarks and on real-world targets; its benchmark code is EthiBench.",
+   "discovery": false
+  },
+  {
+   "name": "PentestGPT",
+   "url": "https://arxiv.org/abs/2308.06782",
+   "type": "paper",
+   "what": "The paper behind PentestGPT, an LLM-driven automatic penetration testing tool.",
+   "discovery": false
+  },
+  {
+   "name": "HackSynth",
+   "url": "https://arxiv.org/abs/2412.01778",
+   "type": "paper",
+   "what": "An LLM agent and evaluation framework for autonomous penetration testing.",
+   "discovery": false
+  },
+  {
+   "name": "VulnBot",
+   "url": "https://arxiv.org/abs/2501.13411",
+   "type": "paper",
+   "what": "A multi-agent collaborative framework for autonomous penetration testing.",
+   "discovery": false
+  },
+  {
+   "name": "PentestAgent",
+   "url": "https://arxiv.org/abs/2411.05185",
+   "type": "paper",
+   "what": "LLM agents that automate penetration testing steps from intelligence gathering to exploitation.",
+   "discovery": true
+  },
+  {
+   "name": "xOffense",
+   "url": "https://arxiv.org/abs/2509.13021",
+   "type": "paper",
+   "what": "A multi-agent pentest framework built on domain-adapted LLMs.",
+   "discovery": false
+  },
+  {
+   "name": "CAI: An Open, Bug Bounty-Ready Cybersecurity AI",
+   "url": "https://arxiv.org/abs/2504.06017",
+   "type": "paper",
+   "what": "Describes CAI, an open framework for cybersecurity AI aimed at bug bounty work.",
+   "discovery": false
+  },
+  {
+   "name": "D-CIPHER",
+   "url": "https://arxiv.org/abs/2502.10931",
+   "type": "paper",
+   "what": "A multi-agent system with a planner and different executor agents for offensive security tasks.",
+   "discovery": true
+  },
+  {
+   "name": "Co-RedTeam",
+   "url": "https://arxiv.org/abs/2602.02164",
+   "type": "paper",
+   "what": "Multi-agent LLM system for security discovery and exploitation.",
+   "discovery": false
+  },
+  {
+   "name": "Systematic Capability Benchmarking of Frontier LLMs for Offensive Cyber Tasks",
+   "url": "https://arxiv.org/abs/2604.17159",
+   "type": "paper",
+   "what": "Benchmarks frontier LLMs on offensive cyber tasks.",
+   "discovery": false
+  },
+  {
+   "name": "PenHeal",
+   "url": "https://arxiv.org/abs/2407.17788",
+   "type": "paper",
+   "what": "A two-stage LLM framework that automates pentesting and then recommends fixes.",
+   "discovery": false
+  },
+  {
+   "name": "AutoPT",
+   "url": "https://arxiv.org/abs/2411.01236",
+   "type": "paper",
+   "what": "Asks how far LLM agents are from end-to-end automated web penetration testing.",
+   "discovery": false
+  },
+  {
+   "name": "Incalmo",
+   "url": "https://arxiv.org/abs/2501.16466",
+   "type": "paper",
+   "what": "An LLM-assisted system for red teaming multi-host networks.",
+   "discovery": true
+  },
+  {
+   "name": "Hackers or Hallucinators?",
+   "url": "https://arxiv.org/abs/2604.05719",
+   "type": "paper",
+   "what": "An analysis of LLM-based automated penetration testing.",
+   "discovery": true
+  },
+  {
+   "name": "AI Hacking Incidents",
+   "url": "https://hackingincidents.ai/",
+   "type": "tracker",
+   "what": "Sourced cyberattacks since 2023 where attackers used AI, with which harness, what the AI did and the primary sources.",
+   "discovery": false
+  },
+  {
+   "name": "AI Incident Database",
+   "url": "https://incidentdatabase.ai/",
+   "type": "tracker",
+   "what": "Public database of reported AI harms and misuse incidents, searchable by system and date.",
+   "discovery": false
+  },
+  {
+   "name": "OECD AI Incidents and Hazards Monitor",
+   "url": "https://oecd.ai/en/incidents-methodology",
+   "type": "tracker",
+   "what": "The OECD's monitor of AI incidents and hazards, with its methodology.",
+   "discovery": false
+  },
+  {
+   "name": "MITRE ATLAS",
+   "url": "https://atlas.mitre.org/",
+   "type": "tracker",
+   "what": "Knowledge base of adversary tactics against and with AI systems, with real-world case studies.",
+   "discovery": false
+  },
+  {
+   "name": "awesome-ai-agent-attacks (webpro255)",
+   "url": "https://github.com/webpro255/awesome-ai-agent-attacks",
+   "type": "tracker",
+   "what": "A timeline of real AI agent security incidents and vulnerabilities from 2024 to 2026, each entry sourced and dated.",
+   "discovery": false
+  },
+  {
+   "name": "Google Threat Intelligence blog",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence",
+   "type": "threat report series",
+   "what": "GTIG and Mandiant reports on adversary use of AI, the most frequent primary source in the attack table.",
+   "discovery": false
+  },
+  {
+   "name": "GTIG: Adversarial Misuse of Generative AI",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/adversarial-misuse-generative-ai",
+   "type": "threat report series",
+   "what": "Google's findings on government-backed and information-operations actors using the Gemini web app.",
+   "discovery": false
+  },
+  {
+   "name": "GTIG AI Threat Tracker",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+   "type": "threat report series",
+   "what": "Google's findings on adversarial misuse of AI, including Gemini and non-Google tools.",
+   "discovery": false
+  },
+  {
+   "name": "Anthropic: Detecting and countering misuse of AI, August 2025",
+   "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+   "type": "threat report series",
+   "what": "Anthropic's threat intelligence report on AI cybercrime and other abuses of Claude.",
+   "discovery": false
+  },
+  {
+   "name": "Anthropic: Disrupting an AI-orchestrated cyber espionage campaign",
+   "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+   "type": "threat report series",
+   "what": "Anthropic's report on a highly sophisticated AI-led cyberattack and how it was disrupted.",
+   "discovery": false
+  },
+  {
+   "name": "Microsoft Security Insider intelligence reports",
+   "url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape",
+   "type": "threat report series",
+   "what": "Microsoft's threat intelligence reports on nation-state actors, cybercrime and other threat actors.",
+   "discovery": false
+  },
+  {
+   "name": "Unit 42 research",
+   "url": "https://unit42.paloaltonetworks.com/",
+   "type": "threat report series",
+   "what": "Palo Alto Networks incident and threat research, source of the Hermes Agent and Cairn cases.",
+   "discovery": false
+  },
+  {
+   "name": "CrowdStrike Global Threat Report",
+   "url": "https://www.crowdstrike.com/en-us/global-threat-report/",
+   "type": "threat report series",
+   "what": "CrowdStrike's annual report on rising attacks and adversary tactics.",
+   "discovery": false
   }
  ]
 }
