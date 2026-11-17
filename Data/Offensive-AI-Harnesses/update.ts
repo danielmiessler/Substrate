@@ -67,3 +67,10 @@ Full rows: [harnesses.csv](./harnesses.csv) · sources: [sources.csv](./sources.
 `);
 appendFileSync(join(DIR, "update.log"), `${new Date().toISOString()} from=${from.startsWith("https://") ? from : "local file"} harnesses=${d.harnesses.length} evidence=${ev.length} sources=${d.sources.length} evidence_reviewed=${d.evidence_reviewed} github_facts=${d.github_facts}\n`);
 console.log(`✓ ${d.harnesses.length} harnesses, ${d.sources.length} sources written from ${from}`);
+
+// Keep this dataset's row in Data/README.md in step with the data, so the index of datasets never shows stale counts.
+const README = join(DIR, "..", "README.md");
+const readme = readFileSync(README, "utf8");
+const row = /^\| \[Offensive AI Harnesses\]\(\.\/Offensive-AI-Harnesses\/SUMMARY\.md\) \| [^|]* \|/m;
+if (!row.test(readme)) throw new Error("Data/README.md has no Offensive AI Harnesses row to update");
+writeFileSync(README, readme.replace(row, `| [Offensive AI Harnesses](./Offensive-AI-Harnesses/SUMMARY.md) | ${ev.length} of ${d.harnesses.length} seen in real attacks |`));

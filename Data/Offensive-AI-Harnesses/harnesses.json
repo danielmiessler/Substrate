@@ -48,6 +48,7 @@
  "harnesses": [
   {
    "name": "ARTEX",
+   "url": "https://offsecharnesses.ai/#h-artex",
    "table": "evidence",
    "tier": "confirmed",
    "repo": null,
@@ -121,10 +122,25 @@
     "amazon-2026-11-13",
     "microsoft-2026-10-29",
     "gmo-2026-10-19"
+   ],
+   "incidents": [
+    {
+     "id": "vapor-panda-artex-global-espionage",
+     "title": "Vapor Panda uses ARTEX and DeepSeek against more than 200 organizations",
+     "date": "2026-10-17",
+     "url": "https://hackingincidents.ai/incident/vapor-panda-artex-global-espionage/"
+    },
+    {
+     "id": "artex-south-korean-bank-intrusions",
+     "title": "Operator uses ARTEX and multiple models to breach South Korean financial institutions",
+     "date": "2026-09",
+     "url": "https://hackingincidents.ai/incident/artex-south-korean-bank-intrusions/"
+    }
    ]
   },
   {
    "name": "Cairn",
+   "url": "https://offsecharnesses.ai/#h-cairn",
    "table": "evidence",
    "tier": "confirmed",
    "repo": "https://github.com/oritera/Cairn",
@@ -182,10 +198,25 @@
     "gtig-2026-11",
     "certin-2026-11",
     "gtig-2026-10"
+   ],
+   "incidents": [
+    {
+     "id": "cairn-ecommerce-intrusion-campaign",
+     "title": "Chinese-speaking operator uses Cairn agents to breach company websites",
+     "date": "2026-09-25",
+     "url": "https://hackingincidents.ai/incident/cairn-ecommerce-intrusion-campaign/"
+    },
+    {
+     "id": "gambit-strix-cairn-hermes-retailer-skimmers",
+     "title": "Open-source AI agents breach online retailers and plant card skimmers",
+     "date": "2026-07",
+     "url": "https://hackingincidents.ai/incident/gambit-strix-cairn-hermes-retailer-skimmers/"
+    }
    ]
   },
   {
    "name": "CyberStrikeAI",
+   "url": "https://offsecharnesses.ai/#h-cyberstrikeai",
    "table": "evidence",
    "tier": "confirmed",
    "repo": "https://github.com/AIPentest/CyberStrikeAI",
@@ -246,10 +277,12 @@
     "trendai-2026-10",
     "certin-2026-11",
     "gtig-2026-11"
-   ]
+   ],
+   "incidents": []
   },
   {
    "name": "PentestGPT",
+   "url": "https://offsecharnesses.ai/#h-pentestgpt",
    "table": "evidence",
    "tier": "confirmed",
    "repo": "https://github.com/GreyDGL/PentestGPT",
@@ -303,10 +336,25 @@
    "sources": [
     "talos-2026-08-20",
     "crowdstrike-2026-10-21"
+   ],
+   "incidents": [
+    {
+     "id": "claude-pentestgpt-argentine-healthcare",
+     "title": "Claude Code supervisor and executor agents breach Argentine healthcare organizations",
+     "date": "2026-05",
+     "url": "https://hackingincidents.ai/incident/claude-pentestgpt-argentine-healthcare/"
+    },
+    {
+     "id": "uat-10147-pentestgpt-deepaudit",
+     "title": "UAT-10147 uses PentestGPT, DeepAudit and AI-written scripts against web servers",
+     "date": "2026-02",
+     "url": "https://hackingincidents.ai/incident/uat-10147-pentestgpt-deepaudit/"
+    }
    ]
   },
   {
    "name": "PentAGI",
+   "url": "https://offsecharnesses.ai/#h-pentagi",
    "table": "evidence",
    "tier": "confirmed",
    "repo": "https://github.com/vxcontrol/pentagi",
@@ -354,10 +402,25 @@
     "gtig-2026-10",
     "certin-2026-11",
     "gtig-2026-11"
+   ],
+   "incidents": [
+    {
+     "id": "carliy0s-aipt-67-pentagi-latam-banks",
+     "title": "AiPT-67 'CyberCartel' builds CARLIY0S on PentAGI against Latin American banks",
+     "date": "2026-10",
+     "url": "https://hackingincidents.ai/incident/carliy0s-aipt-67-pentagi-latam-banks/"
+    },
+    {
+     "id": "cyberxero-claude-code-pentagi-iab",
+     "title": "CyberXero initial access broker runs 51 Claude Code agents plus PentAGI",
+     "date": "2026-07",
+     "url": "https://hackingincidents.ai/incident/cyberxero-claude-code-pentagi-iab/"
+    }
    ]
   },
   {
    "name": "OpenClaw",
+   "url": "https://offsecharnesses.ai/#h-openclaw",
    "table": "evidence",
    "tier": "confirmed",
    "repo": "https://github.com/openclaw/openclaw",
@@ -393,10 +456,19 @@
    "sources": [
     "talos-2026-08-04",
     "gtig-2026-09"
+   ],
+   "incidents": [
+    {
+     "id": "apt45-unc2814-gemini-vuln-research",
+     "title": "DPRK and PRC clusters use Gemini and agent tools for scaled vulnerability research",
+     "date": "2026-05-11",
+     "url": "https://hackingincidents.ai/incident/apt45-unc2814-gemini-vuln-research/"
+    }
    ]
   },
   {
    "name": "Hermes Agent",
+   "url": "https://offsecharnesses.ai/#h-hermes-agent",
    "table": "evidence",
    "tier": "confirmed",
    "repo": "https://github.com/NousResearch/hermes-agent",
@@ -454,10 +526,25 @@
     "gambit-2026-09",
     "acronis-2026-11",
     "cloudsek-2026-11"
+   ],
+   "incidents": [
+    {
+     "id": "bugster-indian-university-wordpress-attack",
+     "title": "BUGSTER uses AI-generated tooling against an Indian university",
+     "date": "2026-10",
+     "url": "https://hackingincidents.ai/incident/bugster-indian-university-wordpress-attack/"
+    },
+    {
+     "id": "gambit-strix-cairn-hermes-retailer-skimmers",
+     "title": "Open-source AI agents breach online retailers and plant card skimmers",
+     "date": "2026-07",
+     "url": "https://hackingincidents.ai/incident/gambit-strix-cairn-hermes-retailer-skimmers/"
+    }
    ]
   },
   {
    "name": "oh-my-claudecode",
+   "url": "https://offsecharnesses.ai/#h-oh-my-claudecode",
    "table": "evidence",
    "tier": "confirmed",
    "repo": "https://github.com/Yeachan-Heo/oh-my-claudecode",
@@ -481,10 +568,12 @@
    ],
    "sources": [
     "gambit-2026-08"
-   ]
+   ],
+   "incidents": []
   },
   {
    "name": "Strix",
+   "url": "https://offsecharnesses.ai/#h-strix",
    "table": "evidence",
    "tier": "confirmed",
    "repo": "https://github.com/usestrix/strix",
@@ -545,10 +634,19 @@
     "gtig-2026-05",
     "zenity-2026-06",
     "gambit-2026-09"
+   ],
+   "incidents": [
+    {
+     "id": "gambit-strix-cairn-hermes-retailer-skimmers",
+     "title": "Open-source AI agents breach online retailers and plant card skimmers",
+     "date": "2026-07",
+     "url": "https://hackingincidents.ai/incident/gambit-strix-cairn-hermes-retailer-skimmers/"
+    }
    ]
   },
   {
    "name": "HexStrike AI",
+   "url": "https://offsecharnesses.ai/#h-hexstrike-ai",
    "table": "evidence",
    "tier": "observed",
    "repo": "https://github.com/0x4m4/hexstrike-ai",
@@ -598,10 +696,25 @@
     "gtig-2026-10",
     "gtig-2026-11",
     "acronis-2026-11"
+   ],
+   "incidents": [
+    {
+     "id": "apt31-hexstrike-gemini-2026",
+     "title": "APT31 drove Gemini with Hexstrike MCP tooling against US targets",
+     "date": "2026-02-12",
+     "url": "https://hackingincidents.ai/incident/apt31-hexstrike-gemini-2026/"
+    },
+    {
+     "id": "hexstrike-ai-citrix-netscaler-chatter",
+     "title": "Criminals discuss weaponizing HexStrike AI against Citrix NetScaler zero-days",
+     "date": "2025-09",
+     "url": "https://hackingincidents.ai/incident/hexstrike-ai-citrix-netscaler-chatter/"
+    }
    ]
   },
   {
    "name": "DeepAudit",
+   "url": "https://offsecharnesses.ai/#h-deepaudit",
    "table": "evidence",
    "tier": "observed",
    "repo": "https://github.com/lintsinghua/DeepAudit",
@@ -644,10 +757,19 @@
    ],
    "sources": [
     "talos-2026-08-20"
+   ],
+   "incidents": [
+    {
+     "id": "uat-10147-pentestgpt-deepaudit",
+     "title": "UAT-10147 uses PentestGPT, DeepAudit and AI-written scripts against web servers",
+     "date": "2026-02",
+     "url": "https://hackingincidents.ai/incident/uat-10147-pentestgpt-deepaudit/"
+    }
    ]
   },
   {
    "name": "AntiFox",
+   "url": "https://offsecharnesses.ai/#h-antifox",
    "table": "evidence",
    "tier": "observed",
    "repo": "https://github.com/AntiFox-AI/antifox",
@@ -678,10 +800,12 @@
    ],
    "sources": [
     "arcticwolf-2026-11"
-   ]
+   ],
+   "incidents": []
   },
   {
    "name": "CyberStrike",
+   "url": "https://offsecharnesses.ai/#h-cyberstrike",
    "table": "evidence",
    "tier": "observed",
    "repo": "https://github.com/CyberStrikeus/CyberStrike",
@@ -718,10 +842,12 @@
    ],
    "sources": [
     "acronis-2026-11"
-   ]
+   ],
+   "incidents": []
   },
   {
    "name": "HalberdStrike",
+   "url": "https://offsecharnesses.ai/#h-halberdstrike",
    "table": "evidence",
    "tier": "observed",
    "repo": "https://github.com/kuaiyelink/HalberdStrike",
@@ -752,10 +878,12 @@
    ],
    "sources": [
     "acronis-2026-11"
-   ]
+   ],
+   "incidents": []
   },
   {
    "name": "Shannon",
+   "url": "https://offsecharnesses.ai/#h-shannon",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/KeygraphHQ/shannon",
@@ -791,10 +919,12 @@
      "quote": "It reports a finding only when it has produced a working proof-of-concept"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "reverse-skill",
+   "url": "https://offsecharnesses.ai/#h-reverse-skill",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/zhaoxuya520/reverse-skill",
@@ -818,10 +948,12 @@
      "quote": "| CTF competition | `CTF-Sandbox-Orchestrator/` (42 sub-skills) |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Agent Zero",
+   "url": "https://offsecharnesses.ai/#h-agent-zero",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/agent0ai/agent-zero",
@@ -836,10 +968,12 @@
     "text": "Google saw threat actors experimenting with it",
     "label": "GTIG",
     "href": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold"
-   }
+   },
+   "incidents": []
   },
   {
    "name": "Claude-Red",
+   "url": "https://offsecharnesses.ai/#h-claude-red",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/SnailSploit/Claude-Red",
@@ -881,10 +1015,12 @@
      "quote": "| [Post-Exploitation](#post-exploitation) | 3 | Lateral movement, persistence mechanisms, data exfiltration |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Claude-BugHunter",
+   "url": "https://offsecharnesses.ai/#h-claude-bughunter",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/elementalsouls/Claude-BugHunter",
@@ -920,10 +1056,12 @@
      "quote": "Cloud misconfig + post-credential escalation** — public S3, IMDS chains, STS AssumeRole, cross-account confused-deputy"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "T3MP3ST",
+   "url": "https://offsecharnesses.ai/#h-t3mp3st",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/elder-plinius/T3MP3ST",
@@ -965,10 +1103,12 @@
      "quote": "| **Infiltrator** | Lateral Movement | TA0008 | post-exploitation, privilege escalation |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Decepticon",
+   "url": "https://offsecharnesses.ai/#h-decepticon",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/BitterSecurity/Decepticon",
@@ -1004,10 +1144,12 @@
      "quote": "It executes realistic attack chains — reconnaissance, exploitation, privilege escalation, lateral movement, C2 — the way a real adversary would"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Agentic-Bug-Hunter",
+   "url": "https://offsecharnesses.ai/#h-agentic-bug-hunter",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/awarexone/Agentic-Bug-Hunter",
@@ -1049,10 +1191,12 @@
      "quote": "`/web3-audit <contract.sol>` | 10-class smart contract audit with Foundry PoC template"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "METATRON",
+   "url": "https://offsecharnesses.ai/#h-metatron",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/sooryathejas/METATRON",
@@ -1082,10 +1226,12 @@
      "quote": "It runs real recon tools (nmap, whois, whatweb, curl, dig, nikto), feeds all results to a locally running AI model, and the AI analyzes the target, identifies vulnerabilities, suggests exploits, and recommends fixes."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "RAPTOR",
+   "url": "https://offsecharnesses.ai/#h-raptor",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/gadievron/raptor",
@@ -1109,10 +1255,12 @@
      "quote": "It chains together static analysis, binary analysis, LLM-powered vulnerability validation, exploit generation, and patch writing into a single workflow you can run against a codebase or binary."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "VulnClaw",
+   "url": "https://offsecharnesses.ai/#h-vulnclaw",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Netw0rkNoob/VulnClaw",
@@ -1148,10 +1296,12 @@
      "quote": "**自动报告 & PoC** — 生成结构化 Markdown 报告和可运行的 Python PoC 脚本"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "ctf-skills",
+   "url": "https://offsecharnesses.ai/#h-ctf-skills",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/ljagiello/ctf-skills",
@@ -1169,10 +1319,12 @@
      "quote": "[Agent Skills](https://agentskills.io) for solving CTF challenges — web exploitation, binary pwn, crypto, reverse engineering, forensics, OSINT, and more."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "RedAmon",
+   "url": "https://offsecharnesses.ai/#h-redamon",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/samugit83/redamon",
@@ -1208,10 +1360,12 @@
      "quote": "validates CVE exploitability, tests credential policies, and maps lateral movement paths."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "PentestAgent",
+   "url": "https://offsecharnesses.ai/#h-pentestagent",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/GH05TCREW/pentestagent",
@@ -1235,10 +1389,12 @@
      "quote": "Run nmap SYN scan on example.com"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Pentest-Swarm-AI",
+   "url": "https://offsecharnesses.ai/#h-pentest-swarm-ai",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
@@ -1280,10 +1436,12 @@
      "quote": "draft a new exploit chain from an advisory using any configured reasoning model"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Claude-OSINT",
+   "url": "https://offsecharnesses.ai/#h-claude-osint",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/elementalsouls/Claude-OSINT",
@@ -1301,10 +1459,12 @@
      "quote": "Each skill is a structured `SKILL.md` file that primes Claude with expert-level methodology for one part of the offensive recon problem."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Vulnhuntr",
+   "url": "https://offsecharnesses.ai/#h-vulnhuntr",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/protectai/vulnhuntr",
@@ -1328,10 +1488,12 @@
      "quote": "The final analysis consists of it's reasoning, a proof of concept exploit, and a confidence score"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "hack-skills",
+   "url": "https://offsecharnesses.ai/#h-hack-skills",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/yaklang/hack-skills",
@@ -1349,10 +1511,12 @@
      "quote": "| [linux-lateral-movement](./skills/linux-lateral-movement/SKILL.md) | SSH key harvesting, credential reuse, service exploitation, NFS/shared mount abuse, cron-based persistence |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "pentest-ai-agents",
+   "url": "https://offsecharnesses.ai/#h-pentest-ai-agents",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/0xSteph/pentest-ai-agents",
@@ -1400,10 +1564,12 @@
      "quote": "Lateral Movement** | PtH/PtT, WMI/WinRM/DCOM/SSH, token theft, pivot planning — paired with detection"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Open Kritt",
+   "url": "https://offsecharnesses.ai/#h-open-kritt",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Kritt-ai/open-kritt",
@@ -1421,10 +1587,12 @@
      "quote": "**Orchestrate AI agents to find real vulnerabilities in code.**"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Deep Eye",
+   "url": "https://offsecharnesses.ai/#h-deep-eye",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/zakirkun/deep-eye",
@@ -1442,10 +1610,12 @@
      "quote": "Deep Eye orchestrates multiple AI providers (OpenAI, Claude, Grok, Gemini, OLLAMA, Groq, Mistral, OpenRouter, OrcaRouter, LiteLLM, LM Studio) for intelligent payload generation, scans targets for **50+** vulnerability checks, and produces professional reports with compliance mapping, dedupe, and retest workflows."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "sapper",
+   "url": "https://offsecharnesses.ai/#h-sapper",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/N1nEmAn/sapper-v2",
@@ -1463,10 +1633,12 @@
      "quote": "**This project is designed for competition scenarios** (Tencent Intelligent Attack-Defense Challenge CTF)."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "emp3r0r",
+   "url": "https://offsecharnesses.ai/#h-emp3r0r",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/jm33-m0/emp3r0r",
@@ -1484,10 +1656,12 @@
      "quote": "Over time it grew into a multi-operator C2 featuring modular Go and C agents, a self-healing P2P mesh, in-memory execution across Linux and Windows, and an OPSEC-screened MCP server that lets operators turn their own private AI harness into a fully interactive, natural-language C2 interface."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "pentest-ai",
+   "url": "https://offsecharnesses.ai/#h-pentest-ai",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/0xSteph/pentest-ai",
@@ -1511,10 +1685,12 @@
      "quote": "using **machine oracles to verify whether an exploit actually works**"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Burp AI Agent",
+   "url": "https://offsecharnesses.ai/#h-burp-ai-agent",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/six2dez/burp-ai-agent",
@@ -1538,10 +1714,12 @@
      "quote": "Use local models or cloud providers, connect external AI agents via MCP, and let passive/active scanners find vulnerabilities while you focus on manual testing."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Pentest Copilot",
+   "url": "https://offsecharnesses.ai/#h-pentest-copilot",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/bugbasesecurity/pentest-copilot",
@@ -1571,10 +1749,12 @@
      "quote": "Pentest Copilot performing an auth bypass in [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/):"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "NeuroSploit",
+   "url": "https://offsecharnesses.ai/#h-neurosploit",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/JoasASantos/NeuroSploit",
@@ -1622,10 +1802,12 @@
      "quote": "findings **chain** (reduce a foothold to a primitive — exec / read / write / SSRF / identity / secret — then pivot), each stage proven and non-destructive."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "LuaN1aoAgent",
+   "url": "https://offsecharnesses.ai/#h-luan1aoagent",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/SanMuzZzZz/LuaN1aoAgent",
@@ -1649,10 +1831,12 @@
      "quote": "<p align=\"center\"><strong>Causal Reasoning Graph</strong> — trace evidence into hypotheses, confirmed vulnerabilities, and successful exploits.</p>"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "PentesterFlow",
+   "url": "https://offsecharnesses.ai/#h-pentesterflow",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/PentesterFlow/agent",
@@ -1676,10 +1860,12 @@
      "quote": "| Generic AI workflows | Built-in pentest skills for recon, web vulns, SSRF, SSTI, JWT, GraphQL, race, takeover, Supabase, and deserialization. |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "recon-skills",
+   "url": "https://offsecharnesses.ai/#h-recon-skills",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/uphiago/recon-skills",
@@ -1697,10 +1883,12 @@
      "quote": "A curated pack of security skills for external reconnaissance, web applications, APIs, authentication, vulnerability validation, attack-path analysis, and reporting."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Xalgorix",
+   "url": "https://offsecharnesses.ai/#h-xalgorix",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/xalgorix/xalgorix",
@@ -1736,10 +1924,12 @@
      "quote": "**Exploit-verified findings** — a separate verifier independently reproduces each finding"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "hackingBuddyGPT",
+   "url": "https://offsecharnesses.ai/#h-hackingbuddygpt",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/ipa-lab/hackingBuddyGPT",
@@ -1775,10 +1965,12 @@
      "quote": "To support reproducible research we also maintain a re-usable [Linux privilege-escalation benchmark]"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Dark-Moon",
+   "url": "https://offsecharnesses.ai/#h-dark-moon",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/ASCIT31/Dark-Moon",
@@ -1814,10 +2006,12 @@
      "quote": "Autonomous agents reason and exploit, live in your terminal."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "AutoCVE",
+   "url": "https://offsecharnesses.ai/#h-autocve",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/larlarua/AutoCVE",
@@ -1835,10 +2029,12 @@
      "quote": "实现从项目筛选、仓库导入、审计任务创建、Agent 漏洞挖掘到 CVE 申报报告生成的全流程自动化。用户仅需复制报告内容并提交，即可完成后续 CVE 申请。"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "VulnHunter (Capital One)",
+   "url": "https://offsecharnesses.ai/#h-vulnhunter-capital-one",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/capitalone/VulnHunter",
@@ -1862,10 +2058,12 @@
      "quote": "| **`/vulnhunter-fix`** | **Fix** | Developer-led, test-driven remediation. It writes an exploit demo, creates a failing security test (**RED**), implements the code fix (**GREEN**), verifies the exploit is blocked without regressions, and cuts a reviewable PR. |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Nebula",
+   "url": "https://offsecharnesses.ai/#h-nebula",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/berylliumsec/nebula",
@@ -1883,10 +2081,12 @@
      "quote": "**Kali tools and optional VPN egress.** Run container commands with Docker or Podman and route authorized container traffic through a Project-selected OpenVPN profile."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Vigolium",
+   "url": "https://offsecharnesses.ai/#h-vigolium",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/vigolium/vigolium",
@@ -1910,10 +2110,12 @@
      "quote": "**Swarm**: master agent selects modules, generates custom JS attack extensions, runs code audit + SAST, executes scans, and triages results; targeted or full-scope (`--discover`), with `--diff`/`--last-commits` for change-focused runs"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "codex-redteam-mode",
+   "url": "https://offsecharnesses.ai/#h-codex-redteam-mode",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/chAng-L19/codex-redteam-mode",
@@ -1924,10 +2126,12 @@
    "last_push": "2026-10-09",
    "archived": false,
    "uses": [],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "PentestCode",
+   "url": "https://offsecharnesses.ai/#h-pentestcode",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/s0ld13rr/pentestcode",
@@ -1975,10 +2179,12 @@
      "quote": "post-exploit, exploit-dev, critic (false-positive checker)"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "AIRecon",
+   "url": "https://offsecharnesses.ai/#h-airecon",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/pikpikcu/airecon",
@@ -2020,10 +2226,12 @@
      "quote": "AI-generated exploit scripts (.py, .sh)"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Clearwing",
+   "url": "https://offsecharnesses.ai/#h-clearwing",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Lazarus-ai-OSS/clearwing",
@@ -2059,10 +2267,12 @@
      "quote": "multi-turn agentic exploit development, and human-in-the-loop exploit elaboration."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Cybermes",
+   "url": "https://offsecharnesses.ai/#h-cybermes",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Zyrexnn/Cybermes",
@@ -2104,10 +2314,12 @@
      "quote": "Requires standalone, non-destructive Python scripts (`pocs/poc_<name>.py`) and raw HTTP traces before logging findings."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Z3r0",
+   "url": "https://offsecharnesses.ai/#h-z3r0",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/yv1ing/Z3r0",
@@ -2125,10 +2337,12 @@
      "quote": "Z3r0 is an AI-native red-team workbench for authorized penetration testing and vulnerability research, with specialist agents, sandboxed tooling, evidence records, and replayable timelines."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Cain",
+   "url": "https://offsecharnesses.ai/#h-cain",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/cdxiaodong/cain-agent",
@@ -2158,10 +2372,12 @@
      "quote": "**Read-only toolchain** — 46 built-in security tools (recon / scan / verify / post / report), each with a per-tool `dangerous_flags` blacklist; write/exploit/persist operations (`POST`, `PUT`, `DELETE`, `aws rm/mv/cp`, …) are rejected before execution."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "ctf-agent",
+   "url": "https://offsecharnesses.ai/#h-ctf-agent",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/verialabs/ctf-agent",
@@ -2179,10 +2395,12 @@
      "quote": "Autonomous CTF (Capture The Flag) solver that races multiple AI models against challenges in parallel."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "dsh-redteam-model",
+   "url": "https://offsecharnesses.ai/#h-dsh-redteam-model",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/SeaOf0/dsh-redteam-model",
@@ -2206,10 +2424,12 @@
      "quote": "| `attack-defense` 攻防评估 | 做了多条主线：web打点+内网环境(内网环境又分Windows场景、Linux场景、有无监测、域环境、云内网等) |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "IoTHackBot",
+   "url": "https://offsecharnesses.ai/#h-iothackbot",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/BrownFineSecurity/iothackbot",
@@ -2233,10 +2453,12 @@
      "quote": "**nmap** (skill) - Professional network reconnaissance with two-phase scanning strategy"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "audit",
+   "url": "https://offsecharnesses.ai/#h-audit",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/evilsocket/audit",
@@ -2260,10 +2482,12 @@
      "quote": "| 2 | Hunt | Sonnet 4.6 | One attack class per agent; compile/run PoCs |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Ars0n Framework v2",
+   "url": "https://offsecharnesses.ai/#h-ars0n-framework-v2",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/R-s0n/ars0n-framework-v2",
@@ -2287,10 +2511,12 @@
      "quote": "The framework ships with a **Model Context Protocol (MCP) server** that exposes its data and scan controls to AI assistants (Claude Desktop, Claude Code, Cursor, and other MCP-capable clients)."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "MCP-Kali-Server",
+   "url": "https://offsecharnesses.ai/#h-mcp-kali-server",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Wh0am123/MCP-Kali-Server",
@@ -2314,10 +2540,12 @@
      "quote": "Using AI to suggest and run terminal commands to [solve CTF challenges](#example-solving-a-web-ctf-challenge-from-ramadanctf) or automate recon/exploitation tasks."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "numasec",
+   "url": "https://offsecharnesses.ai/#h-numasec",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/FrancescoStabile/numasec",
@@ -2341,10 +2569,12 @@
      "quote": "- **web and application testing:** `http_request`, `browser`, `scanner`, `appsec_probe`"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "FofaMap",
+   "url": "https://offsecharnesses.ai/#h-fofamap",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/asaotomo/FofaMap",
@@ -2368,10 +2598,12 @@
      "quote": "FofaMap 由 **Hx0 工作室**开发，将 **FOFA 资产发现、AI 反思、Nuclei 授权验证与交互式报告**融入同一工作流，让查询依据、分析过程与验证结果可追溯、可复核。"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "MetasploitMCP",
+   "url": "https://offsecharnesses.ai/#h-metasploitmcp",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/GH05TCREW/MetasploitMCP",
@@ -2407,10 +2639,12 @@
      "quote": "run_post_module**: Execute post-exploitation modules against existing sessions"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "StrikeAgent",
+   "url": "https://offsecharnesses.ai/#h-strikeagent",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Yean-Sec/StrikeAgent_AtkBrain-Flash",
@@ -2428,10 +2662,12 @@
      "quote": "为了避免 AI 给出的漏洞存在夸大或误报的情况，团队特别设计了红队二次评级和二次验证，让漏洞所见即所得、拿着就能用"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Muteki",
+   "url": "https://offsecharnesses.ai/#h-muteki",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/FishCodeTech/muteki",
@@ -2449,10 +2685,12 @@
      "quote": "Muteki took first blood in about two hours of actual solving"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "src-hunter-skill",
+   "url": "https://offsecharnesses.ai/#h-src-hunter-skill",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/MyuriKanao/src-hunter-skill",
@@ -2470,10 +2708,12 @@
      "quote": "简单说，就是你给它一个目标，它会按一套固定流程帮你推进漏洞挖掘：先确认目标范围，再做信息收集和资产枚举，然后进入漏洞测试，最后整理报告。"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "MCP for Security",
+   "url": "https://offsecharnesses.ai/#h-mcp-for-security",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/cyproxio/mcp-for-security",
@@ -2497,10 +2737,12 @@
      "quote": "Fast port scanner for large-scale network discovery"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "communitytools",
+   "url": "https://offsecharnesses.ai/#h-communitytools",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/transilienceai/communitytools",
@@ -2548,10 +2790,12 @@
      "quote": "Active Directory, Privilege Escalation (Linux/Windows), Exploit Development"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "CHYing-agent",
+   "url": "https://offsecharnesses.ai/#h-chying-agent",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/yhy0/CHYing-agent",
@@ -2569,10 +2813,12 @@
      "quote": "第一届第九，第二届主赛场排名 60（总共 54 个 flag，全程 GLM5 解出 30 个，卡在了第三关，2140 分），零界平行赛场第一 🏆。"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Cyber-AutoAgent",
+   "url": "https://offsecharnesses.ai/#h-cyber-autoagent",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/westonbrown/Cyber-AutoAgent",
@@ -2608,10 +2854,12 @@
      "quote": "**Meta-Tool Creation**: Dynamically creates custom exploitation tools when needed"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Mitsu",
+   "url": "https://offsecharnesses.ai/#h-mitsu",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/ARCANGEL0/Mitsu",
@@ -2641,10 +2889,12 @@
      "quote": "Given an in-scope target and objective, she can carry out reconnaissance, enumerate hosts and services, research vulnerabilities and exploits, validate findings, and continue into post-exploitation."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Flounder",
+   "url": "https://offsecharnesses.ai/#h-flounder",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/adshao/flounder",
@@ -2668,10 +2918,12 @@
      "quote": "| Exploit construction | Writes local PoCs, tests, fixtures, or harnesses inside an isolated workspace. |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Blitz Strike",
+   "url": "https://offsecharnesses.ai/#h-blitz-strike",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/shinthink/blitzstrike",
@@ -2701,10 +2953,12 @@
      "quote": "It enumerates the attack surface (BLITZ), traces source-to-sink reachability (EAGLE-EYE), and verifies each finding live before it is reported (STRIKE)."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "AIDA",
+   "url": "https://offsecharnesses.ai/#h-aida",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Vasco0x4/AIDA",
@@ -2746,10 +3000,12 @@
      "quote": "The agent generates and executes Python scripts on the fly — custom payloads,"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Mantishack",
+   "url": "https://offsecharnesses.ai/#h-mantishack",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/deonmenezes/mantishack",
@@ -2767,10 +3023,12 @@
      "quote": "`stalk - wait - strike - hold` **Ethically hack and discover vulnerabilities in any software with the power of AI.**"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Zen-Ai-Pentest",
+   "url": "https://offsecharnesses.ai/#h-zen-ai-pentest",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/SHAdd0WTAka/Zen-Ai-Pentest",
@@ -2806,10 +3064,12 @@
      "quote": "| **AGGRESSIVE (3)** | Full exploitation | + pivot, lateral |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "AdStrike",
+   "url": "https://offsecharnesses.ai/#h-adstrike",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/capture0x/AdStrike",
@@ -2833,10 +3093,12 @@
      "quote": "It helps operators move through discovery, enumeration, exploitation, credential access, lateral movement, persistence, and reporting while keeping session state in one place."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Rogue",
+   "url": "https://offsecharnesses.ai/#h-rogue",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/faizann24/rogue",
@@ -2860,10 +3122,12 @@
      "quote": "**Subdomain Enumeration**: Optional discovery of related subdomains"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Pentest Harness",
+   "url": "https://offsecharnesses.ai/#h-pentest-harness",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/S1N6H/pentest-harness",
@@ -2874,10 +3138,12 @@
    "last_push": "2026-10-07",
    "archived": false,
    "uses": [],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "BoxPwnr",
+   "url": "https://offsecharnesses.ai/#h-boxpwnr",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/0ca/BoxPwnr",
@@ -2895,10 +3161,12 @@
      "quote": "A fun experiment to see how far Large Language Models (LLMs) can go in solving CTF challenges and security labs on their own."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Bug-Bounty-Agents",
+   "url": "https://offsecharnesses.ai/#h-bug-bounty-agents",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/matty69v/Bug-Bounty-Agents",
@@ -2934,10 +3202,12 @@
      "quote": "| [`privesc-advisor`](privesc-advisor.md) | Linux / Windows privilege escalation paths |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "OpenHack",
+   "url": "https://offsecharnesses.ai/#h-openhack",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/openhackai/OpenHack",
@@ -2955,10 +3225,12 @@
      "quote": "**Hunter**: Specialized category based hunters get to finding vulnerabilities initially, along with feature based hunters divind deep to find vulnerabilities in risky code areas."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "cyber-harness",
+   "url": "https://offsecharnesses.ai/#h-cyber-harness",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/chainreactors/cyber-harness",
@@ -2988,10 +3260,12 @@
      "quote": "Model-led source-code and binary audits, evidence collection and reports"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "offensive-claude",
+   "url": "https://offsecharnesses.ai/#h-offensive-claude",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/hypnguyen1209/offensive-claude",
@@ -3027,10 +3301,12 @@
      "quote": "| `/engage.install` | 5 | Persistence establishment |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "RedCell",
+   "url": "https://offsecharnesses.ai/#h-redcell",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/martian56/redcell",
@@ -3066,10 +3342,12 @@
      "quote": "Route tool traffic through a caught reverse shell to reach hosts that are only visible from the compromised machine."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "BugTraceAI",
+   "url": "https://offsecharnesses.ai/#h-bugtraceai",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/BugTraceAI/BugTraceAI",
@@ -3105,10 +3383,12 @@
      "quote": "CORE-Ultra | Structured PoC generation and tool-calling workflows"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Vibe Pentest",
+   "url": "https://offsecharnesses.ai/#h-vibe-pentest",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/ok-helloworld/vibe-pentest",
@@ -3126,10 +3406,12 @@
      "quote": "Vibe Pentest（氛围渗透）是一款模拟人类安全专家思维挖掘漏洞的 AI 渗透测试工具，采用多 Agent 并行执行架构，能够对 Web 应用、API、管理后台等进行全面的黑盒渗透测试（包括业务逻辑漏洞评估），输出稳定可靠的安全报告，并提供可落地的整改建议。"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Halberd",
+   "url": "https://offsecharnesses.ai/#h-halberd",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/vectra-ai-research/Halberd",
@@ -3147,10 +3429,12 @@
      "quote": "**Google Cloud Platform (GCP)** - Service account abuse, project enumeration, persistence"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "pentest-skills",
+   "url": "https://offsecharnesses.ai/#h-pentest-skills",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/crazyMarky/pentest-skills",
@@ -3168,10 +3452,12 @@
      "quote": "| **recon-port-scan** | 端口扫描和服务识别 | nmap, masscan, rustscan |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "h1-brain",
+   "url": "https://offsecharnesses.ai/#h-h1-brain",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/PatrikFehrenbach/h1-brain",
@@ -3189,10 +3475,12 @@
      "quote": "The primary tool, `hack(handle)`, generates a full hacking session briefing in a single call: fresh scope from the API, your past findings, public disclosures for that program, weakness patterns, untouched assets, and suggested attack vectors — all formatted as actionable instructions that put the AI in offensive mode."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "RedAI",
+   "url": "https://offsecharnesses.ai/#h-redai",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/kpolley/redai",
@@ -3216,10 +3504,12 @@
      "quote": "Once a scan starts, validators do whatever the plan calls for — drive the UI, run shell commands, write PoC scripts, host helper servers, collect logs, save screenshots."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "TARS",
+   "url": "https://offsecharnesses.ai/#h-tars",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/osgil-defense/TARS",
@@ -3237,10 +3527,12 @@
      "quote": "Build agents that can properly use existing cybersecurity tools for vulnerability scanning and threat analysis."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Pojun",
+   "url": "https://offsecharnesses.ai/#h-pojun",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/chu0119/Pojun",
@@ -3276,10 +3568,12 @@
      "quote": "Pojun 是一套 **LLM 多 Agent 自主渗透测试平台**：给一句话目标，它自动完成 「目标拆解 → 侦察 → 漏洞挖掘 → 利用 → 后渗透 → 报告」全流程，人随时可以插手纠偏。"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "DorkAgent",
+   "url": "https://offsecharnesses.ai/#h-dorkagent",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/yee-yore/DorkAgent",
@@ -3297,10 +3591,12 @@
      "quote": "🤖 LLM-powered agent for automated Google Dorking in bug hunting &amp; pentesting."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "LeoAI",
+   "url": "https://offsecharnesses.ai/#h-leoai",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/cha0upup/LeoAI",
@@ -3318,10 +3614,12 @@
      "quote": "**AI 驱动的后渗透与主机协同管理平台**"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "deadend-cli",
+   "url": "https://offsecharnesses.ai/#h-deadend-cli",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/straylabs-ai/deadend-cli",
@@ -3357,10 +3655,12 @@
      "quote": "Deadend CLI is an autonomous web application penetration testing agent that uses feedback-driven iteration to adapt exploitation strategies. When standard tools fail, it generates custom Python payloads, observes"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Lyrie",
+   "url": "https://offsecharnesses.ai/#h-lyrie",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/OTT-Cybersecurity-LLC/lyrie-ai",
@@ -3384,10 +3684,12 @@
      "quote": "7-phase pipeline: **recon → fingerprint → scan → exploit → PoC → report**."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Apex",
+   "url": "https://offsecharnesses.ai/#h-apex",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/pensarai/apex",
@@ -3405,10 +3707,12 @@
      "quote": "Run blackbox and whitebox pentests that explore, reason, and surface real vulnerabilities."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "HackSynth",
+   "url": "https://offsecharnesses.ai/#h-hacksynth",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/aielte-research/HackSynth",
@@ -3426,10 +3730,12 @@
      "quote": "we propose two new Capture The Flag (CTF)-based benchmark sets utilizing the popular platforms PicoCTF and OverTheWire."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Plamen",
+   "url": "https://offsecharnesses.ai/#h-plamen",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/PlamenTSV/plamen",
@@ -3453,10 +3759,12 @@
      "quote": "Orchestrates 18-100 AI agents across 40+ phases to produce audit reports with verified PoC exploits — for **smart contracts** and **L1 node-client infrastructure**."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "red-run",
+   "url": "https://offsecharnesses.ai/#h-red-run",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/blacklanternsecurity/red-run",
@@ -3480,10 +3788,12 @@
      "quote": "red-run combines skills, MCP servers, and Claude Code agent teams with routing logic that guides Claude and the operator through the phases of a security assessment — recon, initial access, lateral movement, privilege escalation, and post-access."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "BurpMCP-Ultra",
+   "url": "https://offsecharnesses.ai/#h-burpmcp-ultra",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Cy-S3c/BurpMCP-Ultra",
@@ -3507,10 +3817,12 @@
      "quote": "It exposes Burp's Montoya API as 150 structured tools over a token-secured local SSE transport, so an AI agent can run proxy history analysis, active scans, fuzzing, race conditions, OOB testing, custom scan checks, and guided exploitation — all from natural language."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "LazyOwn",
+   "url": "https://offsecharnesses.ai/#h-lazyown",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/grisuno/LazyOwn",
@@ -3552,10 +3864,12 @@
      "quote": "Post-Exploit | `linpeas`, `winpeas`, `blacksandbeacon`, `mimikatzpy`, `disableav`"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Scan-Spring-GO",
+   "url": "https://offsecharnesses.ai/#h-scan-spring-go",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/sspsec/Scan-Spring-GO",
@@ -3573,10 +3887,12 @@
      "quote": "SSP 是一个使用 Go 语言实现的轻量、高效的 Spring 全家桶漏洞扫描与利用工具：支持 17 个漏洞模块的检测与利用、actuator/swagger/druid 信息泄露探测、自定义字典、并发限速控制，并内置 **MCP 服务端**——可将全部能力暴露给 AI 客户端（Claude Desktop、ZCode、Cursor 等），实现\"AI 一句话完成从指纹识别到漏洞利用\"的自动化渗透链路。"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "WolfShell",
+   "url": "https://offsecharnesses.ai/#h-wolfshell",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/0x7556/wolfshell",
@@ -3594,10 +3910,12 @@
      "quote": "WolfShell(幽狼)是一款为微软 **.NET/ASPX** 环境打造的高级 **WebShell** 与 **C2 管理工具**，面向安全研究与渗透测试（**红队**）使用，提供强大的**命令执行**、**提权**与**内网穿透**能力；内置大量渗透工具并集成 **AI 智能渗透** 辅助，支持**内存加载**、**无文件落地**操作，从而实现**高隐蔽性**的内网渗透与灵活扩展。"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "vulnerator-ai",
+   "url": "https://offsecharnesses.ai/#h-vulnerator-ai",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/irraz/vulnerator-ai",
@@ -3615,10 +3933,12 @@
      "quote": "deterministic runtime for pentest and collection tools (nmap, whatweb, nuclei, ffuf,"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "SecGPT",
+   "url": "https://offsecharnesses.ai/#h-secgpt",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/ZacharyZcR/SecGPT",
@@ -3648,10 +3968,12 @@
      "quote": "SecGPT aims to make further contributions to network security by combining LLM, including penetration testing, red-blue confrontations, CTF competitions, and other aspects."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "raptor-loop-hunt",
+   "url": "https://offsecharnesses.ai/#h-raptor-loop-hunt",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/dinosn/raptor-loop-hunt",
@@ -3669,10 +3991,12 @@
      "quote": "An autonomous, looping, multi-altitude **security vulnerability hunt** for a codebase, packaged as a Claude Code **skill**."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "BlacksmithAI",
+   "url": "https://offsecharnesses.ai/#h-blacksmithai",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/yohannesgk/blacksmith",
@@ -3708,10 +4032,12 @@
      "quote": "Discover credentials and authentication mechanisms"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "AutoPentest AI",
+   "url": "https://offsecharnesses.ai/#h-autopentest-ai",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/bhavsec/autopentest-ai",
@@ -3741,10 +4067,12 @@
      "quote": "**Exploiter** — consumes Analyzer output, proves exploitation with evidence, logs confirmed findings (Phase 4 exploitation)"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Haiou Workshop",
+   "url": "https://offsecharnesses.ai/#h-haiou-workshop",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/haiou-666/Haiou-workshop",
@@ -3762,10 +4090,12 @@
      "quote": "逆向工程 / 安全测试 / 代码审计 / CTF / 数字取证 / 自动化开发"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "VulnBot",
+   "url": "https://offsecharnesses.ai/#h-vulnbot",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/KHenryAegis/VulnBot",
@@ -3783,10 +4113,12 @@
      "quote": "If you use VulnBot for academic purposes, please cite our [paper](https://arxiv.org/abs/2501.13411):"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Watchtower",
+   "url": "https://offsecharnesses.ai/#h-watchtower",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/fzn0x/watchtower",
@@ -3810,10 +4142,12 @@
      "quote": "**28 integrated security tools** across network, web recon, crawling and URL discovery, DNS, vulnerability, TLS, content discovery, and secret scanning. See [Tools](https://fzn0x.github.io/watchtower/tools/)."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Claude-AD",
+   "url": "https://offsecharnesses.ai/#h-claude-ad",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/ADScanPro/Claude-AD",
@@ -3837,10 +4171,12 @@
      "quote": "Every AD assessment follows the same spine: map before you exploit, harvest the easy credentials before you spray, collect the graph before you reason about paths."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "web3-bug-bounty-hunting-ai-skills",
+   "url": "https://offsecharnesses.ai/#h-web3-bug-bounty-hunting-ai-skills",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/awarexone/web3-bug-bounty-hunting-ai-skills",
@@ -3858,10 +4194,12 @@
      "quote": "Smart contract bug bounty skills for Claude Code, Claude AI, and other AI tools."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "AIxVuln",
+   "url": "https://offsecharnesses.ai/#h-aixvuln",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/m4xxxxx/AIxVuln",
@@ -3885,10 +4223,12 @@
      "quote": "系统通过 Web UI / 桌面客户端管理\"项目\"，为每个项目自动组织多个**数字人**协作完成环境搭建、代码审计、漏洞验证与报告生成，并在隔离的 Docker 环境内完成依赖安装、服务启动、PoC 验证与证据采集，最终产出可下载的漏洞报告。"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "kali-pentest",
+   "url": "https://offsecharnesses.ai/#h-kali-pentest",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/x-glacier/kali-pentest",
@@ -3906,10 +4246,12 @@
      "quote": "| `post-exploitation.md` | Privilege escalation, lateral movement, persistence, C2 |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "NYU CTF agents",
+   "url": "https://offsecharnesses.ai/#h-nyu-ctf-agents",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/NYU-LLM-CTF/nyuctf_agents",
@@ -3927,10 +4269,12 @@
      "quote": "This repository holds the LLM agents for solving CTF challenges developed for the [NYU CTF Bench](https://nyu-llm-ctf.github.io)."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Zypheron",
+   "url": "https://offsecharnesses.ai/#h-zypheron",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/KKingZero/Zypheron-CLI",
@@ -3948,10 +4292,12 @@
      "quote": "A local-first security CLI for **authorized** work: recon, scanning, and AI-assisted operator workflows."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "AI-OPS",
+   "url": "https://offsecharnesses.ai/#h-ai-ops",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/antoninoLorenzo/AI-OPS",
@@ -3969,10 +4315,12 @@
      "quote": "AI-OPS is an open agent for penetration-testing and cybersecurity tasks. You run the agent behind an HTTP API, in a container with the offensive tooling preinstalled, and drive it from a terminal client."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "CkSKILLS",
+   "url": "https://offsecharnesses.ai/#h-ckskills",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/zhaji2333/CkSKILLS",
@@ -4002,10 +4350,12 @@
      "quote": "| `internal-network` | 内网/域：域侦察、Kerberos、委派/ACL/ADCS、NTLM 中继、横向移动、隧道多跳、后渗透、持久化、内网基础设施 |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "forefy/.context",
+   "url": "https://offsecharnesses.ai/#h-forefy-context",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/forefy/.context",
@@ -4035,10 +4385,12 @@
      "quote": "`foundry-poc` - context-window-optimized skill to generate a Foundry proof of concept for a discussed finding."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "agent-smith",
+   "url": "https://offsecharnesses.ai/#h-agent-smith",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/0x0pointer/agent-smith",
@@ -4068,10 +4420,12 @@
      "quote": "| `/pentester scan https://staging.example.com depth=thorough` | Full hands-off engagement: OSINT → recon → web-exploit → post-exploit → report |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "cochise",
+   "url": "https://offsecharnesses.ai/#h-cochise",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/andreashappe/cochise",
@@ -4101,10 +4455,12 @@
      "quote": "This work is published in ACM Transactions on Software Engineering and Methodology (TOSEM):"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "FuzzingBrain",
+   "url": "https://offsecharnesses.ai/#h-fuzzingbrain",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/fuzzingbrain/afc-crs-all-you-need-is-a-fuzzing-brain",
@@ -4128,10 +4484,12 @@
      "quote": "A scan partitions the codebase into logic groups, reasons about vulnerability hypotheses (potential vulnerabilities), constructs candidate PoC inputs, and verifies every crash before it is reported."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Pentest MCP",
+   "url": "https://offsecharnesses.ai/#h-pentest-mcp",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/DMontgomery40/pentest-mcp",
@@ -4149,10 +4507,12 @@
      "quote": "| Discovery and validation | `nmapScan`, `gobuster`, `nikto`, `subfinderEnum`, `httpxProbe`, `ffufScan`, `nucleiScan` |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Heimdall",
+   "url": "https://offsecharnesses.ai/#h-heimdall",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/QiantangCredit/heimdall-agent",
@@ -4170,10 +4530,12 @@
      "quote": "Results: Heimdall placed in the **Top 2** in both Baidu's Agent+ online attack-and-defense challenge and [Tencent Cloud TSecBench](https://tsecbench.zc.tencent.com/#leaderboard), with the **lowest token usage on both leaderboards**."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Incalmo",
+   "url": "https://offsecharnesses.ai/#h-incalmo",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/cylabcyberautonomy/Incalmo",
@@ -4191,10 +4553,12 @@
      "quote": "**Research Paper**: [On the Feasibility of Using LLMs to Execute Multistage Network Attacks](https://arxiv.org/abs/2501.16466)"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Executioner",
+   "url": "https://offsecharnesses.ai/#h-executioner",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/dbx0/executioner",
@@ -4224,10 +4588,12 @@
      "quote": "Recon & Strike enumerates, scans, exploits and writes the report, Web AppSec covers the OWASP surface, and Code Audit reviews a codebase."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "bloodhound_mcp",
+   "url": "https://offsecharnesses.ai/#h-bloodhound-mcp",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/mwnickerson/bloodhound_mcp",
@@ -4245,10 +4611,12 @@
      "quote": "Ask questions in natural language, get attack path analysis, run Cypher queries, and explore Active Directory, Azure/Entra ID, and OpenGraph environments — all from your AI assistant."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Phalanx",
+   "url": "https://offsecharnesses.ai/#h-phalanx",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/webxos/phalanx",
@@ -4284,10 +4652,12 @@
      "quote": "**Rich Tool Arsenal** – 58+ built‑in tools (nmap, nuclei, subfinder, sqlmap, impacket, wpscan, feroxbuster, theHarvester, …) with structured parsing and egress‑scope containment."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "PentestAgent (nbshenxm)",
+   "url": "https://offsecharnesses.ai/#h-pentestagent-nbshenxm",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/nbshenxm/pentest-agent",
@@ -4317,10 +4687,12 @@
      "quote": "For further is information, please refer to our [paper](https://arxiv.org/abs/2411.05185)."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "claude-pentest",
+   "url": "https://offsecharnesses.ai/#h-claude-pentest",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Stickman230/claude-pentest",
@@ -4350,10 +4722,12 @@
      "quote": "When MKS is active, the time-budget loop runs **post-exploitation** if a CVE or RCE finding is confirmed — deploying Metasploit via the MKS endpoint."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "gori",
+   "url": "https://offsecharnesses.ai/#h-gori",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/hahwul/gori",
@@ -4371,10 +4745,12 @@
      "quote": "It captures every request and response as a *flow* you can replay, fuzz, and scan across HTTP/1.1, HTTP/2, WebSocket, gRPC, and SSE, and holds HTTP/1.1 and HTTP/2 traffic for editing in flight."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "PentestAssistant",
+   "url": "https://offsecharnesses.ai/#h-pentestassistant",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/InfSecLabs/PentestAssistant",
@@ -4398,10 +4774,12 @@
      "quote": "Moreover, it can invoke several penetration detection tools, such as nmap and sqlmap, according to user requests."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "MAPTA",
+   "url": "https://offsecharnesses.ai/#h-mapta",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/arthurgervais/mapta",
@@ -4412,10 +4790,12 @@
    "last_push": "2025-08-28",
    "archived": false,
    "uses": [],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Moxy",
+   "url": "https://offsecharnesses.ai/#h-moxy",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/matank001/Moxy",
@@ -4433,10 +4813,12 @@
      "quote": "The agent uses AI to reason about your application's attack surface, replay or modify traffic, and even drive browser sessions to generate new test scenarios."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "pentestkit",
+   "url": "https://offsecharnesses.ai/#h-pentestkit",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/lordx64/pentestkit",
@@ -4466,10 +4848,12 @@
      "quote": "All 104 [XBOW validation-benchmarks](https://github.com/xbow-engineering/validation-benchmarks) — dockerized CTF web challenges at three difficulty levels, each with a hidden flag injected at build time."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Hexestra",
+   "url": "https://offsecharnesses.ai/#h-hexestra",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/ABSllk/Hexestra",
@@ -4487,10 +4871,12 @@
      "quote": "**Integrated tools.** Connect Claude Code or Codex CLI to the browser, terminals, managed shells, HTTP/HTTPS capture, interception and replay, payload generation, and Burp Suite. The agent can operate them directly."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "aimy-skill",
+   "url": "https://offsecharnesses.ai/#h-aimy-skill",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/Prohao42/aimy-skill",
@@ -4508,10 +4894,12 @@
      "quote": "| **chain_engine** | SSRF→RCE · LFI→RCE · 链式利用组合 |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Zack AI Scanner",
+   "url": "https://offsecharnesses.ai/#h-zack-ai-scanner",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/ZackSecurity/Zack-AI-Scanner",
@@ -4535,10 +4923,12 @@
      "quote": "The extension then runs a staged LLM pipeline against that one request, sends real payloads through Burp, and reports what the evidence supports."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "ZeroTrace",
+   "url": "https://offsecharnesses.ai/#h-zerotrace",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/sergio11/zero_trace_hacking_tool",
@@ -4556,10 +4946,12 @@
      "quote": "Whether you're conducting reconnaissance or performing security research, ZeroTrace helps uncover **hidden** and **sensitive information** 🔓 that may be exposed due to **misconfigurations** or **poor security practices**."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "awsome-kali-MCPServers",
+   "url": "https://offsecharnesses.ai/#h-awsome-kali-mcpservers",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/ccq1/awsome_kali_MCPServers",
@@ -4577,10 +4969,12 @@
      "quote": "Once configured, connect to the kali-mcps container via the MCP client and start using the built-in Kali tools (e.g., Nmap, nm, objdump, strings, tshark) for your tasks."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "AutoPentester",
+   "url": "https://offsecharnesses.ai/#h-autopentester",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/YasodGinige/AutoPentester",
@@ -4598,10 +4992,12 @@
      "quote": "This work has been accepted for the IEEE TrustCom 2025."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "CyberSentry",
+   "url": "https://offsecharnesses.ai/#h-cybersentry",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/prutxvi/cybersentry",
@@ -4619,10 +5015,12 @@
      "quote": "**CyberSentry** is an autonomous AI-powered security auditing agent designed for ethical website penetration testing and vulnerability assessment."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "SQLMap Skynet",
+   "url": "https://offsecharnesses.ai/#h-sqlmap-skynet",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/drcrypterdotru/sqlmap-skynet",
@@ -4646,10 +5044,12 @@
      "quote": "✅ **Operational phases** (Detect → Bypass → Enumerate → Dump)"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "HEAVEN",
+   "url": "https://offsecharnesses.ai/#h-heaven",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/nishu2402/HEAVEN-Autonomous-Penetration-Testing",
@@ -4679,10 +5079,12 @@
      "quote": "| `postex enum/loot/full` | Post-exploitation: privesc enumeration (Linux + Windows via `--os`) · loot harvest · full playbook (kill-chain + AI) |"
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Ares",
+   "url": "https://offsecharnesses.ai/#h-ares",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/dreadnode/ares",
@@ -4700,10 +5102,12 @@
      "quote": "**Red Team** - 7 specialized agents orchestrated by an LLM coordination loop that autonomously chains 64+ Active Directory attack tools across the full kill chain, from recon through domain dominance."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "open-sesame",
+   "url": "https://offsecharnesses.ai/#h-open-sesame",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/hassan-algo/open-sesame",
@@ -4727,10 +5131,12 @@
      "quote": "Point it at a target you're authorized to assess and it runs the whole engagement — maps the attack surface, works methodically through an industry methodology, validates findings with the lightest safe proof, and writes clean reports for both engineers and leadership."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   },
   {
    "name": "Hacker Bob",
+   "url": "https://offsecharnesses.ai/#h-hacker-bob",
    "table": "field",
    "tier": "no attack on record",
    "repo": "https://github.com/vmihalis/hacker-bob",
@@ -4748,7 +5154,8 @@
      "quote": "Hacker Bob is an open-source autonomous bug bounty hunter built around a local Model Context Protocol (MCP) runtime.<br /> Run it against authorized targets or in continuous integration (CI)."
     }
    ],
-   "note": null
+   "note": null,
+   "incidents": []
   }
  ],
  "sources": [
@@ -5514,5 +5921,12 @@
    "what": "CrowdStrike's annual report on rising attacks and adversary tactics.",
    "discovery": false
   }
- ]
+ ],
+ "related": {
+  "name": "AI Hacking Incidents",
+  "url": "https://hackingincidents.ai",
+  "data": "https://hackingincidents.ai/incidents.json",
+  "about": "A sourced ledger of cyberattacks where AI was known or strongly suspected to be used. Each harness here lists the incidents there that name it, as of incidents_snapshot."
+ },
+ "incidents_snapshot": "2026-11-17"
 }
