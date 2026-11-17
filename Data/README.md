@@ -25,6 +25,7 @@ The Data directory contains curated, ground-truth datasets about important aspec
 | [Vulnerability & Breach Data](./Vulnerability-And-Breach-Data/SUMMARY.md) | 48,185 CVEs · 3,322 breaches (2025) | AI shows up in outcomes only where a source attributes it, and every such count is a floor |
 | [US National Debt](./US-National-Debt/SUMMARY.md) | $39.93T gross (2026-08-14) | Three-quarters of US debt is held domestically; powers usdebt.io |
 | [US Long-Run Indicators](./US-Long-Run-Indicators/SUMMARY.md) | 51 primary-sourced series | Fifty years of US life in numbers; powers usstats.io with US-Societal-Health |
+| [Offensive AI Harnesses](./Offensive-AI-Harnesses/SUMMARY.md) | 11 of 57 seen in real attacks | Open-source offensive AI harnesses, which attackers used, and what each is used for; powers offsecharnesses.ai |
 | [US Disease & Vaccination](./US-Disease-And-Vaccination/SUMMARY.md) | 35 primary-sourced series | Reported disease incidence 1950→, infectious-disease deaths 1900→, and vaccination coverage 1989→; powers the Disease & Vaccination section of usstats.io |
 
 ### Schema Structure

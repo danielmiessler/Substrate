@@ -4,6 +4,25 @@ This file tracks all datasets added to the Substrate Data directory.
 
 ---
 
+## 2026-11-16 - Offensive AI Harnesses
+
+**Dataset**: Offensive-AI-Harnesses (new, 57 harnesses, 19 primary reports)
+**Status**: Active
+**Coverage**: open-source offensive AI agent harnesses on public GitHub (100+ stars) and every one with primary-sourced attacker use, May → Nov 2026
+**Source**: Offsec Harness Index (https://offsecharnesses.ai/data.json), built from primary reports by Cisco Talos, Google GTIG and Mandiant, Unit 42, CrowdStrike, Microsoft, Zscaler, Kaspersky, Zenity, Gambit, Anthropic, CERT-In and the FBI, plus the GitHub API
+
+### Contents
+- `harnesses.json` (verbatim site dataset), `harnesses.csv`, `sources.csv`, `SUMMARY.md` — written by `update.ts`, no API key
+- `README.md` / `source.md` — how a harness is tied to an attack, tiers, use tags, roster rule, refresh
+- Research provenance: `research/offensive-ai-harnesses-2026-11/` (research notes, method, every cited URL)
+
+### Notes
+- A harness is tied to an attack only by a primary report that names it; never from TTPs or the compiler's judgment
+- Use tags (recon, scanning, vuln discovery, exploitation, exploit dev, post-exploitation, research) cite their basis: the attack report, or the README sentence that states them
+- Powers **https://offsecharnesses.ai**
+
+---
+
 ## 2026-09-09 - U.S. Disease & Vaccination
 
 **Dataset**: US-Disease-And-Vaccination (new, 35 series)
