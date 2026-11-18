@@ -7,14 +7,14 @@ This file tracks all datasets added to the Substrate Data directory.
 <!-- export:AI-Hacking-Incidents:2026-11-17 -->
 ## 2026-11-17 - AI Hacking Incidents
 
-**Dataset**: AI-Hacking-Incidents (new, 286 incidents, 244 swept sources)
+**Dataset**: AI-Hacking-Incidents (new, 286 incidents, 240 swept sources)
 **Status**: Active
 **Coverage**: publicly reported cyberattacks since January 2023 in which attackers used AI, or credible evidence says they probably did, graded Confirmed, Strong or Suspected by the strength of the evidence of AI use
 **Source**: hackingincidents.ai, built from published reports by model providers, governments, courts and security vendors, the press and incident databases
 
 ### Contents
 - `incidents.json`, `sources.json`, `candidates.json` (every sweep candidate with its disposition), `regrade.json` (the independent second grading), `incidents.csv`, `sources.csv`, `SUMMARY.md`, `update.ts`, `update.log`
-- `README.md` / `source.md` — how incidents are found, graded and dispositioned
+- `README.md` / `source.md` — how incidents are found, graded and given a decision
 - Research provenance: `research/ai-hacking-incidents-2026-11/` (findings, methodology, every registered source)
 
 ### Notes

@@ -50,20 +50,20 @@
    "incidents_citing": 0
   },
   {
-   "publisher": "Canadian Centre for Cyber Security",
-   "url": "https://www.cyber.gc.ca/en/guidance/national-cyber-threat-assessments",
+   "publisher": "BSI Germany",
+   "url": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Kuenstliche-Intelligenz/KI.html",
    "kind": "government",
    "role": "swept",
    "swept": "2026-11-17",
    "incidents_citing": 0
   },
   {
-   "publisher": "CERT-EU threat intelligence briefs",
-   "url": "https://cert.europa.eu/publications/threat-intelligence/cb26-11",
+   "publisher": "Canadian Centre for Cyber Security",
+   "url": "https://www.cyber.gc.ca/en/guidance/national-cyber-threat-assessments",
    "kind": "government",
    "role": "swept",
    "swept": "2026-11-17",
-   "incidents_citing": 1
+   "incidents_citing": 0
   },
   {
    "publisher": "CISA",
@@ -74,11 +74,11 @@
    "incidents_citing": 1
   },
   {
-   "publisher": "ENISA, BSI Germany, Taiwan, Netherlands, Israel INCD, India CERT-In, Singapore police, Viginum",
+   "publisher": "ENISA",
    "url": "https://www.enisa.europa.eu/topics/cyber-threats/threats-and-trends",
    "kind": "government",
-   "role": "unreachable",
-   "note": "Located by search only; no operation-level AI use report found for these bodies in the time available. ENISA Threat Landscape 2025 and BSI Lagebericht were not read.",
+   "role": "swept",
+   "swept": "2026-11-17",
    "incidents_citing": 0
   },
   {
@@ -98,14 +98,6 @@
    "incidents_citing": 7
   },
   {
-   "publisher": "France ANSSI and CERT-FR",
-   "url": "https://www.cert.cyber.gouv.fr/uploads/CERTFR-2026-CTI-003.pdf",
-   "kind": "government",
-   "role": "swept",
-   "swept": "2026-11-17",
-   "incidents_citing": 0
-  },
-  {
    "publisher": "Hong Kong Government",
    "url": "https://www.info.gov.hk/",
    "kind": "government",
@@ -121,8 +113,25 @@
    "incidents_citing": 1
   },
   {
+   "publisher": "Israel National Cyber Directorate",
+   "url": "https://www.gov.il/en/departments/israel_national_cyber_directorate/govil-landing-page",
+   "kind": "government",
+   "role": "unreachable",
+   "note": "HTTP 403 to a plain fetch; nothing read.",
+   "public_note": "The site blocked the automated reader.",
+   "incidents_citing": 0
+  },
+  {
    "publisher": "Japan National Police Agency and Tokyo Metropolitan Police (via AFP)",
    "url": "https://www.arabnews.jp/en/business/man-arrested-in-japan-for-creating-malware-using-generative-ai-122855",
+   "kind": "government",
+   "role": "swept",
+   "swept": "2026-11-17",
+   "incidents_citing": 0
+  },
+  {
+   "publisher": "Netherlands NCSC",
+   "url": "https://www.ncsc.nl/",
    "kind": "government",
    "role": "swept",
    "swept": "2026-11-17",
@@ -135,14 +144,6 @@
    "role": "swept",
    "swept": "2026-11-17",
    "incidents_citing": 2
-  },
-  {
-   "publisher": "South Korean police, NIS and KISA (via ThaiCERT and JoongAng Daily)",
-   "url": "https://www.koreajoongangdaily.com/korea/seven-arrested-for-using-generative-ai-to-hack-90-organizations/12938493",
-   "kind": "government",
-   "role": "swept",
-   "swept": "2026-11-17",
-   "incidents_citing": 1
   },
   {
    "publisher": "UK NCSC and National Crime Agency",
@@ -246,6 +247,7 @@
    "kind": "incident-database",
    "role": "unreachable",
    "note": "Index URL returned 404; individual incident pages appear only as citations in other results and mirror AIID ids.",
+   "public_note": "The incident index returned an error; its entries mirror the AI Incident Database.",
    "incidents_citing": 0
   },
   {
@@ -297,6 +299,14 @@
    "incidents_citing": 0
   },
   {
+   "publisher": "Alibaba Cloud",
+   "url": "https://www.alibabacloud.com/blog",
+   "kind": "model-provider",
+   "role": "swept",
+   "swept": "2026-11-17",
+   "incidents_citing": 0
+  },
+  {
    "publisher": "Amazon Threat Intelligence and AWS Security Blog",
    "url": "https://aws.amazon.com/blogs/security/tag/threat-intelligence/",
    "kind": "model-provider",
@@ -313,7 +323,32 @@
    "incidents_citing": 20
   },
   {
-   "publisher": "Google Threat Intelligence Group (GTIG) and Mandiant AI-misuse reports",
+   "publisher": "DeepSeek",
+   "url": "https://www.deepseek.com/",
+   "kind": "model-provider",
+   "role": "unreachable",
+   "note": "Landing page returned 628 characters with no article content; nothing readable. No abuse report found by search; DeepSeek appears in the CISA distillation advisory (capability extraction, not recorded) and as a model named in other candidates.",
+   "public_note": "The site gave the automated reader no readable content; a search by name found no DeepSeek report on misuse of its own systems.",
+   "incidents_citing": 0
+  },
+  {
+   "publisher": "ElevenLabs",
+   "url": "https://elevenlabs.io/use-policy",
+   "kind": "model-provider",
+   "role": "swept",
+   "swept": "2026-11-17",
+   "incidents_citing": 0
+  },
+  {
+   "publisher": "GitHub",
+   "url": "https://github.blog/security/",
+   "kind": "model-provider",
+   "role": "swept",
+   "swept": "2026-11-17",
+   "incidents_citing": 0
+  },
+  {
+   "publisher": "Google Threat Intelligence Group",
    "url": "https://cloud.google.com/blog/topics/threat-intelligence",
    "kind": "model-provider",
    "role": "swept",
@@ -337,20 +372,12 @@
    "incidents_citing": 0
   },
   {
-   "publisher": "Microsoft",
-   "url": "https://blogs.microsoft.com/",
+   "publisher": "Mistral AI",
+   "url": "https://mistral.ai/news",
    "kind": "model-provider",
    "role": "swept",
    "swept": "2026-11-17",
-   "incidents_citing": 20
-  },
-  {
-   "publisher": "Microsoft Threat Intelligence, Digital Crimes Unit, Cyber Signals and Digital Defense Report",
-   "url": "https://www.microsoft.com/en-us/security/blog/threat-intelligence/ai-threats/",
-   "kind": "model-provider",
-   "role": "swept",
-   "swept": "2026-11-17",
-   "incidents_citing": 19
+   "incidents_citing": 0
   },
   {
    "publisher": "OpenAI",
@@ -361,11 +388,12 @@
    "incidents_citing": 18
   },
   {
-   "publisher": "xAI, Mistral, DeepSeek, Alibaba, GitHub and ElevenLabs (abuse of their own systems)",
-   "url": "https://elevenlabs.io/use-policy",
+   "publisher": "xAI",
+   "url": "https://x.ai/news",
    "kind": "model-provider",
    "role": "unreachable",
-   "note": "Searched each by name for threat or misuse reports about abuse of their own platforms and found none published as operation-level reporting; ElevenLabs only appears in Consumer Reports' assessment of cloning safeguards, and the DeepSeek and Alibaba results are the CISA distillation advisory, which concerns capability extraction rather than attacks. xAI Grok appears only as one of ARTEX's supported models (FBI FLASH).",
+   "note": "Site returned HTTP 403 to a plain fetch; nothing read. Searched by name for a misuse or threat report and found none; Grok appears only as an ARTEX-supported model in the FBI FLASH.",
+   "public_note": "The site blocked the automated reader; a search by name found no xAI report on misuse of its own systems.",
    "incidents_citing": 0
   },
   {
@@ -406,6 +434,7 @@
    "kind": "press",
    "role": "unreachable",
    "note": "403 bot challenge on the one article tried.",
+   "public_note": "The site blocked the automated reader on the one article tried.",
    "incidents_citing": 0
   },
   {
@@ -422,13 +451,6 @@
    "kind": "press",
    "role": "swept",
    "swept": "2026-11-17",
-   "incidents_citing": 2
-  },
-  {
-   "publisher": "CNN",
-   "url": "https://www.cnn.com/2023/04/29/us/ai-scam-calls-kidnapping-cec",
-   "kind": "press",
-   "role": "cited",
    "incidents_citing": 2
   },
   {
@@ -453,6 +475,7 @@
    "kind": "press",
    "role": "unreachable",
    "note": "Every article returned 403 (Cloudflare challenge). Stories known only from search leads (AWS 8-minute intrusion, 3AM UK school ransomware, Cairn breaches) are carried by their vendor or other press pages.",
+   "public_note": "The site blocks automated readers, so stories seen only in search results are sourced from the vendor or other press.",
    "incidents_citing": 2
   },
   {
@@ -477,6 +500,7 @@
    "kind": "press",
    "role": "unreachable",
    "note": "Ledger-cited page(s) fetched: 0 of 1 answered (failures: 406).",
+   "public_note": "The site refused the automated reader on the one cited article.",
    "incidents_citing": 1
   },
   {
@@ -485,6 +509,7 @@
    "kind": "press",
    "role": "unreachable",
    "note": "403 security verification. The FT LLMjacking investigation and the Arup coverage are leads only.",
+   "public_note": "The site blocks automated readers; its reporting is used only as a lead to other sources.",
    "incidents_citing": 0
   },
   {
@@ -501,6 +526,7 @@
    "kind": "press",
    "role": "unreachable",
    "note": "Ledger-cited page(s) fetched: 0 of 1 answered (failures: 403).",
+   "public_note": "The site blocked the automated reader; the one cited article was read from an archived copy.",
    "incidents_citing": 1
   },
   {
@@ -637,23 +663,16 @@
    "kind": "press",
    "role": "unreachable",
    "note": "Every Reuters article returned 401 (paywall or bot block). Reuters stories (Mexico Claude breach, Cursor and Aurora, Cairn, Taiwan, Fideuram, Kazakh hackers) appear in additional_urls as leads from AIID and search summaries, unread.",
+   "public_note": "The site blocks automated readers and paywalls its articles; Reuters stories are used only as leads to other sources.",
    "incidents_citing": 0
   },
   {
    "publisher": "Risky Business",
-   "url": "https://risky.biz/",
-   "kind": "press",
-   "role": "swept",
-   "swept": "2026-11-17",
-   "incidents_citing": 2
-  },
-  {
-   "publisher": "Risky Business (Risky Bulletin)",
    "url": "https://news.risky.biz/",
    "kind": "press",
    "role": "swept",
    "swept": "2026-11-17",
-   "incidents_citing": 1
+   "incidents_citing": 2
   },
   {
    "publisher": "SC Media",
@@ -661,6 +680,7 @@
    "kind": "press",
    "role": "unreachable",
    "note": "Ledger-cited page(s) fetched: 0 of 1 answered (failures: 403).",
+   "public_note": "The site blocked the automated reader on the one cited article.",
    "incidents_citing": 1
   },
   {
@@ -693,20 +713,7 @@
    "kind": "press",
    "role": "unreachable",
    "note": "403 Cloudflare challenge. Hong Kong deepfake cases came through The Standard (Hong Kong) and the Hong Kong Government.",
-   "incidents_citing": 2
-  },
-  {
-   "publisher": "South China Morning Post",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3232273/hong-kong-police-arrest-6-crackdown-fraud-syndicate-using-ai-deepfake-technology-apply-loans",
-   "kind": "press",
-   "role": "cited",
-   "incidents_citing": 2
-  },
-  {
-   "publisher": "South China Morning Post",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3282345/hong-kong-fraudsters-use-deepfake-tech-swindle-love-struck-men-out-hk360-million",
-   "kind": "press",
-   "role": "cited",
+   "public_note": "The site blocks automated readers; the articles cited here were read from archived copies.",
    "incidents_citing": 2
   },
   {
@@ -742,25 +749,11 @@
    "incidents_citing": 4
   },
   {
-   "publisher": "The Guardian",
-   "url": "https://www.theguardian.com/world/2025/jan/14/french-tv-show-pulled-ridicule-woman-fell-ai-brad-pitt",
-   "kind": "press",
-   "role": "cited",
-   "incidents_citing": 4
-  },
-  {
    "publisher": "The Hacker News",
    "url": "https://thehackernews.com/",
    "kind": "press",
    "role": "swept",
    "swept": "2026-11-17",
-   "incidents_citing": 5
-  },
-  {
-   "publisher": "The Hacker News",
-   "url": "https://thehackernews.com/2025/09/cybercriminals-exploit-xs-grok-ai-to.html",
-   "kind": "press",
-   "role": "cited",
    "incidents_citing": 5
   },
   {
@@ -852,7 +845,7 @@
    "incidents_citing": 0
   },
   {
-   "publisher": "CERT-In (CSIRT-Fin)",
+   "publisher": "CERT-In",
    "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02&",
    "kind": "regional-cert",
    "role": "swept",
@@ -865,6 +858,7 @@
    "kind": "regional-cert",
    "role": "unreachable",
    "note": "Pages are JavaScript-rendered and returned no text (7 characters). The LAMEHUG report is covered through AIID, the Substrate ledger and CERT-UA's own existing ledger entry.",
+   "public_note": "The site's pages load by script and gave the automated reader no text; the one CERT-UA case in the ledger is sourced from other publishers.",
    "incidents_citing": 0
   },
   {
@@ -878,14 +872,6 @@
   {
    "publisher": "KrCERT/CC (KISA)",
    "url": "https://www.krcert.or.kr/kr/bbs/list.do?menuNo=205020&bbsId=B0000133",
-   "kind": "regional-cert",
-   "role": "swept",
-   "swept": "2026-11-17",
-   "incidents_citing": 0
-  },
-  {
-   "publisher": "NCSC (UK National Cyber Security Centre)",
-   "url": "https://www.ncsc.gov.uk/",
    "kind": "regional-cert",
    "role": "swept",
    "swept": "2026-11-17",
@@ -952,7 +938,8 @@
    "url": "https://www.akamai.com/blog",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 37 akamai.com pages (blog, RSS, research); HTTP 403 on every one, also with a Safari User-Agent via curl",
+   "public_note": "The site refused the automated reader on every page tried.",
    "incidents_citing": 0
   },
   {
@@ -1034,14 +1021,6 @@
    "role": "swept",
    "swept": "2026-11-17",
    "incidents_citing": 4
-  },
-  {
-   "publisher": "Check Point Research",
-   "url": "https://research.checkpoint.com/",
-   "kind": "vendor-ti",
-   "role": "swept",
-   "swept": "2026-11-17",
-   "incidents_citing": 3
   },
   {
    "publisher": "Checkmarx",
@@ -1128,7 +1107,8 @@
    "url": "https://cybersixgill.com/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 3 cybersixgill.com pages: one HTTP 403, one timeout, one TLS handshake failure; its research PDFs were not fetched",
+   "public_note": "The three pages tried were refused, timed out or failed to connect; its research reports were not fetched.",
    "incidents_citing": 0
   },
   {
@@ -1287,7 +1267,8 @@
    "url": "https://forescout.com/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 29 forescout.com pages (e.g. /threat-briefings/); HTTP 403 on every one",
+   "public_note": "The site refused the automated reader on every page tried.",
    "incidents_citing": 0
   },
   {
@@ -1321,14 +1302,6 @@
    "role": "swept",
    "swept": "2026-11-17",
    "incidents_citing": 0
-  },
-  {
-   "publisher": "Google Threat Intelligence",
-   "url": "https://cloud.google.com/",
-   "kind": "vendor-ti",
-   "role": "swept",
-   "swept": "2026-11-17",
-   "incidents_citing": 41
   },
   {
    "publisher": "GreyNoise",
@@ -1383,7 +1356,8 @@
    "url": "https://hudsonrock.com/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 20 hudsonrock.com pages (e.g. /blog); all returned HTTP 200 with under 1,500 characters of text (JavaScript-rendered, no article text)",
+   "public_note": "The site's pages load by script and gave the automated reader no article text.",
    "incidents_citing": 0
   },
   {
@@ -1550,7 +1524,8 @@
    "url": "https://blog.lastpass.com/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on https://blog.lastpass.com/ and a lastpass.com/blog article; HTTP 403 on the blog root, HTTP 404 on the article",
+   "public_note": "The blog refused the automated reader, and the one article tried was not found.",
    "incidents_citing": 1
   },
   {
@@ -1586,12 +1561,12 @@
    "incidents_citing": 1
   },
   {
-   "publisher": "Microsoft Security Blog",
+   "publisher": "Microsoft",
    "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/",
    "kind": "vendor-ti",
    "role": "swept",
    "swept": "2026-11-17",
-   "incidents_citing": 19
+   "incidents_citing": 20
   },
   {
    "publisher": "Mimecast",
@@ -1646,7 +1621,8 @@
    "url": "https://nisos.com/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 25 nisos.com pages (e.g. /blog/ai-enabled-digital-messaging/); HTTP 403 on every one",
+   "public_note": "The site refused the automated reader on every page tried.",
    "incidents_citing": 0
   },
   {
@@ -1701,7 +1677,8 @@
    "url": "https://entrust.com/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 23 entrust.com pages; HTTP 403 on every one",
+   "public_note": "The site refused the automated reader on every page tried.",
    "incidents_citing": 0
   },
   {
@@ -1725,7 +1702,8 @@
    "url": "https://outpost24.com/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 25 outpost24.com pages (e.g. /blog/category/research-and-threat-intel/); HTTP 403 on every one",
+   "public_note": "The site refused the automated reader on every page tried.",
    "incidents_citing": 0
   },
   {
@@ -1797,7 +1775,8 @@
    "url": "https://global.ptsecurity.com/en/research/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 28 ptsecurity.com pages; every one failed TLS verification (unable to get local issuer certificate)",
+   "public_note": "The site's security certificate could not be verified, so no page was read.",
    "incidents_citing": 0
   },
   {
@@ -1821,7 +1800,8 @@
    "url": "https://protectai.com/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 6 protectai.com pages (e.g. /blog/use-oss-protect-ai); HTTP 404 on every one",
+   "public_note": "Every page tried returned not found.",
    "incidents_citing": 0
   },
   {
@@ -1837,7 +1817,8 @@
    "url": "https://pwc.com/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 16 pwc.com pages (e.g. the Trust and Safety Outlook AI threats article); HTTP 403 on every one",
+   "public_note": "The site refused the automated reader on every page tried.",
    "incidents_citing": 0
   },
   {
@@ -1897,14 +1878,6 @@
    "incidents_citing": 2
   },
   {
-   "publisher": "Recorded Future Insikt",
-   "url": "https://recordedfuture.com/",
-   "kind": "vendor-ti",
-   "role": "swept",
-   "swept": "2026-11-17",
-   "incidents_citing": 2
-  },
-  {
    "publisher": "Red Canary",
    "url": "https://redcanary.com/blog/",
    "kind": "vendor-ti",
@@ -1949,7 +1922,8 @@
    "url": "https://s2w.inc/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 22 s2w.inc and Medium pages (e.g. /en/resources/blog); HTTP 403 on every one",
+   "public_note": "The site refused the automated reader on every page tried.",
    "incidents_citing": 0
   },
   {
@@ -2109,7 +2083,8 @@
    "url": "https://www.trellix.com/blogs/research/",
    "kind": "vendor-ti",
    "role": "unreachable",
-   "note": "The sweep could not read any page from this source.",
+   "note": "fetch attempted on 24 trellix.com pages (threat reports, research blog); every one timed out (also retried with curl)",
+   "public_note": "Every page the sweep tried timed out.",
    "incidents_citing": 0
   },
   {
@@ -2135,14 +2110,6 @@
    "role": "swept",
    "swept": "2026-11-17",
    "incidents_citing": 0
-  },
-  {
-   "publisher": "Unit 42, Palo Alto Networks",
-   "url": "https://unit42.paloaltonetworks.com/",
-   "kind": "vendor-ti",
-   "role": "swept",
-   "swept": "2026-11-17",
-   "incidents_citing": 10
   },
   {
    "publisher": "Vade/Hornetsecurity",

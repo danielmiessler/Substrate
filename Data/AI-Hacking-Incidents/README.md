@@ -17,7 +17,7 @@ Each incident has a date, the actor as the source names them, the targets, what 
 - **sources.csv** — the registry, flattened
 - **candidates.json** — every candidate the sweeps turned up, in every family, each with its disposition (admitted, merged into a named incident, or excluded with a reason); the sweep record of each source; and the editorial decisions made on incidents (merges, exclusions, kept-distinct pairs, the held-out list's resolution, and every removal or grade change)
 - **regrade.json** — the independent second grading: the extractor's grade, the second grader's grade, the final grade, whether they agreed, the reason where they did not, and the primary sources
-- **source.md** — how incidents are found, graded and dispositioned, and how the files here are produced
+- **source.md** — how incidents are found, graded and given a decision, and how the files here are produced
 - **update.ts** — rebuilds the CSV files, SUMMARY.md and update.log from the four JSON files (`bun Data/AI-Hacking-Incidents/update.ts`, no API key)
 - **update.log** — one line per distinct state of the dataset
 - **UPDATES.md** — change log

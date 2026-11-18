@@ -8,7 +8,7 @@ One incident is one operation against real targets in which attackers used AI, o
 
 ## 1. Sweep
 
-A registry of 278 sources (244 swept, 25 unreachable, 9 cited only) was searched back to January 2023 by AI agents in three families: vendor threat intelligence; model providers, governments and court records; and incident databases, academic papers, the press and regional CERTs. A source counts as swept only if its sweep record shows pages actually read; a landing page alone makes it cited, not swept. A fourth input, the 33-row AI-involvement ledger in Substrate's Vulnerability-And-Breach-Data, was swept as one source and is never the source of record.
+A registry of 270 sources (240 swept, 26 unreachable, 4 cited only) was searched back to January 2023 by AI agents in three families: vendor threat intelligence; model providers, governments and court records; and incident databases, academic papers, the press and regional CERTs. A source counts as swept only if its sweep record shows pages actually read; a landing page alone makes it cited, not swept. A fourth input, the 33-row AI-involvement ledger in Substrate's Vulnerability-And-Breach-Data, was swept as one source and is never the source of record.
 
 ## 2. Disposition
 

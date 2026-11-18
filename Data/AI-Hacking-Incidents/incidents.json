@@ -3,7 +3,7 @@
  "incidents": [
   {
    "id": "3am-affiliate-uk-school-suspected-ai-2026",
-   "title": "3AM ransomware affiliate hits a UK school estate in a suspected AI-assisted attack",
+   "title": "3AM ransomware affiliate hits a UK school estate; Bitdefender infers AI-generated commands",
    "date": "2026-11",
    "actor": "3AM ransomware affiliate",
    "actor_type": "criminal",
@@ -20,7 +20,7 @@
    "outcome": "About 37 of nearly 50 machines were encrypted.",
    "confidence": "STRONG",
    "confidence_reason": "Bitdefender investigated and infers from behaviour that 'others behave like an AI agent working throughout the intrusion'; a hybrid, inference-based call.",
-   "summary": "A 3AM ransomware affiliate encrypted about 37 of nearly 50 machines at a UK school estate from an unmanaged host; evidence suggests a model may have generated and revised commands.",
+   "summary": "A 3AM ransomware affiliate encrypted about 37 of nearly 50 machines at a UK school estate from an unmanaged host; Bitdefender's evidence suggests a model may have generated and revised commands.",
    "quote": "A 3AM ransomware affiliate encrypted about 37 of nearly 50 machines reached from an unmanaged host at a UK school estate. Evidence suggests a model may have generated and revised commands.",
    "sources": [
     {
@@ -30,7 +30,8 @@
      "date": "2026-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "3AM hits European schools: a hybrid AI ransomware attack",
@@ -95,7 +96,8 @@
      "date": "2026-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Microsoft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -153,7 +155,8 @@
      "date": "2026-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Risky Business has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -226,7 +229,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "BOSSAI: inside the AI attack mesh that targeted Taiwan's emergency services",
@@ -317,7 +321,8 @@
      "date": "2026-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Palo Alto Networks Unit 42 has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -388,6 +393,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -448,7 +454,8 @@
      "date": "2026-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only CERT-In has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -527,7 +534,8 @@
      "date": "2026-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "CyberStrikeAI attacks educational institutions",
@@ -595,7 +603,8 @@
      "date": "2026-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only FBI has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -653,6 +662,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -709,7 +719,8 @@
      "date": "2026-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -765,7 +776,8 @@
      "date": "2026-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -828,7 +840,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20261110151249/https://www.scworld.com/brief/autonomous-ai-agent-executes-multi-week-cyberattack-on-european-telecommunications-provider",
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "quote": "While the operator provided high-level instructions in Chinese, the AI handled the technical execution, including the creation of replacement tools.",
@@ -838,7 +851,7 @@
      {
       "name": "DeepSeek Flash",
       "vendor": "DeepSeek",
-      "openness": "unknown",
+      "openness": "open-weight",
       "kind": "llm"
      }
     ],
@@ -890,7 +903,8 @@
      "date": "2026-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Three men charged with using AI voice and image impersonation of executives to defraud companies of $129 million",
@@ -964,7 +978,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Silent Lynx used an AI agent to automate parts of espionage against Central Asian governments",
@@ -982,7 +997,7 @@
      {
       "name": "DeepSeek",
       "vendor": "DeepSeek",
-      "openness": "unknown",
+      "openness": "open-weight",
       "kind": "llm"
      }
     ],
@@ -1037,7 +1052,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "quote": "After finding a compliant model, the operator managed to compromise a gambling platform's admin backend for about two weeks, using both software exploits and stolen credentials.",
@@ -1047,7 +1063,7 @@
      {
       "name": "DeepSeek",
       "vendor": "DeepSeek",
-      "openness": "unknown",
+      "openness": "open-weight",
       "kind": "llm"
      },
      {
@@ -1059,7 +1075,7 @@
      {
       "name": "GLM",
       "vendor": "Zhipu AI",
-      "openness": "unknown",
+      "openness": "open-weight",
       "kind": "llm"
      }
     ],
@@ -1120,7 +1136,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "VAPOR PANDA uses AI-driven ARTEX framework to scale a global espionage campaign",
@@ -1138,7 +1155,7 @@
      {
       "name": "DeepSeek",
       "vendor": "DeepSeek",
-      "openness": "unknown",
+      "openness": "open-weight",
       "kind": "llm"
      }
     ],
@@ -1192,6 +1209,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -1250,7 +1268,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Amazon has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -1315,6 +1334,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -1374,7 +1394,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "quote": "The actor used AI-generated reconnaissance to conduct a methodical attack against an Indian university's online education platform.",
@@ -1384,7 +1405,7 @@
      {
       "name": "DeepSeek V4",
       "vendor": "DeepSeek",
-      "openness": "unknown",
+      "openness": "open-weight",
       "kind": "llm"
      }
     ],
@@ -1433,7 +1454,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only ReliaQuest has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -1491,7 +1513,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -1558,7 +1581,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Straiker has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -1635,7 +1659,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only BleepingComputer has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -1693,6 +1718,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -1750,7 +1776,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Elastic Security Labs has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -1815,6 +1842,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -1872,7 +1900,8 @@
      "date": "2026-10-29",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Microsoft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -1933,6 +1962,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -1989,7 +2019,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only NL Times has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2049,7 +2080,8 @@
      "date": "2026-10-29",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Microsoft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2114,7 +2146,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Google: first end-to-end AI-run intrusion, 'exploit_agent' turns patches into exploits against French sites",
@@ -2180,6 +2213,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -2236,7 +2270,8 @@
      "date": "2026-10-29",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Microsoft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2295,7 +2330,8 @@
      "date": "2026-10-29",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Microsoft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2353,6 +2389,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -2409,7 +2446,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only JPCERT/CC has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2465,7 +2503,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Group-IB has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2521,7 +2560,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only The Register has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2549,7 +2589,7 @@
   },
   {
    "id": "ngate-nfc-variant-possibly-ai-built-2026",
-   "title": "NGate variant in a trojanized NFC payment app, possibly built with AI",
+   "title": "NGate variant in a trojanized NFC payment app, which ESET assesses was built with AI help",
    "date": "2026-10",
    "actor": "Unknown operators",
    "actor_type": "criminal",
@@ -2566,7 +2606,7 @@
    "outcome": "Victims installed a trojanized payment app.",
    "confidence": "STRONG",
    "confidence_reason": "ESET says the actors most probably used GenAI, from emoji in the logs, and that conclusive proof is elusive; an inference.",
-   "summary": "ESET found a new NGate iteration disguised as an NFC payment app, possibly developed with AI assistance.",
+   "summary": "ESET found a new NGate iteration disguised as an NFC payment app, and assesses it was possibly developed with AI assistance.",
    "quote": "ESET researchers found another NGate malware iteration disguised as an NFC payment app, possibly developed with AI assistance.",
    "sources": [
     {
@@ -2576,7 +2616,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "New NGate variant hides in a trojanized NFC payment app",
@@ -2642,7 +2683,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Microsoft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2707,7 +2749,8 @@
      "date": "2026-10-29",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Microsoft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2768,7 +2811,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2826,7 +2870,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "PurpleDelta's fraudulent employment operations",
@@ -2891,7 +2936,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Railway has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -2948,6 +2994,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -3005,7 +3052,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "From phishing to LLMjacking: actors targeting cloud billing accounts for LLM usage",
@@ -3070,7 +3118,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Seven arrested in South Korea for using generative AI and ARTEX to hack about 90 organizations",
@@ -3139,7 +3188,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Storm-0940 uses ARTEX against ConnectWise customers' Microsoft 365 environments",
@@ -3211,6 +3261,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -3267,7 +3318,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Microsoft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -3324,7 +3376,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "UAT-11985: AI-assisted event lures delivering real-time Google AitM phishing",
@@ -3388,7 +3441,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "AI-powered espionage campaign targets government Linux infrastructure",
@@ -3453,7 +3507,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Palo Alto Networks Unit 42 has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -3508,7 +3563,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only WIRED has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -3563,7 +3619,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Wiz has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -3619,7 +3676,8 @@
      "date": "2026-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Zscaler has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -3686,7 +3744,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Inside Cairn",
@@ -3703,7 +3762,7 @@
      {
       "name": "DeepSeek V4.1 Flash",
       "vendor": "DeepSeek",
-      "openness": "unknown",
+      "openness": "open-weight",
       "kind": "llm"
      },
      {
@@ -3769,7 +3828,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -3834,7 +3894,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -3904,7 +3965,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -3978,7 +4040,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -4047,7 +4110,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Claude-abused credential-harvesting pipeline decompiling 1.8 million Android APKs",
@@ -4122,7 +4186,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -4189,7 +4254,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -4261,7 +4327,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -4327,7 +4394,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "MIDNIGHT NEPTUNE combines LLM-synthesized recruiter identities with abuse of organizations' AI tools in crypto intrusions",
@@ -4414,7 +4482,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -4490,7 +4559,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -4555,7 +4625,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -4619,7 +4690,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Inside a phishing panel used by ShinyHunters and BlackFile",
@@ -4691,7 +4763,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only SecurityWeek has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -4747,7 +4820,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Symantec has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -4806,7 +4880,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
@@ -4872,7 +4947,7 @@
      {
       "name": "Grok 4.6",
       "vendor": "xAI",
-      "openness": "unknown",
+      "openness": "closed",
       "kind": "llm"
      },
      {
@@ -4931,7 +5006,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -4991,6 +5067,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -5049,7 +5126,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Threat Intelligence Report: September 2026",
@@ -5116,7 +5194,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5174,7 +5253,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only RTHK has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5232,7 +5312,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Risky Business has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5292,7 +5373,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Hastalamuerte exposed: The Gentlemen RaaS tactics",
@@ -5325,7 +5407,7 @@
      {
       "name": "Kimi K3",
       "vendor": "Moonshot AI",
-      "openness": "unknown",
+      "openness": "open-weight",
       "kind": "llm"
      }
     ],
@@ -5375,7 +5457,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5434,7 +5517,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Hunt.io has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5502,7 +5586,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Focus Taiwan has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5564,7 +5649,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Palo Alto Networks Unit 42 has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5622,7 +5708,8 @@
      "date": "2026-09",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Datadog Security Labs has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5678,7 +5765,8 @@
      "date": "2026-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only CloudSEK has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5734,7 +5822,8 @@
      "date": "2026-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Sysdig has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5791,6 +5880,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -5849,7 +5939,8 @@
      "date": "2026-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Rapid7 has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5915,7 +6006,8 @@
      "date": "2026-10-29",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Microsoft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -5974,7 +6066,8 @@
      "date": "2026-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Elastic Security Labs has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -6031,7 +6124,8 @@
      "date": "2026-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "NSA, CISA, FBI warn of AI-generated scripts probing Siemens S7 PLCs as fake OT monitors",
@@ -6096,6 +6190,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -6154,7 +6249,8 @@
      "date": "2026-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Sysdig has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -6215,7 +6311,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Eleven-nation alert: North Korean IT workers integrate AI to obfuscate identities",
@@ -6283,7 +6380,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Trend Micro has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -6347,7 +6445,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20261029092102/https://socradar.io/blog/cyberxero-ai-iab-ukraine-critical-infrastructure/",
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only SOCRadar has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -6416,7 +6515,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Trend Micro has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -6473,7 +6573,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Trend Micro has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -6532,7 +6633,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only FBI has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -6596,7 +6698,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Chinese-speaking actor runs three AI harnesses against hundreds of online retailers",
@@ -6675,7 +6778,7 @@
   },
   {
    "id": "hunt-io-chinese-operators-claude-code-deepseek-2026",
-   "title": "Suspected Chinese operators use Claude Code and DeepSeek in government intrusions",
+   "title": "Chinese-speaking operators use Claude Code and DeepSeek in government intrusions",
    "date": "2026-07",
    "actor": "Suspected Chinese-speaking operator (Hunt.io)",
    "actor_type": "unknown",
@@ -6704,7 +6807,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "AI-assisted attacks still leave a behavioral trace",
@@ -6777,7 +6881,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Palo Alto Networks Unit 42 has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -6840,7 +6945,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only FBI has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -6889,7 +6995,7 @@
    "outcome": "About INR 10.7 crore was transferred.",
    "confidence": "STRONG",
    "confidence_reason": "Sky Gold's disclosure states that \"Unknown persons used deepfake techniques to impersonate a director\" after compromising company devices, and the subsidiary reported it to cybercrime authorities. The AI Incident Database relays this first-hand account, which is Strong.",
-   "summary": "Attackers compromised a company phone and laptop at Starmangalsutra and used a purported deepfake of a director to get transfers of about INR 10.7 crore.",
+   "summary": "Attackers compromised a company phone and laptop at Starmangalsutra and used a deepfake of a director, per Sky Gold's disclosure, to get transfers of about INR 10.7 crore.",
    "quote": "Starmangalsutra Private Limited, a jewelery-manufacturing subsidiary of India-based Sky Gold and Diamonds, reportedly lost ₹10.70 crore (about US$1.1 million) after unknown actors compromised a company-issued phone and laptop and used purported deepfake methods to impersonate a director.",
    "sources": [
     {
@@ -6900,6 +7006,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -6961,7 +7068,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Symantec has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -6993,7 +7101,7 @@
   },
   {
    "id": "taiwan-government-hermes-openclaw-2026",
-   "title": "Suspected Chinese hackers use open-source Hermes and OpenClaw agents against the Taiwanese government",
+   "title": "Open-source Hermes and OpenClaw agents used against the Taiwanese government",
    "date": "2026-07",
    "actor": "Suspected China-linked hackers (Taiwan did not attribute)",
    "actor_type": "unknown",
@@ -7021,7 +7129,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "CSIS list: Taiwan detects an AI-assisted attack on government agencies using agents such as OpenClaw",
@@ -7101,7 +7210,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Thailand's Ministry of Finance targeted with Hermes AI agent running unattended",
@@ -7166,7 +7276,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "TuxBot v3: inside an IoT botnet framework with LLM-assisted development",
@@ -7233,7 +7344,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Sysdig has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -7296,7 +7408,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20261113094304/https://www.huntress.com/blog/ai-coded-malware-vibe-coding-active-directory",
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Huntress has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -7343,7 +7456,7 @@
    "outcome": "Intrusions into six organizations.",
    "confidence": "CONFIRMED",
    "confidence_reason": "Gambit Security observed the operator's use of Claude Code in the intrusions.",
-   "summary": "In late June 2026 Gambit observed a suspected ransomware operator using Claude Code, with the oh-my-claudecode add-on, across intrusions into six organizations.",
+   "summary": "In late June 2026 Gambit observed a ransomware operator, per Gambit's attribution, using Claude Code, with the oh-my-claudecode add-on, across intrusions into six organizations.",
    "quote": "Case 1: A suspected ransomware operator using Claude Code In late June 2026, we observed a suspected ransomware operator using Claude Code across intrusions into six organizations.",
    "sources": [
     {
@@ -7353,7 +7466,8 @@
      "date": "2026-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Gambit Security has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -7411,7 +7525,8 @@
      "date": "2026-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Expel has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -7469,7 +7584,8 @@
      "date": "2026-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Hong Kong Government has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -7531,7 +7647,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "JadePuffer: first fully agentic ransomware per Sysdig",
@@ -7618,6 +7735,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -7675,7 +7793,8 @@
      "date": "2026-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Krebs on Security has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -7732,7 +7851,8 @@
      "date": "2026-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only BleepingComputer has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -7760,7 +7880,7 @@
   },
   {
    "id": "ta4922-silentrunloader-llm-malware-2026",
-   "title": "TA4922: suspected Chinese crime group going global; vibe-coded SilentRunLoader",
+   "title": "TA4922 goes global with vibe-coded SilentRunLoader",
    "date": "2026-06",
    "actor": "TA4922 (suspected Chinese crime group)",
    "actor_type": "criminal",
@@ -7787,7 +7907,8 @@
      "date": "2026-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Proofpoint has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -7845,7 +7966,8 @@
      "date": "2026-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -7904,7 +8026,8 @@
      "date": "2026-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Zenity has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -7967,7 +8090,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -8033,7 +8157,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -8118,7 +8243,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -8183,7 +8309,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "PromptSpy ushers in the era of Android threats using GenAI",
@@ -8266,7 +8393,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Agentic AI helps hackers level up, even without detailed instructions",
@@ -8303,7 +8431,7 @@
      {
       "name": "Deepseek Chat",
       "vendor": "DeepSeek",
-      "openness": "unknown",
+      "openness": "open-weight",
       "kind": "llm"
      }
     ],
@@ -8369,7 +8497,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "quote": "Using models including Claude Opus 4.5, Claude Haiku 4.5, and Deepseek V4 Pro, the group set up a full infrastructure for autonomous attacks involving a “Supervisor” Claude Code agent to direct the steps of an attack and an “Executor” agent to carry them out.",
@@ -8448,7 +8577,8 @@
      "date": "2026-05",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only WithSecure has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -8518,7 +8648,8 @@
      "date": "2026-05",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Dexerto has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -8577,7 +8708,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "AI risk and resilience in 2026: A Mandiant special report",
@@ -8645,7 +8777,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "quote": "The least sophisticated of the four in this report is an Indonesian-speaking actor that uses 819 skills (overwhelmingly sourced from public GitHub repositories, primarily claude-red1) without additional orchestration to enable Claude Code to conduct intrusion campaigns.",
@@ -8707,7 +8840,8 @@
      "date": "2026-05",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only FBI has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -8763,7 +8897,8 @@
      "date": "2026-05",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Sysdig has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -8819,7 +8954,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "archive_url": "https://web.archive.org/web/20261115231314/https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only The Hacker News has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -8879,6 +9015,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -8938,7 +9075,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "quote": "This threat actor uses a single /pentest-setup slash command to task Claude Code with a seven-step workflow.",
@@ -9001,7 +9139,8 @@
      "date": "2026-05",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Singapore Police Force has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -9057,7 +9196,8 @@
      "date": "2026-04",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Microsoft: AI-enabled device-code phishing campaign with per-victim generative-AI lures",
@@ -9123,7 +9263,8 @@
      "date": "2026-04",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Aurora ransomware targets ESXi, abuses Cursor Agent for exploitation",
@@ -9196,7 +9337,8 @@
      "date": "2026-04",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Sekoia has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -9257,7 +9399,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -9330,7 +9473,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -9396,7 +9540,8 @@
      "date": "2026-04",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only ReversingLabs has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -9453,7 +9598,8 @@
      "date": "2026-04",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Wiz has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -9508,7 +9654,8 @@
      "date": "2026-05-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Trend Micro has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -9563,7 +9710,8 @@
      "date": "2026-04",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Cisco Talos has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -9619,7 +9767,8 @@
      "date": "2026-03",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "AI-generated ClickFix attack delivers SmartRAT, impersonating a Brazilian bank",
@@ -9689,7 +9838,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20260513201813/https://www.darkreading.com/cyberattacks-data-breaches/nation-state-actor-ai-malware-assembly-line",
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "APT36: a nightmare of vibeware",
@@ -9756,7 +9906,8 @@
      "date": "2026-03",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Trend Micro has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -9813,7 +9964,8 @@
      "date": "2026-03",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Microsoft: North Korea's Coral Sleet runs agentic AI workflow from lures to payload tests",
@@ -9882,6 +10034,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -9938,7 +10091,8 @@
      "date": "2026-03",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only ReliaQuest has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -9994,7 +10148,8 @@
      "date": "2026-03",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Zscaler has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -10052,7 +10207,8 @@
      "date": "2026-03",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Analyzing the current state of AI use in malware: .NET infostealers integrating GPT-3.5-Turbo",
@@ -10118,7 +10274,8 @@
      "date": "2026-03",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "When an AI agent came knocking: catching malicious contributions (hackerbot-claw)",
@@ -10194,6 +10351,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -10254,7 +10412,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Fideuram fraud: Italian prosecutors link similar scams using voice cloning (ANSA)",
@@ -10325,7 +10484,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -10392,7 +10552,8 @@
      "date": "2026-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -10452,7 +10613,8 @@
      "date": "2026-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -10512,6 +10674,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -10572,7 +10735,8 @@
      "date": "2026-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "AWS: low-skilled actor used commercial LLMs to compromise more than 600 FortiGate appliances in 55 countries",
@@ -10638,7 +10802,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only IBM X-Force has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -10702,7 +10867,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Agentic AI used to scale semiautonomous server attacks (UAT-10147)",
@@ -10778,7 +10944,8 @@
      "date": "2026-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -10837,7 +11004,8 @@
      "date": "2026-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -10894,7 +11062,8 @@
      "date": "2026-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -10951,7 +11120,8 @@
      "date": "2026-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Blackpoint has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -11006,7 +11176,8 @@
      "date": "2026-01",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Operation Bizarre Bazaar: first attributed LLMjacking campaign with commercial marketplace monetization",
@@ -11071,7 +11242,8 @@
      "date": "2026-01",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Cyble has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -11126,7 +11298,8 @@
      "date": "2026-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "KONNI adopts AI to generate PowerShell backdoors",
@@ -11197,7 +11370,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "North Korea's UNC1069 Hammers Crypto Firms With AI",
@@ -11278,7 +11452,8 @@
      "date": "2025-12",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Criminals got Gemini and other chatbots to produce fake fix-it instructions pushing the ATOMIC infostealer",
@@ -11374,7 +11549,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Hacker used Anthropic's Claude chatbot to attack multiple government agencies in Mexico",
@@ -11465,7 +11641,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Sysdig has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -11528,7 +11705,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -11589,7 +11767,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Iran's MuddyWater leaked C2 domain and encryption key to Gemini while debugging malware",
@@ -11663,7 +11842,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -11733,7 +11913,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -11793,7 +11974,8 @@
      "date": "2025-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -11852,7 +12034,8 @@
      "date": "2025-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only The Record has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -11911,7 +12094,8 @@
      "date": "2025-11",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -11972,7 +12156,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -12030,6 +12215,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -12090,7 +12276,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "An AI wrote VoidLink, the cloud-targeting Linux malware",
@@ -12173,7 +12360,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only OpenAI has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -12236,7 +12424,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only OpenAI has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -12299,7 +12488,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "APT meets GPT: UTA0388 targeted operations with untamed LLMs",
@@ -12386,7 +12576,8 @@
      "date": "2025-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Kaspersky: BlueNoroff targets executives on Windows and macOS using AI-driven tools",
@@ -12454,7 +12645,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20260709183904/https://www.forbes.com/sites/steveweisman/2025/10/07/millions-stolen-through-giselle-bundchen-deepfake-scam/",
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Forbes has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -12512,7 +12704,8 @@
      "date": "2025-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Kaspersky has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -12571,7 +12764,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "2026 Unit 42 Global Incident Response Report: Shai-Hulud scripts assessed LLM-generated",
@@ -12638,7 +12832,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "archive_url": "https://web.archive.org/web/20260812223803/https://thehackernews.com/2025/09/cybercriminals-exploit-xs-grok-ai-to.html",
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only The Hacker News has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -12700,7 +12895,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Chinese spies told Claude to break into about 30 critical organizations",
@@ -12785,7 +12981,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Threat Actors Weaponize HexStrike AI to Exploit Citrix Flaws Within a Week of Disclosure",
@@ -12863,7 +13060,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -12921,7 +13119,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "archive_url": "https://web.archive.org/web/20250929094654/https://www.koi.security/blog/postmark-mcp-npm-malicious-backdoor-email-theft",
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Koi Security has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -12981,7 +13180,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "EvilAI operators use AI-generated code and fake apps for far-reaching attacks",
@@ -13063,7 +13263,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Nx npm malware coerces AI assistant CLIs into reconnaissance and exfiltration",
@@ -13167,7 +13368,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Microsoft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -13229,7 +13431,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "FAMOUS CHOLLIMA infiltrates 320+ companies using GenAI at every hiring stage",
@@ -13303,7 +13506,8 @@
      "date": "2025-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -13362,7 +13566,8 @@
      "date": "2025-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -13423,7 +13628,8 @@
      "date": "2025-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -13486,7 +13692,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -13545,7 +13752,8 @@
      "date": "2025-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Security Affairs has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -13601,7 +13809,8 @@
      "date": "2025-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Cybercriminals abuse AI website builder Lovable for credential phishing",
@@ -13665,7 +13874,8 @@
      "date": "2025-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -13724,7 +13934,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Hacker plants computer 'wiping' commands in Amazon's AI coding agent",
@@ -13795,7 +14006,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "North Korean operation uses ChatGPT to forge military IDs",
@@ -13890,7 +14102,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Claude Code used as a comprehensive attack platform against 17 organizations",
@@ -13967,7 +14180,8 @@
      "date": "2025-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only EclecticIQ has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -14026,7 +14240,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Aqua Security has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -14082,7 +14297,8 @@
      "date": "2024-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Okta has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -14144,7 +14360,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "AI as tradecraft: How threat actors operationalize AI",
@@ -14225,7 +14442,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Disrupting malicious uses of AI: June 2025",
@@ -14317,7 +14535,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "CERT-UA Discovers LAMEHUG Malware Linked to APT28, Using LLM for Phishing Campaign",
@@ -14398,7 +14617,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Inside BlueNoroff Web3 intrusion analysis",
@@ -14478,6 +14698,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -14534,7 +14755,8 @@
      "date": "2025-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Sysdig has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -14593,7 +14815,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -14654,6 +14877,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": true,
+     "quote_found": true,
      "primary_via_party": "US State Department"
     },
     {
@@ -14739,7 +14963,8 @@
      "date": "2025-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "OpenAI Operation ScopeCreep: Russian-speaking actor used ChatGPT to build and debug Windows malware and its C2 server",
@@ -14813,7 +15038,8 @@
      "date": "2025-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "VAGue Focus: China-linked accounts used ChatGPT to social-engineer US officials and press",
@@ -14882,7 +15108,8 @@
      "date": "2025-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "OpenAI bans APT15 and APT5 accounts using ChatGPT for pentest automation and US recon",
@@ -14952,7 +15179,8 @@
      "date": "2025-06",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Disrupting malicious uses of AI: June 2025",
@@ -15021,6 +15249,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -15080,7 +15309,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Yahoo News has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -15140,7 +15370,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "FBI update: AI-generated voice messages impersonating senior US officials continue since at least 2023",
@@ -15204,7 +15435,7 @@
    "outcome": "Bank accounts opened with altered identities; eight arrested.",
    "confidence": "STRONG",
    "confidence_reason": "Only the AI Incident Database is cited, relaying Hong Kong police ('reportedly', 'purportedly AI-generated facial composites'). A police statement relayed second-hand is Strong.",
-   "summary": "Hong Kong police reportedly said a syndicate used purportedly AI-generated facial composites with altered ID photos to pass online bank identity checks.",
+   "summary": "Hong Kong police said a syndicate used AI-generated facial composites with altered ID photos to pass online bank identity checks.",
    "quote": "Hong Kong police reportedly arrested eight individuals accused of using purportedly AI-generated facial composites to open bank accounts with altered ID photos.",
    "sources": [
     {
@@ -15215,6 +15446,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -15277,7 +15509,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "North Korean IT workers seen using AI tools to scam firms into hiring them",
@@ -15350,7 +15583,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Singapore and Hong Kong police recover over $670,000 in a scam",
@@ -15417,6 +15651,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -15472,7 +15707,8 @@
      "date": "2025-03",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only IBM X-Force has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -15532,7 +15768,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -15593,7 +15830,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -15654,7 +15892,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Anthropic has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -15713,6 +15952,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -15770,7 +16010,8 @@
      "date": "2025-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "Disrupting malicious uses of our models: February 2025 update",
@@ -15842,7 +16083,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 406,
      "archive_url": "https://web.archive.org/web/20261011122157/https://www.euronews.com/2025/02/10/scammers-clone-italian-defence-ministers-voice-with-ai-in-ransom-scheme",
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Euronews has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -15900,7 +16142,8 @@
      "date": "2025-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Kimsuky and BlueNoroff used ChatGPT to debug RDP brute-force code and research intrusion",
@@ -15969,7 +16212,8 @@
      "date": "2025-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Yomiuri Shimbun has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -16026,7 +16270,8 @@
      "date": "2025-02",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Storm-2139 abuses stolen Azure OpenAI credentials and custom tools to bypass AI guardrails",
@@ -16097,7 +16342,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -16158,7 +16404,8 @@
      "date": "2025-01-29",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Google Threat Intelligence Group has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -16224,7 +16471,8 @@
      "date": "2025-01",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only The Guardian has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -16272,7 +16520,7 @@
    "outcome": "DNB's Singapore office avoided any loss.",
    "confidence": "STRONG",
    "confidence_reason": "DNB staff saw the live Teams meeting with deepfaked video and voice of the CFO and CEO, and DNB called it \"their first encounter with a live deepfake meeting\". The AI Incident Database relays this first-hand account, which is Strong.",
-   "summary": "Fraudsters used purported deepfake video and voice of DNB's CFO and CEO in a live Microsoft Teams meeting to ask the bank's Singapore office to transfer millions of Singapore dollars.",
+   "summary": "Fraudsters used deepfake video and voice of DNB's CFO and CEO, per DNB, in a live Microsoft Teams meeting to ask the bank's Singapore office to transfer millions of Singapore dollars.",
    "quote": "Unknown cybercriminals reportedly used purported deepfakes to impersonate DNB Bank's CFO and CEO during a live Microsoft Teams meeting, instructing employees at the bank's Singapore office to transfer millions of Singapore dollars.",
    "sources": [
     {
@@ -16283,6 +16531,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -16346,7 +16595,8 @@
      "date": "2025-01",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only The Standard has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -16406,6 +16656,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -16467,7 +16718,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Anthropic GTG-5004: cybercriminal used Claude to develop, market and distribute ransomware variants",
@@ -16535,6 +16787,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -16594,7 +16847,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "I'm a security expert, and I almost fell for a North Korea-style deepfake job applicant",
@@ -16664,7 +16918,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "FunkSec ransomware likely created with AI help by an inexperienced developer",
@@ -16732,6 +16987,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -16789,7 +17045,8 @@
      "date": "2024-12",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "ESET Threat Report H2 2024",
@@ -16856,7 +17113,8 @@
      "date": "2024-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only OpenAI has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -16916,7 +17174,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20261005183638/https://www.scmp.com/news/hong-kong/law-and-crime/article/3282345/hong-kong-fraudsters-use-deepfake-tech-swindle-love-struck-men-out-hk360-million",
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only South China Morning Post has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -16974,7 +17233,8 @@
      "date": "2024-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Permiso has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -17030,7 +17290,8 @@
      "date": "2024-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only OpenAI has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -17090,7 +17351,8 @@
      "date": "2024-10",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only OpenAI has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -17153,6 +17415,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": true,
+     "quote_found": true,
      "primary_via_party": "Wiz CEO Assaf Rappaport"
     }
    ],
@@ -17214,6 +17477,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": true,
+     "quote_found": true,
      "primary_via_party": "Sen. Ben Cardin"
     }
    ],
@@ -17271,7 +17535,8 @@
      "date": "2024-08",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Okta has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -17332,7 +17597,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Cyber firm KnowBe4 hired a fake IT worker from North Korea",
@@ -17400,7 +17666,8 @@
      "date": "2024-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Netcraft has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -17457,7 +17724,8 @@
      "date": "2024-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only ReliaQuest has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -17517,7 +17785,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Jalopnik has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -17576,7 +17845,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "HP Wolf: French-language campaign delivers AsyncRAT with GenAI-written scripts",
@@ -17642,7 +17912,8 @@
      "date": "2024-05",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     },
     {
      "title": "LLMjacking: stolen cloud credentials used in new AI attack",
@@ -17716,6 +17987,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": false,
+     "quote_found": true,
      "aggregator_only": true
     }
    ],
@@ -17777,6 +18049,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": true,
+     "quote_found": true,
      "primary_via_party": "WPP CEO Mark Read"
     }
    ],
@@ -17838,7 +18111,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20241009181727/https://blog.lastpass.com/posts/2024/04/attempted-audio-deepfake-call-targets-lastpass-employee",
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "LastPass employee targeted with deepfake CEO audio on WhatsApp",
@@ -17905,7 +18179,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Proofpoint has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -17967,7 +18242,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20261117000905/https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors/",
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Staying ahead of threat actors in the age of AI",
@@ -18043,7 +18319,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20261117000905/https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors/",
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Staying ahead of threat actors in the age of AI",
@@ -18119,7 +18396,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20261117000905/https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors/",
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Staying ahead of threat actors in the age of AI",
@@ -18194,7 +18472,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20261117000905/https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors/",
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Staying ahead of threat actors in the age of AI",
@@ -18270,7 +18549,8 @@
      "verified_on": "2026-11-17",
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20261117000905/https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors/",
-     "primary": true
+     "primary": true,
+     "quote_found": true
     },
     {
      "title": "Staying ahead of threat actors in the age of AI",
@@ -18346,6 +18626,7 @@
      "verified_on": "2026-11-17",
      "fetch_status": 200,
      "primary": true,
+     "quote_found": true,
      "primary_via_party": "Arup"
     },
     {
@@ -18423,7 +18704,8 @@
      "verified": true,
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": true
+     "primary": true,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Retool has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -18483,6 +18765,7 @@
      "fetch_status": 403,
      "archive_url": "https://web.archive.org/web/20261031103534/https://www.scmp.com/news/hong-kong/law-and-crime/article/3232273/hong-kong-police-arrest-6-crackdown-fraud-syndicate-using-ai-deepfake-technology-apply-loans",
      "primary": true,
+     "quote_found": true,
      "primary_via_party": "Hong Kong Police Force"
     }
    ],
@@ -18542,7 +18825,8 @@
      "date": "2023-07",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only Hindustan Times has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -18599,7 +18883,8 @@
      "date": "2023-05",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only The Star has reported this operation among the sources found in the 2026-11-17 sweep.",
@@ -18658,7 +18943,8 @@
      "date": "2023-04",
      "verified_on": "2026-11-17",
      "fetch_status": 200,
-     "primary": false
+     "primary": false,
+     "quote_found": true
     }
    ],
    "single_source_reason": "Only CNN has reported this operation among the sources found in the 2026-11-17 sweep.",

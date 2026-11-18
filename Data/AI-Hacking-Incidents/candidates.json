@@ -5,7 +5,7 @@
   "admitted": 172,
   "merged": 117,
   "excluded": 82,
-  "undispositioned": 0
+  "without_decision": 0
  },
  "note": "Every candidate a sweep found, in every family, with its disposition. `families[].sources` are the sweep records; `curation` and `changes` are the editorial decisions made on incidents after the sweeps merged.",
  "families": [
@@ -4586,31 +4586,13 @@
      "note": "Annual Cyber Threat Report 2025-26 fetch timed out; search summary describes generic AI uplift only. Not read."
     },
     {
-     "publisher": "ENISA, BSI Germany, Taiwan, Netherlands, Israel INCD, India CERT-In, Singapore police, Viginum",
-     "url": "https://www.enisa.europa.eu/topics/cyber-threats/threats-and-trends",
-     "kind": "government",
-     "swept": "2026-11-17",
-     "pages_read": 0,
-     "candidates": 0,
-     "note": "Located by search only; no operation-level AI use report found for these bodies in the time available. ENISA Threat Landscape 2025 and BSI Lagebericht were not read."
-    },
-    {
-     "publisher": "xAI, Mistral, DeepSeek, Alibaba, GitHub and ElevenLabs (abuse of their own systems)",
-     "url": "https://elevenlabs.io/use-policy",
-     "kind": "model-provider",
-     "swept": "2026-11-17",
-     "pages_read": 0,
-     "candidates": 0,
-     "note": "Searched each by name for threat or misuse reports about abuse of their own platforms and found none published as operation-level reporting; ElevenLabs only appears in Consumer Reports' assessment of cloning safeguards, and the DeepSeek and Alibaba results are the CISA distillation advisory, which concerns capability extraction rather than attacks. xAI Grok appears only as one of ARTEX's supported models (FBI FLASH)."
-    },
-    {
      "publisher": "Singapore Police Force",
      "url": "https://www.police.gov.sg/media-hub/news/2026/05/20260516_footage_from_zoom_video_conference_involving_impersonation_of_senior_government_officials",
      "kind": "government",
      "swept": "2026-11-17",
      "pages_read": 1,
      "candidates": 0,
-     "note": "Page read and confirms deepfake AI video of senior officials in a fabricated Zoom call; recorded by the editor as a held-out ledger entry rather than a candidate in this file."
+     "note": "Page read and confirms deepfake AI video of senior officials in a fabricated Zoom call; recorded as a held-out ledger entry rather than a candidate in this file."
     },
     {
      "publisher": "Microsoft",
@@ -4638,6 +4620,105 @@
      "pages_read": 1,
      "candidates": 0,
      "note": "Landing page fetched only; the Hong Kong police AI face-swap case is recorded through RTHK under the Hong Kong Police row, and no info.gov.hk press release was read."
+    },
+    {
+     "publisher": "xAI",
+     "url": "https://x.ai/news",
+     "kind": "model-provider",
+     "swept": "2026-11-17",
+     "pages_read": 0,
+     "candidates": 0,
+     "note": "Site returned HTTP 403 to a plain fetch; nothing read. Searched by name for a misuse or threat report and found none; Grok appears only as an ARTEX-supported model in the FBI FLASH."
+    },
+    {
+     "publisher": "Mistral AI",
+     "url": "https://mistral.ai/news",
+     "kind": "model-provider",
+     "swept": "2026-11-17",
+     "pages_read": 1,
+     "candidates": 0,
+     "note": "News index fetched; no misuse or threat-intelligence report listed."
+    },
+    {
+     "publisher": "DeepSeek",
+     "url": "https://www.deepseek.com/",
+     "kind": "model-provider",
+     "swept": "2026-11-17",
+     "pages_read": 0,
+     "candidates": 0,
+     "note": "Landing page returned 628 characters with no article content; nothing readable. No abuse report found by search; DeepSeek appears in the CISA distillation advisory (capability extraction, not recorded) and as a model named in other candidates."
+    },
+    {
+     "publisher": "Alibaba Cloud",
+     "url": "https://www.alibabacloud.com/blog",
+     "kind": "model-provider",
+     "swept": "2026-11-17",
+     "pages_read": 1,
+     "candidates": 0,
+     "note": "Blog index fetched; no misuse or threat-intelligence report listed. Alibaba appears in the CISA distillation advisory (not recorded)."
+    },
+    {
+     "publisher": "GitHub",
+     "url": "https://github.blog/security/",
+     "kind": "model-provider",
+     "swept": "2026-11-17",
+     "pages_read": 1,
+     "candidates": 0,
+     "note": "Security blog index fetched; no report on attacker use of AI against or through its own systems found. The Bitdefender GitHub-agent campaign surfaced by search is a vendor finding for the vendor sweep."
+    },
+    {
+     "publisher": "ElevenLabs",
+     "url": "https://elevenlabs.io/use-policy",
+     "kind": "model-provider",
+     "swept": "2026-11-17",
+     "pages_read": 1,
+     "candidates": 0,
+     "note": "Use policy fetched; it is a policy, not a misuse report. Search found only Consumer Reports commentary on cloning safeguards."
+    },
+    {
+     "publisher": "ENISA",
+     "url": "https://www.enisa.europa.eu/topics/cyber-threats/threats-and-trends",
+     "kind": "government",
+     "swept": "2026-11-17",
+     "pages_read": 1,
+     "candidates": 0,
+     "note": "Threats and trends page fetched; no operation-level AI use. The ENISA Threat Landscape PDF was located by search and not opened."
+    },
+    {
+     "publisher": "BSI Germany",
+     "url": "https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Kuenstliche-Intelligenz/KI.html",
+     "kind": "government",
+     "swept": "2026-11-17",
+     "pages_read": 1,
+     "candidates": 0,
+     "note": "AI topic page fetched; generic statement on AI in the threat landscape only. The Lagebericht was not opened."
+    },
+    {
+     "publisher": "Netherlands NCSC",
+     "url": "https://www.ncsc.nl/",
+     "kind": "government",
+     "swept": "2026-11-17",
+     "pages_read": 1,
+     "candidates": 0,
+     "note": "Landing page fetched; no operation-level AI report found."
+    },
+    {
+     "publisher": "Israel National Cyber Directorate",
+     "url": "https://www.gov.il/en/departments/israel_national_cyber_directorate/govil-landing-page",
+     "kind": "government",
+     "swept": "2026-11-17",
+     "pages_read": 0,
+     "candidates": 0,
+     "note": "HTTP 403 to a plain fetch; nothing read."
+    },
+    {
+     "publisher": "India CERT-In",
+     "url": "https://www.cert-in.org.in/",
+     "kind": "government",
+     "swept": "2026-11-17",
+     "pages_read": 0,
+     "candidates": 0,
+     "note": "Page returned no readable content; nothing read."
     }
    ],
    "candidates": [
@@ -4719,7 +4800,7 @@
      ],
      "quote": "Following a lead from an independent researcher, we identified a Telegram bot (@Chat_ChatGPT_AIbot) that provides multimodal AI tools specifically marketed to support romance scam operations.",
      "existing_id": null,
-     "notes": "Fraud, no hacking component; near-miss, editor decides.",
+     "notes": "Fraud, no hacking component; near-miss; to decide.",
      "disposition": {
       "kind": "excluded",
       "reason": "a tool or service offered to criminals; the source names no operation against a victim"
@@ -4761,7 +4842,7 @@
      ],
      "quote": "In one case, it asked Claude to build a malicious browser extension for bulk collection of social media data in support of its surveillance work.",
      "existing_id": null,
-     "notes": "Date is disclosure month of the Sept 2026 report. Surveillance tooling by a state unit; near-miss on 'hacking' (malicious extension shipped to production). Editor decides.",
+     "notes": "Date is disclosure month of the Sept 2026 report. Surveillance tooling by a state unit; near-miss on 'hacking' (malicious extension shipped to production). To decide.",
      "disposition": {
       "kind": "admitted",
       "id": "gtg-34007-iran-firefox-extension-2026"
@@ -4929,7 +5010,7 @@
      ],
      "quote": "Third, the accounts asked a series of basic questions about computer network attack and exploitation tools, to which our models only provided general explanations about their use and capabilities.",
      "existing_id": null,
-     "notes": "Mostly an influence/social-engineering operation with a minor technical component; near-miss. Editor decides.",
+     "notes": "Mostly an influence/social-engineering operation with a minor technical component; near-miss. To decide.",
      "disposition": {
       "kind": "admitted",
       "id": "vague-focus-chatgpt-social-engineering-2025"
@@ -5011,7 +5092,7 @@
      "models": [],
      "quote": "Notably, this code family contains hard-coded prompts meant to bypass detection or analysis by LLM-powered security systems.",
      "existing_id": null,
-     "notes": "Near-miss: attacker targets AI-based defenders; no attacker use of an LLM stated. Editor decides.",
+     "notes": "Near-miss: attacker targets AI-based defenders; no attacker use of an LLM stated. To decide.",
      "disposition": {
       "kind": "excluded",
       "reason": "AI was the target or the lure; the source does not say the attacker used AI"
@@ -5072,7 +5153,7 @@
      ],
      "quote": "The Iranian government-backed actor APT42 leveraged generative AI models, including Gemini, to significantly augment reconnaissance and targeted social engineering.",
      "existing_id": null,
-     "notes": "Overlaps in actor with the ledger's apt42-gemini-phishing-2025 (Jan 2025 report) but a later report period; editor decides merge vs distinct.",
+     "notes": "Overlaps in actor with the ledger's apt42-gemini-phishing-2025 (Jan 2025 report) but a later report period; To decide merge vs distinct.",
      "disposition": {
       "kind": "admitted",
       "id": "apt42-gemini-recon-tooling-2026"
@@ -5135,7 +5216,7 @@
      ],
      "quote": "which leveraged Gemini to accelerate the development and deployment of malicious tooling, including for knowledge synthesis, real-time troubleshooting, and code translation.",
      "existing_id": null,
-     "notes": "Same actor as gtig-apt41-osstun-gemini-code-2025 but a later report; editor decides merge.",
+     "notes": "Same actor as gtig-apt41-osstun-gemini-code-2025 but a later report; To decide merge.",
      "disposition": {
       "kind": "admitted",
       "id": "apt41-gemini-tooling-2026"
@@ -5265,7 +5346,7 @@
      ],
      "quote": "continued to leverage generative AI models — including Gemini — to augment reconnaissance and targeted social engineering.",
      "existing_id": null,
-     "notes": "Third GTIG period for the same actor; editor decides merge.",
+     "notes": "Third GTIG period for the same actor; To decide merge.",
      "disposition": {
       "kind": "admitted",
       "id": "calanque-ion-apt42-gemini-2026"
@@ -5440,7 +5521,7 @@
      ],
      "quote": "To do this, a component of the backdoor uses the OpenAI Assistants API as a storage or relay mechanism to fetch commands, which the malware then runs.",
      "existing_id": null,
-     "notes": "Intrusion discovered in July 2025, published 2025-11-03. Near-miss: AI platform abused as C2, no stated model use for attack content. Editor decides.",
+     "notes": "Intrusion discovered in July 2025, published 2025-11-03. Near-miss: AI platform abused as C2, no stated model use for attack content. To decide.",
      "disposition": {
       "kind": "excluded",
       "reason": "the AI platform served only as infrastructure (hosting or a command relay); no model did any of the attack's work"
@@ -5497,7 +5578,7 @@
      "models": [],
      "quote": "As early as September 2026, Storm-0940, a China-state aligned actor, used the agentic AI penetration testing framework ARTEX to automate attacks targeting hundreds of organizations globally across a broad range of industries.",
      "existing_id": "vapor-panda-artex-global-espionage",
-     "notes": "Probably the same operation as the ledger's vapor-panda-artex-global-espionage (CrowdStrike 'Vapor Panda'); also related to artex-south-korean-bank-intrusions. Editor to confirm the match; Microsoft is a primary source for the ConnectWise attribution.",
+     "notes": "Probably the same operation as the ledger's vapor-panda-artex-global-espionage (CrowdStrike 'Vapor Panda'); also related to artex-south-korean-bank-intrusions. Match to be confirmed; Microsoft is a primary source for the ConnectWise attribution.",
      "disposition": {
       "kind": "admitted",
       "id": "storm-0940-artex-connectwise-2026"
@@ -5516,7 +5597,7 @@
      "models": [],
      "quote": "Microsoft has observed Storm-3358 use ARTEX in combination with conventional automated tools to scan systems connected to the public internet, exploit security flaws including anonymous file upload and server-side request forgery (SSRF), and install open-source remote access trojans (RATs).",
      "existing_id": null,
-     "notes": "Published 2026-11-06; activity began October 2026. May overlap artex-south-korean-bank-intrusions or carliy0s ledger entries; editor checks.",
+     "notes": "Published 2026-11-06; activity began October 2026. May overlap artex-south-korean-bank-intrusions or carliy0s ledger entries; to be checked.",
      "disposition": {
       "kind": "admitted",
       "id": "storm-3358-artex-financial-sector-2026"
@@ -5554,7 +5635,7 @@
      "models": [],
      "quote": "Further, Onyx Sleet and Pearl Sleet are leveraging the open-source agentic AI penetration testing framework ARTEX to conduct operations, further indicating North Korea’s willingness to quickly adopt new AI technologies for their operations.",
      "existing_id": null,
-     "notes": "Published 2026-10-29; multi-actor roundup, editor may split.",
+     "notes": "Published 2026-10-29; multi-actor roundup, may split.",
      "disposition": {
       "kind": "admitted",
       "id": "onyx-sleet-artex-and-ai-lures-2026"
@@ -5662,7 +5743,7 @@
      "models": [],
      "quote": "The North Korean hackers behind the FaceStealer campaign have begun to use super intelligence (SI) to make their scheme even more efficient and effective.",
      "existing_id": null,
-     "notes": "FLASH AC-111226-MS, 2026-11-12. Overlaps conceptually with ledger bluenoroff-deepfake-zoom-crypto-2025 and unc1069-deepfake-zoom-crypto-fintech-2026; editor to check if the same campaign.",
+     "notes": "FLASH AC-111226-MS, 2026-11-12. Overlaps conceptually with ledger bluenoroff-deepfake-zoom-crypto-2025 and unc1069-deepfake-zoom-crypto-fintech-2026; to check whether the same campaign.",
      "disposition": {
       "kind": "admitted",
       "id": "dprk-facestealer-deepfake-crypto-theft-2026"
@@ -5740,7 +5821,7 @@
      "models": [],
      "quote": "They have also been observed heavily researching and integrating AI into their processes over the last two years.",
      "existing_id": null,
-     "notes": "Thin: AI mention is one sentence with no task. Likely excluded or SUSPECTED; editor decides. Published 2026-08-26.",
+     "notes": "Thin: AI mention is one sentence with no task. Likely excluded or SUSPECTED; To decide. Published 2026-08-26.",
      "disposition": {
       "kind": "excluded",
       "reason": "the advisory says only that the group researched and integrated AI; it names no task AI did in an operation"
@@ -5816,7 +5897,7 @@
      "models": [],
      "quote": "North Korean IT workers have been observed using artificial intelligence and face-swapping technology during video job interviews to obfuscate their true identities.",
      "existing_id": null,
-     "notes": "PSA 2025-01-23. Government corroboration for the ledger's DPRK IT-worker entries (jasper-sleet-faceswap-voice-changing-2025, dprk-it-workers-claude-2025, unit42-dprk-realtime-deepfake-interviews-2025, knowbe4-dprk-fake-it-worker-2024); not tied to one operation, editor decides which to merge into.",
+     "notes": "PSA 2025-01-23. Government corroboration for the ledger's DPRK IT-worker entries (jasper-sleet-faceswap-voice-changing-2025, dprk-it-workers-claude-2025, unit42-dprk-realtime-deepfake-interviews-2025, knowbe4-dprk-fake-it-worker-2024); not tied to one operation; to decide which to merge into.",
      "disposition": {
       "kind": "excluded",
       "reason": "a general advisory about a tactic used across North Korea's IT-worker scheme, not one operation; it does not corroborate any single incident"
@@ -5878,7 +5959,7 @@
      ],
      "quote": "In July 2026, agents running on experimental versions of OpenAI’s 10 AI models accessed the public internet and launched a cyberattack on Hugging Face, an open- 11 source AI hosting platform.",
      "existing_id": null,
-     "notes": "Court record (complaint filed 2026-11-16; allegations, not findings). data/curation.json excludes hugging-face-autonomous-agent-intrusion as 'attacker unclear'; this filing changes the attribution, so the editor should revisit. The quote carries the PDF's line numbers because that is the extracted page text.",
+     "notes": "Court record (complaint filed 2026-11-16; allegations, not findings). data/curation.json excludes hugging-face-autonomous-agent-intrusion as 'attacker unclear'; this filing changes the attribution, so the exclusion is worth revisiting. The quote carries the PDF's line numbers because that is the extracted page text.",
      "disposition": {
       "kind": "excluded",
       "reason": "the sources describe an agent that escaped an evaluation or benchmark environment, not an attacker directing AI at the victim; the ledger counts attacker use (revisit if a court or the victim finds otherwise)"
@@ -6244,7 +6325,7 @@
      "swept": "2026-11-17",
      "pages_read": 0,
      "candidates": 0,
-     "notes": "trellix.com blog and research pages timed out on every attempt"
+     "notes": "fetch attempted on 24 trellix.com pages (threat reports, research blog); every one timed out (also retried with curl)"
     },
     {
      "publisher": "Secureworks",
@@ -6391,7 +6472,7 @@
      "swept": "2026-11-17",
      "pages_read": 0,
      "candidates": 0,
-     "notes": "akamai.com returned 403 to every automated fetch"
+     "notes": "fetch attempted on 37 akamai.com pages (blog, RSS, research); HTTP 403 on every one, also with a Safari User-Agent via curl"
     },
     {
      "publisher": "Cloudflare Cloudforce One",
@@ -6553,7 +6634,7 @@
      "swept": "2026-11-17",
      "pages_read": 0,
      "candidates": 0,
-     "notes": "ptsecurity.com failed TLS verification (unable to get local issuer certificate) from this host"
+     "notes": "fetch attempted on 28 ptsecurity.com pages; every one failed TLS verification (unable to get local issuer certificate)"
     },
     {
      "publisher": "Qianxin",
@@ -6578,7 +6659,7 @@
      "swept": "2026-11-17",
      "pages_read": 0,
      "candidates": 0,
-     "notes": "s2w.inc and medium.com pages returned 403 to every automated fetch"
+     "notes": "fetch attempted on 22 s2w.inc and Medium pages (e.g. /en/resources/blog); HTTP 403 on every one"
     },
     {
      "publisher": "Trustwave",
@@ -6909,7 +6990,8 @@
      "kind": "vendor-ti",
      "swept": "2026-11-17",
      "pages_read": 0,
-     "candidates": 0
+     "candidates": 0,
+     "notes": "fetch attempted on 23 entrust.com pages; HTTP 403 on every one"
     },
     {
      "publisher": "BioCatch",
@@ -7022,7 +7104,7 @@
      "swept": "2026-11-17",
      "pages_read": 0,
      "candidates": 0,
-     "notes": "nisos.com returned 403 to every automated fetch"
+     "notes": "fetch attempted on 25 nisos.com pages (e.g. /blog/ai-enabled-digital-messaging/); HTTP 403 on every one"
     },
     {
      "publisher": "Recorded Future Insikt",
@@ -7063,7 +7145,7 @@
      "swept": "2026-11-17",
      "pages_read": 0,
      "candidates": 0,
-     "notes": "cybersixgill.com research is behind PDF downloads on storyblok; not fetched as page text"
+     "notes": "fetch attempted on 3 cybersixgill.com pages: one HTTP 403, one timeout, one TLS handshake failure; its research PDFs were not fetched"
     },
     {
      "publisher": "Hudson Rock",
@@ -7071,7 +7153,8 @@
      "kind": "vendor-ti",
      "swept": "2026-11-17",
      "pages_read": 0,
-     "candidates": 0
+     "candidates": 0,
+     "notes": "fetch attempted on 20 hudsonrock.com pages (e.g. /blog); all returned HTTP 200 with under 1,500 characters of text (JavaScript-rendered, no article text)"
     },
     {
      "publisher": "Outpost24",
@@ -7079,7 +7162,8 @@
      "kind": "vendor-ti",
      "swept": "2026-11-17",
      "pages_read": 0,
-     "candidates": 0
+     "candidates": 0,
+     "notes": "fetch attempted on 25 outpost24.com pages (e.g. /blog/category/research-and-threat-intel/); HTTP 403 on every one"
     },
     {
      "publisher": "PwC",
@@ -7087,7 +7171,8 @@
      "kind": "vendor-ti",
      "swept": "2026-11-17",
      "pages_read": 0,
-     "candidates": 0
+     "candidates": 0,
+     "notes": "fetch attempted on 16 pwc.com pages (e.g. the Trust and Safety Outlook AI threats article); HTTP 403 on every one"
     },
     {
      "publisher": "Deloitte",
@@ -7199,7 +7284,8 @@
      "kind": "vendor-ti",
      "swept": "2026-11-17",
      "pages_read": 0,
-     "candidates": 0
+     "candidates": 0,
+     "notes": "fetch attempted on 6 protectai.com pages (e.g. /blog/use-oss-protect-ai); HTTP 404 on every one"
     },
     {
      "publisher": "Prompt Security",
@@ -7303,7 +7389,8 @@
      "kind": "vendor-ti",
      "swept": "2026-11-17",
      "pages_read": 0,
-     "candidates": 0
+     "candidates": 0,
+     "notes": "fetch attempted on 29 forescout.com pages (e.g. /threat-briefings/); HTTP 403 on every one"
     },
     {
      "publisher": "HP Wolf Security",
@@ -7360,7 +7447,7 @@
      "swept": "2026-11-17",
      "pages_read": 0,
      "candidates": 0,
-     "notes": "root page returned HTTP 403 to this fetcher"
+     "notes": "fetch attempted on https://blog.lastpass.com/ and a lastpass.com/blog article; HTTP 403 on the blog root, HTTP 404 on the article"
     },
     {
      "publisher": "EclecticIQ",
@@ -7500,7 +7587,7 @@
      "notes": "Aggregate tracker; the editor should check which operations in it are already in the ledger (it post-dates the existing GTIG entries of 2026-09).",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -7542,7 +7629,7 @@
      "notes": "Corroborates the ARTEX cluster (vapor-panda-artex-global-espionage, artex-south-korean-bank-intrusions). Quote is the GTIG statement of the September 2026 finding.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -7891,7 +7978,7 @@
      "notes": "NEAR-MISS: tracking framework / aggregate; verify per-family operations before admitting anything.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -7914,7 +8001,7 @@
      "notes": "NEAR-MISS: landscape survey, no single operation.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -7935,7 +8022,7 @@
      "notes": "NEAR-MISS: 2023 landscape piece with no specific operation.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -8063,7 +8150,7 @@
      "notes": "NEAR-MISS: aggregate report; per-group detail is on the page. Date approximate.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -8152,7 +8239,7 @@
      "notes": "Aggregate of four intrusions; one concerns the OpenAI/Hugging Face agent matter that curation excluded (hugging-face-autonomous-agent-intrusion: attacker unclear).",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -8173,7 +8260,7 @@
      "notes": "Corroborates the ARTEX cluster; date approximate (page undated).",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -8322,7 +8409,7 @@
      "notes": "NEAR-MISS: aggregate; much is influence operations (out of scope). Date approximate.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept; much of it is influence activity (ISA out of scope)"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept; much of it is influence activity (ISA out of scope)"
      }
     },
     {
@@ -8691,7 +8778,7 @@
      "notes": "NEAR-MISS: aggregate risk analysis; page dated 2026-09-03.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -9957,7 +10044,7 @@
      "notes": "Aggregate digest; use to corroborate VoidLink, FunkSec and others; per-incident detail is on the page.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -9980,7 +10067,7 @@
      "notes": "Aggregate digest; page dated 2026-05-26.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -10327,7 +10414,7 @@
      "notes": "Aggregate page dated 2026-10-29; corroboration only.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -10351,7 +10438,7 @@
      "notes": "Aggregate; the Taiwan campaign likely maps to bossai-ai-agent-campaign, JADEPUFFER to jadepuffer-agentic-ransomware-langflow. Date approximate.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {
@@ -10374,7 +10461,7 @@
      "notes": "Aggregate/analysis; date approximate.",
      "disposition": {
       "kind": "excluded",
-      "reason": "an aggregate report or roundup, not one operation; operations it covers are dispositioned individually where swept"
+      "reason": "an aggregate report or roundup, not one operation; operations it covers are given a decision individually where swept"
      }
     },
     {

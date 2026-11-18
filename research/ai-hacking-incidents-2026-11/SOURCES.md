@@ -1,6 +1,6 @@
 # Sources
 
-Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti, 59 press, 16 government, 16 incident-database, 9 model-provider, 9 regional-cert, 3 academic, 2 court-record). **Swept** means it was searched for incidents and has a sweep record with pages read; **unreachable** means the sweep could not read any page from it (the reason is in sources.json); **cited** means an incident cites it and no sweep was needed. The last sweep was 2026-11-17. The same list with citation counts is [Data/AI-Hacking-Incidents/sources.csv](../../Data/AI-Hacking-Incidents/sources.csv); the URLs each incident cites are in [incidents.csv](../../Data/AI-Hacking-Incidents/incidents.csv).
+Every source in the registry as of 2026-11-17: 270 in 8 families (160 vendor-ti, 53 press, 16 government, 16 incident-database, 12 model-provider, 8 regional-cert, 3 academic, 2 court-record). **Swept** means it was searched for incidents and has a sweep record with pages read; **unreachable** means the sweep could not read any page from it (the reason is in sources.json); **cited** means an incident cites it and no sweep was needed. The last sweep was 2026-11-17. The same list with citation counts is [Data/AI-Hacking-Incidents/sources.csv](../../Data/AI-Hacking-Incidents/sources.csv); the URLs each incident cites are in [incidents.csv](../../Data/AI-Hacking-Incidents/incidents.csv).
 
 ## vendor-ti
 
@@ -20,7 +20,6 @@ Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti,
 - Cato Networks (swept, 2026-11-17) — https://www.catonetworks.com/blog/
 - Censys (swept, 2026-11-17) — https://censys.com/
 - Check Point (swept, 2026-11-17) — https://blog.checkpoint.com/
-- Check Point Research (swept, 2026-11-17) — https://research.checkpoint.com/
 - Checkmarx (swept, 2026-11-17) — https://checkmarx.com/
 - Cisco Talos (swept, 2026-11-17) — https://blog.talosintelligence.com/
 - Claroty (swept, 2026-11-17) — https://claroty.com/
@@ -56,7 +55,6 @@ Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti,
 - Gambit Security (swept, 2026-11-17) — https://gambit.security/
 - Genians Security Center (swept, 2026-11-17) — https://www.genians.co.kr/
 - Gigamon (swept, 2026-11-17) — https://gigamon.com/
-- Google Threat Intelligence (swept, 2026-11-17) — https://cloud.google.com/
 - GreyNoise (swept, 2026-11-17) — https://greynoise.io/
 - Group-IB (swept, 2026-11-17) — https://www.group-ib.com/blog/
 - Halcyon (swept, 2026-11-17) — https://halcyon.ai/
@@ -89,7 +87,7 @@ Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti,
 - Lookout (swept, 2026-11-17) — https://lookout.com/
 - Lumen Black Lotus Labs (swept, 2026-11-17) — https://blog.lumen.com/
 - Malwarebytes (swept, 2026-11-17) — https://www.malwarebytes.com/blog
-- Microsoft Security Blog (swept, 2026-11-17) — https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/
+- Microsoft (swept, 2026-11-17) — https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/
 - Mimecast (swept, 2026-11-17) — https://mimecast.com/
 - Mitiga (swept, 2026-11-17) — https://mitiga.io/
 - Morphisec (swept, 2026-11-17) — https://morphisec.com/
@@ -128,7 +126,6 @@ Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti,
 - Rapid7 (swept, 2026-11-17) — https://www.rapid7.com/blog/
 - Reality Defender (swept, 2026-11-17) — https://realitydefender.com/
 - Recorded Future (swept, 2026-11-17) — https://www.recordedfuture.com/research
-- Recorded Future Insikt (swept, 2026-11-17) — https://recordedfuture.com/
 - Red Canary (swept, 2026-11-17) — https://redcanary.com/blog/
 - ReliaQuest (swept, 2026-11-17) — https://reliaquest.com/blog/
 - Resecurity (swept, 2026-11-17) — https://www.resecurity.com/blog
@@ -158,7 +155,6 @@ Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti,
 - Trend Micro (swept, 2026-11-17) — https://www.trendmicro.com/en_us/research.html
 - Truesec (swept, 2026-11-17) — https://www.truesec.com/hub/blog
 - Trustwave (swept, 2026-11-17) — https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/
-- Unit 42, Palo Alto Networks (swept, 2026-11-17) — https://unit42.paloaltonetworks.com/
 - Vade/Hornetsecurity (swept, 2026-11-17) — https://hornetsecurity.com/
 - Varonis (swept, 2026-11-17) — https://varonis.com/
 - Vectra AI (swept, 2026-11-17) — https://vectra.ai/
@@ -178,7 +174,6 @@ Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti,
 - Bloomberg (unreachable) — https://www.bloomberg.com/
 - CBS News (swept, 2026-11-17) — https://www.cbsnews.com/
 - CNN (swept, 2026-11-17) — https://edition.cnn.com/
-- CNN (cited) — https://www.cnn.com/2023/04/29/us/ai-scam-calls-kidnapping-cec
 - CyberScoop (swept, 2026-11-17) — https://cyberscoop.com/
 - Cybersecurity Dive (swept, 2026-11-17) — https://www.cybersecuritydive.com/
 - Dark Reading (unreachable) — https://www.darkreading.com/
@@ -205,22 +200,17 @@ Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti,
 - NPR (swept, 2026-11-17) — https://www.npr.org/
 - Resultsense (swept, 2026-11-17) — https://www.resultsense.com/
 - Reuters (unreachable) — https://www.reuters.com/
-- Risky Business (swept, 2026-11-17) — https://risky.biz/
-- Risky Business (Risky Bulletin) (swept, 2026-11-17) — https://news.risky.biz/
+- Risky Business (swept, 2026-11-17) — https://news.risky.biz/
 - SC Media (unreachable) — https://www.scworld.com/
 - Security Affairs (swept, 2026-11-17) — https://securityaffairs.com/
 - SecurityWeek (swept, 2026-11-17) — https://www.securityweek.com/
 - SiliconANGLE (swept, 2026-11-17) — https://siliconangle.com/
 - South China Morning Post (unreachable) — https://www.scmp.com/
-- South China Morning Post (cited) — https://www.scmp.com/news/hong-kong/law-and-crime/article/3232273/hong-kong-police-arrest-6-crackdown-fraud-syndicate-using-ai-deepfake-technology-apply-loans
-- South China Morning Post (cited) — https://www.scmp.com/news/hong-kong/law-and-crime/article/3282345/hong-kong-fraudsters-use-deepfake-tech-swindle-love-struck-men-out-hk360-million
 - Tech Wire Asia (swept, 2026-11-17) — https://techwireasia.com/
 - TechCrunch (swept, 2026-11-17) — https://techcrunch.com/
 - TechTimes (swept, 2026-11-17) — https://www.techtimes.com/
 - The Guardian (swept, 2026-11-17) — https://www.theguardian.com/
-- The Guardian (cited) — https://www.theguardian.com/world/2025/jan/14/french-tv-show-pulled-ridicule-woman-fell-ai-brad-pitt
 - The Hacker News (swept, 2026-11-17) — https://thehackernews.com/
-- The Hacker News (cited) — https://thehackernews.com/2025/09/cybercriminals-exploit-xs-grok-ai-to.html
 - The Pragmatic Engineer (swept, 2026-11-17) — https://newsletter.pragmaticengineer.com/
 - The Record (Recorded Future News) (swept, 2026-11-17) — https://therecord.media/
 - The Register (swept, 2026-11-17) — https://www.theregister.com/
@@ -234,18 +224,18 @@ Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti,
 ## government
 
 - Australia ASD ACSC (swept, 2026-11-17) — https://www.cyber.gov.au/publication/annual-cyber-threat-report-2025-26/executive-summary
+- BSI Germany (swept, 2026-11-17) — https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Kuenstliche-Intelligenz/KI.html
 - Canadian Centre for Cyber Security (swept, 2026-11-17) — https://www.cyber.gc.ca/en/guidance/national-cyber-threat-assessments
-- CERT-EU threat intelligence briefs (swept, 2026-11-17) — https://cert.europa.eu/publications/threat-intelligence/cb26-11
 - CISA (swept, 2026-11-17) — https://www.cisa.gov/
-- ENISA, BSI Germany, Taiwan, Netherlands, Israel INCD, India CERT-In, Singapore police, Viginum (unreachable) — https://www.enisa.europa.eu/topics/cyber-threats/threats-and-trends
+- ENISA (swept, 2026-11-17) — https://www.enisa.europa.eu/topics/cyber-threats/threats-and-trends
 - Europol (IOCTA, operation press releases) (swept, 2026-11-17) — https://www.europol.europa.eu/media-press/newsroom
 - FBI IC3 (PSAs, FLASH, joint advisories) and CISA, NSA joint advisories (swept, 2026-11-17) — https://www.ic3.gov/CSA
-- France ANSSI and CERT-FR (swept, 2026-11-17) — https://www.cert.cyber.gouv.fr/uploads/CERTFR-2026-CTI-003.pdf
 - Hong Kong Government (cited) — https://www.info.gov.hk/
 - Hong Kong Police Force (via RTHK) (swept, 2026-11-17) — https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1868796-20260904.htm
+- Israel National Cyber Directorate (unreachable) — https://www.gov.il/en/departments/israel_national_cyber_directorate/govil-landing-page
 - Japan National Police Agency and Tokyo Metropolitan Police (via AFP) (swept, 2026-11-17) — https://www.arabnews.jp/en/business/man-arrested-in-japan-for-creating-malware-using-generative-ai-122855
+- Netherlands NCSC (swept, 2026-11-17) — https://www.ncsc.nl/
 - Singapore Police Force (swept, 2026-11-17) — https://www.police.gov.sg/media-hub/news/2026/05/20260516_footage_from_zoom_video_conference_involving_impersonation_of_senior_government_officials
-- South Korean police, NIS and KISA (via ThaiCERT and JoongAng Daily) (swept, 2026-11-17) — https://www.koreajoongangdaily.com/korea/seven-arrested-for-using-generative-ai-to-hack-90-organizations/12938493
 - UK NCSC and National Crime Agency (swept, 2026-11-17) — https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027
 - Ukraine SSSCIP and CERT-UA (swept, 2026-11-17) — https://cip.gov.ua/en/statics/analitichni-materiali-derzhspeczv-yazku
 - US Department of the Treasury (OFAC press releases) (swept, 2026-11-17) — https://home.treasury.gov/news/press-releases
@@ -271,25 +261,27 @@ Every source in the registry as of 2026-11-17: 278 in 8 families (164 vendor-ti,
 
 ## model-provider
 
+- Alibaba Cloud (swept, 2026-11-17) — https://www.alibabacloud.com/blog
 - Amazon Threat Intelligence and AWS Security Blog (swept, 2026-11-17) — https://aws.amazon.com/blogs/security/tag/threat-intelligence/
 - Anthropic (swept, 2026-11-17) — https://www.anthropic.com/threat-intelligence
-- Google Threat Intelligence Group (GTIG) and Mandiant AI-misuse reports (swept, 2026-11-17) — https://cloud.google.com/blog/topics/threat-intelligence
+- DeepSeek (unreachable) — https://www.deepseek.com/
+- ElevenLabs (swept, 2026-11-17) — https://elevenlabs.io/use-policy
+- GitHub (swept, 2026-11-17) — https://github.blog/security/
+- Google Threat Intelligence Group (swept, 2026-11-17) — https://cloud.google.com/blog/topics/threat-intelligence
 - Hugging Face security disclosure (swept, 2026-11-17) — https://huggingface.co/blog/security-incident-july-2026
 - Meta Adversarial Threat Reports (swept, 2026-11-17) — https://transparency.meta.com/metasecurity/threat-reporting
-- Microsoft (swept, 2026-11-17) — https://blogs.microsoft.com/
-- Microsoft Threat Intelligence, Digital Crimes Unit, Cyber Signals and Digital Defense Report (swept, 2026-11-17) — https://www.microsoft.com/en-us/security/blog/threat-intelligence/ai-threats/
+- Mistral AI (swept, 2026-11-17) — https://mistral.ai/news
 - OpenAI (swept, 2026-11-17) — https://openai.com/global-affairs/disrupting-malicious-uses-of-ai/
-- xAI, Mistral, DeepSeek, Alibaba, GitHub and ElevenLabs (abuse of their own systems) (unreachable) — https://elevenlabs.io/use-policy
+- xAI (unreachable) — https://x.ai/news
 
 ## regional-cert
 
 - CERT-EU (swept, 2026-11-17) — https://www.cert.europa.eu/blog/threat-landscape-report-2025
 - CERT-FR / ANSSI (swept, 2026-11-17) — https://cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-001/
-- CERT-In (CSIRT-Fin) (swept, 2026-11-17) — https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02&
+- CERT-In (swept, 2026-11-17) — https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02&
 - CERT-UA (unreachable) — https://cert.gov.ua/
 - JPCERT/CC (swept, 2026-11-17) — https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html
 - KrCERT/CC (KISA) (swept, 2026-11-17) — https://www.krcert.or.kr/kr/bbs/list.do?menuNo=205020&bbsId=B0000133
-- NCSC (UK National Cyber Security Centre) (swept, 2026-11-17) — https://www.ncsc.gov.uk/
 - SingCERT / Cyber Security Agency of Singapore (swept, 2026-11-17) — https://www.csa.gov.sg/alerts-and-advisories/advisories/
 - ThaiCERT (swept, 2026-11-17) — https://www.thaicert.or.th/
 

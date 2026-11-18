@@ -9,7 +9,7 @@
 | **Publicly reported AI-assisted attacks on file** | **286** | 60% (a floor: only what was published and found) | 2026-11-17 |
 | **Confirmed by a primary source** | **145** (51%) | 85% (written rubric, second grader) | 2026-11-17 |
 | **Strong or Suspected** | **109** Strong, **32** Suspected | 75% (judgment against the same rubric) | 2026-11-17 |
-| **Sources swept** | **244** (278 in the registry: 25 unreachable, 9 cited only) | 95% | 2026-11-17 |
+| **Sources swept** | **240** (270 in the registry: 26 unreachable, 4 cited only) | 95% | 2026-11-17 |
 | **Sweep candidates reviewed** | **371** (172 admitted, 117 merged, 82 excluded) | 90% | 2026-11-17 |
 
 **One-liner:** 286 published AI-assisted attacks on file, 145 confirmed by primary sources.
@@ -28,7 +28,7 @@ Each row is one operation against real targets in which attackers used AI, or in
 
 **Approach:** Sweep a registry of sources, disposition every candidate (admitted, merged, or excluded with a reason), check each supporting quote against the fetched text of its own sources, and grade each incident twice, the second time by a grader who did not extract it.
 
-**Sources:** 244 swept; 278 in the registry, in 8 families: 164 vendor-ti, 59 press, 16 government, 16 incident-database, 9 model-provider, 9 regional-cert, 3 academic, 2 court-record. See [sources.csv](./sources.csv).
+**Sources:** 240 swept; 270 in the registry, in 8 families: 160 vendor-ti, 53 press, 16 government, 16 incident-database, 12 model-provider, 8 regional-cert, 3 academic, 2 court-record. See [sources.csv](./sources.csv).
 
 **Definition Used:** An incident is one operation, with real targets, where the source says AI did part of the attacker's work. Attribution is the source's, never ours. Full rules: [research/ai-hacking-incidents-2026-11/METHODOLOGY.md](../../research/ai-hacking-incidents-2026-11/METHODOLOGY.md).
 
@@ -67,12 +67,12 @@ Each row is one operation against real targets in which attackers used AI, or in
 
 | Source family | Strengths | Weaknesses | Weight Given | Registered | Incident citations |
 |---------------|-----------|------------|--------------|------------|--------------------|
-| **vendor-ti** | Telemetry and forensic detail; investigates the intrusion itself | Has a commercial reason to publish; sees only its own customers | High | 164 | 206 |
-| **press** | Reaches fraud, arrests and victims that vendors never see | Repeats claims; counts as primary only when it quotes a named party on the record | Medium | 59 | 99 |
-| **government** | Advisories and indictments are on-record and attributable | Slow, and often silent on how AI was used | High | 16 | 14 |
+| **vendor-ti** | Telemetry and forensic detail; investigates the intrusion itself | Has a commercial reason to publish; sees only its own customers | High | 160 | 151 |
+| **press** | Reaches fraud, arrests and victims that vendors never see | Repeats claims; counts as primary only when it quotes a named party on the record | Medium | 53 | 83 |
+| **government** | Advisories and indictments are on-record and attributable | Slow, and often silent on how AI was used | High | 16 | 12 |
 | **incident-database** | Finds cases the other families miss; links to originals | Restates other reports; not counted as independent corroboration | Low | 16 | 65 |
-| **model-provider** | Sees its own platform; names the model and the account | Reports only what it chooses to publish, and only on its own platform | High | 9 | 121 |
-| **regional-cert** | Local-language reporting from the affected region | Terse, and hard to cross-check | Medium | 9 | 5 |
+| **model-provider** | Sees its own platform; names the model and the account | Reports only what it chooses to publish, and only on its own platform | High | 12 | 82 |
+| **regional-cert** | Local-language reporting from the affected region | Terse, and hard to cross-check | Medium | 8 | 5 |
 | **academic** | Systematic, with method sections | Often measures capability, not a real operation | Medium | 3 | 0 |
 | **court-record** | Sworn or adjudicated; names the facts that were proven | Rare, and late | High | 2 | 1 |
 
@@ -92,7 +92,7 @@ Incident citations count an incident once per registered source it cites, so an 
 |-----------|-------|
 | **Research Date** | 2026-11-17 (last sweep); dataset 2026-11-17 |
 | **Researcher** | AI agents under a written method, reviewed by a person before each update |
-| **Method** | Registry sweep, dispositioned candidates, quote check against fetched text, independent second grading |
+| **Method** | Registry sweep, a decision on every candidate, quote check against fetched text, independent second grading |
 | **Confidence Level** | 60% on the count (a floor); 85% on the grades |
 | **Known Gaps** | Unpublished attacks; English-language reporting is read best; activity on platforms the large vendors cannot see; 67 incidents with no primary source |
 

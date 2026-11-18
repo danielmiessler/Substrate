@@ -133,10 +133,10 @@ Countries are shown for the 102 incidents where a source attributes one; the oth
 |---|---|---|---|---|---|---|
 | databases-press | 2026-11-17 | 82 | 150 | 81 | 42 | 27 |
 | heldout-gap | 2026-11-17 | 11 | 12 | 11 | 0 | 1 |
-| provider-gov | 2026-11-17 | 28 | 68 | 46 | 6 | 16 |
+| provider-gov | 2026-11-17 | 37 | 68 | 46 | 6 | 16 |
 | vendor-ti | 2026-11-17 | 165 | 141 | 34 | 69 | 38 |
 
-371 candidates reviewed in all: 172 admitted, 117 merged into an incident already on file, 82 excluded with a reason. The registry holds 278 sources: 164 vendor-ti, 59 press, 16 government, 16 incident-database, 9 model-provider, 9 regional-cert, 3 academic, 2 court-record.
+371 candidates reviewed in all: 172 admitted, 117 merged into an incident already on file, 82 excluded with a reason. The registry holds 270 sources: 160 vendor-ti, 53 press, 16 government, 16 incident-database, 12 model-provider, 8 regional-cert, 3 academic, 2 court-record.
 
 ## Held-out result
 

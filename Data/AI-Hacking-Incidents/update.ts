@@ -171,7 +171,7 @@ Incident citations count an incident once per registered source it cites, so an 
 |-----------|-------|
 | **Research Date** | ${lastSweep} (last sweep); dataset ${date} |
 | **Researcher** | AI agents under a written method, reviewed by a person before each update |
-| **Method** | Registry sweep, dispositioned candidates, quote check against fetched text, independent second grading |
+| **Method** | Registry sweep, a decision on every candidate, quote check against fetched text, independent second grading |
 | **Confidence Level** | 60% on the count (a floor); 85% on the grades |
 | **Known Gaps** | Unpublished attacks; English-language reporting is read best; activity on platforms the large vendors cannot see; ${I.length - withPrimary} incidents with no primary source |
 
