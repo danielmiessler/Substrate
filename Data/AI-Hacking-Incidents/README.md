@@ -36,4 +36,4 @@ Research notes for the first sweep, including the methodology, the held-out test
 - A Confirmed grade needs at least one primary source: the model provider, the victim, a government body, a court record, or the firm that investigated the intrusion itself. A news story repeating a vendor's claim is not primary.
 - An incident database record that only restates a report the incident already cites is not counted as an independent source.
 - Nothing leaves the ledger and no grade changes without an entry in `candidates.json` (`changes`) naming the incident, the old and new value and the source that justifies it.
-- We will be wrong sometimes. Send a correction with a source URL to https://hackingincidents.ai/submit/ or open an issue or pull request here.
+- We will be wrong sometimes. Send a correction with a source URL by mentioning @danielmiessler on X; https://hackingincidents.ai/submit/ says what to include.

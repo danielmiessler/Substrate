@@ -2,7 +2,7 @@
 
 ## Source of record
 
-hackingincidents.ai keeps its data in JSON files in the site's own repository: the incident ledger, the enrichment per incident, the source registry, the sweep candidates, the fetch evidence, the second grader's record, and the editorial decisions. The site is built from them. An export step in that repository writes the four JSON files in this directory from those files, then runs `update.ts` here, so corrections go to the site's data, never to these files. The export is deterministic: running it twice on the same data writes the same files. Report errors as an issue or pull request on this repository, or at https://hackingincidents.ai/submit/.
+hackingincidents.ai keeps its data in JSON files in the site's own repository: the incident ledger, the enrichment per incident, the source registry, the sweep candidates, the fetch evidence, the second grader's record, and the editorial decisions. The site is built from them. An export step in that repository writes the four JSON files in this directory from those files, then runs `update.ts` here, so corrections go to the site's data, never to these files. The export is deterministic: running it twice on the same data writes the same files. Report errors with a source URL by mentioning @danielmiessler on X; https://hackingincidents.ai/submit/ says what to include.
 
 ## How incidents are found
 
